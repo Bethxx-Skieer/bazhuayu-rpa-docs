@@ -1,0 +1,56 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "八爪鱼RPA",
+  "description": "八爪鱼RPA，让自动化触手可及",
+  "colors": {
+    "primary": "#1677FF",
+    "light": "#409EFF",
+    "dark": "#0958D9"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "快速开始",
+        "pages": [
+          "index",
+          "getting-started/introduction",
+          "getting-started/install",
+          "getting-started/first-workflow"
+        ]
+      },
+      {
+        "group": "使用指南",
+        "pages": [
+          "guides/workflow",
+          "guides/browser",
+          "guides/excel"
+        ]
+      },
+      {
+        "group": "功能说明",
+        "pages": [
+          "features/index"
+        ]
+      },
+      {
+        "group": "常见问题",
+        "pages": [
+          "faq/index"
+        ]
+      },
+      {
+        "group": "教程案例",
+        "pages": [
+          "tutorials/index"
+        ]
+      },
+      {
+        "group": "更新日志",
+        "pages": [
+          "changelog/index"
+        ]
+      }
+    ]
+  }
+}
