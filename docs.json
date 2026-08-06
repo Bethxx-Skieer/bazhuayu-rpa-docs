@@ -38,6 +38,12 @@
         ]
       },
       {
+        "group": "指令文档",
+        "pages": [
+          "commands/index"
+        ]
+      },
+      {
         "group": "常见问题",
         "pages": [
           "faq/index"
