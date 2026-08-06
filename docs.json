@@ -45,6 +45,7 @@
             "group": "流程控制",
             "pages": [
               "commands/condition",
+              "commands/condition/if-command",
               "commands/loop",
               "commands/wait",
               "commands/flow"

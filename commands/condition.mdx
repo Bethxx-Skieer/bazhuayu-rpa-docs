@@ -5,19 +5,58 @@ description: "根据条件的成立与否，控制流程走向不同分支，实
 
 **条件判断**类指令帮助你根据数据或页面状态自动选择执行路径，让流程具备"判断力"。
 
-## 指令能做什么
+## 指令列表
 
-- **IF 条件判断**：根据变量值、页面元素状态、文本内容等条件决定执行哪个分支
-- **多条件判断**：支持多个条件组合判断（且/或），实现复杂的业务逻辑
-- **分支跳转**：满足不同条件时执行对应的指令块
-
-## 典型场景
-
-| 场景 | 说明 |
-| --- | --- |
-| 数据校验 | 判断提取的数据是否为空，为空则重试或跳过 |
-| 状态识别 | 根据页面状态（登录/未登录、有数据/无数据）走不同处理流程 |
-| 业务规则 | 金额大于某值审批、库存低于阈值补货等业务逻辑 |
+<CardGroup cols="2">
+  <Card title="If 条件" href="/commands/condition/if-command">
+    判断指定条件是否成立，成立则执行内部指令块。
+  </Card>
+  <Card title="If 多条件" href="/commands/condition/if-multi-condition">
+    同时判断多个条件（且/或关系），全部或多选一满足时执行。
+  </Card>
+  <Card title="Else" href="/commands/condition/else">
+    所有前置条件均不成立时执行的兜底分支。
+  </Card>
+  <Card title="Else If 条件" href="/commands/condition/else-if-command">
+    前置条件不成立时，继续判断另一个条件。
+  </Card>
+  <Card title="Else If 多条件" href="/commands/condition/else-if-multi-condition">
+    前置条件不成立时，继续判断多个条件。
+  </Card>
+  <Card title="End If" href="/commands/condition/end-if-command">
+    标记 If 条件块的结束，与 If 配对使用。
+  </Card>
+  <Card title="If 页面包含" href="/commands/condition/if-page-contains">
+    判断当前页面是否包含指定文本或元素。
+  </Card>
+  <Card title="Else If 页面包含" href="/commands/condition/else-if-page-contains">
+    前置条件不成立时，判断页面是否包含指定文本。
+  </Card>
+  <Card title="If 元素可见" href="/commands/condition/if-element-visible">
+    判断指定网页元素是否可见或匹配。
+  </Card>
+  <Card title="Else If 元素可见" href="/commands/condition/else-if-element-visible">
+    前置条件不成立时，判断元素是否可见或匹配。
+  </Card>
+  <Card title="If 窗口存在" href="/commands/condition/if-window-exists">
+    判断指定窗口/应用是否存在。
+  </Card>
+  <Card title="If 窗口包含" href="/commands/condition/if-window-contains">
+    判断指定窗口是否包含某文本或元素。
+  </Card>
+  <Card title="Else If 窗口包含" href="/commands/condition/else-if-window-contains">
+    前置条件不成立时，判断窗口是否包含某文本。
+  </Card>
+  <Card title="If 文件存在" href="/commands/condition/if-file-exists">
+    判断指定路径的文件是否存在。
+  </Card>
+  <Card title="If 文件夹存在" href="/commands/condition/if-folder-exists">
+    判断指定路径的文件夹是否存在。
+  </Card>
+  <Card title="If 图片存在" href="/commands/condition/if-image-exists">
+    判断指定区域的图片是否存在或匹配。
+  </Card>
+</CardGroup> |
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
