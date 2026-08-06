@@ -9,10 +9,10 @@
     "dark": "#0958D9"
   },
   "logo": {
-    "light": "/assets/brand/logo.png",
-    "dark": "/assets/brand/logo.png"
+    "light": "assets/brand/logo.png",
+    "dark": "assets/brand/logo.png"
   },
-  "favicon": "/assets/brand/favicon.png",
+  "favicon": "assets/brand/favicon.png",
   "navigation": {
     "groups": [
       {
