@@ -9,10 +9,10 @@
     "dark": "#0958D9"
   },
   "logo": {
-    "light": "https://raw.githubusercontent.com/Bethxx-Skieer/bazhuayu-rpa-docs/main/assets/brand/logo.png",
-    "dark": "https://raw.githubusercontent.com/Bethxx-Skieer/bazhuayu-rpa-docs/main/assets/brand/logo.png"
+    "light": "logo.png",
+    "dark": "logo.png"
   },
-  "favicon": "https://raw.githubusercontent.com/Bethxx-Skieer/bazhuayu-rpa-docs/main/assets/brand/favicon.png",
+  "favicon": "favicon.png",
   "navigation": {
     "groups": [
       {
