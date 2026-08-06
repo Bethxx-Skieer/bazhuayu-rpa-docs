@@ -54,38 +54,27 @@ description: "完成八爪鱼RPA 客户端的下载、安装与首次启动，�
 
 <AccordionGroup>
   <Accordion title="安装向导执行失败：0x80070490 - 找不到元素">
+    **原因**：.NET Framework 4.8 未安装或安装不完整。
 
-**原因**：.NET Framework 4.8 未安装或安装不完整。
+    **解决办法**：手动下载 .NET Framework 4.8 离线安装包：[Microsoft .NET Framework 4.8 安装包](https://update.bazhuayu.com/rpa_client/ndp48-x86-x64-allos-enu.exe)
 
-**解决办法**：手动下载 .NET Framework 4.8 离线安装包。
+    **Win7 系统额外步骤**：
 
-- [Microsoft .NET Framework 4.8 安装包](https://update.bazhuayu.com/rpa_client/ndp48-x86-x64-allos-enu.exe)
-
-**Win7 系统额外步骤**：
-
-1. 确保系统是 Win7 SP1。如果不是，请先安装 [Win7 SP1（x64）](https://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x64_74865ef2562006e51d7f9333b4a8d45b7a749dab.exe)
-2. 双击安装 [Microsoft 根证书](https://resource-wangsu.helplook.net/docker_production/ja1cid/article/nzlIEF/attachments/MicrosoftRootCertificateAuthority2011.cer)
-3. 安装 [KB2813430 补丁](https://resource-wangsu.helplook.net/docker_production/ja1cid/article/nzlIEF/attachments/Windows6.1-KB2813430-x64.msu)（解决"时间戳签名和或证书无法验证或已损坏"问题）
-4. 重启电脑后安装 .NET Framework 4.8
-
+    ① 确保系统是 Win7 SP1。如果不是，请先安装 [Win7 SP1（x64）](https://catalog.s.download.windowsupdate.com/msdownload/update/software/svpk/2011/02/windows6.1-kb976932-x64_74865ef2562006e51d7f9333b4a8d45b7a749dab.exe)<br/>
+    ② 双击安装 [Microsoft 根证书](https://resource-wangsu.helplook.net/docker_production/ja1cid/article/nzlIEF/attachments/MicrosoftRootCertificateAuthority2011.cer)<br/>
+    ③ 安装 [KB2813430 补丁](https://resource-wangsu.helplook.net/docker_production/ja1cid/article/nzlIEF/attachments/Windows6.1-KB2813430-x64.msu)（解决"时间戳签名和或证书无法验证或已损坏"问题）<br/>
+    ④ 重启电脑后安装 .NET Framework 4.8
   </Accordion>
   <Accordion title="安装向导执行失败：0x80070643 - 安装时发生严重错误">
+    **可能原因**：杀毒软件阻止安装，或 Edge WebView2 组件在线安装失败。
 
-**可能原因**：
-
-- **杀毒软件阻止安装**：检查后台运行的杀毒软件，关闭后重试。
-- **Edge WebView2 组件在线安装失败**：手动下载离线安装包。
-
-   → [Microsoft Edge WebView2 安装包](https://update.bazhuayu.com/rpa_client/MicrosoftEdgeWebView2RuntimeInstallerX64.exe)
-
+    解决：检查后台运行的杀毒软件，关闭后重试。如 WebView2 安装失败，手动下载：[Microsoft Edge WebView2 安装包](https://update.bazhuayu.com/rpa_client/MicrosoftEdgeWebView2RuntimeInstallerX64.exe)
   </Accordion>
   <Accordion title='提示"您已安装更新版本的客户端"'>
+    打开 **控制面板 → 程序和功能**，检查当前已安装的八爪鱼 RPA 版本：
 
-打开 **控制面板 → 程序和功能**，检查当前已安装的八爪鱼 RPA 版本：
-
-- 如果想安装更低版本 → 先卸载当前版本，再重新安装
-- 如果想安装当前版本 → 忽略错误即可
-
+    如果想安装更低版本 → 先卸载当前版本，再重新安装<br/>
+    如果想安装当前版本 → 忽略该提示即可
   </Accordion>
 </AccordionGroup>
 
