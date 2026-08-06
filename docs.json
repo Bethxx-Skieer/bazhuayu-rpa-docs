@@ -40,7 +40,27 @@
       {
         "group": "指令文档",
         "pages": [
-          "commands/index"
+          "commands/index",
+          "commands/condition",
+          "commands/loop",
+          "commands/wait",
+          "commands/flow",
+          "commands/web-automation",
+          "commands/desktop-automation",
+          "commands/mouse-keyboard",
+          "commands/datatable",
+          "commands/excel",
+          "commands/os",
+          "commands/bazhuayu",
+          "commands/email",
+          "commands/data-processing",
+          "commands/group-notification",
+          "commands/feishu",
+          "commands/dingtalk",
+          "commands/google",
+          "commands/ai",
+          "commands/database",
+          "commands/others"
         ]
       },
       {

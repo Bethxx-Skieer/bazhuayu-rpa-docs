@@ -5,29 +5,96 @@ description: "八爪鱼RPA 全部内置指令的详细说明与使用示例。"
 
 **指令**是八爪鱼 RPA 流程搭建的基本单元，每个指令对应一个具体的自动化操作。
 
-## 指令分类概览
+## 流程控制
 
-<CardGroup cols="2">
-  <Card title="浏览器指令">
-    页面跳转、元素点击、表单填写、数据提取等浏览器自动化相关指令。
+<CardGroup cols="3">
+  <Card title="条件判断" href="/commands/condition">
+    根据条件成立与否控制流程走向不同分支。
   </Card>
-  <Card title="数据处理指令">
-    变量读写、字符串处理、正则匹配、JSON/XML 解析等。
+  <Card title="循环" href="/commands/loop">
+    重复执行相同操作，批量处理列表数据。
   </Card>
-  <Card title="流程控制指令">
-    条件判断、循环、等待、异常处理等流程逻辑控制。
+  <Card title="等待" href="/commands/wait">
+    控制流程节奏，确保页面就绪后再操作。
   </Card>
-  <Card title="系统操作指令">
-    文件读写、剪贴板、键盘模拟、窗口操作等系统级指令。
-  </Card>
-  <Card title="AI 指令">
-    大模型调用、OCR 识别、验证码识别等人工智能相关指令。
-  </Card>
-  <Card title="应用集成指令">
-    Excel 操作、数据库连接、HTTP 请求、邮件发送等第三方集成。
+  <Card title="流程" href="/commands/flow">
+    子流程调用、终止、异常处理、日志记录。
   </Card>
 </CardGroup>
 
-## 按字母顺序查找
+## 界面自动化
 
-*待补充：各指令详细文档将按字母顺序逐一编写。*
+<CardGroup cols="3">
+  <Card title="网页自动化" href="/commands/web-automation">
+    自动操作网页：跳转、点击、填写、提取。
+  </Card>
+  <Card title="桌面自动化" href="/commands/desktop-automation">
+    操控 Windows 桌面应用，跨应用数据搬运。
+  </Card>
+  <Card title="鼠标键盘" href="/commands/mouse-keyboard">
+    模拟鼠标移动点击和键盘输入操作。
+  </Card>
+</CardGroup>
+
+## 数据处理与存储
+
+<CardGroup cols="3">
+  <Card title="数据表格" href="/commands/datatable">
+    流程内数据暂存、增删改查、去重统计。
+  </Card>
+  <Card title="Excel" href="/commands/excel">
+    自动读写 Excel 文件，支持公式与格式。
+  </Card>
+  <Card title="数据处理" href="/commands/data-processing">
+    文本转换、正则匹配、JSON/XML 解析。
+  </Card>
+  <Card title="数据库" href="/commands/database">
+    连接数据库，执行 SQL 查询与批量写入。
+  </Card>
+</CardGroup>
+
+## 系统与集成
+
+<CardGroup cols="3">
+  <Card title="操作系统" href="/commands/os">
+    文件/文件夹管理、压缩、剪贴板、进程控制。
+  </Card>
+  <Card title="邮件" href="/commands/email">
+    SMTP/POP3/IMAP 邮件收发与附件处理。
+  </Card>
+  <Card title="群通知" href="/commands/group-notification">
+    向企微/钉钉/飞书群推送消息通知。
+  </Card>
+  <Card title="飞书" href="/commands/feishu">
+    飞书文档、多维表格、消息推送对接。
+  </Card>
+  <Card title="钉钉" href="/commands/dingtalk">
+    钉钉群消息、工作通知、审批接入。
+  </Card>
+  <Card title="谷歌" href="/commands/google">
+    Gmail、Google Sheets、Drive 对接。
+  </Card>
+  <Card title="八爪鱼" href="/commands/bazhuayu">
+    八爪鱼采集器联动，数据采集+处理闭环。
+  </Card>
+</CardGroup>
+
+## 智能能力
+
+<CardGroup cols="3">
+  <Card title="AI" href="/commands/ai">
+    大模型、OCR、验证码识别、票据识别。
+  </Card>
+</CardGroup>
+
+## 通用工具
+
+<CardGroup cols="3">
+  <Card title="其他" href="/commands/others">
+    变量操作、Python/C# 脚本、HTTP 请求、调试。
+  </Card>
+</CardGroup>
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>
