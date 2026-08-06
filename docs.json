@@ -38,29 +38,59 @@
         ]
       },
       {
-        "group": "指令文档",
+        "group": "指令概述",
         "pages": [
           "commands/index",
-          "commands/condition",
-          "commands/loop",
-          "commands/wait",
-          "commands/flow",
-          "commands/web-automation",
-          "commands/desktop-automation",
-          "commands/mouse-keyboard",
-          "commands/datatable",
-          "commands/excel",
-          "commands/os",
-          "commands/bazhuayu",
-          "commands/email",
-          "commands/data-processing",
-          "commands/group-notification",
-          "commands/feishu",
-          "commands/dingtalk",
-          "commands/google",
-          "commands/ai",
-          "commands/database",
-          "commands/others"
+          {
+            "group": "流程控制",
+            "pages": [
+              "commands/condition",
+              "commands/loop",
+              "commands/wait",
+              "commands/flow"
+            ]
+          },
+          {
+            "group": "界面自动化",
+            "pages": [
+              "commands/web-automation",
+              "commands/desktop-automation",
+              "commands/mouse-keyboard"
+            ]
+          },
+          {
+            "group": "数据与存储",
+            "pages": [
+              "commands/datatable",
+              "commands/excel",
+              "commands/data-processing",
+              "commands/database"
+            ]
+          },
+          {
+            "group": "系统与集成",
+            "pages": [
+              "commands/os",
+              "commands/email",
+              "commands/group-notification",
+              "commands/feishu",
+              "commands/dingtalk",
+              "commands/google",
+              "commands/bazhuayu"
+            ]
+          },
+          {
+            "group": "AI",
+            "pages": [
+              "commands/ai"
+            ]
+          },
+          {
+            "group": "通用工具",
+            "pages": [
+              "commands/others"
+            ]
+          }
         ]
       },
       {
