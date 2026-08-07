@@ -1,0 +1,90 @@
+---
+title: "数据采集"
+description: "此指令可批量提取界面中的表格、结构化数据，支持多种数据提取模式。"
+---
+
+## 指令说明
+
+**描述：** 此指令可批量提取界面中的表格、结构化数据，支持多种数据提取模式。
+
+## 参数说明
+
+<Tabs>
+<Tab title="常规">
+    ![数据采集指令参数面板](images/web-extract-01.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **网页对象** | 选择要提取数据的网页对象 |
+    | **提取模式** | 选择数据提取模式：表格提取、列表提取、自定义提取 |
+    | **数据字段** | 配置需要提取的数据字段及对应的元素定位 |
+  </Tab>
+  <Tab title="高级">
+    | 参数 | 说明 |
+    | --- | --- |
+    | **翻页设置** | 配置自动翻页参数，支持连续提取多页数据 |
+    | **等待时间（s）** | 每次提取之间的等待时间 |
+  </Tab>
+</Tabs>
+
+## 使用示例
+
+**该流程执行逻辑：**
+
+使用【打开网页】指令打开目标网页
+
+使用【数据采集】指令配置提取字段和元素定位
+
+流程自动提取页面中的结构化数据
+
+提取的数据输出至数据表格或Excel
+
+![数据采集使用示例 - 流程搭建](images/web-extract-02.png)
+
+### 运行结果
+
+页面中的结构化数据被成功批量提取，可用于后续的数据处理和分析。
+
+![数据采集使用示例 - 运行结果](images/web-extract-03.png)
+
+![数据采集使用示例 - 运行结果 2](images/web-extract-04.png)
+
+![数据采集使用示例 - 运行结果 3](images/web-extract-05.png)
+
+![数据采集使用示例 - 运行结果 4](images/web-extract-06.png)
+
+![数据采集使用示例 - 运行结果 5](images/web-extract-07.png)
+
+![数据采集使用示例 - 运行结果 6](images/web-extract-08.png)
+
+![数据采集使用示例 - 运行结果 7](images/web-extract-09.png)
+
+![数据采集使用示例 - 运行结果 8](images/web-extract-10.png)
+
+![数据采集使用示例 - 运行结果 9](images/web-extract-11.png)
+
+![数据采集使用示例 - 运行结果 10](images/web-extract-12.png)
+
+![数据采集使用示例 - 运行结果 11](images/web-extract-13.png)
+
+![数据采集使用示例 - 运行结果 12](images/web-extract-14.png)
+
+![数据采集使用示例 - 运行结果 13](images/web-extract-15.png)
+
+![数据采集使用示例 - 运行结果 14](images/web-extract-16.png)
+
+![数据采集使用示例 - 运行结果 15](images/web-extract-17.png)
+
+![数据采集使用示例 - 运行结果 16](images/web-extract-18.png)
+
+![数据采集使用示例 - 运行结果 17](images/web-extract-19.png)
+
+![数据采集使用示例 - 运行结果 18](images/web-extract-20.png)
+
+![数据采集使用示例 - 运行结果 19](images/web-extract-21.png)
+
+![数据采集使用示例 - 运行结果 20](images/web-extract-22.png)
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

@@ -102,7 +102,61 @@
           {
             "group": "网页自动化",
             "pages": [
-              "commands/web-automation"
+              "commands/web-automation",
+              "commands/web-automation/web-open",
+              "commands/web-automation/web-close",
+              "commands/web-automation/web-get-page",
+              "commands/web-automation/web-click",
+              "commands/web-automation/web-wait-content",
+              "commands/web-automation/web-hover",
+              {
+                "group": "网页操作",
+                "pages": [
+                  "commands/web-automation/web-popup-handle",
+                  "commands/web-automation/web-popup-auto",
+                  "commands/web-automation/web-navigate",
+                  "commands/web-automation/web-wait-load",
+                  "commands/web-automation/web-scroll",
+                  "commands/web-automation/web-js",
+                  "commands/web-automation/web-cookie-set",
+                  "commands/web-automation/web-cookie-del",
+                  "commands/web-automation/web-cookie-get"
+                ]
+              },
+              {
+                "group": "操作网页元素",
+                "pages": [
+                  "commands/web-automation/web-text",
+                  "commands/web-automation/web-select",
+                  "commands/web-automation/web-checkbox",
+                  "commands/web-automation/web-relative",
+                  "commands/web-automation/web-loop-sim",
+                  "commands/web-automation/web-drag",
+                  "commands/web-automation/web-set-attr"
+                ]
+              },
+              {
+                "group": "数据提取",
+                "pages": [
+                  "commands/web-automation/web-page-attr",
+                  "commands/web-automation/web-elem-attr",
+                  "commands/web-automation/web-get-sim",
+                  "commands/web-automation/web-capture",
+                  "commands/web-automation/web-elem-obj",
+                  "commands/web-automation/web-select-opt",
+                  "commands/web-automation/web-extract",
+                  "commands/web-automation/web-monitor-start",
+                  "commands/web-automation/web-monitor-get",
+                  "commands/web-automation/web-monitor-stop"
+                ]
+              },
+              {
+                "group": "对话框处理",
+                "pages": [
+                  "commands/web-automation/web-download",
+                  "commands/web-automation/web-upload"
+                ]
+              }
             ]
           },
           {
