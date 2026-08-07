@@ -19,6 +19,86 @@ description: "自动操控 Windows 桌面应用程序，实现跨应用的数据
 | 遗留系统自动化 | 对接没有 API 的老旧软件，通过界面操作完成数据录入导出 |
 | 客户端工具链串联 | 自动操作多个桌面工具，形成完整工作流 |
 
+## 核心指令
+
+<CardGroup cols={2}>
+  <Card title="获取窗口对象" icon="desktop" href="/commands/desktop-automation/getwindowcommand">
+    获取软件运行窗口对象，是桌面自动化的第一步
+  </Card>
+  <Card title="点击窗口元素" icon="mouse-pointer" href="/commands/desktop-automation/win_clickelementcommand">
+    点击窗口中的按钮、链接等元素
+  </Card>
+  <Card title="等待窗口元素" icon="clock" href="/commands/desktop-automation/waitwindowcontentcommand">
+    等待窗口中的元素出现或者消失
+  </Card>
+  <Card title="填写窗口输入框" icon="edit" href="/commands/desktop-automation/win_entertextcommand">
+    在窗口的输入框中输入内容
+  </Card>
+  <Card title="关闭窗口" icon="x" href="/commands/desktop-automation/closewindowcommand">
+    关闭指定的窗口
+  </Card>
+</CardGroup>
+
+## 窗口操作
+
+<CardGroup cols={2}>
+  <Card title="激活窗口" icon="maximize" href="/commands/desktop-automation/activewindowcommand">
+    激活指定窗口使其在前台运行
+  </Card>
+  <Card title="设置窗口状态" icon="minimize-2" href="/commands/desktop-automation/setwindowstatecommand">
+    对窗口执行还原、最大化、最小化操作
+  </Card>
+  <Card title="设置窗口大小" icon="move-horizontal" href="/commands/desktop-automation/resizewindowcommand">
+    调整窗口的宽度和高度
+  </Card>
+  <Card title="移动窗口位置" icon="move" href="/commands/desktop-automation/movewindowcommand">
+    移动窗口至指定坐标位置
+  </Card>
+  <Card title="设置窗口可见性" icon="eye" href="/commands/desktop-automation/setwindowvisibilitycommand">
+    显示或隐藏窗口
+  </Card>
+</CardGroup>
+
+## 操作桌面元素
+
+<CardGroup cols={2}>
+  <Card title="设置下拉框" icon="chevron-down" href="/commands/desktop-automation/setcomboboxcommand">
+    设置窗口中下拉框的选中项
+  </Card>
+  <Card title="设置复选框" icon="check-square" href="/commands/desktop-automation/win_setcheckboxcommand">
+    勾选或取消勾选复选框
+  </Card>
+  <Card title="循环相似元素" icon="repeat" href="/commands/desktop-automation/win_loopsimilarelementscommand_1">
+    依次循环窗口中的相似元素
+  </Card>
+  <Card title="拖拽元素" icon="grip-horizontal" href="/commands/desktop-automation/win_dragelementcommand">
+    把桌面元素拖拽到指定位置
+  </Card>
+  <Card title="鼠标悬停" icon="pointer" href="/commands/desktop-automation/win_hoverelementcommand">
+    将鼠标悬停在窗口元素上
+  </Card>
+</CardGroup>
+
+## 数据提取
+
+<CardGroup cols={2}>
+  <Card title="获取窗口信息" icon="info" href="/commands/desktop-automation/getwindowpropertycontentcommand">
+    获取窗口标题、内容、进程名等信息
+  </Card>
+  <Card title="获取元素信息" icon="file-text" href="/commands/desktop-automation/win_getelementcontentcommand">
+    获取元素的文本内容、值、属性等信息
+  </Card>
+  <Card title="获取相关元素" icon="git-branch" href="/commands/desktop-automation/win_getrelativeelementcommand">
+    获取父元素、相邻元素、子孙元素
+  </Card>
+  <Card title="获取下拉框选项" icon="list" href="/commands/desktop-automation/getcomboboxitemscommand">
+    获取下拉框的当前选中项或全部选项
+  </Card>
+  <Card title="元素截图" icon="camera" href="/commands/desktop-automation/captureelementcommand">
+    对桌面元素截图并保存到文件夹
+  </Card>
+</CardGroup>
+
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
 </Info>

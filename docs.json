@@ -162,7 +162,43 @@
           {
             "group": "桌面自动化",
             "pages": [
-              "commands/desktop-automation"
+              "commands/desktop-automation",
+              "commands/desktop-automation/kj13ob",
+              "commands/desktop-automation/getwindowcommand",
+              "commands/desktop-automation/win_clickelementcommand",
+              "commands/desktop-automation/waitwindowcontentcommand",
+              "commands/desktop-automation/win_hoverelementcommand",
+              "commands/desktop-automation/closewindowcommand",
+              {
+                "group": "窗口操作",
+                "pages": [
+                  "commands/desktop-automation/activewindowcommand",
+                  "commands/desktop-automation/setwindowstatecommand",
+                  "commands/desktop-automation/resizewindowcommand",
+                  "commands/desktop-automation/movewindowcommand",
+                  "commands/desktop-automation/setwindowvisibilitycommand"
+                ]
+              },
+              {
+                "group": "操作桌面元素",
+                "pages": [
+                  "commands/desktop-automation/win_entertextcommand",
+                  "commands/desktop-automation/setcomboboxcommand",
+                  "commands/desktop-automation/win_setcheckboxcommand",
+                  "commands/desktop-automation/win_loopsimilarelementscommand_1",
+                  "commands/desktop-automation/win_dragelementcommand"
+                ]
+              },
+              {
+                "group": "数据提取",
+                "pages": [
+                  "commands/desktop-automation/getwindowpropertycontentcommand",
+                  "commands/desktop-automation/win_getelementcontentcommand",
+                  "commands/desktop-automation/win_getrelativeelementcommand",
+                  "commands/desktop-automation/getcomboboxitemscommand",
+                  "commands/desktop-automation/captureelementcommand"
+                ]
+              }
             ]
           },
           {
