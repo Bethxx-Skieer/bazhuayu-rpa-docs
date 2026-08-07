@@ -83,7 +83,11 @@
           {
             "group": "等待",
             "pages": [
-              "commands/wait"
+              "commands/wait",
+              "commands/wait/wait-command",
+              "commands/wait/wait-page-loaded",
+              "commands/wait/wait-page-content",
+              "commands/wait/wait-image"
             ]
           },
           {

@@ -5,19 +5,22 @@ description: "控制流程执行的节奏与时机，确保页面加载、元素
 
 **等待**类指令让流程在执行关键操作前暂停一段时间或等待特定条件满足，避免因页面未加载完成导致操作失败。
 
-## 指令能做什么
+## 指令列表
 
-- **固定等待**：流程暂停指定时长（毫秒/秒）后再继续
-- **等待元素**：等待页面某个元素出现、消失或变为特定状态
-- **等待页面加载**：等待网页完全加载后再执行后续操作
-
-## 典型场景
-
-| 场景 | 说明 |
-| --- | --- |
-| 页面等待 | 点击按钮后等待新页面加载完成，再提取数据 |
-| 异步加载 | 等待 AJAX 请求返回、数据表格渲染完毕 |
-| 操作间隔 | 在连续操作之间插入短暂停顿，模拟人工操作节奏 |
+<CardGroup cols="2">
+  <Card title="等待" href="/commands/wait/wait-command">
+    让流程等待指定的时间，然后再执行后面的指令。
+  </Card>
+  <Card title="等待页面加载完成" href="/commands/wait/wait-page-loaded">
+    在指定的时间内，等待网页加载完成。
+  </Card>
+  <Card title="等待页面内容" href="/commands/wait/wait-page-content">
+    等待指定元素或文本在网页中出现或消失。
+  </Card>
+  <Card title="等待图像" href="/commands/wait/wait-image">
+    等待目标图像出现或消失，再继续执行流程。
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
