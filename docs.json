@@ -45,116 +45,116 @@
             "group": "条件判断",
             "pages": [
               "commands/condition",
-              "commands/condition/if-command",
-              "commands/condition/if-multi-condition",
-              "commands/condition/else",
-              "commands/condition/else-if-command",
-              "commands/condition/else-if-multi-condition",
-              "commands/condition/end-if-command",
-              "commands/condition/if-page-contains",
-              "commands/condition/else-if-page-contains",
-              "commands/condition/if-element-visible",
-              "commands/condition/else-if-element-visible",
-              "commands/condition/if-window-exists",
-              "commands/condition/if-window-contains",
-              "commands/condition/else-if-window-contains",
-              "commands/condition/if-file-exists",
-              "commands/condition/if-folder-exists",
-              "commands/condition/if-image-exists"
+              "commands/condition/ifcommand",
+              "commands/condition/ifmulticonditioncommand",
+              "commands/condition/elsecommand",
+              "commands/condition/elseifcommand",
+              "commands/condition/elseifmulticonditioncommand",
+              "commands/condition/endifcommand",
+              "commands/condition/ifpagecontainscommand",
+              "commands/condition/elseifpagecontainscommand",
+              "commands/condition/ifelementvisibilitymatchcommand",
+              "commands/condition/elseifelementvisibilitymatchcommand",
+              "commands/condition/ifwindowexistscommand",
+              "commands/condition/ifwindowcontainscommand",
+              "commands/condition/elseifwindowcontainscommand",
+              "commands/condition/iffileexistscommand",
+              "commands/condition/iffolderexistscommand",
+              "commands/condition/ifimageexistscommand"
             ]
           },
           {
             "group": "循环",
             "pages": [
               "commands/loop",
-              "commands/loop/while",
-              "commands/loop/loop-by-count",
-              "commands/loop/for-each",
-              "commands/loop/dict-for-each",
-              "commands/loop/infinite-loop",
-              "commands/loop/continue",
-              "commands/loop/break",
-              "commands/loop/end-loop",
-              "commands/loop/web-loop-similar",
-              "commands/loop/win-loop-similar",
-              "commands/loop/loop-datasheet"
+              "commands/loop/whilecommand",
+              "commands/loop/loopbycountcommand",
+              "commands/loop/foreachcommand",
+              "commands/loop/dictionaryforeachcommand",
+              "commands/loop/infiniteloopcommand",
+              "commands/loop/continuecommand",
+              "commands/loop/breakcommand",
+              "commands/loop/endloopcommand",
+              "commands/loop/web_loopsimilarelementscommand",
+              "commands/loop/win_loopsimilarelementscommand",
+              "commands/loop/loopdatasheetcommand"
             ]
           },
           {
             "group": "等待",
             "pages": [
               "commands/wait",
-              "commands/wait/wait-command",
-              "commands/wait/wait-page-loaded",
-              "commands/wait/wait-page-content",
-              "commands/wait/wait-image"
+              "commands/wait/waitcommand",
+              "commands/wait/waitpageloadedcommand",
+              "commands/wait/waitpagecontentcommand",
+              "commands/wait/waitimagecommand"
             ]
           },
           {
             "group": "流程",
             "pages": [
               "commands/flow",
-              "commands/flow/invoke-subflow",
-              "commands/flow/exit-subflow",
-              "commands/flow/exit-flow"
+              "commands/flow/invokesubflowcommand",
+              "commands/flow/exitsubflowcommand",
+              "commands/flow/exitflowcommand"
             ]
           },
           {
             "group": "网页自动化",
             "pages": [
               "commands/web-automation",
-              "commands/web-automation/web-open",
-              "commands/web-automation/web-close",
-              "commands/web-automation/web-get-page",
-              "commands/web-automation/web-click",
-              "commands/web-automation/web-wait-content",
-              "commands/web-automation/web-hover",
+              "commands/web-automation/openpagecommand",
+              "commands/web-automation/closepagecommand",
+              "commands/web-automation/getopenedpagecommand",
+              "commands/web-automation/web_clickelementcommand",
+              "commands/web-automation/waitpagecontentcommand_1",
+              "commands/web-automation/hoverelementcommand",
               {
                 "group": "网页操作",
                 "pages": [
-                  "commands/web-automation/web-popup-handle",
-                  "commands/web-automation/web-popup-auto",
-                  "commands/web-automation/web-navigate",
-                  "commands/web-automation/web-wait-load",
-                  "commands/web-automation/web-scroll",
-                  "commands/web-automation/web-js",
-                  "commands/web-automation/web-cookie-set",
-                  "commands/web-automation/web-cookie-del",
-                  "commands/web-automation/web-cookie-get"
+                  "commands/web-automation/handlepopupcommand",
+                  "commands/web-automation/autohandlepopupcommand",
+                  "commands/web-automation/navigatecommand",
+                  "commands/web-automation/waitpageloadedcommand_1",
+                  "commands/web-automation/scrollcommand",
+                  "commands/web-automation/executejsfunctioncommand",
+                  "commands/web-automation/setcookiescommand",
+                  "commands/web-automation/deletecookiecommand",
+                  "commands/web-automation/getcookiescommand"
                 ]
               },
               {
                 "group": "操作网页元素",
                 "pages": [
-                  "commands/web-automation/web-text",
-                  "commands/web-automation/web-select",
-                  "commands/web-automation/web-checkbox",
-                  "commands/web-automation/web-relative",
-                  "commands/web-automation/web-loop-sim",
-                  "commands/web-automation/web-drag",
-                  "commands/web-automation/web-set-attr"
+                  "commands/web-automation/web_entertextcommand",
+                  "commands/web-automation/setselectelementoptioncommand",
+                  "commands/web-automation/web_setcheckboxcommand",
+                  "commands/web-automation/web_getrelativeelementcommand",
+                  "commands/web-automation/web_loopsimilarelementscommand_1",
+                  "commands/web-automation/web_dragelementcommand",
+                  "commands/web-automation/setelementattributecommand"
                 ]
               },
               {
                 "group": "数据提取",
                 "pages": [
-                  "commands/web-automation/web-page-attr",
-                  "commands/web-automation/web-elem-attr",
-                  "commands/web-automation/web-get-sim",
-                  "commands/web-automation/web-capture",
-                  "commands/web-automation/web-elem-obj",
-                  "commands/web-automation/web-select-opt",
-                  "commands/web-automation/web-extract",
-                  "commands/web-automation/web-monitor-start",
-                  "commands/web-automation/web-monitor-get",
-                  "commands/web-automation/web-monitor-stop"
+                  "commands/web-automation/getpageattributecommand",
+                  "commands/web-automation/getelementattributecommand",
+                  "commands/web-automation/web_getsimilarelementscommand",
+                  "commands/web-automation/capturecommand",
+                  "commands/web-automation/getelementobjectcommand",
+                  "commands/web-automation/getselectelementoptionscommand",
+                  "commands/web-automation/extractdatacommand",
+                  "commands/web-automation/startmonitornetworkcommand",
+                  "commands/web-automation/getmonitorresponsecommand",
+                  "commands/web-automation/stopmonitornetworkcommand"
                 ]
               },
               {
                 "group": "对话框处理",
                 "pages": [
-                  "commands/web-automation/web-download",
-                  "commands/web-automation/web-upload"
+                  "commands/web-automation/downloadcommand",
+                  "commands/web-automation/uploadcommand"
                 ]
               }
             ]
