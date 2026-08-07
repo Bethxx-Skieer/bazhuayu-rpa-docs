@@ -232,7 +232,63 @@
           {
             "group": "Excel",
             "pages": [
-              "commands/excel"
+              "commands/excel",
+              "commands/excel/launchexcelcommand",
+              "commands/excel/getopenedexcelcommand",
+              "commands/excel/loopexcelsheetcommand",
+              "commands/excel/readexcelcommand",
+              "commands/excel/writeexcelcellcommand",
+              "commands/excel/writeexcelrowcommand",
+              "commands/excel/writeexcelcolumncommand",
+              "commands/excel/writeexcelrangecommand",
+              "commands/excel/saveexcelcommand",
+              "commands/excel/closeexcelcommand",
+              "commands/excel/runexcelmacrocommand",
+              "commands/excel/autofillexcelcommand",
+              "commands/excel/mergeorsplitexcelcellcommand",
+              "commands/excel/setexcelcellformatcommand",
+              "commands/excel/clearexcelcellformatcommand",
+              "commands/excel/setexcelcellsizecommand",
+              "commands/excel/getexcelregionscreenshotcommand",
+              "commands/excel/filterexcelcolumncommand",
+              "commands/excel/readfilteredcontentcommand",
+              "commands/excel/clearexcelfiltercommand",
+              {
+                "group": "内容读写",
+                "pages": [
+                  "commands/excel/getexcelrowcountcommand",
+                  "commands/excel/getexcelcolumncountcommand",
+                  "commands/excel/findexcelcellcommand",
+                  "commands/excel/copyexcelcommand",
+                  "commands/excel/pasteexcelcommand",
+                  "commands/excel/getlastemptycellofcolumncommand",
+                  "commands/excel/getexcelformulacommand",
+                  "commands/excel/addimagetoexcelcommand",
+                  "commands/excel/deleteexcelimagecommand",
+                  "commands/excel/exportexcelimagecommand"
+                ]
+              },
+              {
+                "group": "行/列操作",
+                "pages": [
+                  "commands/excel/insertexcelrowcommand",
+                  "commands/excel/insertexcelcolumncommand",
+                  "commands/excel/deleteexcelrowcommand",
+                  "commands/excel/deleteexcelcolumncommand",
+                  "commands/excel/deleteexcelduplicaterowcommand"
+                ]
+              },
+              {
+                "group": "Sheet操作",
+                "pages": [
+                  "commands/excel/addexcelsheetcommand",
+                  "commands/excel/deleteexcelsheetcommand",
+                  "commands/excel/activateexcelsheetcommand",
+                  "commands/excel/copyexcelsheetcommand",
+                  "commands/excel/renameexcelsheetcommand",
+                  "commands/excel/getexcelsheetnamecommand"
+                ]
+              }
             ]
           },
           {

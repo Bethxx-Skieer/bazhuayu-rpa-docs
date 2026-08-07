@@ -1,0 +1,46 @@
+---
+title: "激活Sheet页"
+description: "激活Excel工作簿中指定的工作表为当前活动工作表。"
+---
+
+## 指令说明
+
+**描述：** 激活Excel工作簿中指定的工作表为当前活动工作表。
+
+## 参数说明
+
+<Tabs>
+  <Tab title="常规">
+    ![激活Sheet页指令参数面板](images/activateexcelsheetcommand-01.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **Excel对象** | 请选择Excel对象（可通过指令【启动Excel】或【获取当前激活的Excel对象】创建），用于确定待操作的工作簿。 |
+    | **Sheet页名称** | 输入要激活的工作表名称。 |
+  </Tab>
+  <Tab title="高级">
+    本指令暂无高级参数。
+  </Tab>
+</Tabs>
+
+## 使用示例
+
+**该流程执行逻辑：**
+
+使用【启动Excel】打开已有的Excel，并将Excel对象保存到excel对象
+
+使用【激活Sheet页】指令激活指定的工作表
+
+![激活Sheet页使用示例 - 流程搭建](images/activateexcelsheetcommand-02.png)
+
+### 运行结果
+
+![激活Sheet页使用示例 - 运行结果](images/activateexcelsheetcommand-03.png)
+
+![激活Sheet页使用示例 - 运行结果 2](images/activateexcelsheetcommand-04.png)
+
+![激活Sheet页使用示例 - 运行结果 3](images/activateexcelsheetcommand-05.png)
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

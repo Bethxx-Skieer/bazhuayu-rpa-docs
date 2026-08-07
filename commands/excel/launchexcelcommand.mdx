@@ -1,0 +1,47 @@
+---
+title: "启动Excel"
+description: "打开已有的Excel文件，或新建excel，以实现Excel程序的自动化。"
+---
+
+## 指令说明
+
+**描述：** 打开已有的Excel文件，或新建excel，以实现Excel程序的自动化。
+
+## 参数说明
+
+<Tabs>
+  <Tab title="常规">
+    ![启动Excel指令参数面板](images/launchexcelcommand-01.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **启动方式** | 下拉选择：新建Excel（根据文件路径新建Excel文件）、打开已有的Excel（根据文件路径打开已有的Excel） |
+    | **文件路径** | 填写/选择Excel文件路径 |
+    | **驱动方式** | 选择Excel文件驱动（打开）方式：默认、office、wps |
+    | **是否可视化** | 勾选项：此选项并不会限制Excel自动化的能力，只是用于控制可视化操作是否用户可见 |
+  </Tab>
+  <Tab title="高级">
+    | 参数 | 说明 |
+    | --- | --- |
+    | **打开密码** | 用于打开加密Excel文件的密码 |
+    | **编辑密码** | 用于编辑加密Excel文件的密码 |
+  </Tab>
+</Tabs>
+
+## 使用示例
+
+**该流程执行逻辑：**
+
+使用【启动Excel】打开已有的Excel，使用「默认」的驱动方式，并将生成的变量保存到excel对象
+
+使用【关闭Excel】指令关闭并保存excel对象
+
+![启动Excel使用示例 - 流程搭建](images/launchexcelcommand-02.png)
+
+### 运行结果
+
+![启动Excel使用示例 - 运行结果](images/launchexcelcommand-03.png)
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

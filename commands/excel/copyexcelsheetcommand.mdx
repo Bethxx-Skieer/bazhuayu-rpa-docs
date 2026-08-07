@@ -1,0 +1,48 @@
+---
+title: "拷贝Sheet页"
+description: "复制Excel工作簿中的工作表。"
+---
+
+## 指令说明
+
+**描述：** 复制Excel工作簿中的工作表。
+
+## 参数说明
+
+<Tabs>
+  <Tab title="常规">
+    ![拷贝Sheet页指令参数面板](images/copyexcelsheetcommand-01.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **Excel对象** | 请选择Excel对象（可通过指令【启动Excel】或【获取当前激活的Excel对象】创建），用于确定待操作的工作簿。 |
+    | **源Sheet页名称** | 输入要复制的工作表名称。 |
+    | **目标Sheet页名称** | 输入复制后的新工作表名称。 |
+    | **插入位置** | 选择新工作表的插入位置。 |
+  </Tab>
+  <Tab title="高级">
+    本指令暂无高级参数。
+  </Tab>
+</Tabs>
+
+## 使用示例
+
+**该流程执行逻辑：**
+
+使用【启动Excel】打开已有的Excel，并将Excel对象保存到excel对象
+
+使用【拷贝Sheet页】指令复制工作表到指定位置
+
+![拷贝Sheet页使用示例 - 流程搭建](images/copyexcelsheetcommand-02.png)
+
+### 运行结果
+
+![拷贝Sheet页使用示例 - 运行结果](images/copyexcelsheetcommand-03.png)
+
+![拷贝Sheet页使用示例 - 运行结果 2](images/copyexcelsheetcommand-04.png)
+
+![拷贝Sheet页使用示例 - 运行结果 3](images/copyexcelsheetcommand-05.png)
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

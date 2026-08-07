@@ -1,0 +1,45 @@
+---
+title: "粘贴Excel内容"
+description: "将已复制的Excel内容粘贴到指定位置。"
+---
+
+## 指令说明
+
+**描述：** 将已复制的Excel内容粘贴到指定位置。
+
+## 参数说明
+
+<Tabs>
+  <Tab title="常规">
+    ![粘贴Excel内容指令参数面板](images/pasteexcelcommand-01.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **Excel对象** | 请选择Excel对象（可通过指令【启动Excel】或【获取当前激活的Excel对象】创建），用于确定待操作的工作簿。 |
+    | **Sheet页名称** | 操作目标工作表的名称，支持选填，默认为当前Excel激活的Sheet页。 |
+    | **目标单元格** | 填写粘贴的起始单元格位置（如A1）。 |
+  </Tab>
+  <Tab title="高级">
+    本指令暂无高级参数。
+  </Tab>
+</Tabs>
+
+## 使用示例
+
+**该流程执行逻辑：**
+
+使用【启动Excel】打开已有的Excel，并将Excel对象保存到excel对象
+
+使用【复制Excel内容】指令复制指定单元格区域
+
+使用【粘贴Excel内容】指令将复制的内容粘贴到目标位置
+
+![粘贴Excel内容使用示例 - 流程搭建](images/pasteexcelcommand-02.png)
+
+### 运行结果
+
+![粘贴Excel内容使用示例 - 运行结果](images/pasteexcelcommand-03.png)
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

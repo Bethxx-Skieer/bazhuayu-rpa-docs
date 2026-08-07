@@ -1,0 +1,47 @@
+---
+title: "按单元格写入内容至Excel工作表"
+description: "在Excel工作表中按单元格写入内容。"
+---
+
+## 指令说明
+
+**描述：** 在Excel工作表中按单元格写入内容。
+
+## 参数说明
+
+<Tabs>
+  <Tab title="常规">
+    ![按单元格写入内容至Excel工作表指令参数面板](images/writeexcelcellcommand-01.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **Excel对象** | 请选择Excel对象（可通过指令【启动Excel】或【获取当前激活的Excel对象】创建），用于确定待操作的工作簿。 |
+    | **Sheet页名称** | 所在工作表名称，选填，默认为当前激活的Sheet页。 |
+    | **行号** | 输入行号，行号从1开始，-n表示倒数第n行。 |
+    | **列号** | 输入列号，列号从1或A开始，-n表示倒数第n列。 |
+    | **写入内容** | 输入填入单元格的内容。 |
+  </Tab>
+  <Tab title="高级">
+    本指令暂无高级参数。
+  </Tab>
+</Tabs>
+
+## 使用示例
+
+**该流程执行逻辑：**
+
+使用【启动Excel】打开已有的Excel，并将Excel对象保存到excel对象
+
+使用【按单元格写入内容至Excel工作表】指令将指定行、列的单元格内容覆盖写入
+
+![按单元格写入内容至Excel工作表使用示例 - 流程搭建](images/writeexcelcellcommand-02.png)
+
+### 运行结果
+
+![按单元格写入内容至Excel工作表使用示例 - 运行结果](images/writeexcelcellcommand-03.png)
+
+![按单元格写入内容至Excel工作表使用示例 - 运行结果 2](images/writeexcelcellcommand-04.png)
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

@@ -1,0 +1,47 @@
+---
+title: "获取单元格公式"
+description: "获取Excel指定单元格中的公式内容。"
+---
+
+## 指令说明
+
+**描述：** 获取Excel指定单元格中的公式内容。
+
+## 参数说明
+
+<Tabs>
+  <Tab title="常规">
+    ![获取单元格公式指令参数面板](images/getexcelformulacommand-01.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **Excel对象** | 请选择Excel对象（可通过指令【启动Excel】或【获取当前激活的Excel对象】创建），用于确定待操作的工作簿。 |
+    | **Sheet页名称** | 操作目标工作表的名称，支持选填，默认为当前Excel激活的Sheet页。 |
+    | **行号** | 输入目标单元格的行号。 |
+    | **列号** | 输入目标单元格的列号。 |
+    | **保存公式至** | 设置保存公式结果的变量名。 |
+  </Tab>
+  <Tab title="高级">
+    本指令暂无高级参数。
+  </Tab>
+</Tabs>
+
+## 使用示例
+
+**该流程执行逻辑：**
+
+使用【启动Excel】打开已有的Excel，并将Excel对象保存到excel对象
+
+使用【获取单元格公式】指令获取指定单元格中的公式
+
+![获取单元格公式使用示例 - 流程搭建](images/getexcelformulacommand-02.png)
+
+### 运行结果
+
+![获取单元格公式使用示例 - 运行结果](images/getexcelformulacommand-03.png)
+
+![获取单元格公式使用示例 - 运行结果 2](images/getexcelformulacommand-04.png)
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

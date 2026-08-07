@@ -12,13 +12,150 @@ description: "自动读写 Excel 文件，支持单元格操作、行列管理�
 - **行列操作**：插入/删除行列、自动填充、行列转置
 - **高级功能**：执行公式计算、区域读取、批量写入数据表
 
-## 典型场景
+## 指令列表
 
-| 场景 | 说明 |
-| --- | --- |
-| 报表生成 | 从多个系统提取数据，填入 Excel 模板，自动生成日报/周报 |
-| 数据导入 | 读取 Excel 中的客户名单，逐条在系统中录入 |
-| 格式整理 | 自动调整列宽、合并单元格、添加边框样式 |
+### 基础操作
+
+<CardGroup cols="2">
+  <Card title="启动Excel" href="/commands/excel/launchexcelcommand">
+    打开已有的Excel文件或新建Excel，实现Excel程序的自动化。
+  </Card>
+  <Card title="获取当前激活的Excel对象" href="/commands/excel/getopenedexcelcommand">
+    获取当前激活的Excel文件，保存为可操作的对象变量。
+  </Card>
+  <Card title="循环Excel内容" href="/commands/excel/loopexcelsheetcommand">
+    按行循环Excel对象的内容，并保存循环项。
+  </Card>
+  <Card title="读取Excel内容" href="/commands/excel/readexcelcommand">
+    从Excel文件对象中读取内容，支持矩形区域范围读取。
+  </Card>
+  <Card title="按单元格写入内容至Excel工作表" href="/commands/excel/writeexcelcellcommand">
+    在Excel工作表中按单元格写入内容。
+  </Card>
+  <Card title="按行写入内容至Excel工作表" href="/commands/excel/writeexcelrowcommand">
+    在Excel工作表中按行写入内容，支持追加、插入或覆盖。
+  </Card>
+  <Card title="按列写入内容至Excel工作表" href="/commands/excel/writeexcelcolumncommand">
+    在Excel工作表中按列写入内容，支持追加、插入或覆盖。
+  </Card>
+  <Card title="按区域写入内容至Excel工作表" href="/commands/excel/writeexcelrangecommand">
+    在Excel工作表中按矩形区域写入内容。
+  </Card>
+  <Card title="保存/另存为excel" href="/commands/excel/saveexcelcommand">
+    保存或另存为Excel文件，支持覆盖已有文件。
+  </Card>
+  <Card title="关闭Excel" href="/commands/excel/closeexcelcommand">
+    关闭指定的Excel文件或者所有的Excel文件。
+  </Card>
+  <Card title="运行Excel宏" href="/commands/excel/runexcelmacrocommand">
+    在Excel文件中执行指定宏命令。
+  </Card>
+  <Card title="自动填充" href="/commands/excel/autofillexcelcommand">
+    对Excel表格中指定区域实现自动填充功能。
+  </Card>
+  <Card title="合并/拆分单元格" href="/commands/excel/mergeorsplitexcelcellcommand">
+    对Excel表格中的单元格进行合并或拆分操作。
+  </Card>
+  <Card title="设置单元格格式" href="/commands/excel/setexcelcellformatcommand">
+    设置Excel单元格的格式，包括字体、颜色、边框、对齐方式等。
+  </Card>
+  <Card title="清除单元格格式" href="/commands/excel/clearexcelcellformatcommand">
+    清除Excel指定单元格区域的格式设置。
+  </Card>
+  <Card title="设置行高/列宽" href="/commands/excel/setexcelcellsizecommand">
+    设置Excel工作表的行高和列宽。
+  </Card>
+  <Card title="Excel区域截图" href="/commands/excel/getexcelregionscreenshotcommand">
+    对Excel工作表中指定区域进行截图并保存。
+  </Card>
+  <Card title="Excel筛选" href="/commands/excel/filterexcelcolumncommand">
+    对Excel工作表中的数据进行筛选操作。
+  </Card>
+  <Card title="读取筛选内容" href="/commands/excel/readfilteredcontentcommand">
+    读取Excel筛选后的可见行内容。
+  </Card>
+  <Card title="清除筛选条件" href="/commands/excel/clearexcelfiltercommand">
+    清除Excel工作表中设置的筛选条件，恢复显示所有数据。
+  </Card>
+</CardGroup>
+
+### 内容读写
+
+<CardGroup cols="2">
+  <Card title="获取Excel总行数" href="/commands/excel/getexcelrowcountcommand">
+    获取Excel工作表中已使用的总行数。
+  </Card>
+  <Card title="获取Excel总列数" href="/commands/excel/getexcelcolumncountcommand">
+    获取Excel工作表中已使用的总列数。
+  </Card>
+  <Card title="查找/替换数据" href="/commands/excel/findexcelcellcommand">
+    在Excel工作表中查找或替换指定内容的单元格。
+  </Card>
+  <Card title="复制Excel内容" href="/commands/excel/copyexcelcommand">
+    复制Excel工作表中指定区域的单元格内容。
+  </Card>
+  <Card title="粘贴Excel内容" href="/commands/excel/pasteexcelcommand">
+    将已复制的Excel内容粘贴到指定位置。
+  </Card>
+  <Card title="获取列尾首个空白单元格" href="/commands/excel/getlastemptycellofcolumncommand">
+    获取Excel工作表中指定列的最后一个空白单元格的行号。
+  </Card>
+  <Card title="获取单元格公式" href="/commands/excel/getexcelformulacommand">
+    获取Excel指定单元格中的公式内容。
+  </Card>
+  <Card title="单元格插入图片" href="/commands/excel/addimagetoexcelcommand">
+    向Excel工作表中插入图片。
+  </Card>
+  <Card title="删除Excel图片" href="/commands/excel/deleteexcelimagecommand">
+    删除Excel工作表中插入的图片。
+  </Card>
+  <Card title="导出单元格图片" href="/commands/excel/exportexcelimagecommand">
+    将Excel工作表中的图片导出并保存为文件。
+  </Card>
+</CardGroup>
+
+### 行/列操作
+
+<CardGroup cols="2">
+  <Card title="插入空行" href="/commands/excel/insertexcelrowcommand">
+    在Excel工作表中插入空行。
+  </Card>
+  <Card title="插入空列" href="/commands/excel/insertexcelcolumncommand">
+    在Excel工作表中插入空列。
+  </Card>
+  <Card title="删除Excel行" href="/commands/excel/deleteexcelrowcommand">
+    删除Excel工作表中指定的行。
+  </Card>
+  <Card title="删除Excel列" href="/commands/excel/deleteexcelcolumncommand">
+    删除Excel工作表中指定的列。
+  </Card>
+  <Card title="删除Excel中的重复行" href="/commands/excel/deleteexcelduplicaterowcommand">
+    删除Excel工作表中指定列的重复行数据。
+  </Card>
+</CardGroup>
+
+### Sheet操作
+
+<CardGroup cols="2">
+  <Card title="添加Sheet页" href="/commands/excel/addexcelsheetcommand">
+    在Excel工作簿中添加新的工作表。
+  </Card>
+  <Card title="删除Sheet页" href="/commands/excel/deleteexcelsheetcommand">
+    删除Excel工作簿中指定的工作表。
+  </Card>
+  <Card title="激活Sheet页" href="/commands/excel/activateexcelsheetcommand">
+    激活Excel工作簿中指定的工作表为当前活动工作表。
+  </Card>
+  <Card title="拷贝Sheet页" href="/commands/excel/copyexcelsheetcommand">
+    复制Excel工作簿中的工作表。
+  </Card>
+  <Card title="重命名Sheet页" href="/commands/excel/renameexcelsheetcommand">
+    修改Excel工作簿中工作表的名字。
+  </Card>
+  <Card title="获取Sheet页名称" href="/commands/excel/getexcelsheetnamecommand">
+    获取Excel工作簿中指定或全部工作表的名称。
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
