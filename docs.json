@@ -42,14 +42,6 @@
         "pages": [
           "commands/index",
           {
-            "group": "流程控制",
-            "pages": [
-              "commands/loop",
-              "commands/wait",
-              "commands/flow"
-            ]
-          },
-          {
             "group": "条件判断",
             "pages": [
               "commands/condition",
@@ -72,32 +64,99 @@
             ]
           },
           {
-            "group": "界面自动化",
+            "group": "循环",
             "pages": [
-              "commands/web-automation",
-              "commands/desktop-automation",
+              "commands/loop"
+            ]
+          },
+          {
+            "group": "等待",
+            "pages": [
+              "commands/wait"
+            ]
+          },
+          {
+            "group": "流程",
+            "pages": [
+              "commands/flow"
+            ]
+          },
+          {
+            "group": "网页自动化",
+            "pages": [
+              "commands/web-automation"
+            ]
+          },
+          {
+            "group": "桌面自动化",
+            "pages": [
+              "commands/desktop-automation"
+            ]
+          },
+          {
+            "group": "鼠标键盘",
+            "pages": [
               "commands/mouse-keyboard"
             ]
           },
           {
-            "group": "数据与存储",
+            "group": "数据表格",
             "pages": [
-              "commands/datatable",
-              "commands/excel",
-              "commands/data-processing",
-              "commands/database"
+              "commands/datatable"
             ]
           },
           {
-            "group": "系统与集成",
+            "group": "Excel",
             "pages": [
-              "commands/os",
-              "commands/email",
-              "commands/group-notification",
-              "commands/feishu",
-              "commands/dingtalk",
-              "commands/google",
+              "commands/excel"
+            ]
+          },
+          {
+            "group": "操作系统",
+            "pages": [
+              "commands/os"
+            ]
+          },
+          {
+            "group": "八爪鱼",
+            "pages": [
               "commands/bazhuayu"
+            ]
+          },
+          {
+            "group": "邮件",
+            "pages": [
+              "commands/email"
+            ]
+          },
+          {
+            "group": "数据处理",
+            "pages": [
+              "commands/data-processing"
+            ]
+          },
+          {
+            "group": "群通知",
+            "pages": [
+              "commands/group-notification"
+            ]
+          },
+          {
+            "group": "飞书",
+            "pages": [
+              "commands/feishu"
+            ]
+          },
+          {
+            "group": "钉钉",
+            "pages": [
+              "commands/dingtalk"
+            ]
+          },
+          {
+            "group": "谷歌",
+            "pages": [
+              "commands/google"
             ]
           },
           {
@@ -107,7 +166,13 @@
             ]
           },
           {
-            "group": "通用工具",
+            "group": "数据库",
+            "pages": [
+              "commands/database"
+            ]
+          },
+          {
+            "group": "其他",
             "pages": [
               "commands/others"
             ]
