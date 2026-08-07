@@ -20,6 +20,41 @@ description: "在流程内部创建、编辑、查询二维数据表，作为数
 | 多步骤聚合 | 多个子流程的返回结果汇总到一个数据表格，最终生成报表 |
 | 去重过滤 | 采集的列表数据自动去重后再逐条处理 |
 
+## 子指令
+
+<CardGroup cols={2}>
+  <Card title="按单元格写入内容至数据表格" icon="pen-to-square" href="/commands/datatable/writetocellcommand">
+    在数据表格中按单元格写入内容，更改数据表格中某单元格的内容
+  </Card>
+  <Card title="按行写入内容至数据表格" icon="pen-to-square" href="/commands/datatable/writetorowcommand">
+    在数据表格中按行写入内容，支持追加、插入或覆盖
+  </Card>
+  <Card title="删除数据表格数据" icon="trash" href="/commands/datatable/deletedatasheetrowcommand">
+    删除数据表格的所有行或者指定行
+  </Card>
+  <Card title="增加列到数据表格" icon="plus" href="/commands/datatable/adddatasheetcolumncommand">
+    增加一列到数据表格
+  </Card>
+  <Card title="循环数据表格内容" icon="rotate" href="/commands/datatable/loopdatasheetcommand_1">
+    按行循环数据表格的内容，并保存循环项
+  </Card>
+  <Card title="读取数据表格内容" icon="book-open" href="/commands/datatable/readdatasheetcommand">
+    从数据表格中读取内容，支持矩形区域范围读取
+  </Card>
+  <Card title="导入Excel至数据表格" icon="file-import" href="/commands/datatable/importexceltodatasheetcommand">
+    导入本地的Excel表格数据到数据表格
+  </Card>
+  <Card title="导入Csv数据表格" icon="file-import" href="/commands/datatable/importcsvtodatasheetcommand">
+    导入Csv数据到数据表格
+  </Card>
+  <Card title="导出数据表格" icon="file-export" href="/commands/datatable/exportdatasheettofilecommand">
+    将数据表格导出为文件
+  </Card>
+  <Card title="批量导出数据表格" icon="file-export" href="/commands/datatable/exportmultidatasheettofilecommand">
+    将多个数据表格合并导出为一个表格文件
+  </Card>
+</CardGroup>
+
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
 </Info>

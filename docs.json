@@ -216,7 +216,17 @@
           {
             "group": "数据表格",
             "pages": [
-              "commands/datatable"
+              "commands/datatable",
+              "commands/datatable/writetocellcommand",
+              "commands/datatable/writetorowcommand",
+              "commands/datatable/deletedatasheetrowcommand",
+              "commands/datatable/adddatasheetcolumncommand",
+              "commands/datatable/loopdatasheetcommand_1",
+              "commands/datatable/readdatasheetcommand",
+              "commands/datatable/importexceltodatasheetcommand",
+              "commands/datatable/importcsvtodatasheetcommand",
+              "commands/datatable/exportdatasheettofilecommand",
+              "commands/datatable/exportmultidatasheettofilecommand"
             ]
           },
           {
