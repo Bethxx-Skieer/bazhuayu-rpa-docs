@@ -44,6 +44,14 @@
           {
             "group": "流程控制",
             "pages": [
+              "commands/loop",
+              "commands/wait",
+              "commands/flow"
+            ]
+          },
+          {
+            "group": "条件判断",
+            "pages": [
               "commands/condition",
               "commands/condition/if-command",
               "commands/condition/if-multi-condition",
@@ -60,10 +68,7 @@
               "commands/condition/else-if-window-contains",
               "commands/condition/if-file-exists",
               "commands/condition/if-folder-exists",
-              "commands/condition/if-image-exists",
-              "commands/loop",
-              "commands/wait",
-              "commands/flow"
+              "commands/condition/if-image-exists"
             ]
           },
           {
