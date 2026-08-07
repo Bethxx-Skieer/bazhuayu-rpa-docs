@@ -204,7 +204,13 @@
           {
             "group": "鼠标键盘",
             "pages": [
-              "commands/mouse-keyboard"
+              "commands/mouse-keyboard",
+              "commands/mouse-keyboard/mousemovecommand",
+              "commands/mouse-keyboard/mouseclickcommand",
+              "commands/mouse-keyboard/mousescrollcommand",
+              "commands/mouse-keyboard/keyboardinputcommand",
+              "commands/mouse-keyboard/hoverimagecommand",
+              "commands/mouse-keyboard/clickimagecommand"
             ]
           },
           {
