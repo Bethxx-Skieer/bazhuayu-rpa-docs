@@ -93,7 +93,10 @@
           {
             "group": "流程",
             "pages": [
-              "commands/flow"
+              "commands/flow",
+              "commands/flow/invoke-subflow",
+              "commands/flow/exit-subflow",
+              "commands/flow/exit-flow"
             ]
           },
           {
