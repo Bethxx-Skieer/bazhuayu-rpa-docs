@@ -5,20 +5,43 @@ description: "重复执行相同的操作步骤，批量处理列表数据或循
 
 **循环**类指令让流程按照指定规则反复执行一组操作，是批量自动化任务的核心支撑。
 
-## 指令能做什么
+## 指令列表
 
-- **计次循环**：指定次数重复执行一组指令，适用于已知循环次数的场景
-- **遍历循环**：遍历列表/数据表格中的每一行，逐条处理数据
-- **条件循环**：满足条件时持续循环，直到条件不再成立
-- **跳出循环**：在特定条件下提前终止循环
-
-## 典型场景
-
-| 场景 | 说明 |
-| --- | --- |
-| 批量处理 | 读取 Excel 多行数据，逐行填入网页表单并提交 |
-| 翻页抓取 | 循环点击"下一页"，直到页码达到指定数量 |
-| 轮询等待 | 循环检查某个页面元素是否出现，出现后执行下一步 |
+<CardGroup cols="2">
+  <Card title="条件循环" href="/commands/loop/while">
+    满足条件时持续循环执行内部指令块，直到条件不再成立。
+  </Card>
+  <Card title="按次数循环" href="/commands/loop/loop-by-count">
+    指定循环次数，重复执行内部指令块指定次数。
+  </Card>
+  <Card title="列表循环" href="/commands/loop/for-each">
+    遍历列表中的每一项，依次取出元素进行处理。
+  </Card>
+  <Card title="字典循环" href="/commands/loop/dict-for-each">
+    遍历字典中的每个键值对，依次取出键和值进行处理。
+  </Card>
+  <Card title="无限循环" href="/commands/loop/infinite-loop">
+    无限重复执行内部指令块，需配合跳出/结束指令终止。
+  </Card>
+  <Card title="继续循环" href="/commands/loop/continue">
+    跳过本次循环剩余步骤，直接进入下一次循环。
+  </Card>
+  <Card title="跳出循环" href="/commands/loop/break">
+    立即终止当前所在循环，跳出循环体继续执行后续指令。
+  </Card>
+  <Card title="结束循环" href="/commands/loop/end-loop">
+    标记循环块的结束，与循环开始指令配对使用。
+  </Card>
+  <Card title="循环相似元素(web)" href="/commands/loop/web-loop-similar">
+    自动识别网页中的相似元素列表并逐项循环操作。
+  </Card>
+  <Card title="循环相似元素(win)" href="/commands/loop/win-loop-similar">
+    自动识别桌面窗口中的相似元素列表并逐项循环操作。
+  </Card>
+  <Card title="循环数据表格" href="/commands/loop/loop-datasheet">
+    循环遍历数据表格的每一行，逐行取出数据供后续指令使用。
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
