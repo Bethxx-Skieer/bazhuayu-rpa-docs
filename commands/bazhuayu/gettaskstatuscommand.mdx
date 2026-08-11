@@ -20,8 +20,7 @@ description: "可以获取八爪鱼采集器指定采集任务的任务状态（
     | **存储任务状态列表至** | 指定一个变量名字，该列表变量用于保存获取到的任务状态信息，该变量是一个二维列表，可以通过列表循环每一个任务，并获取到当前任务的任务ID,任务名称，状态码，状态描述 |
   </Tab>
   <Tab title="高级">
-    ![获取采集任务状态指令高级参数面板](images/gettaskstatuscommand-02.png)
-    ![获取采集任务状态指令高级参数面板](images/gettaskstatuscommand-03.png)
+    本指令暂无高级参数。
   </Tab>
 </Tabs>
 
@@ -31,9 +30,13 @@ description: "可以获取八爪鱼采集器指定采集任务的任务状态（
 
 在RPA中获取到八爪鱼采集器的账号授权 ---> 执行【获取采集任务状态】指令获取到指定任务运行状态，并保存至列表变量中 ---> 执行【列表循环】打印该列表变量的运行状态值（当前循环项.StatusDescription ）和状态码 （当前循环项.StatusCode）。
 
-![获取采集任务状态使用示例 - 流程搭建](images/gettaskstatuscommand-04.png)
+![获取采集任务状态使用示例 - 流程搭建](images/gettaskstatuscommand-02.png)
 
 ### 运行结果
+
+![获取采集任务状态使用示例 - 运行结果](images/gettaskstatuscommand-03.png)
+
+![获取采集任务状态使用示例 - 运行结果](images/gettaskstatuscommand-04.png)
 
 ![获取采集任务状态使用示例 - 运行结果](images/gettaskstatuscommand-05.png)
 
