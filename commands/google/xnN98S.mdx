@@ -1,97 +1,118 @@
 ---
 title: "谷歌指令模块"
-description: ""
+description: "这个指令需要填写谷歌OAuth凭证的**客户端ID**和谷歌OAuth凭证的**客户端密钥**"
 ---
 
-## 指令说明
+## 谷歌电子表格指令使用介绍
 
-**描述：**
+### 1. 使用“获取谷歌访问凭证指令”，获取谷歌的访问凭证
 
-## 参数说明
+![谷歌指令模块](images/xnN98S-01.png)
 
-<Tabs>
-  <Tab title="常规">
-    ![谷歌指令模块指令参数面板](images/xnN98S-01.png)
+![谷歌指令模块](images/xnN98S-02.png)
 
-    本指令暂无常规参数。
-  </Tab>
-  <Tab title="高级">
-    本指令暂无高级参数。
-  </Tab>
-</Tabs>
+这个指令需要填写谷歌OAuth凭证的**客户端ID**和谷歌OAuth凭证的**客户端密钥**
 
-## 使用示例
+#### 获取客户端ID和客户端密钥的流程：
 
-**该流程执行逻辑：**
+#### 在浏览器输入网址：https://console.cloud.google.com/ ，进入Google Cloud。
 
-![谷歌指令模块使用示例 - 流程搭建](images/xnN98S-02.png)
+![谷歌指令模块](images/xnN98S-03.png)
 
-### 运行结果
+#### 如未登录Google云端平台，则可使用您的Google账号登录Google云端平台
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-03.png)
+![谷歌指令模块](images/xnN98S-04.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-04.png)
+#### 创建一个新项目
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-05.png)
+![谷歌指令模块](images/xnN98S-05.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-06.png)
+![谷歌指令模块](images/xnN98S-06.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-07.png)
+![谷歌指令模块](images/xnN98S-07.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-08.png)
+#### 点击“启用API和服务”按钮
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-09.png)
+****
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-10.png)
+![谷歌指令模块](images/xnN98S-08.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-11.png)
+![谷歌指令模块](images/xnN98S-09.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-12.png)
+![谷歌指令模块](images/xnN98S-10.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-13.png)
+![谷歌指令模块](images/xnN98S-11.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-14.png)
+#### 点击“OAuth同意屏幕”按钮
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-15.png)
+![谷歌指令模块](images/xnN98S-12.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-16.png)
+![谷歌指令模块](images/xnN98S-13.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-17.png)
+![谷歌指令模块](images/xnN98S-14.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-18.png)
+#### 添加或移除范围(范围用来表示您请求用户为您的应用授予的权限)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-19.png)
+![谷歌指令模块](images/xnN98S-15.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-20.png)
+![谷歌指令模块](images/xnN98S-16.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-21.png)
+![谷歌指令模块](images/xnN98S-17.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-22.png)
+![谷歌指令模块](images/xnN98S-18.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-23.png)
+![谷歌指令模块](images/xnN98S-19.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-24.png)
+#### 如您没有添加测试用户，在应用信息修改完成后，需要先发布应用，可点击”OAuth同意屏幕“模块按钮，点击”发布应用“按钮，应用发布成功。
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-25.png)
+![谷歌指令模块](images/xnN98S-20.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-26.png)
+#### 创建客户端ID和密钥：点击”凭据“模块按钮，再点击”创建凭据“按钮，创建客户端凭证
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-27.png)
+![谷歌指令模块](images/xnN98S-21.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-28.png)
+![谷歌指令模块](images/xnN98S-22.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-29.png)
+![谷歌指令模块](images/xnN98S-23.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-30.png)
+#### 完成凭据创建后，弹出客户端信息弹窗
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-31.png)
+![谷歌指令模块](images/xnN98S-24.png)
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-32.png)
+### 2. 使用“获取谷歌表格“指令，获取要操作的谷歌表格
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-33.png)
+#### 填写客户端ID和客户端密钥，保存谷歌访问凭证
 
-![谷歌指令模块使用示例 - 运行结果](images/xnN98S-34.png)
+![谷歌指令模块](images/xnN98S-25.png)
+
+#### 获取谷歌表格需要填写谷歌表格URL和Sheet名称，并保存谷歌表格对象
+
+![谷歌指令模块](images/xnN98S-26.png)
+
+#### 获取谷歌表格URL和Sheet名称：
+
+![谷歌指令模块](images/xnN98S-27.png)
+
+![谷歌指令模块](images/xnN98S-28.png)
+
+![谷歌指令模块](images/xnN98S-29.png)
+
+![谷歌指令模块](images/xnN98S-30.png)
+
+### 3.进行谷歌表格自动化操作，第一次运行时谷歌表格需手动进行一次身份验证
+
+![谷歌指令模块](images/xnN98S-31.png)
+
+#### 第一次获取谷歌访问凭证需手动进行一次身份验证
+
+![谷歌指令模块](images/xnN98S-32.png)
+
+![谷歌指令模块](images/xnN98S-33.png)
+
+![谷歌指令模块](images/xnN98S-34.png)
+
+#### 完成身份验证后，即可继续运行流程。
 
 <Info>
-  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+  使用过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
 </Info>
