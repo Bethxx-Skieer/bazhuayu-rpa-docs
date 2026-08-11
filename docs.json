@@ -294,7 +294,31 @@
           {
             "group": "操作系统",
             "pages": [
-              "commands/os"
+              "commands/os",
+              "commands/os/getfilescommand",
+              "commands/os/getfilecontentcommand",
+              "commands/os/writefilecontentcommand",
+              "commands/os/deletefilecommand",
+              "commands/os/copyfilecommand",
+              "commands/os/movefilecommand",
+              "commands/os/getcurrentdatetimecommand",
+              "commands/os/createfoldercommand",
+              "commands/os/getfilepathinfocommand",
+              "commands/os/renamefilecommand",
+              "commands/os/compressfilecommand",
+              "commands/os/decompressfilecommand",
+              "commands/os/getclipboardtextcommand",
+              "commands/os/setclipboarddatacommand",
+              "commands/os/clearclipboarddatacommand",
+              "commands/os/killprocesscommand",
+              "commands/os/checkprocessexistcommand",
+              "commands/os/renamefoldercommand",
+              "commands/os/copyfoldercommand",
+              "commands/os/movefoldercommand",
+              "commands/os/deletefoldercommand",
+              "commands/os/clearfoldercommand",
+              "commands/os/launchapplicationcommand",
+              "commands/os/executedoscommand"
             ]
           },
           {

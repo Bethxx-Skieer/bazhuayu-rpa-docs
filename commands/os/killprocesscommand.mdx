@@ -1,0 +1,46 @@
+---
+title: "终止进程"
+description: "立刻停止正在运行的进程"
+---
+
+## 指令说明
+
+**描述：** 立刻停止正在运行的进程
+
+## 参数说明
+
+<Tabs>
+  <Tab title="常规">
+    ![终止进程指令参数面板](images/killprocesscommand-01.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **进程属性** | 选择要通过哪种方式指定要终止的进程，支持进程ID和进程名称两种 |
+    | **进程名称/进程ID** | 输入要终止的进程ID或进程名称 |
+  </Tab>
+  <Tab title="高级">
+    本指令暂无高级参数。
+  </Tab>
+</Tabs>
+
+## 使用示例
+
+**该流程执行逻辑：**
+
+使用【检查进程是否存在】检查PID为16468的进程是否在系统存在，判断结果为True
+
+使用【终止进程】立刻停止PID为16468的进程
+
+使用【检查进程是否存在】检查PID为16468的进程是否在系统存在，判断结果为False
+
+![终止进程使用示例 - 流程搭建](images/killprocesscommand-02.png)
+
+### 运行结果
+
+![终止进程使用示例 - 运行结果](images/killprocesscommand-03.png)
+
+![终止进程使用示例 - 运行结果](images/killprocesscommand-04.png)
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>
