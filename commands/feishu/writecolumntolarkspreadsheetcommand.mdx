@@ -1,0 +1,49 @@
+---
+title: "写入列至飞书表格"
+description: "往飞书电子表格里写入一列"
+---
+
+## 指令说明
+
+**描述：** 往飞书电子表格里写入一列
+
+## 参数说明
+
+<Tabs>
+  <Tab title="常规">
+    ![写入列至飞书表格指令参数面板](images/writecolumntolarkspreadsheetcommand-01.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **飞书电子表格** | 选择需要读取的飞书电子表格 |
+    | **写入列** | 输入列号，列号从1或A开始 |
+    | **写入内容** | 输入行号，输入写入内容，可添加多行 |
+  </Tab>
+  <Tab title="高级">
+    本指令暂无高级参数。
+  </Tab>
+</Tabs>
+
+## 使用示例
+
+**该流程执行逻辑：**
+
+使用【获取飞书访问凭证】获取飞书访问凭证，并将其保存至飞书访问凭证中
+
+使用【获取飞书表格】根据网址获取飞书表格，并将结果保存至飞书电子表格中
+
+使用【写入列至飞书表格】往飞书电子表格的第4列第1行写入“R”，第2行写入“P”，第3行写入“A”
+
+![写入列至飞书表格使用示例 - 流程搭建](images/writecolumntolarkspreadsheetcommand-02.png)
+
+### 运行结果
+
+![写入列至飞书表格使用示例 - 运行结果](images/writecolumntolarkspreadsheetcommand-03.png)
+
+![写入列至飞书表格使用示例 - 运行结果](images/writecolumntolarkspreadsheetcommand-04.png)
+
+![写入列至飞书表格使用示例 - 运行结果](images/writecolumntolarkspreadsheetcommand-05.png)
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

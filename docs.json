@@ -324,61 +324,210 @@
           {
             "group": "八爪鱼",
             "pages": [
-              "commands/bazhuayu"
+              "commands/bazhuayu/getaccesstokencommand",
+              "commands/bazhuayu/gettaskstatuscommand",
+              "commands/bazhuayu/starttaskcommand",
+              "commands/bazhuayu/stoptaskcommand",
+              "commands/bazhuayu/gettaskdatacountcommand",
+              "commands/bazhuayu/gettaskdataoffsetcommand",
+              "commands/bazhuayu/gettaskdatacommand",
+              "commands/bazhuayu/updateactionpropertiescommand",
+              "commands/bazhuayu/7TUoxB"
             ]
           },
           {
             "group": "邮件",
             "pages": [
-              "commands/email"
+              "commands/email/dtd5Rb",
+              "commands/email/RlCVx4",
+              "commands/email/logintomailboxcommand",
+              "commands/email/sendemailcommand",
+              "commands/email/getemailscommand",
+              "commands/email/moveemailcommand",
+              "commands/email/deleteemailcommand",
+              "commands/email/replyemailcommand",
+              "commands/email/addflagtoemailcommand",
+              "commands/email/getemailcontentcommand",
+              "commands/email/downloademailattachmentcommand"
             ]
           },
           {
             "group": "数据处理",
             "pages": [
-              "commands/data-processing"
+              "commands/data-processing/changedatetimecommand",
+              "commands/data-processing/gettimespancommand",
+              "commands/data-processing/numbertotextcommand",
+              "commands/data-processing/texttonumbercommand",
+              "commands/data-processing/appendprefixorsuffixcommand",
+              "commands/data-processing/trimtextcommand",
+              "commands/data-processing/splittextcommand",
+              "commands/data-processing/replacetextcommand",
+              "commands/data-processing/regexmatchcommand",
+              "commands/data-processing/changetextcasecommand",
+              "commands/data-processing/getsubtextcommand",
+              "commands/data-processing/convertdatetimetextcommand",
+              "commands/data-processing/createvariablecommand",
+              "commands/data-processing/setvariablecommand",
+              "commands/data-processing/setvariablev2command",
+              "commands/data-processing/parsejsoncommand",
+              "commands/data-processing/objecttojsoncommand",
+              "commands/data-processing/datetimeconverttotimestampcommand",
+              "commands/data-processing/timestampconverttodatetimecommand",
+              "commands/data-processing/urldecodecommand",
+              "commands/data-processing/urlencodecommand",
+              "commands/data-processing/randomnumbercommand",
+              "commands/data-processing/jEc4Yc",
+              "commands/data-processing/createlistcommand",
+              "commands/data-processing/clearlistcommand",
+              "commands/data-processing/insertitemtolistcommand",
+              "commands/data-processing/removelistitemcommand",
+              "commands/data-processing/updatelistitemcommand",
+              "commands/data-processing/concatlistcommand",
+              "commands/data-processing/reverselistcommand",
+              "commands/data-processing/sortlistcommand",
+              "commands/data-processing/jointextcommand",
+              "commands/data-processing/distinctlistcommand",
+              "commands/data-processing/intersectlistcommand",
+              "commands/data-processing/createdictionarycommand",
+              "commands/data-processing/setdictionarykeyvaluecommand",
+              "commands/data-processing/removedictionarykeyvaluecommand",
+              "commands/data-processing/getdictionaryvaluecommand",
+              "commands/data-processing/getdictionarykeyscommand",
+              "commands/data-processing/getdictionaryvaluescommand"
             ]
           },
           {
             "group": "群通知",
             "pages": [
-              "commands/group-notification"
+              "commands/group-notification/notifywechatworkgroupcommand",
+              "commands/group-notification/notifylarkgroupcommand",
+              "commands/group-notification/notifydingtalkgroupcommand",
+              "commands/group-notification/XZBe1j"
             ]
           },
           {
             "group": "飞书",
             "pages": [
-              "commands/feishu"
+              "commands/feishu/vPhs0M",
+              "commands/feishu/getlarkaccesstokencommand",
+              "commands/feishu/getlarkspreadsheetcommand",
+              "commands/feishu/readlarkspreadsheetcommand",
+              "commands/feishu/addrowtolarkspreadsheetcommand",
+              "commands/feishu/addcolumntolarkspreadsheetcommand",
+              "commands/feishu/deleterowfromlarkspreadsheetcommand",
+              "commands/feishu/deletecolumnfromlarkspreadsheetcommand",
+              "commands/feishu/IgnCWQ",
+              "commands/feishu/writerowtolarkspreadsheetcommand",
+              "commands/feishu/writecolumntolarkspreadsheetcommand",
+              "commands/feishu/findlarkspreadsheetcellcommand",
+              "commands/feishu/copylarkspreadsheetcommand",
+              "commands/feishu/connecttolarkbitablecommand",
+              "commands/feishu/getlarkbitabledatatablecommand",
+              "commands/feishu/addlarkbitabledatatablecommand",
+              "commands/feishu/deletelarkbitabledatatablecommand",
+              "commands/feishu/renamelarkbitabledatatablecommand",
+              "commands/feishu/getlarkbitableviewcommand",
+              "commands/feishu/addlarkbitableviewcommand",
+              "commands/feishu/deletelarkbitableviewcommand",
+              "commands/feishu/updatelarkbitableviewcommand",
+              "commands/feishu/getlarkbitablefieldcommand",
+              "commands/feishu/addlarkbitablefieldcommand",
+              "commands/feishu/deletelarkbitablefieldcommand",
+              "commands/feishu/updatelarkbitablefieldcommand",
+              "commands/feishu/addlarkbitablerecordcommand",
+              "commands/feishu/updatelarkbitablerecordcommand",
+              "commands/feishu/deletelarkbitablerecordcommand",
+              "commands/feishu/getlarkbitablerecordcommand",
+              "commands/feishu/querylarkbitablerecordcommand"
             ]
           },
           {
             "group": "钉钉",
             "pages": [
-              "commands/dingtalk"
+              "commands/dingtalk/gM80NN",
+              "commands/dingtalk/connecttodingtalkspreadsheetcommand",
+              "commands/dingtalk/readdingtalksheetcommand",
+              "commands/dingtalk/writetodingtalksheetcommand",
+              "commands/dingtalk/appenddatatodingtalkrowcommand",
+              "commands/dingtalk/insertdingtalkroworcolumncommand",
+              "commands/dingtalk/deletedingtalkroworcolumncommand",
+              "commands/dingtalk/getdingtalksheetrowcountcommand",
+              "commands/dingtalk/getdingtalksheetcolumncountcommand",
+              "commands/dingtalk/getdingtalkfirstavailableroworcolumncommand",
+              "commands/dingtalk/getalldingtalksheetnamescommand",
+              "commands/dingtalk/DAVH44",
+              "commands/dingtalk/oP9Yz4"
             ]
           },
           {
             "group": "谷歌",
             "pages": [
-              "commands/google"
+              "commands/google/xnN98S",
+              "commands/google/getgooglecredentialcommand",
+              "commands/google/getgooglespreadsheetcommand",
+              "commands/google/readgooglespreadsheetcommand",
+              "commands/google/addrowtogooglespreadsheetcommand",
+              "commands/google/addcolumntogooglespreadsheetcommand",
+              "commands/google/deleterowfromgooglespreadsheetcommand",
+              "commands/google/deletecolumnfromgooglespreadsheetcommand",
+              "commands/google/writerowtogooglespreadsheetcommand",
+              "commands/google/writecolumntogooglespreadsheetcommand",
+              "commands/google/findgooglespreadsheetcellcommand"
             ]
           },
           {
             "group": "AI",
             "pages": [
-              "commands/ai"
+              "commands/ai/interactivechatcommand",
+              "commands/ai/generatecommentcommand",
+              "commands/ai/extractkeywordscommand",
+              "commands/ai/extractentitycommand",
+              "commands/ai/makeasummarycommand",
+              "commands/ai/getemotionaltendencycommand",
+              "commands/ai/translatecommand",
+              "commands/ai/parsingunstructureddatacommand",
+              "commands/ai/recognizecaptchabyprovidercommand",
+              "commands/ai/recognizecharactercommand",
+              "commands/ai/recognizesliderpuzzlecommand",
+              "commands/ai/recognizerotationcommand",
+              "commands/ai/recognizeslidercommand",
+              "commands/ai/recognizetextclickcommand",
+              "commands/ai/recognizetrajectorycommand",
+              "commands/ai/recognizerecaptchav2command",
+              "commands/ai/recognizegeneraltextcommand",
+              "commands/ai/recognizetablecommand",
+              "commands/ai/recognizecardcommand",
+              "commands/ai/recognizeinvoicecommand"
             ]
           },
           {
             "group": "数据库",
             "pages": [
-              "commands/database"
+              "commands/database/connecttodatabasecommand",
+              "commands/database/executesqlcommand",
+              "commands/database/querydatabasecommand",
+              "commands/database/batchinserttodatabasecommand",
+              "commands/database/closedatabasecommand"
             ]
           },
           {
             "group": "其他",
             "pages": [
-              "commands/others"
+              "commands/others/showmessageboxcommand",
+              "commands/others/showmessagetipscommand",
+              "commands/others/showtextinputcommand",
+              "commands/others/showaccountinputcommand",
+              "commands/others/showopenfoldercommand",
+              "commands/others/showopenfilecommand",
+              "commands/others/addlogmessagecommand",
+              "commands/others/sendhttprequestcommand",
+              "commands/others/trycommand",
+              "commands/others/catchcommand",
+              "commands/others/endtrycommand",
+              "commands/others/raisecommand",
+              "commands/others/executepythonmodulecommand",
+              "commands/others/commentcommand",
+              "commands/others/zKl2eg"
             ]
           }
         ]

@@ -1,0 +1,48 @@
+---
+title: "插入空列至谷歌表格"
+description: "往谷歌电子表格的指定位置后添加空列"
+---
+
+## 指令说明
+
+**描述：** 往谷歌电子表格的指定位置后添加空列
+
+## 参数说明
+
+<Tabs>
+  <Tab title="常规">
+    ![插入空列至谷歌表格指令参数面板](images/addcolumntogooglespreadsheetcommand-01.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **谷歌表格** | 选择需要读取的谷歌表格 |
+    | **插入方式** | 选择插入表格的方式，在指定列左侧或者右侧插入 |
+    | **插入列位置** | 输入列号，列号从1或A开始 |
+    | **插入列数** | 指定需要添加的列的数量 |
+  </Tab>
+  <Tab title="高级">
+    本指令暂无高级参数。
+  </Tab>
+</Tabs>
+
+## 使用示例
+
+**该流程执行逻辑：**
+
+使用【获取谷歌访问凭证】获取谷歌访问凭证，并将其保存至谷歌访问凭证中
+
+使用【获取谷歌表格】获取谷歌表格，并将结果保存至表格中
+
+使用【插入空列至谷歌表格】往谷歌电子表格的第2列右方添加3列空列
+
+![插入空列至谷歌表格使用示例 - 流程搭建](images/addcolumntogooglespreadsheetcommand-02.png)
+
+### 运行结果
+
+![插入空列至谷歌表格使用示例 - 运行结果](images/addcolumntogooglespreadsheetcommand-03.png)
+
+![插入空列至谷歌表格使用示例 - 运行结果](images/addcolumntogooglespreadsheetcommand-04.png)
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

@@ -1,0 +1,46 @@
+---
+title: "读取谷歌表格内容"
+description: "读取谷歌表格里内容，支持多种方式读取"
+---
+
+## 指令说明
+
+**描述：** 读取谷歌表格里内容，支持多种方式读取
+
+## 参数说明
+
+<Tabs>
+  <Tab title="常规">
+    ![读取谷歌表格内容指令参数面板](images/readgooglespreadsheetcommand-01.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **谷歌表格** | 选择需要读取的谷歌表格 |
+    | **读取方式** | 选择读取表格的方式，读取单元格、读取一行、读取一列、读取区域 |
+  </Tab>
+  <Tab title="高级">
+    本指令暂无高级参数。
+  </Tab>
+</Tabs>
+
+## 使用示例
+
+**该流程执行逻辑：**
+
+使用【获取谷歌访问凭证】获取谷歌访问凭证，并将其保存至谷歌访问凭证中
+
+使用【获取谷歌表格】获取谷歌表格，并将结果保存至谷歌表格中
+
+使用【读取谷歌表格内容】读取谷歌表格中第1行到第3行、第1列到第3列的内容，并将其保存至表格
+
+![读取谷歌表格内容使用示例 - 流程搭建](images/readgooglespreadsheetcommand-02.png)
+
+### 运行结果
+
+![读取谷歌表格内容使用示例 - 运行结果](images/readgooglespreadsheetcommand-03.png)
+
+![读取谷歌表格内容使用示例 - 运行结果](images/readgooglespreadsheetcommand-04.png)
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>
