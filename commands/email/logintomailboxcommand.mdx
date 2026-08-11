@@ -29,6 +29,10 @@ description: "填写邮箱信息，用于登录邮箱"
 
 **该流程执行逻辑：**
 
+【登录邮箱】登录腾讯企业邮箱
+
+【发送邮件】填写接收邮箱（如有多个可用分号隔开），填写主题正文并添加附件，发送邮件。
+
 ![登录邮箱使用示例 - 流程搭建](images/logintomailboxcommand-02.png)
 
 ### 运行结果
@@ -41,11 +45,21 @@ description: "填写邮箱信息，用于登录邮箱"
 
 ![登录邮箱使用示例 - 运行结果](images/logintomailboxcommand-06.png)
 
-![登录邮箱使用示例 - 运行结果](images/logintomailboxcommand-07.png)
+## 常见报错处理
 
-![登录邮箱使用示例 - 运行结果](images/logintomailboxcommand-08.png)
+报错信息： Error: authentication falled, system busy
 
-![登录邮箱使用示例 - 运行结果](images/logintomailboxcommand-09.png)
+原因是没有勾选上开启IMAP/SMTP服务 和 开启POP/SMTP服务，把这两个勾选上即可。
+
+![登录邮箱常见报错处理](images/logintomailboxcommand-07.png)
+
+![登录邮箱常见报错处理](images/logintomailboxcommand-08.png)
+
+## 使用小Tips
+
+支持【自定义邮箱】
+
+![登录邮箱使用小Tips](images/logintomailboxcommand-09.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
