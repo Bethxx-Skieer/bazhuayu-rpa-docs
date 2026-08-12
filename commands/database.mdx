@@ -2,7 +2,6 @@
 title: "数据库"
 description: "连接主流关系型数据库，执行 SQL 查询与数据写入。"
 ---
-
 **数据库**类指令让 RPA 流程直接连接数据库，执行数据查询、插入更新等操作，实现数据持久化存储。
 
 ## 指令能做什么
@@ -20,6 +19,25 @@ description: "连接主流关系型数据库，执行 SQL 查询与数据写入�
 | 数据归档 | 定期将业务系统中的历史数据提取并写入数据仓库 |
 | 报表查询 | 从数据库查询经营指标，生成报表后发送群通知 |
 | 批量导入 | 将 Excel 中的批量数据导入数据库 |
+## 指令列表
+
+<CardGroup cols="2">
+  <Card title="连接数据库" href="/commands/database/connecttodatabasecommand">
+    连接到指定的数据库
+  </Card>
+  <Card title="执行SQL语句" href="/commands/database/executesqlcommand">
+    在指定数据库中，执行Insert、Update、Delete等SQL语句
+  </Card>
+  <Card title="查询数据库" href="/commands/database/querydatabasecommand">
+    查询数据库的数据表中的内容，并保存到数据表格中
+  </Card>
+  <Card title="数据库批量插入数据" href="/commands/database/batchinserttodatabasecommand">
+    将数据表格中的数据批量插入到数据库
+  </Card>
+  <Card title="关闭数据库" href="/commands/database/closedatabasecommand">
+    关闭已连接的数据库
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

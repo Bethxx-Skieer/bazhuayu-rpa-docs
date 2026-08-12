@@ -2,7 +2,6 @@
 title: "AI"
 description: "集成大语言模型、OCR 识别、验证码识别等 AI 能力，让流程具备智能决策力。"
 ---
-
 **AI**类指令是八爪鱼 RPA 的"大脑"，将大语言模型、图像识别等人工智能能力注入自动化流程。
 
 ## 指令能做什么
@@ -20,6 +19,70 @@ description: "集成大语言模型、OCR 识别、验证码识别等 AI 能力�
 | 智能分类 | 用 AI 自动判断客户咨询的意图，分类后交由不同流程处理 |
 | 票据录入 | OCR 识别发票，自动提取金额、日期、抬头，写入财务系统 |
 | 内容生成 | 结合网页数据，用大模型自动生成产品描述、市场分析报告 |
+## 指令列表
+
+<CardGroup cols="2">
+  <Card title="AI文本生成" href="/commands/ai/interactivechatcommand">
+    可通过自然语言对话让AI完成原创写作、检查纠错、内容提炼、数据清洗、情感分析、客服对话等任务。
+  </Card>
+  <Card title="点评生成" href="/commands/ai/generatecommentcommand">
+    
+  </Card>
+  <Card title="关键词提取" href="/commands/ai/extractkeywordscommand">
+    对目标文本进行关键词提取，提取出若干个关键词
+  </Card>
+  <Card title="实体提取" href="/commands/ai/extractentitycommand">
+    
+  </Card>
+  <Card title="文本摘要" href="/commands/ai/makeasummarycommand">
+    根据目标文本，自动生成对应的文本摘要
+  </Card>
+  <Card title="情感倾向分析" href="/commands/ai/getemotionaltendencycommand">
+    从文本中识别出用户的情感倾向：积极、中性、消极
+  </Card>
+  <Card title="文本翻译" href="/commands/ai/translatecommand">
+    由八爪鱼AI引|警代理的OpenAI服务，实现对文本内容的多语言翻译
+  </Card>
+  <Card title="解析非结构化数据" href="/commands/ai/parsingunstructureddatacommand">
+    对目标文本进行自动解析并转化为结构化数据
+  </Card>
+  <Card title="验证码识别" href="/commands/ai/recognizecaptchabyprovidercommand">
+    根据指定平台（云码、斐斐、图鉴）验证码类型和图片参数识别验证码。
+  </Card>
+  <Card title="字符验证码" href="/commands/ai/recognizecharactercommand">
+    识别目标验证码图片中的文本信息，本地的图片，网页和桌面软件中的验证码都支持。
+  </Card>
+  <Card title="滑动拼图验证码" href="/commands/ai/recognizesliderpuzzlecommand">
+    识别验证码的拼图位置，返回终点坐标或拖动滑块位置完成验证
+  </Card>
+  <Card title="图片旋转验证码" href="/commands/ai/recognizerotationcommand">
+    识别验证码的拼图位置，并拖动滑块旋转图片完成验证。支持网页和桌面软件中的验证码。
+  </Card>
+  <Card title="滑动条验证码" href="/commands/ai/recognizeslidercommand">
+    识别滑动条验证码的拖动区域，返回终点坐标或拖动滑块位置完成验证。网页和桌面软件中的验证码都支持。
+  </Card>
+  <Card title="文字点选验证码" href="/commands/ai/recognizetextclickcommand">
+    识别验证码中的文字位置，依次返回坐标或直接顺序点击文字完成验证。网页和桌面软件中的验证码都支持。
+  </Card>
+  <Card title="描绘轨迹验证码" href="/commands/ai/recognizetrajectorycommand">
+    识别描绘轨迹完成验证。网页和桌面软件中的验证码都支持。
+  </Card>
+  <Card title="reCAPTCHA V2验证码" href="/commands/ai/recognizerecaptchav2command">
+    自动识别并处理Google reCaptcha V2验证码弹窗
+  </Card>
+  <Card title="通用文字识别" href="/commands/ai/recognizegeneraltextcommand">
+    通过OCR技术识别图像中的所有文本及位置坐标
+  </Card>
+  <Card title="表格识别" href="/commands/ai/recognizetablecommand">
+    通过OCR技术识别图像中的表格数据，并保存至数据表格变量
+  </Card>
+  <Card title="卡证识别" href="/commands/ai/recognizecardcommand">
+    通过OCR技术结构化识别身份证、银行卡、营业执照、护照、户口本等证件的文字内容
+  </Card>
+  <Card title="票据识别" href="/commands/ai/recognizeinvoicecommand">
+    通过OCR技术结构化识别通用票据、增值税发票、银行回单、完税证明、医疗票据、网约车行程单等票据的文字内容
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

@@ -2,7 +2,6 @@
 title: "钉钉"
 description: "对接钉钉开放平台，实现群消息通知、审批流、智能填表等自动化操作。"
 ---
-
 **钉钉**类指令连接八爪鱼 RPA 与钉钉，让企业内部的审批、通知、考勤等场景实现自动化。
 
 ## 指令能做什么
@@ -18,6 +17,40 @@ description: "对接钉钉开放平台，实现群消息通知、审批流、智
 | 考勤提醒 | 定时检查员工打卡状态，未打卡的自动推送钉钉提醒 |
 | 审批推送 | 系统检测到异常数据时，自动发钉钉消息通知负责人审批 |
 | 日报催交 | 下班前自动检查日报提交情况，未提交的发钉钉催促 |
+## 指令列表
+
+<CardGroup cols="2">
+  <Card title="连接钉钉表格" href="/commands/dingtalk/connecttodingtalkspreadsheetcommand">
+    通过该指令建立钉钉表格连接，以实现钉钉表格自动化
+  </Card>
+  <Card title="读取表格数据" href="/commands/dingtalk/readdingtalksheetcommand">
+    读取钉钉表格的单元格数据或区域数据
+  </Card>
+  <Card title="写入表格数据" href="/commands/dingtalk/writetodingtalksheetcommand">
+    写入数据至单元格或区域
+  </Card>
+  <Card title="追加一行数据" href="/commands/dingtalk/appenddatatodingtalkrowcommand">
+    在钉钉表格中追加一行数据
+  </Card>
+  <Card title="插入行/列" href="/commands/dingtalk/insertdingtalkroworcolumncommand">
+    在钉钉表格中指定位置插入行或者列
+  </Card>
+  <Card title="删除行/列" href="/commands/dingtalk/deletedingtalkroworcolumncommand">
+    在钉钉表格中删除指定位置的行或者列
+  </Card>
+  <Card title="获取总行数" href="/commands/dingtalk/getdingtalksheetrowcountcommand">
+    该指令可以获取目标表格的总行数
+  </Card>
+  <Card title="获取总列数" href="/commands/dingtalk/getdingtalksheetcolumncountcommand">
+    该指令可以获取目标表格的总列数
+  </Card>
+  <Card title="获取第一个可用行/列" href="/commands/dingtalk/getdingtalkfirstavailableroworcolumncommand">
+    该指令可以获取目标表格中第一个空白行行号或第一个空白列列号。
+  </Card>
+  <Card title="获取所有Sheet页名称" href="/commands/dingtalk/getalldingtalksheetnamescommand">
+    该指令可以获取钉钉表格的所有Sheet页名称列表
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

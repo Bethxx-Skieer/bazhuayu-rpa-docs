@@ -2,7 +2,6 @@
 title: "数据处理"
 description: "对文本、数值、日期、JSON、正则等数据进行转换、提取和格式化处理。"
 ---
-
 **数据处理**类指令提供丰富的数据转换与加工能力，是连接"采集"与"输出"之间的核心加工环节。
 
 ## 指令能做什么
@@ -19,6 +18,127 @@ description: "对文本、数值、日期、JSON、正则等数据进行转换�
 | 数据清洗 | 从网页抓取的杂乱文本中，用正则提取手机号、金额等关键字段 |
 | 格式转换 | 将 "2024-08-16" 格式的日期转为 "2024年8月16日" |
 | JSON 解析 | 调用 API 返回的 JSON 数据，提取指定字段写入数据表格 |
+## 指令列表
+
+<CardGroup cols="2">
+  <Card title="增加/减少时间" href="/commands/data-processing/changedatetimecommand">
+    在指定日期时间上进行时间增加或减少，支持文本格式的日期
+  </Card>
+  <Card title="计算时间差" href="/commands/data-processing/gettimespancommand">
+    计算两个指定日期之间的时间差(以天、小时、分钟或秒为单位)
+  </Card>
+  <Card title="数值转换为文本" href="/commands/data-processing/numbertotextcommand">
+    将数值转换为文本类型的变量
+  </Card>
+  <Card title="文本转换为数值" href="/commands/data-processing/texttonumbercommand">
+    将文本类型的数字转换为数值类型
+  </Card>
+  <Card title="添加前后缀" href="/commands/data-processing/appendprefixorsuffixcommand">
+    为文本内容添加前缀或后缀
+  </Card>
+  <Card title="去除空格" href="/commands/data-processing/trimtextcommand">
+    去除文本内容中的空格
+  </Card>
+  <Card title="拆分文本" href="/commands/data-processing/splittextcommand">
+    自定义或选择指定的分隔符，将文本分割成一个列表
+  </Card>
+  <Card title="文本替换(正则替换)" href="/commands/data-processing/replacetextcommand">
+    将原始文本中的内容替换为指定的文本内容
+  </Card>
+  <Card title="正则匹配" href="/commands/data-processing/regexmatchcommand">
+    在原始文本中通过正则匹配查找内容
+  </Card>
+  <Card title="改变文本的大小写" href="/commands/data-processing/changetextcasecommand">
+    
+  </Card>
+  <Card title="截取文本" href="/commands/data-processing/getsubtextcommand">
+    用于从原始文本中截取一段文本
+  </Card>
+  <Card title="时间文本格式转换" href="/commands/data-processing/convertdatetimetextcommand">
+    对代表日期或时间值的文本的格式进行转换
+  </Card>
+  <Card title="新建变量" href="/commands/data-processing/createvariablecommand">
+    创建一个新的变量并设置初始值
+  </Card>
+  <Card title="设置变量（1.x版本）" href="/commands/data-processing/setvariablecommand">
+    
+  </Card>
+  <Card title="设置变量（2.x版本）" href="/commands/data-processing/setvariablev2command">
+    修改已有变量的值，常与【新建变量】指令连用
+  </Card>
+  <Card title="文本转为Json对象" href="/commands/data-processing/parsejsoncommand">
+    将输入的文本转换成Json对象
+  </Card>
+  <Card title="对象转json文本" href="/commands/data-processing/objecttojsoncommand">
+    将对象转为Json文本
+  </Card>
+  <Card title="日期时间转换为时间戳" href="/commands/data-processing/datetimeconverttotimestampcommand">
+    将日期时间转换为时间戳
+  </Card>
+  <Card title="时间戳转换为日期时间" href="/commands/data-processing/timestampconverttodatetimecommand">
+    将时间戳转换为日期时间，默认采用秒级时间戳
+  </Card>
+  <Card title="URL解码" href="/commands/data-processing/urldecodecommand">
+    解码URL，方式为百分号编码
+  </Card>
+  <Card title="URL编码" href="/commands/data-processing/urlencodecommand">
+    编码URL，方式为百分号编码
+  </Card>
+  <Card title="产生随机数" href="/commands/data-processing/randomnumbercommand">
+    用于产生随机数，用户自行指定随机数范围的最小数和最大数
+  </Card>
+  <Card title="新建列表" href="/commands/data-processing/createlistcommand">
+    新建空的列表
+  </Card>
+  <Card title="清空列表" href="/commands/data-processing/clearlistcommand">
+    清空列表中的所有元素，使其变成一个空列表.
+  </Card>
+  <Card title="插入数据到列表" href="/commands/data-processing/insertitemtolistcommand">
+    在列表中插入一项数据，可选直接末尾追加或指定位置插入
+  </Card>
+  <Card title="删除列表数据" href="/commands/data-processing/removelistitemcommand">
+    删除列表中指定的一项
+  </Card>
+  <Card title="修改列表" href="/commands/data-processing/updatelistitemcommand">
+    修改列表指定位置的值
+  </Card>
+  <Card title="合并列表" href="/commands/data-processing/concatlistcommand">
+    合并两个列表
+  </Card>
+  <Card title="反转列表" href="/commands/data-processing/reverselistcommand">
+    反转列表
+  </Card>
+  <Card title="列表排序" href="/commands/data-processing/sortlistcommand">
+    排序列表
+  </Card>
+  <Card title="列表转文本" href="/commands/data-processing/jointextcommand">
+    将列表中的每一项内容合并起来，以字符串的形式呈现
+  </Card>
+  <Card title="列表去重" href="/commands/data-processing/distinctlistcommand">
+    删除列表中的重复项
+  </Card>
+  <Card title="获取列表交集" href="/commands/data-processing/intersectlistcommand">
+    获取两个列表中相同的项，并将这些相同的项保存到一个新的列表中
+  </Card>
+  <Card title="新建字典" href="/commands/data-processing/createdictionarycommand">
+    新建空的字典
+  </Card>
+  <Card title="写入数据到字典" href="/commands/data-processing/setdictionarykeyvaluecommand">
+    在字典中设置一对键值，若键名存在则修改值
+  </Card>
+  <Card title="删除字典数据" href="/commands/data-processing/removedictionarykeyvaluecommand">
+    在字典中删除键值对
+  </Card>
+  <Card title="获取指定键的值" href="/commands/data-processing/getdictionaryvaluecommand">
+    在字典中获取键值
+  </Card>
+  <Card title="获取字典所有键名" href="/commands/data-processing/getdictionarykeyscommand">
+    在字典中获取所有键名列表
+  </Card>
+  <Card title="获取字典所有键值" href="/commands/data-processing/getdictionaryvaluescommand">
+    在字典中获取所有键值列表
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

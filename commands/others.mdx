@@ -2,7 +2,6 @@
 title: "其他"
 description: "未归入以上分类的通用指令，包括变量操作、Python/C# 脚本执行、调试辅助等。"
 ---
-
 **其他**类指令涵盖了变量操作、自定义脚本、扩展工具等通用能力，是流程开发中的"瑞士军刀"。
 
 ## 指令能做什么
@@ -20,6 +19,52 @@ description: "未归入以上分类的通用指令，包括变量操作、Python
 | API 集成 | 通过 HTTP 请求调用第三方 API，获取返回数据 |
 | 自定义计算 | 用 Python 代码实现复杂计算公式、加密解密等 |
 | 调试辅助 | 在流程中插入调试指令，输出中间变量值辅助排查问题 |
+## 指令列表
+
+<CardGroup cols="2">
+  <Card title="打开信息对话框" href="/commands/others/showmessageboxcommand">
+    打开信息对话框
+  </Card>
+  <Card title="显示消息通知" href="/commands/others/showmessagetipscommand">
+    显示消息提示信息
+  </Card>
+  <Card title="文本输入对话框" href="/commands/others/showtextinputcommand">
+    弹出对话框，让用户输入文本并点击确认，返回用户输入的文本内容
+  </Card>
+  <Card title="账号密码输入对话框" href="/commands/others/showaccountinputcommand">
+    可以在对话框中提示用户输入账号密码，密码部分返回一个安全的加密文本，可用于后续在密码输入框中输入密码。
+  </Card>
+  <Card title="打开选择文件夹对话框" href="/commands/others/showopenfoldercommand">
+    弹出选择文件对话框，让用户选择目标文件并点击确认，返回用户选择的文件路径
+  </Card>
+  <Card title="打开选择文件对话框" href="/commands/others/showopenfilecommand">
+    弹出对话框，让用户选择目标文件并点击确认，返回用户选择的文件路径
+  </Card>
+  <Card title="打印日志" href="/commands/others/addlogmessagecommand">
+    将变量或文本打印输出，输出内容可在【运行日志】区查看
+  </Card>
+  <Card title="Http请求" href="/commands/others/sendhttprequestcommand">
+    发送一个HTTP请求，支持设置请求头以及请求体，请求成功后会将请求响应结果保存到一个变量里
+  </Card>
+  <Card title="Try" href="/commands/others/trycommand">
+    尝试执行
+  </Card>
+  <Card title="Catch" href="/commands/others/catchcommand">
+    尝试失败时执行
+  </Card>
+  <Card title="EndTry" href="/commands/others/endtrycommand">
+    结束尝试执行
+  </Card>
+  <Card title="Raise" href="/commands/others/raisecommand">
+    该抛出异常指令可以终止当前流程，抛出自定义异常内容。
+  </Card>
+  <Card title="执行Python代码" href="/commands/others/executepythonmodulecommand">
+    执行Python代码，同时获取输出结果
+  </Card>
+  <Card title="注释" href="/commands/others/commentcommand">
+    在流程中插入一条注释说明
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

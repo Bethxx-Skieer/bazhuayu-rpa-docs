@@ -2,7 +2,6 @@
 title: "操作系统"
 description: "执行系统级操作，包括文件管理、进程控制、命令行调用等。"
 ---
-
 **操作系统**类指令提供了与 Windows 系统底层交互的能力，涵盖文件系统操作、进程管理、剪贴板读写等。
 
 ## 指令能做什么
@@ -22,6 +21,82 @@ description: "执行系统级操作，包括文件管理、进程控制、命令
 | 文件归档 | 自动将指定文件夹内的文件按日期分类整理并压缩 |
 | 日志读取 | 定期读取应用日志文件，提取关键信息上报 |
 | 批处理桥接 | 调用已有的 .bat 脚本，将命令行输出写回数据表格 |
+## 指令列表
+
+<CardGroup cols="2">
+  <Card title="获取文件列表" href="/commands/os/getfilescommand">
+    在文件夹中获取文件
+  </Card>
+  <Card title="读取文本文件内容" href="/commands/os/getfilecontentcommand">
+    读取指定文本文件全部内容
+  </Card>
+  <Card title="写入文本文件" href="/commands/os/writefilecontentcommand">
+    把文本内容写入指定文本文件
+  </Card>
+  <Card title="删除文件" href="/commands/os/deletefilecommand">
+    删除指定文件
+  </Card>
+  <Card title="复制文件" href="/commands/os/copyfilecommand">
+    把文件复制到指定文件夹
+  </Card>
+  <Card title="移动文件" href="/commands/os/movefilecommand">
+    把文件移动到指定文件夹
+  </Card>
+  <Card title="获取当前日期时间" href="/commands/os/getcurrentdatetimecommand">
+    获取当前日期时间
+  </Card>
+  <Card title="创建文件夹" href="/commands/os/createfoldercommand">
+    创建文件夹
+  </Card>
+  <Card title="获取文件路径信息" href="/commands/os/getfilepathinfocommand">
+    获取文件路径的根目录、父目录、文件名、基本文件名和文件扩展名
+  </Card>
+  <Card title="文件重命名" href="/commands/os/renamefilecommand">
+    修改一个文件的名称
+  </Card>
+  <Card title="压缩文件/文件夹" href="/commands/os/compressfilecommand">
+    压缩文件/文件夹为zip文件
+  </Card>
+  <Card title="解压缩文件/文件夹" href="/commands/os/decompressfilecommand">
+    将zip文件解压到指定位置
+  </Card>
+  <Card title="获取剪切板文本" href="/commands/os/getclipboardtextcommand">
+    这个指令用来获取剪切板文本内容
+  </Card>
+  <Card title="添加内容到剪切板" href="/commands/os/setclipboarddatacommand">
+    将文本内容/文件(包括图片)添加到剪切板中，文件可实现快捷发送
+  </Card>
+  <Card title="清空剪切板" href="/commands/os/clearclipboarddatacommand">
+    这个指令用来清空剪切板内容
+  </Card>
+  <Card title="终止进程" href="/commands/os/killprocesscommand">
+    立刻停止正在运行的进程
+  </Card>
+  <Card title="检查进程是否存在" href="/commands/os/checkprocessexistcommand">
+    可以根据进程ID或进程名称判断当前系统中是否正在运行对应的进程
+  </Card>
+  <Card title="文件夹重命名" href="/commands/os/renamefoldercommand">
+    修改一个文件夹的名称
+  </Card>
+  <Card title="复制文件夹" href="/commands/os/copyfoldercommand">
+    将文件夹复制到目标文件夹中
+  </Card>
+  <Card title="移动文件夹" href="/commands/os/movefoldercommand">
+    把文件夹移动到指定文件夹
+  </Card>
+  <Card title="删除文件夹" href="/commands/os/deletefoldercommand">
+    删除指定的文件夹
+  </Card>
+  <Card title="清空文件夹" href="/commands/os/clearfoldercommand">
+    把指定的文件夹清空
+  </Card>
+  <Card title="启动应用程序" href="/commands/os/launchapplicationcommand">
+    启动一个应用程序，返回应用程序的进程ID
+  </Card>
+  <Card title="运行DOS命令" href="/commands/os/executedoscommand">
+    运行DOS命令，返回命令执行过程中的控制台输出文本
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

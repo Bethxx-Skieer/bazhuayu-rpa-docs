@@ -2,7 +2,6 @@
 title: "谷歌"
 description: "对接 Google 生态服务，包括 Gmail、Google Sheets、Google Drive 等。"
 ---
-
 **谷歌**类指令让你将八爪鱼 RPA 连接到 Google 生态体系，实现跨境办公场景的自动化。
 
 ## 指令能做什么
@@ -19,6 +18,40 @@ description: "对接 Google 生态服务，包括 Gmail、Google Sheets、Google
 | 跨境邮件处理 | 自动读取 Gmail 中的客户询盘，提取信息写入 Google Sheets |
 | 云端报表 | 从多个数据源提取数据，自动更新 Google Sheets 在线报表 |
 | 文件备份 | 定时将本地重要文件自动备份到 Google Drive |
+## 指令列表
+
+<CardGroup cols="2">
+  <Card title="获取谷歌访问凭证" href="/commands/google/getgooglecredentialcommand">
+    获取谷歌的访问凭证
+  </Card>
+  <Card title="获取谷歌表格" href="/commands/google/getgooglespreadsheetcommand">
+    通过该指令获得要操作的谷歌表格，以便进行谷歌表格自动化操作
+  </Card>
+  <Card title="读取谷歌表格内容" href="/commands/google/readgooglespreadsheetcommand">
+    读取谷歌表格里内容，支持多种方式读取
+  </Card>
+  <Card title="插入空行至谷歌表格" href="/commands/google/addrowtogooglespreadsheetcommand">
+    往谷歌表格的指定位置后添加空行
+  </Card>
+  <Card title="插入空列至谷歌表格" href="/commands/google/addcolumntogooglespreadsheetcommand">
+    往谷歌电子表格的指定位置后添加空列
+  </Card>
+  <Card title="删除谷歌表格行" href="/commands/google/deleterowfromgooglespreadsheetcommand">
+    删除谷歌表格里的指定行
+  </Card>
+  <Card title="删除谷歌表格列" href="/commands/google/deletecolumnfromgooglespreadsheetcommand">
+    删除谷歌表格里的指定列
+  </Card>
+  <Card title="写入行至谷歌表格" href="/commands/google/writerowtogooglespreadsheetcommand">
+    往谷歌表格里写入一行
+  </Card>
+  <Card title="写入列至谷歌表格" href="/commands/google/writecolumntogooglespreadsheetcommand">
+    往谷歌表格里写入一列
+  </Card>
+  <Card title="查找谷歌单元格" href="/commands/google/findgooglespreadsheetcellcommand">
+    从谷歌表格里查找指定内容所在的单元格，返回单元格的坐标
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

@@ -2,7 +2,6 @@
 title: "飞书"
 description: "对接飞书开放平台，自动操作飞书文档、多维表格、消息通知等功能。"
 ---
-
 **飞书**类指令打通八爪鱼 RPA 与飞书的连接，实现文档协作、消息推送等场景的自动化。
 
 ## 指令能做什么
@@ -19,6 +18,97 @@ description: "对接飞书开放平台，自动操作飞书文档、多维表格
 | 审批自动化 | 订单金额超过阈值时，自动发起飞书审批流程 |
 | 数据同步 | 将数据库中的销售数据定期同步到飞书多维表格 |
 | 汇报推送 | 流程执行完毕后，将摘要自动发到飞书群 |
+## 指令列表
+
+<CardGroup cols="2">
+  <Card title="获取飞书访问凭证" href="/commands/feishu/getlarkaccesstokencommand">
+    获取飞书访问凭证，已实现飞书自动化，需获取或自建飞书应用
+  </Card>
+  <Card title="获取飞书表格" href="/commands/feishu/getlarkspreadsheetcommand">
+    获取飞书电子表格，以飞书电子表格自动化。
+  </Card>
+  <Card title="读取飞书表格内容" href="/commands/feishu/readlarkspreadsheetcommand">
+    读取飞书电子表格里内容，支持多种方式读取
+  </Card>
+  <Card title="插入空行至飞书表格" href="/commands/feishu/addrowtolarkspreadsheetcommand">
+    往飞书电子表格的指定位置插入空行
+  </Card>
+  <Card title="插入空列至飞书表格" href="/commands/feishu/addcolumntolarkspreadsheetcommand">
+    往飞书电子表格的指定位置后添加空列
+  </Card>
+  <Card title="删除飞书表格行" href="/commands/feishu/deleterowfromlarkspreadsheetcommand">
+    删除飞书电子表格里的指定行
+  </Card>
+  <Card title="删除飞书表格列" href="/commands/feishu/deletecolumnfromlarkspreadsheetcommand">
+    删除飞书电子表格里的指定列
+  </Card>
+  <Card title="写入行至飞书表格" href="/commands/feishu/writerowtolarkspreadsheetcommand">
+    往飞书电子表格里写入一行
+  </Card>
+  <Card title="写入列至飞书表格" href="/commands/feishu/writecolumntolarkspreadsheetcommand">
+    往飞书电子表格里写入一列
+  </Card>
+  <Card title="查找飞书单元格" href="/commands/feishu/findlarkspreadsheetcellcommand">
+    从飞书表格里查找指定内容所在的单元格，返回单元格的坐标
+  </Card>
+  <Card title="拷贝飞书表格" href="/commands/feishu/copylarkspreadsheetcommand">
+    拷贝飞书表格中指定的Sheet页
+  </Card>
+  <Card title="连接飞书多维表格" href="/commands/feishu/connecttolarkbitablecommand">
+    连接指定的飞书多维表格，以便执行后续操作
+  </Card>
+  <Card title="获取数据表" href="/commands/feishu/getlarkbitabledatatablecommand">
+    获取多维表格下的所有数据表
+  </Card>
+  <Card title="新增数据表" href="/commands/feishu/addlarkbitabledatatablecommand">
+    新增一个空的数据表，也可以指定一些初始字段
+  </Card>
+  <Card title="删除数据表" href="/commands/feishu/deletelarkbitabledatatablecommand">
+    删除一个数据表，最后一张数据表不允许删除
+  </Card>
+  <Card title="重命名数据表" href="/commands/feishu/renamelarkbitabledatatablecommand">
+    修改多为表格中指定数据表的名称
+  </Card>
+  <Card title="获取视图" href="/commands/feishu/getlarkbitableviewcommand">
+    获取多维表格指定数据表中的所有视图
+  </Card>
+  <Card title="新增视图" href="/commands/feishu/addlarkbitableviewcommand">
+    在数据表中新增一个视图
+  </Card>
+  <Card title="删除视图" href="/commands/feishu/deletelarkbitableviewcommand">
+    删除数据表中指定的视图
+  </Card>
+  <Card title="重命名视图" href="/commands/feishu/updatelarkbitableviewcommand">
+    更新数据表中的指定视图的名称
+  </Card>
+  <Card title="获取字段" href="/commands/feishu/getlarkbitablefieldcommand">
+    获取多维表格指定数据表中所有字段的名称
+  </Card>
+  <Card title="新增字段" href="/commands/feishu/addlarkbitablefieldcommand">
+    在指定数据表中新增一个字段
+  </Card>
+  <Card title="删除字段" href="/commands/feishu/deletelarkbitablefieldcommand">
+    删除指定数据表中的某个字段
+  </Card>
+  <Card title="更新字段" href="/commands/feishu/updatelarkbitablefieldcommand">
+    更新指定数据表中的某个字段，可更新字段名称和字段类型
+  </Card>
+  <Card title="新增记录" href="/commands/feishu/addlarkbitablerecordcommand">
+    在指定数据表中新增一条记录
+  </Card>
+  <Card title="更新记录" href="/commands/feishu/updatelarkbitablerecordcommand">
+    更新数据表中的一条记录，可更新记录的多个字段值
+  </Card>
+  <Card title="删除记录" href="/commands/feishu/deletelarkbitablerecordcommand">
+    删除数据表中的一条或多条记录
+  </Card>
+  <Card title="获取记录详情" href="/commands/feishu/getlarkbitablerecordcommand">
+    通过记录ID查询记录信息
+  </Card>
+  <Card title="查询记录" href="/commands/feishu/querylarkbitablerecordcommand">
+    根据筛选条件或视图查询数据表中的现有记录，并返回记录列表
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

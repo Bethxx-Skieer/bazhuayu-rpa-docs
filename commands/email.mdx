@@ -2,7 +2,6 @@
 title: "邮件"
 description: "自动收发邮件，支持 SMTP/POP3/IMAP 协议，可发送带附件的邮件。"
 ---
-
 **邮件**类指令让流程自动完成邮件的发送、接收和管理，是中后台办公自动化的高频使用场景。
 
 ## 指令能做什么
@@ -18,6 +17,37 @@ description: "自动收发邮件，支持 SMTP/POP3/IMAP 协议，可发送带�
 | 报表分发 | 自动生成日报后，通过邮件群发到各负责人 |
 | 监控告警 | 订单异常、系统宕机时自动发送告警邮件 |
 | 附件处理 | 自动收取邮件附件（如 Excel 订单），保存到本地并触发处理流程 |
+## 指令列表
+
+<CardGroup cols="2">
+  <Card title="登录邮箱" href="/commands/email/logintomailboxcommand">
+    填写邮箱信息，用于登录邮箱
+  </Card>
+  <Card title="发送邮件" href="/commands/email/sendemailcommand">
+    该指令用于发送邮件
+  </Card>
+  <Card title="获取邮件" href="/commands/email/getemailscommand">
+    从指定邮箱中获取邮件
+  </Card>
+  <Card title="移动邮件" href="/commands/email/moveemailcommand">
+    将指定邮件移动至指定的邮件文件夹中，还可以对邮件的状态进行标记
+  </Card>
+  <Card title="删除邮件" href="/commands/email/deleteemailcommand">
+    删除指定邮件
+  </Card>
+  <Card title="回复邮件" href="/commands/email/replyemailcommand">
+    回复邮箱收件箱中指定的邮件
+  </Card>
+  <Card title="标记邮件" href="/commands/email/addflagtoemailcommand">
+    对指定的邮件标注为已读或未读
+  </Card>
+  <Card title="获取邮件内容" href="/commands/email/getemailcontentcommand">
+    获取邮件的主题、正文、发件人、收件人的信息
+  </Card>
+  <Card title="下载邮件附件" href="/commands/email/downloademailattachmentcommand">
+    下载邮件中的附件到本地
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

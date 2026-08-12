@@ -2,7 +2,6 @@
 title: "八爪鱼"
 description: "八爪鱼产品线之间的联动指令，打通采集器与 RPA 之间的数据流转。"
 ---
-
 **八爪鱼**类指令实现八爪鱼采集器与八爪鱼 RPA 之间的无缝连接，让数据采集与业务流程自动化形成闭环。
 
 ## 指令能做什么
@@ -18,6 +17,34 @@ description: "八爪鱼产品线之间的联动指令，打通采集器与 RPA �
 | 采集+处理一体化 | 采集器自动抓取竞品价格 → RPA 导入 Excel 对比分析 → 发送日报 |
 | 监控告警 | 采集器定时监控页面变化 → RPA 判断变化内容 → 群通知相关人员 |
 | 数据入库 | 采集器抓取公开数据 → RPA 清洗后写入数据库 |
+## 指令列表
+
+<CardGroup cols="2">
+  <Card title="八爪鱼账号授权" href="/commands/bazhuayu/getaccesstokencommand">
+    填写八爪鱼采集器账号信息，在RPA中获取到八爪鱼的账号授权，后续就可以实现对采集任务的控制
+  </Card>
+  <Card title="获取采集任务状态" href="/commands/bazhuayu/gettaskstatuscommand">
+    可以获取八爪鱼采集器指定采集任务的任务状态（支持批量获取）
+  </Card>
+  <Card title="启动采集任务" href="/commands/bazhuayu/starttaskcommand">
+    用于启动指定的八爪鱼采集任务。仅限启动任务的云采集，不支持本地采集。
+  </Card>
+  <Card title="停止采集任务" href="/commands/bazhuayu/stoptaskcommand">
+    用于停止指定的采集任务。仅限停止任务的云采集，不支持本地采集。
+  </Card>
+  <Card title="获取采集数据总量" href="/commands/bazhuayu/gettaskdatacountcommand">
+    可以获取到指定采集任务的采集数据的总数据量。仅限获取任务的云采集的数据，不支持本地采集。
+  </Card>
+  <Card title="获取当前数据索引位置" href="/commands/bazhuayu/gettaskdataoffsetcommand">
+    可以获取到指定采集任务的当前数据的索引位置。仅限获取任务的云采集的数据，不支持本地采集。
+  </Card>
+  <Card title="获取采集任务数据" href="/commands/bazhuayu/gettaskdatacommand">
+    获取指定采集任务的数据。仅限获取八爪鱼采集器云采集任务的数据，不支持本地采集。
+  </Card>
+  <Card title="修改采集任务步骤配置" href="/commands/bazhuayu/updateactionpropertiescommand">
+    修改指定采集任务的步骤配置。
+  </Card>
+</CardGroup>
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
