@@ -16,10 +16,15 @@
   "navigation": {
     "groups": [
       {
-        "group": "快速开始",
+        "group": "八爪鱼 RPA 概述",
         "pages": [
           "getting-started/introduction",
-          "getting-started/install",
+          "getting-started/install"
+        ]
+      },
+      {
+        "group": "快速开始",
+        "pages": [
           "getting-started/first-workflow"
         ]
       },
