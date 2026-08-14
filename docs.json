@@ -565,7 +565,20 @@
       {
         "group": "教程案例",
         "pages": [
-          "tutorials/index"
+          "tutorials/index",
+          {
+            "group": "视频专区",
+            "pages": [
+              "tutorials/video/7ZJ3W7Hb",
+              "tutorials/video/PYkiEtRv",
+              "tutorials/video/Y2uxdIcS",
+              "tutorials/video/jfyMsXPN",
+              "tutorials/video/K1EVjvqE",
+              "tutorials/video/jMVjFvUj",
+              "tutorials/video/KLryAx6I",
+              "tutorials/video/rOYourMc"
+            ]
+          }
         ]
       },
       {
