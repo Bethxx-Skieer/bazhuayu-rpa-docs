@@ -14,570 +14,610 @@
   },
   "favicon": "favicon.png",
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "八爪鱼 RPA 概述",
-        "pages": [
-          "getting-started/introduction",
-          "getting-started/install"
-        ]
-      },
-      {
-        "group": "快速开始",
-        "pages": [
-          "getting-started/Gc48az",
-          "getting-started/Obfurn",
-          "getting-started/Al9pe8",
-          "getting-started/9obcHl",
-          "getting-started/feVjUX",
-          "getting-started/4GiS1V",
-          "getting-started/5n3u2N",
-          "getting-started/first-workflow",
+        "tab": "八爪鱼 RPA 概述",
+        "groups": [
           {
-            "group": "入门应用示例",
+            "group": "八爪鱼 RPA 概述",
             "pages": [
-              "getting-started/examples/jFdGEB",
-              "getting-started/examples/PpKkq8",
-              "getting-started/examples/Ggg0fr",
-              "getting-started/examples/4xgOp7",
-              "getting-started/examples/a6lvK2",
-              "getting-started/examples/uDszZb",
-              "getting-started/examples/EuUQb2"
+              "getting-started/introduction",
+              "getting-started/install"
             ]
           }
         ]
       },
       {
-        "group": "使用指南",
-        "pages": [
-          "guides/workflow",
-          "guides/browser",
-          "guides/excel"
-        ]
-      },
-      {
-        "group": "功能说明",
-        "pages": [
-          "features/index"
-        ]
-      },
-      {
-        "group": "指令概述",
-        "pages": [
-          "commands/index",
+        "tab": "快速开始",
+        "groups": [
           {
-            "group": "条件判断",
+            "group": "快速开始",
             "pages": [
-              "commands/condition",
-              "commands/condition/ifcommand",
-              "commands/condition/ifmulticonditioncommand",
-              "commands/condition/elsecommand",
-              "commands/condition/elseifcommand",
-              "commands/condition/elseifmulticonditioncommand",
-              "commands/condition/endifcommand",
-              "commands/condition/ifpagecontainscommand",
-              "commands/condition/elseifpagecontainscommand",
-              "commands/condition/ifelementvisibilitymatchcommand",
-              "commands/condition/elseifelementvisibilitymatchcommand",
-              "commands/condition/ifwindowexistscommand",
-              "commands/condition/ifwindowcontainscommand",
-              "commands/condition/elseifwindowcontainscommand",
-              "commands/condition/iffileexistscommand",
-              "commands/condition/iffolderexistscommand",
-              "commands/condition/ifimageexistscommand"
-            ]
-          },
-          {
-            "group": "循环",
-            "pages": [
-              "commands/loop",
-              "commands/loop/whilecommand",
-              "commands/loop/loopbycountcommand",
-              "commands/loop/foreachcommand",
-              "commands/loop/dictionaryforeachcommand",
-              "commands/loop/infiniteloopcommand",
-              "commands/loop/continuecommand",
-              "commands/loop/breakcommand",
-              "commands/loop/endloopcommand",
-              "commands/loop/web_loopsimilarelementscommand",
-              "commands/loop/win_loopsimilarelementscommand",
-              "commands/loop/loopdatasheetcommand"
-            ]
-          },
-          {
-            "group": "等待",
-            "pages": [
-              "commands/wait",
-              "commands/wait/waitcommand",
-              "commands/wait/waitpageloadedcommand",
-              "commands/wait/waitpagecontentcommand",
-              "commands/wait/waitimagecommand"
-            ]
-          },
-          {
-            "group": "流程",
-            "pages": [
-              "commands/flow",
-              "commands/flow/invokesubflowcommand",
-              "commands/flow/exitsubflowcommand",
-              "commands/flow/exitflowcommand"
-            ]
-          },
-          {
-            "group": "网页自动化",
-            "pages": [
-              "commands/web-automation",
-              "commands/web-automation/openpagecommand",
-              "commands/web-automation/closepagecommand",
-              "commands/web-automation/getopenedpagecommand",
-              "commands/web-automation/web_clickelementcommand",
-              "commands/web-automation/waitpagecontentcommand_1",
-              "commands/web-automation/hoverelementcommand",
+              "getting-started/Gc48az",
+              "getting-started/Obfurn",
+              "getting-started/Al9pe8",
+              "getting-started/9obcHl",
+              "getting-started/feVjUX",
+              "getting-started/4GiS1V",
+              "getting-started/5n3u2N",
+              "getting-started/first-workflow",
               {
-                "group": "网页操作",
+                "group": "入门应用示例",
                 "pages": [
-                  "commands/web-automation/handlepopupcommand",
-                  "commands/web-automation/autohandlepopupcommand",
-                  "commands/web-automation/navigatecommand",
-                  "commands/web-automation/waitpageloadedcommand_1",
-                  "commands/web-automation/scrollcommand",
-                  "commands/web-automation/executejsfunctioncommand",
-                  "commands/web-automation/setcookiescommand",
-                  "commands/web-automation/deletecookiecommand",
-                  "commands/web-automation/getcookiescommand"
-                ]
-              },
-              {
-                "group": "操作网页元素",
-                "pages": [
-                  "commands/web-automation/web_entertextcommand",
-                  "commands/web-automation/setselectelementoptioncommand",
-                  "commands/web-automation/web_setcheckboxcommand",
-                  "commands/web-automation/web_getrelativeelementcommand",
-                  "commands/web-automation/web_loopsimilarelementscommand_1",
-                  "commands/web-automation/web_dragelementcommand",
-                  "commands/web-automation/setelementattributecommand"
-                ]
-              },
-              {
-                "group": "数据提取",
-                "pages": [
-                  "commands/web-automation/getpageattributecommand",
-                  "commands/web-automation/getelementattributecommand",
-                  "commands/web-automation/web_getsimilarelementscommand",
-                  "commands/web-automation/capturecommand",
-                  "commands/web-automation/getelementobjectcommand",
-                  "commands/web-automation/getselectelementoptionscommand",
-                  "commands/web-automation/extractdatacommand",
-                  "commands/web-automation/startmonitornetworkcommand",
-                  "commands/web-automation/getmonitorresponsecommand",
-                  "commands/web-automation/stopmonitornetworkcommand"
-                ]
-              },
-              {
-                "group": "对话框处理",
-                "pages": [
-                  "commands/web-automation/downloadcommand",
-                  "commands/web-automation/uploadcommand"
+                  "getting-started/examples/jFdGEB",
+                  "getting-started/examples/PpKkq8",
+                  "getting-started/examples/Ggg0fr",
+                  "getting-started/examples/4xgOp7",
+                  "getting-started/examples/a6lvK2",
+                  "getting-started/examples/uDszZb",
+                  "getting-started/examples/EuUQb2"
                 ]
               }
-            ]
-          },
-          {
-            "group": "桌面自动化",
-            "pages": [
-              "commands/desktop-automation",
-              "commands/desktop-automation/kj13ob",
-              "commands/desktop-automation/getwindowcommand",
-              "commands/desktop-automation/win_clickelementcommand",
-              "commands/desktop-automation/waitwindowcontentcommand",
-              "commands/desktop-automation/win_hoverelementcommand",
-              "commands/desktop-automation/closewindowcommand",
-              {
-                "group": "窗口操作",
-                "pages": [
-                  "commands/desktop-automation/activewindowcommand",
-                  "commands/desktop-automation/setwindowstatecommand",
-                  "commands/desktop-automation/resizewindowcommand",
-                  "commands/desktop-automation/movewindowcommand",
-                  "commands/desktop-automation/setwindowvisibilitycommand"
-                ]
-              },
-              {
-                "group": "操作桌面元素",
-                "pages": [
-                  "commands/desktop-automation/win_entertextcommand",
-                  "commands/desktop-automation/setcomboboxcommand",
-                  "commands/desktop-automation/win_setcheckboxcommand",
-                  "commands/desktop-automation/win_loopsimilarelementscommand_1",
-                  "commands/desktop-automation/win_dragelementcommand"
-                ]
-              },
-              {
-                "group": "数据提取",
-                "pages": [
-                  "commands/desktop-automation/getwindowpropertycontentcommand",
-                  "commands/desktop-automation/win_getelementcontentcommand",
-                  "commands/desktop-automation/win_getrelativeelementcommand",
-                  "commands/desktop-automation/getcomboboxitemscommand",
-                  "commands/desktop-automation/captureelementcommand"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "鼠标键盘",
-            "pages": [
-              "commands/mouse-keyboard",
-              "commands/mouse-keyboard/mousemovecommand",
-              "commands/mouse-keyboard/mouseclickcommand",
-              "commands/mouse-keyboard/mousescrollcommand",
-              "commands/mouse-keyboard/keyboardinputcommand",
-              "commands/mouse-keyboard/hoverimagecommand",
-              "commands/mouse-keyboard/clickimagecommand"
-            ]
-          },
-          {
-            "group": "数据表格",
-            "pages": [
-              "commands/datatable",
-              "commands/datatable/writetocellcommand",
-              "commands/datatable/writetorowcommand",
-              "commands/datatable/deletedatasheetrowcommand",
-              "commands/datatable/adddatasheetcolumncommand",
-              "commands/datatable/loopdatasheetcommand_1",
-              "commands/datatable/readdatasheetcommand",
-              "commands/datatable/importexceltodatasheetcommand",
-              "commands/datatable/importcsvtodatasheetcommand",
-              "commands/datatable/exportdatasheettofilecommand",
-              "commands/datatable/exportmultidatasheettofilecommand"
-            ]
-          },
-          {
-            "group": "Excel",
-            "pages": [
-              "commands/excel",
-              "commands/excel/launchexcelcommand",
-              "commands/excel/getopenedexcelcommand",
-              "commands/excel/loopexcelsheetcommand",
-              "commands/excel/readexcelcommand",
-              "commands/excel/writeexcelcellcommand",
-              "commands/excel/writeexcelrowcommand",
-              "commands/excel/writeexcelcolumncommand",
-              "commands/excel/writeexcelrangecommand",
-              "commands/excel/saveexcelcommand",
-              "commands/excel/closeexcelcommand",
-              "commands/excel/runexcelmacrocommand",
-              "commands/excel/autofillexcelcommand",
-              "commands/excel/mergeorsplitexcelcellcommand",
-              "commands/excel/setexcelcellformatcommand",
-              "commands/excel/clearexcelcellformatcommand",
-              "commands/excel/setexcelcellsizecommand",
-              "commands/excel/getexcelregionscreenshotcommand",
-              "commands/excel/filterexcelcolumncommand",
-              "commands/excel/readfilteredcontentcommand",
-              "commands/excel/clearexcelfiltercommand",
-              {
-                "group": "内容读写",
-                "pages": [
-                  "commands/excel/getexcelrowcountcommand",
-                  "commands/excel/getexcelcolumncountcommand",
-                  "commands/excel/findexcelcellcommand",
-                  "commands/excel/copyexcelcommand",
-                  "commands/excel/pasteexcelcommand",
-                  "commands/excel/getlastemptycellofcolumncommand",
-                  "commands/excel/getexcelformulacommand",
-                  "commands/excel/addimagetoexcelcommand",
-                  "commands/excel/deleteexcelimagecommand",
-                  "commands/excel/exportexcelimagecommand"
-                ]
-              },
-              {
-                "group": "行/列操作",
-                "pages": [
-                  "commands/excel/insertexcelrowcommand",
-                  "commands/excel/insertexcelcolumncommand",
-                  "commands/excel/deleteexcelrowcommand",
-                  "commands/excel/deleteexcelcolumncommand",
-                  "commands/excel/deleteexcelduplicaterowcommand"
-                ]
-              },
-              {
-                "group": "Sheet操作",
-                "pages": [
-                  "commands/excel/addexcelsheetcommand",
-                  "commands/excel/deleteexcelsheetcommand",
-                  "commands/excel/activateexcelsheetcommand",
-                  "commands/excel/copyexcelsheetcommand",
-                  "commands/excel/renameexcelsheetcommand",
-                  "commands/excel/getexcelsheetnamecommand"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "操作系统",
-            "pages": [
-              "commands/os",
-              "commands/os/getfilescommand",
-              "commands/os/getfilecontentcommand",
-              "commands/os/writefilecontentcommand",
-              "commands/os/deletefilecommand",
-              "commands/os/copyfilecommand",
-              "commands/os/movefilecommand",
-              "commands/os/getcurrentdatetimecommand",
-              "commands/os/createfoldercommand",
-              "commands/os/getfilepathinfocommand",
-              "commands/os/renamefilecommand",
-              "commands/os/compressfilecommand",
-              "commands/os/decompressfilecommand",
-              "commands/os/getclipboardtextcommand",
-              "commands/os/setclipboarddatacommand",
-              "commands/os/clearclipboarddatacommand",
-              "commands/os/killprocesscommand",
-              "commands/os/checkprocessexistcommand",
-              "commands/os/renamefoldercommand",
-              "commands/os/copyfoldercommand",
-              "commands/os/movefoldercommand",
-              "commands/os/deletefoldercommand",
-              "commands/os/clearfoldercommand",
-              "commands/os/launchapplicationcommand",
-              "commands/os/executedoscommand"
-            ]
-          },
-          {
-            "group": "八爪鱼",
-            "pages": [
-              "commands/bazhuayu/getaccesstokencommand",
-              "commands/bazhuayu/gettaskstatuscommand",
-              "commands/bazhuayu/starttaskcommand",
-              "commands/bazhuayu/stoptaskcommand",
-              "commands/bazhuayu/gettaskdatacountcommand",
-              "commands/bazhuayu/gettaskdataoffsetcommand",
-              "commands/bazhuayu/gettaskdatacommand",
-              "commands/bazhuayu/updateactionpropertiescommand",
-              "commands/bazhuayu/7TUoxB"
-            ]
-          },
-          {
-            "group": "邮件",
-            "pages": [
-              "commands/email/dtd5Rb",
-              "commands/email/RlCVx4",
-              "commands/email/logintomailboxcommand",
-              "commands/email/sendemailcommand",
-              "commands/email/getemailscommand",
-              "commands/email/moveemailcommand",
-              "commands/email/deleteemailcommand",
-              "commands/email/replyemailcommand",
-              "commands/email/addflagtoemailcommand",
-              "commands/email/getemailcontentcommand",
-              "commands/email/downloademailattachmentcommand"
-            ]
-          },
-          {
-            "group": "数据处理",
-            "pages": [
-              "commands/data-processing/changedatetimecommand",
-              "commands/data-processing/gettimespancommand",
-              "commands/data-processing/numbertotextcommand",
-              "commands/data-processing/texttonumbercommand",
-              "commands/data-processing/appendprefixorsuffixcommand",
-              "commands/data-processing/trimtextcommand",
-              "commands/data-processing/splittextcommand",
-              "commands/data-processing/replacetextcommand",
-              "commands/data-processing/regexmatchcommand",
-              "commands/data-processing/changetextcasecommand",
-              "commands/data-processing/getsubtextcommand",
-              "commands/data-processing/convertdatetimetextcommand",
-              "commands/data-processing/createvariablecommand",
-              "commands/data-processing/setvariablecommand",
-              "commands/data-processing/setvariablev2command",
-              "commands/data-processing/parsejsoncommand",
-              "commands/data-processing/objecttojsoncommand",
-              "commands/data-processing/datetimeconverttotimestampcommand",
-              "commands/data-processing/timestampconverttodatetimecommand",
-              "commands/data-processing/urldecodecommand",
-              "commands/data-processing/urlencodecommand",
-              "commands/data-processing/randomnumbercommand",
-              "commands/data-processing/jEc4Yc",
-              "commands/data-processing/createlistcommand",
-              "commands/data-processing/clearlistcommand",
-              "commands/data-processing/insertitemtolistcommand",
-              "commands/data-processing/removelistitemcommand",
-              "commands/data-processing/updatelistitemcommand",
-              "commands/data-processing/concatlistcommand",
-              "commands/data-processing/reverselistcommand",
-              "commands/data-processing/sortlistcommand",
-              "commands/data-processing/jointextcommand",
-              "commands/data-processing/distinctlistcommand",
-              "commands/data-processing/intersectlistcommand",
-              "commands/data-processing/createdictionarycommand",
-              "commands/data-processing/setdictionarykeyvaluecommand",
-              "commands/data-processing/removedictionarykeyvaluecommand",
-              "commands/data-processing/getdictionaryvaluecommand",
-              "commands/data-processing/getdictionarykeyscommand",
-              "commands/data-processing/getdictionaryvaluescommand"
-            ]
-          },
-          {
-            "group": "群通知",
-            "pages": [
-              "commands/group-notification/notifywechatworkgroupcommand",
-              "commands/group-notification/notifylarkgroupcommand",
-              "commands/group-notification/notifydingtalkgroupcommand",
-              "commands/group-notification/XZBe1j"
-            ]
-          },
-          {
-            "group": "飞书",
-            "pages": [
-              "commands/feishu/vPhs0M",
-              "commands/feishu/getlarkaccesstokencommand",
-              "commands/feishu/getlarkspreadsheetcommand",
-              "commands/feishu/readlarkspreadsheetcommand",
-              "commands/feishu/addrowtolarkspreadsheetcommand",
-              "commands/feishu/addcolumntolarkspreadsheetcommand",
-              "commands/feishu/deleterowfromlarkspreadsheetcommand",
-              "commands/feishu/deletecolumnfromlarkspreadsheetcommand",
-              "commands/feishu/IgnCWQ",
-              "commands/feishu/writerowtolarkspreadsheetcommand",
-              "commands/feishu/writecolumntolarkspreadsheetcommand",
-              "commands/feishu/findlarkspreadsheetcellcommand",
-              "commands/feishu/copylarkspreadsheetcommand",
-              "commands/feishu/connecttolarkbitablecommand",
-              "commands/feishu/getlarkbitabledatatablecommand",
-              "commands/feishu/addlarkbitabledatatablecommand",
-              "commands/feishu/deletelarkbitabledatatablecommand",
-              "commands/feishu/renamelarkbitabledatatablecommand",
-              "commands/feishu/getlarkbitableviewcommand",
-              "commands/feishu/addlarkbitableviewcommand",
-              "commands/feishu/deletelarkbitableviewcommand",
-              "commands/feishu/updatelarkbitableviewcommand",
-              "commands/feishu/getlarkbitablefieldcommand",
-              "commands/feishu/addlarkbitablefieldcommand",
-              "commands/feishu/deletelarkbitablefieldcommand",
-              "commands/feishu/updatelarkbitablefieldcommand",
-              "commands/feishu/addlarkbitablerecordcommand",
-              "commands/feishu/updatelarkbitablerecordcommand",
-              "commands/feishu/deletelarkbitablerecordcommand",
-              "commands/feishu/getlarkbitablerecordcommand",
-              "commands/feishu/querylarkbitablerecordcommand"
-            ]
-          },
-          {
-            "group": "钉钉",
-            "pages": [
-              "commands/dingtalk/gM80NN",
-              "commands/dingtalk/connecttodingtalkspreadsheetcommand",
-              "commands/dingtalk/readdingtalksheetcommand",
-              "commands/dingtalk/writetodingtalksheetcommand",
-              "commands/dingtalk/appenddatatodingtalkrowcommand",
-              "commands/dingtalk/insertdingtalkroworcolumncommand",
-              "commands/dingtalk/deletedingtalkroworcolumncommand",
-              "commands/dingtalk/getdingtalksheetrowcountcommand",
-              "commands/dingtalk/getdingtalksheetcolumncountcommand",
-              "commands/dingtalk/getdingtalkfirstavailableroworcolumncommand",
-              "commands/dingtalk/getalldingtalksheetnamescommand",
-              "commands/dingtalk/DAVH44",
-              "commands/dingtalk/oP9Yz4"
-            ]
-          },
-          {
-            "group": "谷歌",
-            "pages": [
-              "commands/google/xnN98S",
-              "commands/google/getgooglecredentialcommand",
-              "commands/google/getgooglespreadsheetcommand",
-              "commands/google/readgooglespreadsheetcommand",
-              "commands/google/addrowtogooglespreadsheetcommand",
-              "commands/google/addcolumntogooglespreadsheetcommand",
-              "commands/google/deleterowfromgooglespreadsheetcommand",
-              "commands/google/deletecolumnfromgooglespreadsheetcommand",
-              "commands/google/writerowtogooglespreadsheetcommand",
-              "commands/google/writecolumntogooglespreadsheetcommand",
-              "commands/google/findgooglespreadsheetcellcommand"
-            ]
-          },
-          {
-            "group": "AI",
-            "pages": [
-              "commands/ai/interactivechatcommand",
-              "commands/ai/generatecommentcommand",
-              "commands/ai/extractkeywordscommand",
-              "commands/ai/extractentitycommand",
-              "commands/ai/makeasummarycommand",
-              "commands/ai/getemotionaltendencycommand",
-              "commands/ai/translatecommand",
-              "commands/ai/parsingunstructureddatacommand",
-              "commands/ai/recognizecaptchabyprovidercommand",
-              "commands/ai/recognizecharactercommand",
-              "commands/ai/recognizesliderpuzzlecommand",
-              "commands/ai/recognizerotationcommand",
-              "commands/ai/recognizeslidercommand",
-              "commands/ai/recognizetextclickcommand",
-              "commands/ai/recognizetrajectorycommand",
-              "commands/ai/recognizerecaptchav2command",
-              "commands/ai/recognizegeneraltextcommand",
-              "commands/ai/recognizetablecommand",
-              "commands/ai/recognizecardcommand",
-              "commands/ai/recognizeinvoicecommand"
-            ]
-          },
-          {
-            "group": "数据库",
-            "pages": [
-              "commands/database/connecttodatabasecommand",
-              "commands/database/executesqlcommand",
-              "commands/database/querydatabasecommand",
-              "commands/database/batchinserttodatabasecommand",
-              "commands/database/closedatabasecommand"
-            ]
-          },
-          {
-            "group": "其他",
-            "pages": [
-              "commands/others/showmessageboxcommand",
-              "commands/others/showmessagetipscommand",
-              "commands/others/showtextinputcommand",
-              "commands/others/showaccountinputcommand",
-              "commands/others/showopenfoldercommand",
-              "commands/others/showopenfilecommand",
-              "commands/others/addlogmessagecommand",
-              "commands/others/sendhttprequestcommand",
-              "commands/others/trycommand",
-              "commands/others/catchcommand",
-              "commands/others/endtrycommand",
-              "commands/others/raisecommand",
-              "commands/others/executepythonmodulecommand",
-              "commands/others/commentcommand",
-              "commands/others/zKl2eg"
             ]
           }
         ]
       },
       {
-        "group": "常见问题",
-        "pages": [
-          "faq/index"
-        ]
-      },
-      {
-        "group": "教程案例",
-        "pages": [
-          "tutorials/index",
+        "tab": "使用指南",
+        "groups": [
           {
-            "group": "视频专区",
+            "group": "使用指南",
             "pages": [
-              "tutorials/video/7ZJ3W7Hb"
+              "guides/workflow",
+              "guides/browser",
+              "guides/excel"
             ]
           }
         ]
       },
       {
-        "group": "更新日志",
-        "pages": [
-          "changelog/index"
+        "tab": "功能说明",
+        "groups": [
+          {
+            "group": "功能说明",
+            "pages": [
+              "features/index"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "指令概述",
+        "groups": [
+          {
+            "group": "指令概述",
+            "pages": [
+              "commands/index",
+              {
+                "group": "条件判断",
+                "pages": [
+                  "commands/condition",
+                  "commands/condition/ifcommand",
+                  "commands/condition/ifmulticonditioncommand",
+                  "commands/condition/elsecommand",
+                  "commands/condition/elseifcommand",
+                  "commands/condition/elseifmulticonditioncommand",
+                  "commands/condition/endifcommand",
+                  "commands/condition/ifpagecontainscommand",
+                  "commands/condition/elseifpagecontainscommand",
+                  "commands/condition/ifelementvisibilitymatchcommand",
+                  "commands/condition/elseifelementvisibilitymatchcommand",
+                  "commands/condition/ifwindowexistscommand",
+                  "commands/condition/ifwindowcontainscommand",
+                  "commands/condition/elseifwindowcontainscommand",
+                  "commands/condition/iffileexistscommand",
+                  "commands/condition/iffolderexistscommand",
+                  "commands/condition/ifimageexistscommand"
+                ]
+              },
+              {
+                "group": "循环",
+                "pages": [
+                  "commands/loop",
+                  "commands/loop/whilecommand",
+                  "commands/loop/loopbycountcommand",
+                  "commands/loop/foreachcommand",
+                  "commands/loop/dictionaryforeachcommand",
+                  "commands/loop/infiniteloopcommand",
+                  "commands/loop/continuecommand",
+                  "commands/loop/breakcommand",
+                  "commands/loop/endloopcommand",
+                  "commands/loop/web_loopsimilarelementscommand",
+                  "commands/loop/win_loopsimilarelementscommand",
+                  "commands/loop/loopdatasheetcommand"
+                ]
+              },
+              {
+                "group": "等待",
+                "pages": [
+                  "commands/wait",
+                  "commands/wait/waitcommand",
+                  "commands/wait/waitpageloadedcommand",
+                  "commands/wait/waitpagecontentcommand",
+                  "commands/wait/waitimagecommand"
+                ]
+              },
+              {
+                "group": "流程",
+                "pages": [
+                  "commands/flow",
+                  "commands/flow/invokesubflowcommand",
+                  "commands/flow/exitsubflowcommand",
+                  "commands/flow/exitflowcommand"
+                ]
+              },
+              {
+                "group": "网页自动化",
+                "pages": [
+                  "commands/web-automation",
+                  "commands/web-automation/openpagecommand",
+                  "commands/web-automation/closepagecommand",
+                  "commands/web-automation/getopenedpagecommand",
+                  "commands/web-automation/web_clickelementcommand",
+                  "commands/web-automation/waitpagecontentcommand_1",
+                  "commands/web-automation/hoverelementcommand",
+                  {
+                    "group": "网页操作",
+                    "pages": [
+                      "commands/web-automation/handlepopupcommand",
+                      "commands/web-automation/autohandlepopupcommand",
+                      "commands/web-automation/navigatecommand",
+                      "commands/web-automation/waitpageloadedcommand_1",
+                      "commands/web-automation/scrollcommand",
+                      "commands/web-automation/executejsfunctioncommand",
+                      "commands/web-automation/setcookiescommand",
+                      "commands/web-automation/deletecookiecommand",
+                      "commands/web-automation/getcookiescommand"
+                    ]
+                  },
+                  {
+                    "group": "操作网页元素",
+                    "pages": [
+                      "commands/web-automation/web_entertextcommand",
+                      "commands/web-automation/setselectelementoptioncommand",
+                      "commands/web-automation/web_setcheckboxcommand",
+                      "commands/web-automation/web_getrelativeelementcommand",
+                      "commands/web-automation/web_loopsimilarelementscommand_1",
+                      "commands/web-automation/web_dragelementcommand",
+                      "commands/web-automation/setelementattributecommand"
+                    ]
+                  },
+                  {
+                    "group": "数据提取",
+                    "pages": [
+                      "commands/web-automation/getpageattributecommand",
+                      "commands/web-automation/getelementattributecommand",
+                      "commands/web-automation/web_getsimilarelementscommand",
+                      "commands/web-automation/capturecommand",
+                      "commands/web-automation/getelementobjectcommand",
+                      "commands/web-automation/getselectelementoptionscommand",
+                      "commands/web-automation/extractdatacommand",
+                      "commands/web-automation/startmonitornetworkcommand",
+                      "commands/web-automation/getmonitorresponsecommand",
+                      "commands/web-automation/stopmonitornetworkcommand"
+                    ]
+                  },
+                  {
+                    "group": "对话框处理",
+                    "pages": [
+                      "commands/web-automation/downloadcommand",
+                      "commands/web-automation/uploadcommand"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "桌面自动化",
+                "pages": [
+                  "commands/desktop-automation",
+                  "commands/desktop-automation/kj13ob",
+                  "commands/desktop-automation/getwindowcommand",
+                  "commands/desktop-automation/win_clickelementcommand",
+                  "commands/desktop-automation/waitwindowcontentcommand",
+                  "commands/desktop-automation/win_hoverelementcommand",
+                  "commands/desktop-automation/closewindowcommand",
+                  {
+                    "group": "窗口操作",
+                    "pages": [
+                      "commands/desktop-automation/activewindowcommand",
+                      "commands/desktop-automation/setwindowstatecommand",
+                      "commands/desktop-automation/resizewindowcommand",
+                      "commands/desktop-automation/movewindowcommand",
+                      "commands/desktop-automation/setwindowvisibilitycommand"
+                    ]
+                  },
+                  {
+                    "group": "操作桌面元素",
+                    "pages": [
+                      "commands/desktop-automation/win_entertextcommand",
+                      "commands/desktop-automation/setcomboboxcommand",
+                      "commands/desktop-automation/win_setcheckboxcommand",
+                      "commands/desktop-automation/win_loopsimilarelementscommand_1",
+                      "commands/desktop-automation/win_dragelementcommand"
+                    ]
+                  },
+                  {
+                    "group": "数据提取",
+                    "pages": [
+                      "commands/desktop-automation/getwindowpropertycontentcommand",
+                      "commands/desktop-automation/win_getelementcontentcommand",
+                      "commands/desktop-automation/win_getrelativeelementcommand",
+                      "commands/desktop-automation/getcomboboxitemscommand",
+                      "commands/desktop-automation/captureelementcommand"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "鼠标键盘",
+                "pages": [
+                  "commands/mouse-keyboard",
+                  "commands/mouse-keyboard/mousemovecommand",
+                  "commands/mouse-keyboard/mouseclickcommand",
+                  "commands/mouse-keyboard/mousescrollcommand",
+                  "commands/mouse-keyboard/keyboardinputcommand",
+                  "commands/mouse-keyboard/hoverimagecommand",
+                  "commands/mouse-keyboard/clickimagecommand"
+                ]
+              },
+              {
+                "group": "数据表格",
+                "pages": [
+                  "commands/datatable",
+                  "commands/datatable/writetocellcommand",
+                  "commands/datatable/writetorowcommand",
+                  "commands/datatable/deletedatasheetrowcommand",
+                  "commands/datatable/adddatasheetcolumncommand",
+                  "commands/datatable/loopdatasheetcommand_1",
+                  "commands/datatable/readdatasheetcommand",
+                  "commands/datatable/importexceltodatasheetcommand",
+                  "commands/datatable/importcsvtodatasheetcommand",
+                  "commands/datatable/exportdatasheettofilecommand",
+                  "commands/datatable/exportmultidatasheettofilecommand"
+                ]
+              },
+              {
+                "group": "Excel",
+                "pages": [
+                  "commands/excel",
+                  "commands/excel/launchexcelcommand",
+                  "commands/excel/getopenedexcelcommand",
+                  "commands/excel/loopexcelsheetcommand",
+                  "commands/excel/readexcelcommand",
+                  "commands/excel/writeexcelcellcommand",
+                  "commands/excel/writeexcelrowcommand",
+                  "commands/excel/writeexcelcolumncommand",
+                  "commands/excel/writeexcelrangecommand",
+                  "commands/excel/saveexcelcommand",
+                  "commands/excel/closeexcelcommand",
+                  "commands/excel/runexcelmacrocommand",
+                  "commands/excel/autofillexcelcommand",
+                  "commands/excel/mergeorsplitexcelcellcommand",
+                  "commands/excel/setexcelcellformatcommand",
+                  "commands/excel/clearexcelcellformatcommand",
+                  "commands/excel/setexcelcellsizecommand",
+                  "commands/excel/getexcelregionscreenshotcommand",
+                  "commands/excel/filterexcelcolumncommand",
+                  "commands/excel/readfilteredcontentcommand",
+                  "commands/excel/clearexcelfiltercommand",
+                  {
+                    "group": "内容读写",
+                    "pages": [
+                      "commands/excel/getexcelrowcountcommand",
+                      "commands/excel/getexcelcolumncountcommand",
+                      "commands/excel/findexcelcellcommand",
+                      "commands/excel/copyexcelcommand",
+                      "commands/excel/pasteexcelcommand",
+                      "commands/excel/getlastemptycellofcolumncommand",
+                      "commands/excel/getexcelformulacommand",
+                      "commands/excel/addimagetoexcelcommand",
+                      "commands/excel/deleteexcelimagecommand",
+                      "commands/excel/exportexcelimagecommand"
+                    ]
+                  },
+                  {
+                    "group": "行/列操作",
+                    "pages": [
+                      "commands/excel/insertexcelrowcommand",
+                      "commands/excel/insertexcelcolumncommand",
+                      "commands/excel/deleteexcelrowcommand",
+                      "commands/excel/deleteexcelcolumncommand",
+                      "commands/excel/deleteexcelduplicaterowcommand"
+                    ]
+                  },
+                  {
+                    "group": "Sheet操作",
+                    "pages": [
+                      "commands/excel/addexcelsheetcommand",
+                      "commands/excel/deleteexcelsheetcommand",
+                      "commands/excel/activateexcelsheetcommand",
+                      "commands/excel/copyexcelsheetcommand",
+                      "commands/excel/renameexcelsheetcommand",
+                      "commands/excel/getexcelsheetnamecommand"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "操作系统",
+                "pages": [
+                  "commands/os",
+                  "commands/os/getfilescommand",
+                  "commands/os/getfilecontentcommand",
+                  "commands/os/writefilecontentcommand",
+                  "commands/os/deletefilecommand",
+                  "commands/os/copyfilecommand",
+                  "commands/os/movefilecommand",
+                  "commands/os/getcurrentdatetimecommand",
+                  "commands/os/createfoldercommand",
+                  "commands/os/getfilepathinfocommand",
+                  "commands/os/renamefilecommand",
+                  "commands/os/compressfilecommand",
+                  "commands/os/decompressfilecommand",
+                  "commands/os/getclipboardtextcommand",
+                  "commands/os/setclipboarddatacommand",
+                  "commands/os/clearclipboarddatacommand",
+                  "commands/os/killprocesscommand",
+                  "commands/os/checkprocessexistcommand",
+                  "commands/os/renamefoldercommand",
+                  "commands/os/copyfoldercommand",
+                  "commands/os/movefoldercommand",
+                  "commands/os/deletefoldercommand",
+                  "commands/os/clearfoldercommand",
+                  "commands/os/launchapplicationcommand",
+                  "commands/os/executedoscommand"
+                ]
+              },
+              {
+                "group": "八爪鱼",
+                "pages": [
+                  "commands/bazhuayu/getaccesstokencommand",
+                  "commands/bazhuayu/gettaskstatuscommand",
+                  "commands/bazhuayu/starttaskcommand",
+                  "commands/bazhuayu/stoptaskcommand",
+                  "commands/bazhuayu/gettaskdatacountcommand",
+                  "commands/bazhuayu/gettaskdataoffsetcommand",
+                  "commands/bazhuayu/gettaskdatacommand",
+                  "commands/bazhuayu/updateactionpropertiescommand",
+                  "commands/bazhuayu/7TUoxB"
+                ]
+              },
+              {
+                "group": "邮件",
+                "pages": [
+                  "commands/email/dtd5Rb",
+                  "commands/email/RlCVx4",
+                  "commands/email/logintomailboxcommand",
+                  "commands/email/sendemailcommand",
+                  "commands/email/getemailscommand",
+                  "commands/email/moveemailcommand",
+                  "commands/email/deleteemailcommand",
+                  "commands/email/replyemailcommand",
+                  "commands/email/addflagtoemailcommand",
+                  "commands/email/getemailcontentcommand",
+                  "commands/email/downloademailattachmentcommand"
+                ]
+              },
+              {
+                "group": "数据处理",
+                "pages": [
+                  "commands/data-processing/changedatetimecommand",
+                  "commands/data-processing/gettimespancommand",
+                  "commands/data-processing/numbertotextcommand",
+                  "commands/data-processing/texttonumbercommand",
+                  "commands/data-processing/appendprefixorsuffixcommand",
+                  "commands/data-processing/trimtextcommand",
+                  "commands/data-processing/splittextcommand",
+                  "commands/data-processing/replacetextcommand",
+                  "commands/data-processing/regexmatchcommand",
+                  "commands/data-processing/changetextcasecommand",
+                  "commands/data-processing/getsubtextcommand",
+                  "commands/data-processing/convertdatetimetextcommand",
+                  "commands/data-processing/createvariablecommand",
+                  "commands/data-processing/setvariablecommand",
+                  "commands/data-processing/setvariablev2command",
+                  "commands/data-processing/parsejsoncommand",
+                  "commands/data-processing/objecttojsoncommand",
+                  "commands/data-processing/datetimeconverttotimestampcommand",
+                  "commands/data-processing/timestampconverttodatetimecommand",
+                  "commands/data-processing/urldecodecommand",
+                  "commands/data-processing/urlencodecommand",
+                  "commands/data-processing/randomnumbercommand",
+                  "commands/data-processing/jEc4Yc",
+                  "commands/data-processing/createlistcommand",
+                  "commands/data-processing/clearlistcommand",
+                  "commands/data-processing/insertitemtolistcommand",
+                  "commands/data-processing/removelistitemcommand",
+                  "commands/data-processing/updatelistitemcommand",
+                  "commands/data-processing/concatlistcommand",
+                  "commands/data-processing/reverselistcommand",
+                  "commands/data-processing/sortlistcommand",
+                  "commands/data-processing/jointextcommand",
+                  "commands/data-processing/distinctlistcommand",
+                  "commands/data-processing/intersectlistcommand",
+                  "commands/data-processing/createdictionarycommand",
+                  "commands/data-processing/setdictionarykeyvaluecommand",
+                  "commands/data-processing/removedictionarykeyvaluecommand",
+                  "commands/data-processing/getdictionaryvaluecommand",
+                  "commands/data-processing/getdictionarykeyscommand",
+                  "commands/data-processing/getdictionaryvaluescommand"
+                ]
+              },
+              {
+                "group": "群通知",
+                "pages": [
+                  "commands/group-notification/notifywechatworkgroupcommand",
+                  "commands/group-notification/notifylarkgroupcommand",
+                  "commands/group-notification/notifydingtalkgroupcommand",
+                  "commands/group-notification/XZBe1j"
+                ]
+              },
+              {
+                "group": "飞书",
+                "pages": [
+                  "commands/feishu/vPhs0M",
+                  "commands/feishu/getlarkaccesstokencommand",
+                  "commands/feishu/getlarkspreadsheetcommand",
+                  "commands/feishu/readlarkspreadsheetcommand",
+                  "commands/feishu/addrowtolarkspreadsheetcommand",
+                  "commands/feishu/addcolumntolarkspreadsheetcommand",
+                  "commands/feishu/deleterowfromlarkspreadsheetcommand",
+                  "commands/feishu/deletecolumnfromlarkspreadsheetcommand",
+                  "commands/feishu/IgnCWQ",
+                  "commands/feishu/writerowtolarkspreadsheetcommand",
+                  "commands/feishu/writecolumntolarkspreadsheetcommand",
+                  "commands/feishu/findlarkspreadsheetcellcommand",
+                  "commands/feishu/copylarkspreadsheetcommand",
+                  "commands/feishu/connecttolarkbitablecommand",
+                  "commands/feishu/getlarkbitabledatatablecommand",
+                  "commands/feishu/addlarkbitabledatatablecommand",
+                  "commands/feishu/deletelarkbitabledatatablecommand",
+                  "commands/feishu/renamelarkbitabledatatablecommand",
+                  "commands/feishu/getlarkbitableviewcommand",
+                  "commands/feishu/addlarkbitableviewcommand",
+                  "commands/feishu/deletelarkbitableviewcommand",
+                  "commands/feishu/updatelarkbitableviewcommand",
+                  "commands/feishu/getlarkbitablefieldcommand",
+                  "commands/feishu/addlarkbitablefieldcommand",
+                  "commands/feishu/deletelarkbitablefieldcommand",
+                  "commands/feishu/updatelarkbitablefieldcommand",
+                  "commands/feishu/addlarkbitablerecordcommand",
+                  "commands/feishu/updatelarkbitablerecordcommand",
+                  "commands/feishu/deletelarkbitablerecordcommand",
+                  "commands/feishu/getlarkbitablerecordcommand",
+                  "commands/feishu/querylarkbitablerecordcommand"
+                ]
+              },
+              {
+                "group": "钉钉",
+                "pages": [
+                  "commands/dingtalk/gM80NN",
+                  "commands/dingtalk/connecttodingtalkspreadsheetcommand",
+                  "commands/dingtalk/readdingtalksheetcommand",
+                  "commands/dingtalk/writetodingtalksheetcommand",
+                  "commands/dingtalk/appenddatatodingtalkrowcommand",
+                  "commands/dingtalk/insertdingtalkroworcolumncommand",
+                  "commands/dingtalk/deletedingtalkroworcolumncommand",
+                  "commands/dingtalk/getdingtalksheetrowcountcommand",
+                  "commands/dingtalk/getdingtalksheetcolumncountcommand",
+                  "commands/dingtalk/getdingtalkfirstavailableroworcolumncommand",
+                  "commands/dingtalk/getalldingtalksheetnamescommand",
+                  "commands/dingtalk/DAVH44",
+                  "commands/dingtalk/oP9Yz4"
+                ]
+              },
+              {
+                "group": "谷歌",
+                "pages": [
+                  "commands/google/xnN98S",
+                  "commands/google/getgooglecredentialcommand",
+                  "commands/google/getgooglespreadsheetcommand",
+                  "commands/google/readgooglespreadsheetcommand",
+                  "commands/google/addrowtogooglespreadsheetcommand",
+                  "commands/google/addcolumntogooglespreadsheetcommand",
+                  "commands/google/deleterowfromgooglespreadsheetcommand",
+                  "commands/google/deletecolumnfromgooglespreadsheetcommand",
+                  "commands/google/writerowtogooglespreadsheetcommand",
+                  "commands/google/writecolumntogooglespreadsheetcommand",
+                  "commands/google/findgooglespreadsheetcellcommand"
+                ]
+              },
+              {
+                "group": "AI",
+                "pages": [
+                  "commands/ai/interactivechatcommand",
+                  "commands/ai/generatecommentcommand",
+                  "commands/ai/extractkeywordscommand",
+                  "commands/ai/extractentitycommand",
+                  "commands/ai/makeasummarycommand",
+                  "commands/ai/getemotionaltendencycommand",
+                  "commands/ai/translatecommand",
+                  "commands/ai/parsingunstructureddatacommand",
+                  "commands/ai/recognizecaptchabyprovidercommand",
+                  "commands/ai/recognizecharactercommand",
+                  "commands/ai/recognizesliderpuzzlecommand",
+                  "commands/ai/recognizerotationcommand",
+                  "commands/ai/recognizeslidercommand",
+                  "commands/ai/recognizetextclickcommand",
+                  "commands/ai/recognizetrajectorycommand",
+                  "commands/ai/recognizerecaptchav2command",
+                  "commands/ai/recognizegeneraltextcommand",
+                  "commands/ai/recognizetablecommand",
+                  "commands/ai/recognizecardcommand",
+                  "commands/ai/recognizeinvoicecommand"
+                ]
+              },
+              {
+                "group": "数据库",
+                "pages": [
+                  "commands/database/connecttodatabasecommand",
+                  "commands/database/executesqlcommand",
+                  "commands/database/querydatabasecommand",
+                  "commands/database/batchinserttodatabasecommand",
+                  "commands/database/closedatabasecommand"
+                ]
+              },
+              {
+                "group": "其他",
+                "pages": [
+                  "commands/others/showmessageboxcommand",
+                  "commands/others/showmessagetipscommand",
+                  "commands/others/showtextinputcommand",
+                  "commands/others/showaccountinputcommand",
+                  "commands/others/showopenfoldercommand",
+                  "commands/others/showopenfilecommand",
+                  "commands/others/addlogmessagecommand",
+                  "commands/others/sendhttprequestcommand",
+                  "commands/others/trycommand",
+                  "commands/others/catchcommand",
+                  "commands/others/endtrycommand",
+                  "commands/others/raisecommand",
+                  "commands/others/executepythonmodulecommand",
+                  "commands/others/commentcommand",
+                  "commands/others/zKl2eg"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "常见问题",
+        "groups": [
+          {
+            "group": "常见问题",
+            "pages": [
+              "faq/index"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "教程案例",
+        "groups": [
+          {
+            "group": "教程案例",
+            "pages": [
+              "tutorials/index",
+              {
+                "group": "视频专区",
+                "pages": [
+                  "tutorials/video/7ZJ3W7Hb"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "更新日志",
+        "groups": [
+          {
+            "group": "更新日志",
+            "pages": [
+              "changelog/index"
+            ]
+          }
         ]
       }
     ]
