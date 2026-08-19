@@ -1,16 +1,16 @@
 ---
-title: "Else If 元素可见"
+title: "Else If 元素可见(web)"
 ---
 
 ## 指令说明
 
-**描述：** 检测元素在网页中是否可见，通常与指令【If 元素可见】结合使用。当 If 元素可见执行的结果为 false 的时候，再执行 Else If 元素可见指令进行判断。
+**描述：** 检测元素在网页中是否可见，通常与指令【If 元素可见(web)】结合使用。当 If 元素可见(web)执行的结果为 false 的时候，再执行 Else If 元素可见(web)指令进行判断。
 
 ## 参数说明
 
 <Tabs>
   <Tab title="常规">
-    ![Else If 元素可见指令参数面板](images/else-if-elem-01.png)
+    ![Else If 元素可见(web)指令参数面板](images/else-if-elem-01-panel.png)
 
     | 参数 | 说明 |
     | --- | --- |
@@ -25,9 +25,19 @@ title: "Else If 元素可见"
 
 ## 使用示例
 
-![Else If 元素可见 - 效果展示](images/else-if-elem-02.png)
+![Else If 元素可见(web) - 流程搭建](images/else-if-elem-02-flow.png)
 
-该指令的使用方法和【If 元素可见（web）】一致，需要结合 If 元素可见（web）指令进行使用。
+**此流程执行逻辑：**
+
+使用【打开网页】指令打开八爪鱼RPA官网
+
+使用【If 元素可见(web)】判断网页中付费下载按钮元素是否可见
+
+若可见则执行【打印日志】在控制台输出存在“付费下载”按钮 若不可见则执行【Else If 元素可见(web)】判断网页中免费下载按钮元素是否可见 若可见则执行【打印日志】在控制台输出存在“免费下载”按钮
+
+### 效果展示
+
+![Else If 元素可见(web) - 效果展示](images/else-if-elem-03-effect.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
