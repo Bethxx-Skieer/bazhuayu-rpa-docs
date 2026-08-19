@@ -371,6 +371,7 @@
               {
                 "group": "八爪鱼",
                 "pages": [
+                  "commands/bazhuayu",
                   "commands/bazhuayu/getaccesstokencommand",
                   "commands/bazhuayu/gettaskstatuscommand",
                   "commands/bazhuayu/starttaskcommand",
@@ -385,6 +386,7 @@
               {
                 "group": "邮件",
                 "pages": [
+                  "commands/email",
                   "commands/email/dtd5Rb",
                   "commands/email/RlCVx4",
                   "commands/email/logintomailboxcommand",
@@ -401,6 +403,7 @@
               {
                 "group": "数据处理",
                 "pages": [
+                  "commands/data-processing",
                   "commands/data-processing/changedatetimecommand",
                   "commands/data-processing/gettimespancommand",
                   "commands/data-processing/numbertotextcommand",
@@ -446,6 +449,7 @@
               {
                 "group": "群通知",
                 "pages": [
+                  "commands/group-notification",
                   "commands/group-notification/notifywechatworkgroupcommand",
                   "commands/group-notification/notifylarkgroupcommand",
                   "commands/group-notification/notifydingtalkgroupcommand",
@@ -455,6 +459,7 @@
               {
                 "group": "飞书",
                 "pages": [
+                  "commands/feishu",
                   "commands/feishu/vPhs0M",
                   "commands/feishu/getlarkaccesstokencommand",
                   "commands/feishu/getlarkspreadsheetcommand",
@@ -491,6 +496,7 @@
               {
                 "group": "钉钉",
                 "pages": [
+                  "commands/dingtalk",
                   "commands/dingtalk/gM80NN",
                   "commands/dingtalk/connecttodingtalkspreadsheetcommand",
                   "commands/dingtalk/readdingtalksheetcommand",
@@ -509,6 +515,7 @@
               {
                 "group": "谷歌",
                 "pages": [
+                  "commands/google",
                   "commands/google/xnN98S",
                   "commands/google/getgooglecredentialcommand",
                   "commands/google/getgooglespreadsheetcommand",
@@ -525,6 +532,7 @@
               {
                 "group": "AI",
                 "pages": [
+                  "commands/ai",
                   "commands/ai/interactivechatcommand",
                   "commands/ai/generatecommentcommand",
                   "commands/ai/extractkeywordscommand",
@@ -550,6 +558,7 @@
               {
                 "group": "数据库",
                 "pages": [
+                  "commands/database",
                   "commands/database/connecttodatabasecommand",
                   "commands/database/executesqlcommand",
                   "commands/database/querydatabasecommand",
@@ -560,6 +569,7 @@
               {
                 "group": "其他",
                 "pages": [
+                  "commands/others",
                   "commands/others/showmessageboxcommand",
                   "commands/others/showmessagetipscommand",
                   "commands/others/showtextinputcommand",
