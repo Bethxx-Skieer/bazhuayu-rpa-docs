@@ -11,7 +11,7 @@ description: "重复执行相同的操作步骤，批量处理列表数据或循
 - **按固定次数重复**：注册 10 个测试账号、发送 5 次心跳等，用 按次数循环 精确控制轮数。
 - **遍历键值对**：处理接口返回的 JSON 配置，用 循环字典 逐个读取键和值后再使用。
 - **相似元素批量操作**：商品卡片、表格行等用 循环相似元素(web/win) 自动识别并逐项点击、提取。
-- **持续轮询与终止**：用 条件循环 / 无限循环 反复检查任务状态，配合 跳出循环 / 继续循环 控制节奏。
+- **持续轮询与终止**：用 条件循环 / 无限循环 反复检查任务状态，配合 跳出循环 / 继续下一次循环 控制节奏。
 
 ## 指令列表
 
@@ -31,7 +31,7 @@ description: "重复执行相同的操作步骤，批量处理列表数据或循
   <Card title="无限循环" href="/commands/loop/infiniteloopcommand">
     无限重复执行内部指令块，需配合跳出/结束指令终止。
   </Card>
-  <Card title="继续循环" href="/commands/loop/continuecommand">
+  <Card title="继续下一次循环" href="/commands/loop/continuecommand">
     跳过本次循环剩余步骤，直接进入下一次循环。
   </Card>
   <Card title="跳出循环" href="/commands/loop/breakcommand">
