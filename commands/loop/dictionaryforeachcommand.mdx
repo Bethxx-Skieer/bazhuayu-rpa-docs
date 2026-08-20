@@ -1,5 +1,5 @@
 ---
-title: "字典循环"
+title: "循环字典"
 ---
 
 ## 指令说明
@@ -14,7 +14,7 @@ title: "字典循环"
 
 <Tabs>
   <Tab title="常规">
-    ![字典循环指令参数面板](images/dict-for-each-02.png)
+    ![循环字典指令参数面板](images/dict-for-each-01-panel.png)
 
     | 参数 | 说明 |
     | --- | --- |
@@ -27,21 +27,45 @@ title: "字典循环"
 
 ## 使用示例
 
-![字典循环使用示例 - 流程搭建](images/dict-for-each-01.png)
+### 步骤一：新建字典
 
-**该流程执行逻辑：**
+![循环字典使用示例 - 新建变量](images/dict-for-each-02-create.png)
 
-新增变量字典，并进行可视化编辑创建一个字典值
+![循环字典使用示例 - 编辑字典](images/dict-for-each-03-edit.png)
 
-使用【循环字典】指令，将字典的每一项「键值对」循环出来
+### 步骤二：案例中 JSON 参考
 
-使用【打印日志】指令打印每个键值对的内容
+```json
+{
+  "id": 128,
+  "title": "随机生成的JSON示例",
+  "timestamp": "2025-09-11T06:45:22Z",
+  "metadata": {
+    "version": 1,
+    "author": "AI",
+    "tags": ["示例", "随机", "JSON"]
+  },
+  "data": {
+    "temperature": 23.7,
+    "active": true,
+    "items": ["apple", "banana", "cherry"]
+  },
+  "nested": {
+    "code": 200,
+    "message": "成功"
+  }
+}
+```
 
-### 效果展示
+### 步骤三：RPA 应用流程
+
+![循环字典使用示例 - RPA 应用流程](images/dict-for-each-04.png)
+
+### 步骤四：效果展示
 
 依次输出字典中每个键值对，可通过 `.Key` 获取键名，`.Value` 获取键值。
 
-![字典循环使用示例 - 效果展示](images/dict-for-each-03.png)
+![循环字典使用示例 - 效果展示](images/dict-for-each-05.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
