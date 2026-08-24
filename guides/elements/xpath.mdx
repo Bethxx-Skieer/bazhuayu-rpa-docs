@@ -1,10 +1,139 @@
 ---
-title: "Xpath"
-description: "本页介绍使用 XPath 精准定位元素。"
+title: "XPath"
+description: "此章节主要介绍两种XPath工具的安装，优先推荐使用谷歌浏览器的方法。"
 ---
 
-本页介绍使用 XPath 精准定位元素。
+## 安装说明
+
+**描述：**此章节主要介绍两种XPath工具的安装，**优先推荐使用谷歌浏览器的方法**。
+
+### 谷歌浏览器XPath插件安装方法
+
+首先需要下载xpath helper插件，网上有很多下载的链接，这里给大家整理了一个下载链接：[https://pan.baidu.com/s/11IYyYJBGUiR3BY7cS7sLOA](https://pan.baidu.com/s/11IYyYJBGUiR3BY7cS7sLOA)  **提取码：iefg**（百度网盘下载地址）（若已过期，自行网上寻找下载安装包）。
+
+下载下来的是一个.crx类型的文件。
+
+![XPath 示意图 1](/xpath-01.png)
+
+打开谷歌浏览器， 点击右上角的“三点”按钮--》更多程序--》找到扩展程序，打开它。
+
+或者在浏览器地址栏中直接输入：chrome://extensions，可直接进入到“扩展程序管理页面”，页面中可以看到已经安装的插件。
+
+![XPath 示意图 2](/xpath-02.png)
+
+或者在浏览器地址栏中直接输入：chrome://extensions，也可直接进入到“扩展程序管理页面”，页面中可以看到已经安装的插件。
+
+![XPath 示意图 3](/xpath-03.png)
+
+找到刚刚下载的xpath-helper.crx，把它拖动到谷歌浏览器的扩展程序页面。
+
+会弹出一个小窗口提示“是否添加xpath helper”，选择添加，添加完成之后，提示xpath helper已经添加成功，在浏览器的右上角多了一个“X”的标志，这是xpath helper的图标，扩展程序列表中有xpath helper，表示安装成功了。
+
+![XPath 示意图 4](/xpath-04.png)
+
+![XPath 示意图 5](/xpath-05.png)
+
+#### xpath helpe使用教学
+
+首先打开一个网页页面，然后打开xpath helper扩展程序。( 打开和关闭xpath helper的快捷键都是：ctrl + shift + x )；
+
+打开之后如图所示：是一个黑色的窗体，左边显示query，右边显示result 如果按了快捷键没有反应，那可能是这个快捷键已经被其他程序占用了，查找一下把原来程序的快捷键改一下。
+
+![XPath 示意图 6](/xpath-06.png)
+
+接下来我们开始选择页面上的元素： 键盘按住ctrl + shift ，然后移动鼠标就可以选择页面上的元素，还是非常方便的 被选中的元素会显示不同的颜色，query窗口中显示的就是xpath的值，选完之后放开ctrl 和shift键就可以了
+
+![XPath 示意图 7](/xpath-07.png)
+
+xpath helper除了可以获取页面元素的xpath地址，也可以验证用户自己写的xpath地址是否正确，query窗口可以手动输入和修改xpath地址。
+
+如何判断输入的地址是正确的呢：
+
+1、result窗口有显示对应的内容，而不是null
+
+2、页面中对应的元素会变成黄色 复合以上两点，说明xpath写对了。
+
+![XPath 示意图 8](/xpath-08.png)
+
+#### 不安装插件也可以进行XPath的选择与校验
+
+在网页页面中右键选择“检查”（或者按键盘F12），进入开发者模式,直接Ctrl+F 就能输入xpath，以及校验元素的xpath是否正确。
+
+xpath语法以及使用教学：https://www.bilibili.com/video/BV1hu4y1M79q/
+（主要初步学习一下，对xpath有一定的认识）
+
+![XPath 示意图 9](/xpath-09.png)
+
+### 火狐浏览器firebug和firepath插件安装方法
+
+**第1步**
+
+下载**55版本**以内的火狐浏览器，安装时**迅速设置禁止自动更新版本**，并**取消勾选自动更新**（目的是防止火狐浏览器自动升级）；
+
+54版本火狐浏览器的下载参考地址：
+
+- 64位-火狐54版本：[http://ftp.mozilla.org/pub/firefox/releases/54.0.1/win64/zh-CN/ ](http://ftp.mozilla.org/pub/firefox/releases/54.0.1/win64/zh-CN/)
+- 32位-火狐54版本：[http://ftp.mozilla.org/pub/firefox/releases/54.0.1/win32/zh-CN/](http://ftp.mozilla.org/pub/firefox/releases/54.0.1/win32/zh-CN/)
+
+![XPath 示意图 10](/xpath-10.png)
+
+**第2步**
+
+解压我们提供的这个压缩包，可以看到两个xpi文件，这就是火狐2个插件的源文件。
+
+压缩包下载地址：[https://pan.baidu.com/s/1rushghRy2uGs99-XFyxDNg，提取码：fkb4](https://pan.baidu.com/s/1rushghRy2uGs99-XFyxDNg，提取码：fkb4￼￼)
+
+![XPath 示意图 11](/xpath-11.png)
+
+**第3步**
+
+点击火狐右上方菜单栏， 选择 “附件组件”
+
+![XPath 示意图 12](/xpath-12.png)
+
+点击附件组件页面的设置按钮，选择 “从文件安装附加组件” ，将解压好的2个xpi文件分别导入进去
+
+![XPath 示意图 13](/xpath-13.png)
+
+页面左上角会出现确认安装提示， 点击 “安装”，就会提示安装成功。
+
+![XPath 示意图 14](/xpath-14.png)
+
+**第4步：**2个插件都安装好后，**重启1次火狐浏览器**
+
+**第5步：**在火狐的插件这里把插件选择“启动”
+
+![XPath 示意图 15](/xpath-15.png)
+
+**第6步：再重启1次火狐浏览器，**就可以啦！
+
+**最后**
+
+检查一下浏览器版本，如果浏览器自动更新成了56版本， 那么重新点击55以内版本安装包覆盖安装一下火狐浏览器即可。
+
+版本检查：点击菜单栏 “问号” 图标，选择 “关于firefox”，查看目前版本。
+
+![XPath 示意图 16](/xpath-16.png)
+
+#### 火狐浏览器如何使用XPath工具
+
+2个插件都安装好以后，浏览器右上角会出现一个灰色的昆虫图标 
+![XPath 示意图 17](/xpath-17.png)
+，灰色为未启用状态。点击一下图标变成彩色
+![XPath 示意图 18](/xpath-18.png)
+，启动XPath工具，出现XPath工具面板。
+
+点击XPath工具面板顶部左侧的 
+![XPath 示意图 19](/xpath-19.png)
+ 按钮，当其状态为 
+![XPath 示意图 20](/xpath-20.png)
+ 时，移动鼠标去网页上想要定位的数据位置并点击，XPath工具面板则自动生成定位的XPath路径表达式。
+
+![XPath 示意图 21](/xpath-21.png)
+
+![XPath 示意图 22](/xpath-22.png)
+
 
 <Info>
-  本页内容正在补充中，后续将提供详细说明与示例截图。
+  使用过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
 </Info>

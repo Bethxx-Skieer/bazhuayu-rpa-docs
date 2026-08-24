@@ -1,10 +1,66 @@
 ---
-title: "库安装工具"
-description: "本页介绍如何使用库安装工具为流程添加第三方依赖。"
+title: "Python库安装工具"
+description: "八爪鱼RPA内置基本的python环境，支持快速安装/卸载/管理Python库"
 ---
 
-本页介绍如何使用库安装工具为流程添加第三方依赖。
+八爪鱼RPA内置基本的python环境，支持快速安装/卸载/管理Python库
+
+> 通过安装工具将python第三方库安装到设计器自带的python环境中
+> 当有包含第三方python库的应用在机器人运行时，需要在该机器人上安装对应的python库
+
+## 使用场景
+
+- 在应用的使用过程中有使用python第三方库时，不知道如何进行安装
+- 前往命令行安装第三方库对于小白来说比较困难
+
+## 功能说明
+
+管理Python库，实现Python包的删除，升级和设置指定版本
+
+## 使用方法
+
+### 方法一
+
+**随应用运行，自动检测是否安装并自动安装，分享出去，会自动导包**
+
+1、点击python包栏目，点击“➕”安装Python包，弹出Python包管理界面
+
+2、输入要安装的Python库的名称，指定版本号，选择镜像，安装结果会出现在输出框内，和在终端安装一致
+
+3、勾选“使用最新版的PIP”：勾选后,PIP会自动升级到最新版本,同时在运行此应用前也会强制升级PIP到最新版本
+
+![Python库安装工具 示意图 1](/library-installer-01.png)
+
+#### 效果展示：
+
+![Python库安装工具 示意图 2](/library-installer-02.png)
+
+### 方法二
+
+**安装在本机，不随应用流转**
+
+**八爪鱼RPA客户端的进入入口如下：**
+
+点击客户端头像→工具→Python包管理
+
+![Python库安装工具 示意图 3](/library-installer-03.png)
+
+**八爪鱼RPA机器人的进入入口如下：**
+
+![Python库安装工具 示意图 4](/library-installer-04.png)
+
+**Python包管理界面与方法一相同。**
+
+![Python库安装工具 示意图 5](/library-installer-05.png)
+
+### 使用小Tips：
+
+- 目前版本方法一，应用分享后无需再导包，客户端自动检测是否已安装包并自动安装
+- 运行Python脚本时出现错误提示弹窗，提示python包未找到，点击【立即安装】会自动跳转到python安装窗口。然后根据提示安装对应的Python包。
+
+![Python库安装工具 示意图 6](/library-installer-06.png)
+
 
 <Info>
-  本页内容正在补充中，后续将提供详细说明与示例截图。
+  使用过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
 </Info>
