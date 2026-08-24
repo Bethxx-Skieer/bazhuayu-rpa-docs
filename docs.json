@@ -63,9 +63,57 @@
           {
             "group": "使用指南",
             "pages": [
-              "guides/workflow",
-              "guides/browser",
-              "guides/excel"
+              "guides/index",
+              {
+                "group": "变量",
+                "pages": [
+                  "guides/variables",
+                  "guides/variables/variable",
+                  "guides/variables/variable-type",
+                  "guides/variables/custom-variable-2x"
+                ]
+              },
+              {
+                "group": "元素",
+                "pages": [
+                  "guides/elements",
+                  "guides/elements/element",
+                  "guides/elements/capture-element",
+                  "guides/elements/edit-element",
+                  "guides/elements/reselect-element",
+                  "guides/elements/similar-related-element",
+                  "guides/elements/flauinspect",
+                  "guides/elements/xpath"
+                ]
+              },
+              {
+                "group": "图像",
+                "pages": [
+                  "guides/images",
+                  "guides/images/image-element",
+                  "guides/images/capture-image"
+                ]
+              },
+              {
+                "group": "Python基础",
+                "pages": [
+                  "guides/python",
+                  "guides/python/environment-setup",
+                  "guides/python/library-installer"
+                ]
+              },
+              {
+                "group": "自定义指令",
+                "pages": [
+                  "guides/custom-instructions"
+                ]
+              },
+              {
+                "group": "增值服务",
+                "pages": [
+                  "guides/value-added"
+                ]
+              }
             ]
           }
         ]
