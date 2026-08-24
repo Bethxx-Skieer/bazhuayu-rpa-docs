@@ -11,13 +11,13 @@ description: "相似元素是网页中一组具有相似结构的元素列表，
 
 | **场景** | **附图** |
 | --- | --- |
-| 商品列表 | ![相似元素&关联元素的用法 示意图 1](/similar-related-element-01.png) |
-| 新闻列表 | ![相似元素&关联元素的用法 示意图 2](/similar-related-element-02.png) |
-| 表格 | ![相似元素&关联元素的用法 示意图 3](/similar-related-element-03.png) |
+| 商品列表 | ![相似元素&关联元素的用法 示意图 1](images/similar-related-element-01.png) |
+| 新闻列表 | ![相似元素&关联元素的用法 示意图 2](images/similar-related-element-02.png) |
+| 表格 | ![相似元素&关联元素的用法 示意图 3](images/similar-related-element-03.png) |
 
 ### 1.1 循环相似元素指令配置说明
 
-![相似元素&关联元素的用法 示意图 4](/similar-related-element-04.png)
+![相似元素&关联元素的用法 示意图 4](images/similar-related-element-04.png)
 
 ## 2. 什么是关联元素？
 
@@ -27,7 +27,7 @@ description: "相似元素是网页中一组具有相似结构的元素列表，
 
 ### 2.1 关联元素指令配置说明
 
-![相似元素&关联元素的用法 示意图 5](/similar-related-element-05.png)
+![相似元素&关联元素的用法 示意图 5](images/similar-related-element-05.png)
 
 ### 2.2 如何创建相似元素？
 
@@ -35,7 +35,7 @@ description: "相似元素是网页中一组具有相似结构的元素列表，
 
 首先打开对应的网页，添加【循环相似元素(web)】指令，点击“捕获新元素”
 
-![相似元素&关联元素的用法 示意图 6](/similar-related-element-06.png)
+![相似元素&关联元素的用法 示意图 6](images/similar-related-element-06.png)
 
 再按住Shift键，依次点击相似元素列表中的第1和第2个元素
 
@@ -43,25 +43,25 @@ description: "相似元素是网页中一组具有相似结构的元素列表，
 
 以[国家法律法规数据库](https://flk.npc.gov.cn/search)为例，每一行法律法规都是相似元素
 
-![相似元素&关联元素的用法 示意图 7](/similar-related-element-07.png)
+![相似元素&关联元素的用法 示意图 7](images/similar-related-element-07.png)
 
 接着上面的相似元素，配合**关联元素**实现对列表数据的采集。【循环相似元素**】**会输出一个当前行的变量，代表正在处理哪一行。我们需要采集每一行里的标题，标题就是当前法律法规的子元素，这个时候就要用到【获取相关元素**】**。
 
-![相似元素&关联元素的用法 示意图 8](/similar-related-element-08.png)
+![相似元素&关联元素的用法 示意图 8](images/similar-related-element-08.png)
 
 这里是通过Xpath来定位法律法规的标题，这个Xpath是标题元素相对于整行法律法规的Xpath路径，可以借助浏览器的DevTools（浏览器页面右键->点击‘检查’）确定这个Xpath，具体方法如下：
 
-![相似元素&关联元素的用法 示意图 9](/similar-related-element-09.png)
+![相似元素&关联元素的用法 示意图 9](images/similar-related-element-09.png)
 
 ### 2.4 运行效果
 
 我们把相关数据写到数据表格中，看一下效果
 
-![相似元素&关联元素的用法 示意图 10](/similar-related-element-10.png)
+![相似元素&关联元素的用法 示意图 10](images/similar-related-element-10.png)
 
 大家学习过程中有疑问可以扫码加入爪鱼 RPA 的用户交流群中
 
-![相似元素&关联元素的用法 示意图 11](/similar-related-element-11.png)
+![相似元素&关联元素的用法 示意图 11](images/similar-related-element-11.png)
 
 
 <Info>

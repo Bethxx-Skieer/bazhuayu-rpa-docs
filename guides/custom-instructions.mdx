@@ -35,13 +35,13 @@ description: "开发者可以自行封装一些八爪鱼RPA官方未支持的指
 
 实现某个功能的可执行模块，如登录判断等。如下图所示，红框内均为自定义指令
 
-![自定义指令 示意图 1](/custom-instructions-01.png)
+![自定义指令 示意图 1](assets/custom-instructions-01.png)
 
 #### 3.2 指令库
 
 多个功能类似的指令合集，可进行统一发布和版本管理。如下图所示，紫鸟控制台操作和亚马逊卖家后台都是指令库
 
-![自定义指令 示意图 2](/custom-instructions-02.png)
+![自定义指令 示意图 2](assets/custom-instructions-02.png)
 
 #### 3.3 输入变量和输出变量
 
@@ -49,13 +49,13 @@ description: "开发者可以自行封装一些八爪鱼RPA官方未支持的指
 
 - 指令的输入参数
 
-| ![自定义指令 示意图 3](/custom-instructions-03.png) | ![自定义指令 示意图 4](/custom-instructions-04.png) |
+| ![自定义指令 示意图 3](assets/custom-instructions-03.png) | ![自定义指令 示意图 4](assets/custom-instructions-04.png) |
 | --- | --- |
 
 - 选择此类型，后续用户使用到此指令时，会提醒他输入相关数据
 - 如果需要设置输入提示、占位符等，可点击指令后方的“编辑”按钮
 
-| ![自定义指令 示意图 5](/custom-instructions-05.png) | ![自定义指令 示意图 6](/custom-instructions-06.png) |
+| ![自定义指令 示意图 5](assets/custom-instructions-05.png) | ![自定义指令 示意图 6](assets/custom-instructions-06.png) |
 | --- | --- |
 
 - 输出变量
@@ -63,13 +63,13 @@ description: "开发者可以自行封装一些八爪鱼RPA官方未支持的指
 - 指令的输出参数
 - 这类变量会在指令运行结束后返回给用户
 
-![自定义指令 示意图 7](/custom-instructions-07.png)
+![自定义指令 示意图 7](assets/custom-instructions-07.png)
 
 ## 二、自定义指令
 
 ### 1. 使用全流程（流程图）
 
-![自定义指令 示意图 8](/custom-instructions-08.png)
+![自定义指令 示意图 8](assets/custom-instructions-08.png)
 
 ### 2. 具体案例
 
@@ -79,7 +79,7 @@ description: "开发者可以自行封装一些八爪鱼RPA官方未支持的指
 
 切换到“指令库”--->点击“新建指令库”
 
-![自定义指令 示意图 9](/custom-instructions-09.png)
+![自定义指令 示意图 9](assets/custom-instructions-09.png)
 
 #### 2.2 开发指令库
 
@@ -89,7 +89,7 @@ description: "开发者可以自行封装一些八爪鱼RPA官方未支持的指
 
 点击“新增指令按钮”--->给指令重命名，命名为“日历日期选择器一（web）”
 
-![自定义指令 示意图 10](/custom-instructions-10.png)
+![自定义指令 示意图 10](assets/custom-instructions-10.png)
 
 - 定义输入、输出变量
 
@@ -97,18 +97,18 @@ description: "开发者可以自行封装一些八爪鱼RPA官方未支持的指
 
 - 切换“变量”--->点击“新增自定义变量”按钮--->输入变量名、数据类型、默认值和变量类别
 
-| ![自定义指令 示意图 11](/custom-instructions-11.png) | ![自定义指令 示意图 12](/custom-instructions-12.png) |
+| ![自定义指令 示意图 11](assets/custom-instructions-11.png) | ![自定义指令 示意图 12](assets/custom-instructions-12.png) |
 | --- | --- |
 
 - 输入变量创建完成示例图
 
-![自定义指令 示意图 13](/custom-instructions-13.png)
+![自定义指令 示意图 13](assets/custom-instructions-13.png)
 
 - 指令搭建
 
 与常规流程开发逻辑一致，即之前怎么搭建主流程、子流程，现在用同样的方式搭建自定义指令即可
 
-![自定义指令 示意图 14](/custom-instructions-14.png)
+![自定义指令 示意图 14](assets/custom-instructions-14.png)
 
 - 新建子流程
 
@@ -116,7 +116,7 @@ description: "开发者可以自行封装一些八爪鱼RPA官方未支持的指
 
 当指令库中多个指令的实现逻辑之间有流程复用时，建议继续使用”调用隐藏指令“的方式；当单个指令的实现逻辑中有部分流程复用时，可以使用子流程
 
-| ![自定义指令 示意图 15](/custom-instructions-15.png) | ![自定义指令 示意图 16](/custom-instructions-16.png) |
+| ![自定义指令 示意图 15](assets/custom-instructions-15.png) | ![自定义指令 示意图 16](assets/custom-instructions-16.png) |
 | --- | --- |
 
 - 指令界面编辑、预览
@@ -125,58 +125,58 @@ description: "开发者可以自行封装一些八爪鱼RPA官方未支持的指
 
 可以设置自定义指令展示的图标、名称、描述等信息，如下图
 
-| ![自定义指令 示意图 17](/custom-instructions-17.png) | ![自定义指令 示意图 18](/custom-instructions-18.png) |
+| ![自定义指令 示意图 17](assets/custom-instructions-17.png) | ![自定义指令 示意图 18](assets/custom-instructions-18.png) |
 | --- | --- |
 
 - 自定义指令变量信息编辑
 
 可以设置指令的输入输出参数的展示样式、显示名称、参数描述、控件类型、校验等；也可以调整参数的显示顺序，常规、高级设置；可以编辑指令在画布中显示的内容，可以调用变量
 
-| ![自定义指令 示意图 19](/custom-instructions-19.png) | ![自定义指令 示意图 20](/custom-instructions-20.png) |
+| ![自定义指令 示意图 19](assets/custom-instructions-19.png) | ![自定义指令 示意图 20](assets/custom-instructions-20.png) |
 | --- | --- |
 
 #### 2.3 自定义指令创建副本
 
 用户开发完一个自定义指令后，需要再开发一个类似的指令。鼠标右键选中需要的指令，点击”创建副本“后，会出现同名指令的副本。以这种方式创建的自定义指令，“流程、元素、图片、变量、输入输出参数”设置会与之前的自定义指令完全相同。
 
-![自定义指令 示意图 21](/custom-instructions-21.png)
+![自定义指令 示意图 21](assets/custom-instructions-21.png)
 
 #### 2.4 自定义指令显示与隐藏
 
 鼠标hover想要操作的指令上，即可看到显示/隐藏图标，点击即可设置显示与否
 
-![自定义指令 示意图 22](/custom-instructions-22.png)
+![自定义指令 示意图 22](assets/custom-instructions-22.png)
 
 #### 2.5 指令库预览
 
 指令库开发完成后，可以进行预览，预览的效果就是未来其用户使用时的效果
 
-| ![自定义指令 示意图 23](/custom-instructions-23.png) | ![自定义指令 示意图 24](/custom-instructions-24.png) |
+| ![自定义指令 示意图 23](assets/custom-instructions-23.png) | ![自定义指令 示意图 24](assets/custom-instructions-24.png) |
 | --- | --- |
 
 #### 2.6 指令库发版
 
 指令库开发完成或编辑完成后，点击“发版”，发版后就可以在其他应用/指令库引用
 
-| ![自定义指令 示意图 25](/custom-instructions-25.png) | ![自定义指令 示意图 26](/custom-instructions-26.png) |
+| ![自定义指令 示意图 25](assets/custom-instructions-25.png) | ![自定义指令 示意图 26](assets/custom-instructions-26.png) |
 | --- | --- |
 
 #### 2.7 拓展指令
 
 在指令列表中点击“扩展”-->选择个人/企业开发的指令库--->即可看到自己开发的或企业开发的指令库
 
-![自定义指令 示意图 27](/custom-instructions-27.png)
+![自定义指令 示意图 27](assets/custom-instructions-27.png)
 
 ## 三、指令库管理
 
-![自定义指令 示意图 28](/custom-instructions-28.png)
+![自定义指令 示意图 28](assets/custom-instructions-28.png)
 
 ### 指令库管理界面
 
 - 新建/编辑指令库
 - 查看指令库详情：可看到指令库中包含哪些指令
 
-![自定义指令 示意图 29](/custom-instructions-29.png)
+![自定义指令 示意图 29](assets/custom-instructions-29.png)
 
 - 拷贝为副本
 - 删除：删除指令库后会进入回收站，可以在回收站找回
@@ -187,18 +187,18 @@ description: "开发者可以自行封装一些八爪鱼RPA官方未支持的指
 
 - 新建分组
 
-| ![自定义指令 示意图 30](/custom-instructions-30.png) | ![自定义指令 示意图 31](/custom-instructions-31.png) |
+| ![自定义指令 示意图 30](assets/custom-instructions-30.png) | ![自定义指令 示意图 31](assets/custom-instructions-31.png) |
 | --- | --- |
 
 - 将指令库移动到分组
 
-![自定义指令 示意图 32](/custom-instructions-32.png)
+![自定义指令 示意图 32](assets/custom-instructions-32.png)
 
 ### 直接发版
 
 v2.4以下版本需在指令库内部（即编辑页面）发版，v2.4及以上版本支持直接在指令库列表页发版
 
-![自定义指令 示意图 33](/custom-instructions-33.png)
+![自定义指令 示意图 33](assets/custom-instructions-33.png)
 
 ### 复制到企业
 
@@ -206,26 +206,26 @@ v2.4以下版本需在指令库内部（即编辑页面）发版，v2.4及以上
 
 ## 四、指令管理
 
-![自定义指令 示意图 34](/custom-instructions-34.png)
+![自定义指令 示意图 34](assets/custom-instructions-34.png)
 
 - ①新建自定义指令：和新建子流程交互一致
 - ②指令库预览：可以查看当前指令库包含的指令及每个自定义指令的界面预览
 - ③预览及编辑：可以编辑自定义指令的名称、描述、参数顺序、参数的名称、描述、控件设置等
 - ④指令的显示设置：眼睛处于睁开的状态时，表示发版后其他应用/指令库可以使用该自定义指令；  闭上时，在其他应用或者指令库编辑的时候，看不到该自定义指令
 
-![自定义指令 示意图 35](/custom-instructions-35.png)
+![自定义指令 示意图 35](assets/custom-instructions-35.png)
 
 - ⑤变量的新增与引用关系查看，与流程一致
 
 ## 五、调用其他指令
 
-![自定义指令 示意图 36](/custom-instructions-36.png)
+![自定义指令 示意图 36](assets/custom-instructions-36.png)
 
 - 为提高流程的复用性，当指令库中多个自定义指令中部分流程片段可以复用，就可以将它单独拿出来，设置为隐藏的自定义指令，然后在其他指令中进行调用
 
 ## 六、拓展指令
 
-![自定义指令 示意图 37](/custom-instructions-37.png)
+![自定义指令 示意图 37](assets/custom-instructions-37.png)
 
 - 在应用和指令库中，都可以使用已封装好的指令库（不能自己调用自己）
 - 自己发版的指令库和官方指令库都可以在此处进行查找和使用
