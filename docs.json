@@ -76,7 +76,53 @@
           {
             "group": "功能说明",
             "pages": [
-              "features/index"
+              "features/index",
+              {
+                "group": "应用管理界面",
+                "pages": [
+                  "features/app-management",
+                  "features/app-management/run-methods",
+                  "features/app-management/triggers",
+                  "features/app-management/run-results"
+                ]
+              },
+              {
+                "group": "应用开发界面",
+                "pages": [
+                  "features/app-development",
+                  "features/app-development/top-menu",
+                  "features/app-development/bottom-menu",
+                  "features/app-development/right-menu"
+                ]
+              },
+              {
+                "group": "个人中心",
+                "pages": [
+                  "features/personal-center",
+                  "features/personal-center/settings",
+                  "features/personal-center/tools",
+                  "features/personal-center/developer-center"
+                ]
+              },
+              {
+                "group": "企业版功能",
+                "pages": [
+                  "features/enterprise",
+                  "features/enterprise/create-enterprise",
+                  "features/enterprise/join-by-invite",
+                  "features/enterprise/collaboration-space",
+                  "features/enterprise/member-management",
+                  "features/enterprise/bot",
+                  "features/enterprise/api",
+                  "features/enterprise/webhook-trigger"
+                ]
+              },
+              {
+                "group": "应用市场",
+                "pages": [
+                  "features/app-market"
+                ]
+              }
             ]
           }
         ]
