@@ -126,12 +126,23 @@
             "pages": [
               "features/index",
               {
-                "group": "应用管理界面",
+                "group": "客户端管理界面",
                 "pages": [
                   "features/app-management",
+                  "features/app-market",
                   "features/app-management/run-methods",
-                  "features/app-management/triggers",
-                  "features/app-management/run-results"
+                  "features/app-management/command-library",
+                  "features/app-management/robot",
+                  {
+                    "group": "运行计划",
+                    "pages": [
+                      "features/app-management/triggers",
+                      "features/app-management/app-run-list",
+                      "features/app-management/run-results"
+                    ]
+                  },
+                  "features/app-management/open-ai",
+                  "features/app-management/recycle-bin"
                 ]
               },
               {
@@ -163,12 +174,6 @@
                   "features/enterprise/bot",
                   "features/enterprise/api",
                   "features/enterprise/webhook-trigger"
-                ]
-              },
-              {
-                "group": "应用市场",
-                "pages": [
-                  "features/app-market"
                 ]
               }
             ]
