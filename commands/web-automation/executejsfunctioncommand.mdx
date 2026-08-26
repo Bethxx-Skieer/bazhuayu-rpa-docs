@@ -14,9 +14,8 @@ title: "在网页上执行JavaScript函数"
 
     | 参数 | 说明 |
     | --- | --- |
-    | **网页对象** | 选择要执行JavaScript的网页对象 |
-    | **JavaScript代码** | 输入要执行的JavaScript脚本代码 |
-    | **返回值** | 保存JavaScript执行结果的变量名称 |
+    | **网页对象** | 选择一个之前通过【打开网页】或【获取已打开的网页对象】指令创建的网页对象 |
+    | **JavaScript函数** | 输入要执行的JavaScript脚本代码，直接写在函数体内，即{}内，需要保留函数名 |
   </Tab>
   <Tab title="高级">
     本指令暂无高级参数。
@@ -27,21 +26,28 @@ title: "在网页上执行JavaScript函数"
 
 ![在网页上执行JavaScript函数使用示例 - 流程搭建](images/web-js-02.png)
 
+![在网页上执行JavaScript函数使用示例 - JavaScript函数](images/web-js-03.png)
+
 **该流程执行逻辑：**
 
-使用【打开网页】指令打开目标网页
+使用【获取已打开的网页对象】指令将已打开的网页作为网页对象
 
-使用【在网页上执行JavaScript函数】指令输入JavaScript代码
+使用【在网页上执行JavaScript函数】指令执行JavaScript函数，该函数的作用是获取当前网页的url。案例JS代码是：
 
-获取JavaScript脚本的执行结果，保存至指定变量
+```javascript
+function getUrl(element, input){
+  var dataUrl = document.URL;
+  return dataUrl;
+}
+```
+
+将JavaScript脚本的执行结果打印在控制台中
 
 ### 效果展示
 
 JavaScript脚本在目标网页上成功执行，并返回执行结果。
 
-![在网页上执行JavaScript函数使用示例 - 效果展示](images/web-js-03.png)
-
-![在网页上执行JavaScript函数使用示例 - 效果展示 2](images/web-js-04.png)
+![在网页上执行JavaScript函数使用示例 - 效果展示](images/web-js-04.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
