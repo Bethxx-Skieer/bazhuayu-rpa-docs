@@ -1,5 +1,5 @@
 ---
-title: "设置cookie"
+title: "设置Cookie"
 ---
 
 ## 指令说明
@@ -9,33 +9,33 @@ title: "设置cookie"
 ## 参数说明
 
 <Tabs>
-<Tab title="常规">
-    ![设置cookie指令参数面板](images/web-cookie-set-01.png)
+  <Tab title="常规">
+    ![设置Cookie指令参数面板](images/web-cookie-set-01.png)
 
     | 参数 | 说明 |
     | --- | --- |
-    | **网页对象** | 选择要设置Cookie的网页对象 |
-    | **Cookie数据** | 输入要设置的Cookie数据，格式为键=值，多个Cookie用换行分隔 |
-    | **Cookie域名** | 设置Cookie所属的域名范围 |
+    | **网页对象** | 选择一个之前通过【打开网页】或【获取已打开的网页对象】指令创建的网页对象 |
+    | **设置Cookie** | 手动设置所需操作网页的Cookie信息，不会获取Cookie可使用右侧的"Cookie获取工具" |
   </Tab>
   <Tab title="高级">
+    ![设置Cookie指令高级参数面板](images/web-cookie-set-02.png)
+
     | 参数 | 说明 |
     | --- | --- |
-    | **Cookie路径** | 设置Cookie的有效路径 |
-    | **是否安全** | 设置Cookie的安全属性 |
-    | **是否HttpOnly** | 设置Cookie的HttpOnly属性 |
+    | **等待网页加载完成** | 是否等待网页加载完成，勾选后，会等待网页加载完成后再设置Cookie |
+    | **加载超时时间(s)** | 等待网页加载完成的超时时间，单位是秒 |
   </Tab>
 </Tabs>
 
 ## 使用示例
 
-![设置cookie使用示例 - 流程搭建](images/web-cookie-set-02.png)
+![设置Cookie使用示例 - 流程搭建](images/web-cookie-set-03.png)
 
 **该流程执行逻辑：**
 
 使用【打开网页】指令打开目标网页
 
-使用【设置cookie】指令预设Cookie值
+使用【设置Cookie】指令预设Cookie值
 
 后续流程可在已设置Cookie的状态下访问网页
 
@@ -43,11 +43,11 @@ title: "设置cookie"
 
 Cookie设置成功，网页可以携带预设的Cookie信息进行后续操作。
 
-![设置cookie使用示例 - 效果展示](images/web-cookie-set-03.png)
+![设置Cookie使用示例 - 效果展示](images/web-cookie-set-04.png)
 
-![设置cookie使用示例 - 效果展示 2](images/web-cookie-set-04.png)
+![设置Cookie使用示例 - 效果展示 2](images/web-cookie-set-05.png)
 
-![设置cookie使用示例 - 效果展示 3](images/web-cookie-set-05.png)
+![设置Cookie使用示例 - 效果展示 3](images/web-cookie-set-06.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
