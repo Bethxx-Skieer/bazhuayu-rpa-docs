@@ -1,5 +1,5 @@
 ---
-title: "获取Cookies"
+title: "获取Cookie"
 ---
 
 ## 指令说明
@@ -10,13 +10,14 @@ title: "获取Cookies"
 
 <Tabs>
 <Tab title="常规">
-    ![获取Cookies指令参数面板](images/web-cookie-get-01.png)
+    ![获取Cookie指令参数面板](images/web-cookie-get-01.png)
 
     | 参数 | 说明 |
     | --- | --- |
-    | **网页对象** | 选择要获取Cookie的网页对象 |
-    | **获取方式** | 下拉选择：获取所有Cookie、根据名称获取Cookie |
-    | **Cookie名称** | 当获取方式为"根据名称获取Cookie"时，输入Cookie名称 |
+    | **获取Cookie方式** | 下拉选择：指定页面的Cookie和指定Url的Cookie |
+    | **网页对象** | "获取Cookie方式"选择指定页面的Cookie时候，需填写该参数。选择一个之前通过【打开网页】或【获取已打开的网页对象】指令创建的网页对象 |
+    | **浏览器类型** | "获取Cookie方式"选择指定Url的Cookie时候，需填写该参数。支持下拉选择：八爪鱼浏览器、谷歌浏览器、Edge浏览器、360安全浏览器、AdsPower、飞跨浏览器、紫鸟浏览器V6、紫鸟浏览器、易得客浏览器、稳卖AI浏览器（原牛卖浏览器）、Hubstudio、跨境卫士浏览器、站斧浏览器、云登浏览器、比特浏览器、自定义浏览器 |
+    | **cookie url** | "获取Cookie方式"选择指定Url的Cookie时候，需填写该参数。填写Cookie所在网页的链接，后续会根据给定的url匹配，筛选浏览器Cookie |
   </Tab>
   <Tab title="高级">
     本指令暂无高级参数。
@@ -25,23 +26,21 @@ title: "获取Cookies"
 
 ## 使用示例
 
-![获取Cookies使用示例 - 流程搭建](images/web-cookie-get-02.png)
+![获取Cookie使用示例 - 流程搭建](images/web-cookie-get-02.png)
 
 **该流程执行逻辑：**
 
-使用【打开网页】指令打开目标网页
+使用【获取Cookie】指令获取指定链接"https://s.weibo.com/top/summary?cate=realtimehot"中的Cookie
 
-使用【获取Cookies】指令获取Cookie信息
+由于上一步生成的是一个列表对象，如果想要拿到列表中的每一项，需要用到【列表循环】指令
 
-将获取到的Cookie信息保存至变量，供后续流程使用
+每一个循环项对应列表中具体的Cookie值
 
 ### 效果展示
 
-成功获取网页/URL的Cookie信息，可保存供后续使用。
+成功获取指定URL的Cookie列表，可循环输出每一项Cookie值。
 
-![获取Cookies使用示例 - 效果展示](images/web-cookie-get-03.png)
-
-![获取Cookies使用示例 - 效果展示 2](images/web-cookie-get-04.png)
+![获取Cookie使用示例 - 效果展示](images/web-cookie-get-03.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
