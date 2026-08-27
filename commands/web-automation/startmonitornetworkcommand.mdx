@@ -15,9 +15,9 @@ title: "开始监听网页请求"
     | 参数 | 说明 |
     | --- | --- |
     | **网页对象** | 选择一个之前通过【打开网页】或【获取已打开的网页对象】指令创建的网页对象 |
-    | **资源路径Url** | 请输入需要监听资源路径Url，筛选网页监听结果(值为空则忽略Url筛选条件，即监听所有) 支持同时监听多个网址，格式：api1\|api2，需要勾选“根据正则匹配” 若勾选“根据正则匹配”，需注意特殊符号，例如若要使用问号，需要加上反斜杠，即 \\? |
+    | **资源路径Url** | 请输入需要监听资源路径Url，筛选网页监听结果(值为空则忽略Url筛选条件，即监听所有)<br />支持同时监听多个网址，格式：api1\|api2，需要勾选“根据正则匹配”<br />若勾选“根据正则匹配”，需注意特殊符号，例如若要使用问号，需要加上反斜杠，即 \\? |
     | **根据正则匹配** | 根据正则表达式筛选需要监听资源路径Url |
-    | **筛选资源类型** | 选择要获取的网页监听结果类型 全部 Fetch/XHR：常用 CSS 图片：常用 媒体 字体 文档：常用 WebSocket 其他 |
+    | **筛选资源类型** | 选择要获取的网页监听结果类型<br />全部<br />Fetch/XHR：常用<br />CSS<br />图片：常用<br />媒体<br />字体<br />文档：常用<br />WebSocket<br />其他 |
   </Tab>
   <Tab title="高级">
     本指令暂无高级参数。
@@ -26,29 +26,29 @@ title: "开始监听网页请求"
 
 ## 使用示例
 
-![开始监听网页请求 - 需求分析](images/web-monitor-start-02.png)
-
 ### 需求分析
 
 对于网页源码中不显示的数据获取，如下图案例中所示：图表中数据，可以通过获取网站返回的接口信息，从接口中获取数据。
+
+![开始监听网页请求 - 需求分析](images/web-monitor-start-need-01.png)
 
 ### 资源路径URL分析（抓包分析）
 
 ① 在浏览器里打开想要抓取数据的网页，按键盘F12键进入到开发者管理后台，然后点击Network（网络）
 
+![开始监听网页请求 - 抓包分析 1](images/web-monitor-start-packet-01.png)
+
 ② 按 Ctrl + R 重新加载网页（或者刷新当前网页），筛选资源类型
 
-![开始监听网页请求 - 抓包分析 1](images/web-monitor-start-03.jpg)
+![开始监听网页请求 - 抓包分析 2-1](images/web-monitor-start-packet-02a.png)
 
-③ 等待页面数据加载完成，然后查看接口筛选，找到有包含自己需要的数据的接口。如下图所示，需要【昨日涨跌今日收益】手动数据，查看每个接口的【Preview】是否包含需要的数据，如果包含，对应的【Headers】里的请求url就是需要监控的资源路径url
+![开始监听网页请求 - 抓包分析 2-2](images/web-monitor-start-packet-02b.png)
 
-![开始监听网页请求 - 抓包分析 2](images/web-monitor-start-04.png)
+③ 等待页面数据加载完成，然后查看接口筛选，找到有包含自己需要的数据的接口。如下图所示，需要【昨日涨跌今日收益】相关数据，查看每个接口的【Preview】是否包含需要的数据，如果包含，对应的【Headers】里的请求url就是需要监控的资源路径url
 
-![开始监听网页请求 - 抓包分析 3](images/web-monitor-start-05.png)
+![开始监听网页请求 - 抓包分析 3-1](images/web-monitor-start-packet-03a.png)
 
-![开始监听网页请求 - 抓包分析 4](images/web-monitor-start-06.png)
-
-![开始监听网页请求 - 抓包分析 5](images/web-monitor-start-07.png)
+![开始监听网页请求 - 抓包分析 3-2](images/web-monitor-start-packet-03b.png)
 
 ### 应用搭建
 
@@ -56,15 +56,13 @@ title: "开始监听网页请求"
 
 示例资源路径Url筛选：https://q.10jqka.com.cn/api.php?t=indexflash&
 
-![开始监听网页请求 - 应用搭建](images/web-monitor-start-08.png)
+![开始监听网页请求 - 应用搭建 1](images/web-monitor-start-app-01.png)
 
-### 效果展示
-
-![开始监听网页请求 - 效果展示](images/web-monitor-start-09.png)
+![开始监听网页请求 - 应用搭建 2](images/web-monitor-start-app-02.png)
 
 **该流程执行逻辑：**
 
-打开网页，「开始监听网页请求」，并设置好监听的“资源路径Url”
+打开网页，「开始监听网页请求」，并设置好监听的"资源路径Url"
 
 使用「跳转新网址」进行当前网页的刷新，加载出来网页的新资源
 
@@ -73,6 +71,10 @@ title: "开始监听网页请求"
 ![开始监听网页请求 - 流程图](images/web-monitor-start-10.png)
 
 ![开始监听网页请求 - 流程图 2](images/web-monitor-start-11.png)
+
+### 效果展示
+
+![开始监听网页请求 - 效果展示](images/web-monitor-start-result-01.png)
 
 ### 使用小 Tips
 
