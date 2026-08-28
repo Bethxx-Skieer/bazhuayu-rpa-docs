@@ -4,44 +4,47 @@ title: "读取Excel内容"
 
 ## 指令说明
 
-**描述：** 从Excel文件对象中读取内容，支持矩形区域范围读取。
+**描述：** 读取 Excel 工作表中的单元格、行、列或指定区域内容，并保存为流程变量。
 
 ## 参数说明
 
 <Tabs>
   <Tab title="常规">
-    ![读取Excel内容指令参数面板](images/readexcelcommand-01.png)
+    ![读取Excel内容指令参数面板](images/readexcelcommand-10.png)
 
     | 参数 | 说明 |
     | --- | --- |
-    | **Excel对象** | 请选择Excel对象（可通过指令【启动Excel】或【获取当前激活的Excel对象】创建），用于确定待操作的工作簿。 |
-    | **Sheet页名称** | 操作目标工作表的名称，支持选填，默认为当前Excel激活的Sheet页。 |
-    | **读取方式** | 下拉选择：单元格、行、列、区域 |
-    | **行号/开始行/结束行** | 输入行号，行号从1开始，-n表示倒数第n行 |
-    | **列号/开始列/结束列** | 输入列号，列号从1或A开始，-n表示倒数第n列 |
+    | **Excel对象** | 请选择 Excel 对象（可通过【启动Excel】或【获取当前激活的Excel对象】创建），用于确定待操作的工作簿。 |
+    | **Sheet页名称** | 操作目标工作表的名称，支持选填，默认为当前 Excel 激活的 Sheet 页。 |
+    | **读取方式** | 选择需要读取的内容类型：单元格、行、列或区域。 |
+    | **其他参数** | 根据读取方式填写对应的行号、列号或区域范围。 |
   </Tab>
   <Tab title="高级">
+    ![读取Excel内容高级参数面板](images/readexcelcommand-11.png)
+
     | 参数 | 说明 |
     | --- | --- |
-    | **读取单元格显示的内容** | 若勾选，则读取的内容将与Excel中显示的内容一致，且始终以文本的形式返回；若不勾选，则返回的内容将根据数据类型进行转换。 |
+    | **读取单元格显示的内容** | 勾选后返回与 Excel 显示一致的文本内容；未勾选时，结果会根据数据类型进行转换。 |
   </Tab>
 </Tabs>
 
 ## 使用示例
 
-![读取Excel内容使用示例 - 流程搭建](images/readexcelcommand-02.png)
+![读取Excel内容使用示例 - 流程搭建](images/readexcelcommand-12.png)
 
 **该流程执行逻辑：**
 
-使用【启动Excel】指令打开已有的Excel表格并保存表格对象
-
-使用【读取Excel内容】指令在表格中分别读取指定单元格、指定单元格显示内容、指定行、指定列、指定区域的内容到新生成的变量中
-
-使用【关闭Excel】指令关闭并保存
+1. 使用【启动Excel】打开目标工作簿并生成 Excel 对象。
+2. 执行【读取Excel内容】，选择默认 Sheet，按行读取第 1 行数据。
+3. 将读取到的单元格内容保存到结果变量，供后续数据处理或写入操作使用，最后按需要关闭 Excel。
 
 ### 效果展示
 
-![读取Excel内容使用示例 - 效果展示](images/readexcelcommand-03.png)
+![读取Excel内容效果展示 - Excel源数据](images/readexcelcommand-13.png)
+
+![读取Excel内容效果展示 - 运行日志](images/readexcelcommand-14.png)
+
+![读取Excel内容效果展示 - 读取结果](images/readexcelcommand-15.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

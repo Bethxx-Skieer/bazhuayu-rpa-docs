@@ -8,8 +8,11 @@ title: "卡证识别"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
+
+
     ![卡证识别指令参数面板](images/recognizecardcommand-01.png)
 
     | 参数 | 说明 |
@@ -31,65 +34,25 @@ title: "卡证识别"
 
 ## 使用示例
 
-![卡证识别使用示例 - 流程搭建](images/recognizecardcommand-02.png)
+
+![卡证识别使用示例](images/recognizecardcommand-02.png)
+
+![卡证识别使用示例](images/recognizecardcommand-04.png)
 
 **该流程执行逻辑：**
 
-OCR引擎
+1. 准备身份证正面图片 `D:\身份证正面.png`，在【卡证识别】中选择“身份证”和“本地文件”。
+2. 将识别结果保存到变量“身份证识别结果”，然后执行 OCR 识别。
+3. 使用【打印日志】读取姓名、性别、民族和身份证号等字段，确认结构化结果与图片内容一致。
 
-默认使用八爪鱼OCR
-
-图像类型
-
-请选择需要识别的卡证类型：银行卡、营业执照、护照(大陆)护照(港澳台及海外)、户口簿、行驶证、驾驶证、港澳台通行证
-
-图像来源
-
-请选择将要识别的图像来源：本地文件、网络图片、桌面元素、网页元素
-
-网页路径（本地文件）
-
-请输入要识别图像的文件路径
-
-图像URL（网络图片）
-
-请输入要识别图像的URL
-
-桌面元素（桌面元素）
-
-请选择或捕获要识别的桌面元素
-
-网页对象（网页元素）
-
-输入一个获取到的或者通过"打开网页”创建的网页对象
-
-网页元素（网页元素）
-
-请选择或捕获要识别的网页元素
-
-结果保存至
-
-将识别到文字坐标保存到文本变量中。
-
-【卡证识别】 识别本地文件“D:\身份证正面.png”中的卡证内容，将结果保存到身份证识别结果
-
-【打印日志】 打印消息日志： 姓名
-
-【打印日志】 打印消息日志： 男
-
-【打印日志】 打印消息日志： 汉
-
-【打印日志】 打印消息日志： 身份证号
-
-应用示例：https://rpa.bazhuayu.com/shareableLink/65eaee2717e4827f7b487e12
+完整流程示例：[打开应用示例](https://rpa.bazhuayu.com/shareableLink/65eaee2717e4827f7b487e12)
 
 ### 效果展示
 
-![卡证识别使用示例 - 效果展示](images/recognizecardcommand-03.png)
 
-![卡证识别使用示例 - 效果展示](images/recognizecardcommand-04.png)
+![卡证识别效果展示](images/recognizecardcommand-03.png)
 
-![卡证识别使用示例 - 效果展示](images/recognizecardcommand-05.png)
+![卡证识别效果展示](images/recognizecardcommand-05.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

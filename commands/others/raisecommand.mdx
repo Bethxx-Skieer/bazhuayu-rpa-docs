@@ -8,9 +8,12 @@ title: "Raise"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
-    ![Raise指令参数面板](images/raisecommand-01.png)
+
+
+    ![Raise指令参数面板](images/raisecommand-02.png)
 
     | 参数 | 说明 |
     | --- | --- |
@@ -23,31 +26,23 @@ title: "Raise"
 
 ## 使用示例
 
-![Raise使用示例 - 流程搭建](images/raisecommand-02.png)
+
+![Raise使用示例](images/raisecommand-01.png)
+
+![Raise使用示例](images/raisecommand-03.png)
 
 **该流程执行逻辑：**
 
-场景：在设置了定时触发且做了try catch的任务中，可以使用raise抛出异常，让业务人员知道本次执行是否正常执行。
+1. 在【Try】中执行可能失败的业务指令，例如【设置变量】和【打印日志】。
+2. 在【Catch】中捕获异常，并将错误详情保存到变量“错误信息”。
+3. 执行【Raise】重新抛出“错误信息”，终止当前流程并把本次运行标记为失败，便于定时任务的负责人发现异常。
 
-使用Raise的应用：
-
-使用【Try】尝试执行【设置变量】和【打印日志】指令。
-
-使用【Catch】捕获错误信息，并将错误信息保存到”错误信息“
-
-使用【Raise】抛出错误信息，并将应用停止运行。
-
-未使用Raise的应用：
-
-结果对比：
-
-对于都使用了Try的应用，相同的流程，使用了Raise运行结果会是失败，未使用的是成功。这样能让我们清楚知道应用的执行情况是怎样的。
+如果 Catch 中不执行 Raise，异常会被捕获，任务可能仍显示成功；两种方式应根据是否需要上报失败来选择。
 
 ### 效果展示
 
-![Raise使用示例 - 效果展示](images/raisecommand-03.png)
 
-![Raise使用示例 - 效果展示](images/raisecommand-04.png)
+![Raise效果展示](images/raisecommand-04.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

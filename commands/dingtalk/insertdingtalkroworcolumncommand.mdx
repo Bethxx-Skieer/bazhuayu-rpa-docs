@@ -8,9 +8,12 @@ title: "插入行/列"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
-    ![插入行/列指令参数面板](images/insertdingtalkroworcolumncommand-01.png)
+
+
+    ![插入行/列指令参数面板](images/insertdingtalkroworcolumncommand-03.png)
 
     | 参数 | 说明 |
     | --- | --- |
@@ -28,21 +31,19 @@ title: "插入行/列"
 
 ## 使用示例
 
-![插入行/列使用示例 - 流程搭建](images/insertdingtalkroworcolumncommand-02.png)
+
+![插入行/列使用示例](images/insertdingtalkroworcolumncommand-02.png)
 
 **该流程执行逻辑：**
 
-使用【连接钉钉表格】建立钉钉表格连接
-
-使用【获取总行数】获取表格的行数为1
-
-使用【插入行/列】在钉钉表格的Sheet1中第1行上方插入2行
-
-使用【获取总行数】获取表格的行数为3
+1. 使用【连接钉钉表格】连接目标表格，并读取 `Sheet1` 的初始总行数，本例为 1 行。
+2. 执行【插入行/列】，在 `Sheet1` 第 1 行上方插入 2 行。
+3. 再次获取总行数，结果变为 3，说明两行已经成功插入。
 
 ### 效果展示
 
-![插入行/列使用示例 - 效果展示](images/insertdingtalkroworcolumncommand-03.png)
+
+![插入行/列效果展示](images/insertdingtalkroworcolumncommand-01.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

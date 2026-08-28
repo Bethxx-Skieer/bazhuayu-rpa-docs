@@ -8,9 +8,12 @@ title: "八爪鱼账号授权"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
-    ![八爪鱼账号授权指令参数面板](images/getaccesstokencommand-01.png)
+
+
+    ![八爪鱼账号授权指令参数面板](images/getaccesstokencommand-03.png)
 
     | 参数 | 说明 |
     | --- | --- |
@@ -24,15 +27,18 @@ title: "八爪鱼账号授权"
 
 ## 使用示例
 
-![八爪鱼账号授权使用示例 - 流程搭建](images/getaccesstokencommand-02.png)
+
+![八爪鱼账号授权使用示例](images/getaccesstokencommand-01.png)
 
 **该流程执行逻辑：**
 
-使用【八爪鱼账号授权】指令在RPA中获取到八爪鱼采集器的账号授权 ---> 获取指定采集任务的数据总量
+1. 执行【八爪鱼账号授权】，完成当前八爪鱼账号的授权，并将授权结果保存到变量中。
+2. 将该授权变量传给后续的八爪鱼任务指令；示例继续使用它获取指定采集任务的数据总量。
 
 ### 效果展示
 
-![八爪鱼账号授权使用示例 - 效果展示](images/getaccesstokencommand-03.png)
+
+![八爪鱼账号授权效果展示](images/getaccesstokencommand-02.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

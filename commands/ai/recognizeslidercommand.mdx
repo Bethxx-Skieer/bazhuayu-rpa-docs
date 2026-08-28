@@ -8,8 +8,11 @@ title: "滑动条验证码"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
+
+
     ![滑动条验证码指令参数面板](images/recognizeslidercommand-01.png)
 
     | 参数 | 说明 |
@@ -22,8 +25,6 @@ title: "滑动条验证码"
     | **自动完成验证** | 点击自动完成验证即可自动执行拖捷动作，否则仅返回滑块终点坐标 |
   </Tab>
   <Tab title="高级">
-    ![滑动条验证码指令高级参数面板](images/recognizeslidercommand-02.png)
-    ![滑动条验证码指令高级参数面板](images/recognizeslidercommand-03.png)
 
 | 参数 | 说明 |
 | --- | --- |
@@ -33,17 +34,25 @@ title: "滑动条验证码"
 
 ## 使用示例
 
-![滑动条验证码使用示例 - 流程搭建](images/recognizeslidercommand-04.png)
+
+![滑动条验证码使用示例](images/recognizeslidercommand-04.png)
 
 **该流程执行逻辑：**
 
-案例的url：https://www.amap.com/，点击登录后会出现“滑块”
+1. 打开案例网页 `https://www.amap.com/`，点击登录并等待滑块验证码出现。
+2. 在【滑动条验证码】中选择验证码区域、滑块条和滑块按钮等目标元素。
+3. 运行指令后，流程识别滑块需要移动的距离；勾选自动完成时会自动拖动滑块并提交验证，否则可读取识别结果自行拖动。
 
 ### 效果展示
 
-![滑动条验证码使用示例 - 效果展示](images/recognizeslidercommand-05.png)
 
-![滑动条验证码使用示例 - 效果展示](images/recognizeslidercommand-06.png)
+![滑动条验证码效果展示](images/recognizeslidercommand-02.png)
+
+![滑动条验证码效果展示](images/recognizeslidercommand-03.png)
+
+![滑动条验证码效果展示](images/recognizeslidercommand-05.png)
+
+![滑动条验证码效果展示](images/recognizeslidercommand-06.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

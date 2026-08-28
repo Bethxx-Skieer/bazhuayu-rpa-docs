@@ -8,9 +8,12 @@ title: "时间戳转换为日期时间"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
-    ![时间戳转换为日期时间指令参数面板](images/timestampconverttodatetimecommand-01.png)
+
+
+    ![时间戳转换为日期时间指令参数面板](images/timestampconverttodatetimecommand-02.png)
 
     | 参数 | 说明 |
     | --- | --- |
@@ -25,21 +28,19 @@ title: "时间戳转换为日期时间"
 
 ## 使用示例
 
-![时间戳转换为日期时间使用示例 - 流程搭建](images/timestampconverttodatetimecommand-02.png)
+
+![时间戳转换为日期时间使用示例](images/timestampconverttodatetimecommand-01.png)
 
 **该流程执行逻辑：**
 
-使用【日期时间转换为时间戳】命令将系统默认时间转换为时间戳
-
-使用【打印日志】打印时间戳消息日志
-
-使用【时间戳转换为日期时间】命令将时间戳转换为日期时间
-
-使用【打印日志】打印日期时间文本消息日志
+1. 先使用【日期时间转换为时间戳】将系统当前时间转换为时间戳，并打印该数值作为对照。
+2. 将时间戳传入【时间戳转换为日期时间】，按配置的时区和格式生成日期时间结果。
+3. 使用【打印日志】输出转换后的日期时间文本，确认结果与原始时间一致。
 
 ### 效果展示
 
-![时间戳转换为日期时间使用示例 - 效果展示](images/timestampconverttodatetimecommand-03.png)
+
+![时间戳转换为日期时间效果展示](images/timestampconverttodatetimecommand-03.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

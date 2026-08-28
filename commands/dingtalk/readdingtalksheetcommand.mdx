@@ -8,9 +8,12 @@ title: "读取表格数据"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
-    ![读取表格数据指令参数面板](images/readdingtalksheetcommand-01.png)
+
+
+    ![读取表格数据指令参数面板](images/readdingtalksheetcommand-04.png)
 
     | 参数 | 说明 |
     | --- | --- |
@@ -33,19 +36,21 @@ title: "读取表格数据"
 
 ## 使用示例
 
-![读取表格数据使用示例 - 流程搭建](images/readdingtalksheetcommand-02.png)
+
+![读取表格数据使用示例](images/readdingtalksheetcommand-01.png)
 
 **该流程执行逻辑：**
 
-使用【连接钉钉表格】建立钉钉表格连接；
-
-使用【读取表格数据】读取钉钉表格Sheet1的第一行第一列的单元格数据。
+1. 使用【连接钉钉表格】连接目标表格并生成钉钉表格对象。
+2. 执行【读取表格数据】，选择 `Sheet1` 第 1 行第 1 列的单元格。
+3. 将读取到的单元格内容保存到结果变量，供后续判断、计算或日志输出使用。
 
 ### 效果展示
 
-![读取表格数据使用示例 - 效果展示](images/readdingtalksheetcommand-03.png)
 
-![读取表格数据使用示例 - 效果展示](images/readdingtalksheetcommand-04.png)
+![读取表格数据效果展示](images/readdingtalksheetcommand-03.png)
+
+![读取表格数据效果展示](images/readdingtalksheetcommand-02.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

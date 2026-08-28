@@ -10,7 +10,7 @@ title: "显示消息通知"
 
 <Tabs>
   <Tab title="常规">
-    ![显示消息通知指令参数面板](images/showmessagetipscommand-01.png)
+    ![显示消息通知指令参数面板](images/showmessagetipscommand-05.png)
 
     | 参数 | 说明 |
     | --- | --- |
@@ -20,25 +20,29 @@ title: "显示消息通知"
     | **关闭超时时间** | 设置关闭超时时间 |
   </Tab>
   <Tab title="高级">
-    本指令暂无高级参数。
+    ![显示消息通知高级参数面板](images/showmessagetipscommand-03.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **关闭超时时间(s)** | 设置消息通知自动关闭前的等待时间，单位为秒。 |
   </Tab>
 </Tabs>
 
 ## 使用示例
 
-![显示消息通知使用示例 - 流程搭建](images/showmessagetipscommand-02.png)
+![显示消息通知使用示例](images/showmessagetipscommand-01.png)
 
 **该流程执行逻辑：**
 
-使用【显示消息通知】在屏幕顶部弹出成功级别的提示框
+1. 在【显示消息通知】中填写提示标题和消息内容，并选择“成功”通知级别。
+2. 运行指令后，客户端在屏幕顶部显示成功提示框。
+3. 该通知用于向用户反馈流程进度或执行结果，不会中断后续指令运行。
 
 ### 效果展示
 
-![显示消息通知使用示例 - 效果展示](images/showmessagetipscommand-03.png)
+![显示消息通知效果展示](images/showmessagetipscommand-02.png)
 
-![显示消息通知使用示例 - 效果展示](images/showmessagetipscommand-04.png)
-
-![显示消息通知使用示例 - 效果展示](images/showmessagetipscommand-05.png)
+![显示消息通知效果展示](images/showmessagetipscommand-04.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

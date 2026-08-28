@@ -4,12 +4,15 @@ title: "打开信息对话框"
 
 ## 指令说明
 
-**描述：** 打开信息对话框
+**描述：** 弹出信息对话框向用户展示指定内容，并根据配置等待用户确认或继续执行流程。
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
+
+
     ![打开信息对话框指令参数面板](images/showmessageboxcommand-01.png)
 
     | 参数 | 说明 |
@@ -24,15 +27,21 @@ title: "打开信息对话框"
 
 ## 使用示例
 
-![打开信息对话框使用示例 - 流程搭建](images/showmessageboxcommand-02.png)
+
+![打开信息对话框使用示例](images/showmessageboxcommand-02.png)
+
+![打开信息对话框使用示例](images/showmessageboxcommand-03.png)
 
 **该流程执行逻辑：**
 
+1. 在【打开信息对话框】中设置窗口标题、提示内容和需要显示的按钮。
+2. 执行指令后，流程暂停并在桌面显示信息对话框，等待用户操作。
+3. 用户点击按钮后关闭对话框，流程继续执行；如配置了结果变量，可根据用户选择执行后续分支。
+
 ### 效果展示
 
-![打开信息对话框使用示例 - 效果展示](images/showmessageboxcommand-03.png)
 
-![打开信息对话框使用示例 - 效果展示](images/showmessageboxcommand-04.png)
+![打开信息对话框效果展示](images/showmessageboxcommand-04.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

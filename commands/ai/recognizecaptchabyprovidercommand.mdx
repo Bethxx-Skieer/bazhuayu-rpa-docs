@@ -56,11 +56,17 @@ title: "验证码识别"
 
 ## 使用示例
 
+
+![验证码识别使用示例](images/recognizecaptchabyprovidercommand-13.png)
+
 ![验证码识别使用示例 - 流程搭建](images/recognizecaptchabyprovidercommand-10.png)
 
 **该流程执行逻辑：**
 
-获取谷歌浏览器已打开的网页对象 ---> 用【验证码识别】指令识别单图类型的滑块验证码 ---> 在控制台打印验证码识别结果 ---> 验证码识别结果是文本类型，无法通过索引值读取，先转为JSON类型 ---> 读取“json_验证码识别结果”中result项的值，为120（即下方的滑块按钮需横向拖动120） ---> 鼠标悬停在下方滑块按钮元素上 ---> 按下鼠标左键 ---> 向前拖动120 ---> 拖到指定位置后，鼠标左键松开，验证完成
+1. 获取谷歌浏览器中已打开的网页对象，并将滑块验证码图片传入【验证码识别】。
+2. 指令返回识别结果；示例先在控制台打印原始结果，再将文本结果转换为 JSON 对象。
+3. 读取 JSON 中的 `result` 字段。本例得到 `120`，表示滑块需要横向拖动 120 个单位。
+4. 将鼠标悬停在滑块按钮上，按住鼠标左键并按识别距离拖动，最后松开左键完成验证。
 
 ### 效果展示
 
@@ -68,7 +74,6 @@ title: "验证码识别"
 
 ![验证码识别使用示例 - 效果展示](images/recognizecaptchabyprovidercommand-12.png)
 
-![验证码识别使用示例 - 效果展示](images/recognizecaptchabyprovidercommand-13.png)
 
 ![验证码识别使用示例 - 效果展示](images/recognizecaptchabyprovidercommand-14.png)
 

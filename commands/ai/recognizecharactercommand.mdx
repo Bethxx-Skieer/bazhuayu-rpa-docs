@@ -8,9 +8,12 @@ title: "字符验证码"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
-    ![字符验证码指令参数面板](images/recognizecharactercommand-01.png)
+
+
+    ![字符验证码指令参数面板](images/recognizecharactercommand-02.png)
 
     | 参数 | 说明 |
     | --- | --- |
@@ -21,33 +24,28 @@ title: "字符验证码"
     | **选择元素** | 选择要识别的验证码图片元素，可以从元素库中选择也可以直接从网页或桌面上捕获。如下方截图中的红框内容 |
   </Tab>
   <Tab title="高级">
-    ![字符验证码指令高级参数面板](images/recognizecharactercommand-02.png)
   </Tab>
 </Tabs>
 
 ## 使用示例
 
-![字符验证码使用示例 - 流程搭建](images/recognizecharactercommand-03.png)
+
+![字符验证码使用示例](images/recognizecharactercommand-01.png)
+
+![字符验证码使用示例](images/recognizecharactercommand-04.png)
 
 **该流程执行逻辑：**
 
-选择要识别的验证码图片，系统会自动识别图片上的内容，并输出结果在变量
-
-结果保存至
-
-将识别到内容保存到变量中。
-
-（测试图片）
-
-【字符验证】 打开指定路径的图片，识别图片上的文本内容，将结果保存至变量
-
-【打印日志】打印变量
+1. 准备一张包含字符验证码的测试图片，并在【字符验证码】中选择该图片的本地路径。
+2. 设置“结果保存至”变量后执行指令，识别图片中的字符内容。
+3. 使用【打印日志】输出识别结果，确认变量中保存的文本与验证码图片一致。
 
 ### 效果展示
 
-![字符验证码使用示例 - 效果展示](images/recognizecharactercommand-04.png)
 
-![字符验证码使用示例 - 效果展示](images/recognizecharactercommand-05.png)
+![字符验证码效果展示](images/recognizecharactercommand-03.png)
+
+![字符验证码效果展示](images/recognizecharactercommand-05.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

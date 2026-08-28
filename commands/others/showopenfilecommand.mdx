@@ -8,8 +8,11 @@ title: "打开选择文件对话框"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
+
+
     ![打开选择文件对话框指令参数面板](images/showopenfilecommand-01.png)
 
     | 参数 | 说明 |
@@ -20,27 +23,33 @@ title: "打开选择文件对话框"
     | **初始目录** | 请选择对话框显示时定位到的默认目录，不填则定位到上次操作的目录。该参数下方有个“检查文件是否存在”的勾选框，若勾选，用户只能选择已经存在的文件路径，不勾选则用户可以输入不存在的文件 |
   </Tab>
   <Tab title="高级">
+
+
+![打开选择文件对话框高级参数面板](images/showopenfilecommand-02.png)
+
     本指令暂无高级参数。
   </Tab>
 </Tabs>
 
 ## 使用示例
 
-![打开选择文件对话框使用示例 - 流程搭建](images/showopenfilecommand-02.png)
+
+![打开选择文件对话框使用示例](images/showopenfilecommand-04.png)
 
 **该流程执行逻辑：**
 
-使用【打开选择文件对话框】弹出标题为“请选择文件”的对话框，可以在该对话框中选择文件类型为Excel的文件
+1. 在【打开选择文件对话框】中将标题设置为“请选择文件”，并把可选文件类型限制为 Excel 文件。
+2. 运行后，流程弹出系统文件选择窗口并等待用户选择文件。
+3. 用户确认后，所选 Excel 文件路径保存到结果变量，供后续【启动Excel】或文件处理指令使用。
 
 ### 效果展示
 
-![打开选择文件对话框使用示例 - 效果展示](images/showopenfilecommand-03.png)
 
-![打开选择文件对话框使用示例 - 效果展示](images/showopenfilecommand-04.png)
+![打开选择文件对话框效果展示](images/showopenfilecommand-03.png)
 
-![打开选择文件对话框使用示例 - 效果展示](images/showopenfilecommand-05.png)
+![打开选择文件对话框效果展示](images/showopenfilecommand-05.png)
 
-![打开选择文件对话框使用示例 - 效果展示](images/showopenfilecommand-06.png)
+![打开选择文件对话框效果展示](images/showopenfilecommand-06.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
