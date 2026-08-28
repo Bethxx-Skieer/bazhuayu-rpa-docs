@@ -8,15 +8,17 @@ title: "标记邮件"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
-    ![标记邮件指令参数面板](images/addflagtoemailcommand-01.png)
+
+
+    ![标记邮件指令参数面板](images/addflagtoemailcommand-03.png)
 
     | 参数 | 说明 |
     | --- | --- |
     | **邮件对象** | 选择需要标记的邮件对象。这个邮件得先从邮箱中获取，把获取到的邮箱列表依次进行循环，每个循环项即是每一封可以进行回复的邮件。 |
     | **标记操作** | 可以标记为已读或未读 |
-    | **该流程执行逻辑：** | 【登录邮箱】登录企业邮箱 |
   </Tab>
   <Tab title="高级">
     本指令暂无高级参数。
@@ -25,17 +27,23 @@ title: "标记邮件"
 
 ## 使用示例
 
-![标记邮件使用示例 - 流程搭建](images/addflagtoemailcommand-02.png)
+
+![标记邮件使用示例](images/addflagtoemailcommand-04.png)
+
+![标记邮件使用示例](images/addflagtoemailcommand-05.png)
 
 **该流程执行逻辑：**
 
+1. 使用【登录邮箱】创建邮箱对象，再获取需要处理的邮件列表。
+2. 从列表中选择当前邮件对象，并在【标记邮件】中设置“已读”或“未读”。
+3. 运行后，目标邮件的状态按设置更新，可在邮箱列表中查看标记结果。
+
 ### 效果展示
 
-![标记邮件使用示例 - 效果展示](images/addflagtoemailcommand-03.png)
 
-![标记邮件使用示例 - 效果展示](images/addflagtoemailcommand-04.png)
+![标记邮件效果展示](images/addflagtoemailcommand-01.png)
 
-![标记邮件使用示例 - 效果展示](images/addflagtoemailcommand-05.png)
+![标记邮件效果展示](images/addflagtoemailcommand-02.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

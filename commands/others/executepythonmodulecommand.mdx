@@ -29,21 +29,21 @@ title: "执行Python代码"
 
 ## 使用示例
 
+
+![执行Python代码使用示例](images/executepythonmodulecommand-03.png)
+
 ![执行Python代码使用示例 - 流程搭建](images/executepythonmodulecommand-02.png)
 
 **该流程执行逻辑：**
 
-使用【执行Python脚本】指令执行Python代码段，代码段中定义了main() 函数，main() 函数有a、b、c三个参数，函数内部将a、b、c的和赋值给value变量，并将value变量return返回；
+1. 在【执行Python代码】中编写 `main(a, b, c)`，让函数返回三个参数之和；需要第三方包时可在代码中直接导入。
+2. 选择 `main` 作为入口函数，依次传入 `a=1`、`b=2`、`c=3`，并把返回值保存到“脚本输出”。
+3. 执行后使用【打印日志】输出“脚本输出”，结果为 `6`。
 
-【执行Python脚本】指令中下拉选择执行了main() 函数，将a：1、b：2、c：3三个参数传输进去计算1+2+3，所以return返回的值是：6，并将返回值「脚本输出」打印出来。
-
-入口函数的入参以及返回值：仅支持 string、 bool、int、 foat、 list、 dict类型数据；其他类型数据请自行在代码段中编写代码转换；
-
-如果代码段中用到其他python包，代码段import 导入即可。
+入口参数和返回值支持 `string`、`bool`、`int`、`float`、`list`、`dict`；其他类型需在代码中自行转换。
 
 ### 效果展示
 
-![执行Python代码使用示例 - 效果展示](images/executepythonmodulecommand-03.png)
 
 ![执行Python代码使用示例 - 效果展示](images/executepythonmodulecommand-04.png)
 

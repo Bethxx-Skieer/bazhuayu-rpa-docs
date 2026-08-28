@@ -1,0 +1,70 @@
+﻿command_title,relative_path,category,section,severity,issue,notes
+实体提取,commands/ai/extractentitycommand.mdx,ai,参数说明/使用示例,review,image_number_order_inversion,parameter=[10]; usage=[1]
+情感倾向分析,commands/ai/getemotionaltendencycommand.mdx,ai,参数说明/使用示例,review,image_number_order_inversion,"parameter=[10]; usage=[3, 2]"
+文本摘要,commands/ai/makeasummarycommand.mdx,ai,参数说明/使用示例,review,image_number_order_inversion,parameter=[10]; usage=[1]
+解析非结构化数据,commands/ai/parsingunstructureddatacommand.mdx,ai,参数说明/使用示例,review,image_number_order_inversion,"parameter=[10]; usage=[4, 1]"
+字符验证码,commands/ai/recognizecharactercommand.mdx,ai,参数说明/使用示例,review,image_number_order_inversion,"parameter=[2]; usage=[1, 4]"
+通用文字识别,commands/ai/recognizegeneraltextcommand.mdx,ai,参数说明/使用示例,review,image_number_order_inversion,"parameter=[5, 6]; usage=[3, 2]"
+图片旋转验证码,commands/ai/recognizerotationcommand.mdx,ai,参数说明/使用示例,review,image_number_order_inversion,"parameter=[10]; usage=[6, 5, 4, 8]"
+表格识别,commands/ai/recognizetablecommand.mdx,ai,参数说明/使用示例,review,image_number_order_inversion,"parameter=[5, 6]; usage=[3, 1]"
+描绘轨迹验证码,commands/ai/recognizetrajectorycommand.mdx,ai,参数说明/使用示例,review,image_number_order_inversion,"parameter=[3]; usage=[4, 2]"
+文本翻译,commands/ai/translatecommand.mdx,ai,参数说明/使用示例,review,image_number_order_inversion,"parameter=[10]; usage=[4, 1]"
+八爪鱼账号授权,commands/bazhuayu/getaccesstokencommand.mdx,bazhuayu,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[1]
+获取采集任务数据,commands/bazhuayu/gettaskdatacommand.mdx,bazhuayu,参数说明/使用示例,review,image_number_order_inversion,"parameter=[4]; usage=[2, 3]"
+获取采集数据总量,commands/bazhuayu/gettaskdatacountcommand.mdx,bazhuayu,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[1]
+获取当前数据索引位置,commands/bazhuayu/gettaskdataoffsetcommand.mdx,bazhuayu,参数说明/使用示例,review,image_number_order_inversion,"parameter=[3]; usage=[2, 1]"
+启动采集任务,commands/bazhuayu/starttaskcommand.mdx,bazhuayu,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[3]
+停止采集任务,commands/bazhuayu/stoptaskcommand.mdx,bazhuayu,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[2]
+添加前后缀,commands/data-processing/appendprefixorsuffixcommand.mdx,data-processing,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[2]
+新建列表,commands/data-processing/createlistcommand.mdx,data-processing,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[1]
+日期时间转换为时间戳,commands/data-processing/datetimeconverttotimestampcommand.mdx,data-processing,参数说明/使用示例,review,image_number_order_inversion,parameter=[2]; usage=[1]
+获取列表交集,commands/data-processing/intersectlistcommand.mdx,data-processing,参数说明/使用示例,review,image_number_order_inversion,parameter=[5]; usage=[1]
+列表转文本,commands/data-processing/jointextcommand.mdx,data-processing,参数说明/使用示例,review,image_number_order_inversion,"parameter=[3]; usage=[4, 2]"
+写入数据到字典,commands/data-processing/setdictionarykeyvaluecommand.mdx,data-processing,参数说明/使用示例,review,image_number_order_inversion,"parameter=[5]; usage=[1, 6]"
+时间戳转换为日期时间,commands/data-processing/timestampconverttodatetimecommand.mdx,data-processing,参数说明/使用示例,review,image_number_order_inversion,parameter=[2]; usage=[1]
+数据库批量插入数据,commands/database/batchinserttodatabasecommand.mdx,database,参数说明/使用示例,review,image_number_order_inversion,"parameter=[9]; usage=[5, 4, 2, 3]"
+关闭数据库,commands/database/closedatabasecommand.mdx,database,参数说明/使用示例,review,image_number_order_inversion,parameter=[2]; usage=[1]
+执行SQL语句,commands/database/executesqlcommand.mdx,database,参数说明/使用示例,review,image_number_order_inversion,parameter=[5]; usage=[4]
+获取所有Sheet页名称,commands/dingtalk/getalldingtalksheetnamescommand.mdx,dingtalk,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[1]
+插入行/列,commands/dingtalk/insertdingtalkroworcolumncommand.mdx,dingtalk,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[2]
+读取表格数据,commands/dingtalk/readdingtalksheetcommand.mdx,dingtalk,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[1]
+下载邮件附件,commands/email/downloademailattachmentcommand.mdx,email,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[2]
+插入空列,commands/excel/insertexcelcolumncommand.mdx,excel,参数说明/使用示例,review,image_number_order_inversion,parameter=[10]; usage=[2]
+插入空列至飞书表格,commands/feishu/addcolumntolarkspreadsheetcommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[5]; usage=[3]
+新增数据表,commands/feishu/addlarkbitabledatatablecommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[1]
+新增字段,commands/feishu/addlarkbitablefieldcommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[1]
+新增记录,commands/feishu/addlarkbitablerecordcommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[1]
+删除字段,commands/feishu/deletelarkbitablefieldcommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[1]
+删除视图,commands/feishu/deletelarkbitableviewcommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[1]
+删除飞书表格行,commands/feishu/deleterowfromlarkspreadsheetcommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[5]; usage=[2]
+查找飞书单元格,commands/feishu/findlarkspreadsheetcellcommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[2]
+获取飞书访问凭证,commands/feishu/getlarkaccesstokencommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[2]
+获取记录详情,commands/feishu/getlarkbitablerecordcommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[1]
+获取视图,commands/feishu/getlarkbitableviewcommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[1]
+重命名数据表,commands/feishu/renamelarkbitabledatatablecommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[1]
+写入列至飞书表格,commands/feishu/writecolumntolarkspreadsheetcommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[3]
+写入行至飞书表格,commands/feishu/writerowtolarkspreadsheetcommand.mdx,feishu,参数说明/使用示例,review,image_number_order_inversion,parameter=[2]; usage=[1]
+删除谷歌表格列,commands/google/deletecolumnfromgooglespreadsheetcommand.mdx,google,参数说明/使用示例,review,image_number_order_inversion,parameter=[2]; usage=[1]
+查找谷歌单元格,commands/google/findgooglespreadsheetcellcommand.mdx,google,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[1]
+获取谷歌表格,commands/google/getgooglespreadsheetcommand.mdx,google,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[1]
+读取谷歌表格内容,commands/google/readgooglespreadsheetcommand.mdx,google,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[2]
+写入列至谷歌表格,commands/google/writecolumntogooglespreadsheetcommand.mdx,google,参数说明/使用示例,review,image_number_order_inversion,parameter=[10]; usage=[1]
+写入行至谷歌表格,commands/google/writerowtogooglespreadsheetcommand.mdx,google,参数说明/使用示例,review,image_number_order_inversion,"parameter=[10]; usage=[2, 3]"
+钉钉群通知,commands/group-notification/notifydingtalkgroupcommand.mdx,group-notification,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[2]
+检查进程是否存在,commands/os/checkprocessexistcommand.mdx,os,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[1]
+复制文件,commands/os/copyfilecommand.mdx,os,参数说明/使用示例,review,image_number_order_inversion,"parameter=[3]; usage=[4, 1]"
+创建文件夹,commands/os/createfoldercommand.mdx,os,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[1]
+解压缩文件/文件夹,commands/os/decompressfilecommand.mdx,os,参数说明/使用示例,review,image_number_order_inversion,"parameter=[4]; usage=[3, 1]"
+获取当前日期时间,commands/os/getcurrentdatetimecommand.mdx,os,参数说明/使用示例,review,image_number_order_inversion,parameter=[2]; usage=[1]
+读取文本文件内容,commands/os/getfilecontentcommand.mdx,os,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[2]
+终止进程,commands/os/killprocesscommand.mdx,os,参数说明/使用示例,review,image_number_order_inversion,parameter=[4]; usage=[3]
+移动文件,commands/os/movefilecommand.mdx,os,参数说明/使用示例,review,image_number_order_inversion,"parameter=[3]; usage=[2, 4]"
+文件重命名,commands/os/renamefilecommand.mdx,os,参数说明/使用示例,review,image_number_order_inversion,parameter=[10]; usage=[1]
+文件夹重命名,commands/os/renamefoldercommand.mdx,os,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[1]
+添加内容到剪切板,commands/os/setclipboarddatacommand.mdx,os,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[1]
+写入文本文件,commands/os/writefilecontentcommand.mdx,os,参数说明/使用示例,review,image_number_order_inversion,"parameter=[3]; usage=[4, 1]"
+打印日志,commands/others/addlogmessagecommand.mdx,others,参数说明/使用示例,review,image_number_order_inversion,"parameter=[4]; usage=[1, 3]"
+注释,commands/others/commentcommand.mdx,others,参数说明/使用示例,review,image_number_order_inversion,"parameter=[3]; usage=[2, 1]"
+EndTry,commands/others/endtrycommand.mdx,others,参数说明/使用示例,review,image_number_order_inversion,parameter=[3]; usage=[2]
+Raise,commands/others/raisecommand.mdx,others,参数说明/使用示例,review,image_number_order_inversion,"parameter=[2]; usage=[1, 3]"
+显示消息通知,commands/others/showmessagetipscommand.mdx,others,参数说明/使用示例,review,image_number_order_inversion,"parameter=[5, 3]; usage=[1]"

@@ -8,9 +8,12 @@ title: "下载邮件附件"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
-    ![下载邮件附件指令参数面板](images/downloademailattachmentcommand-01.png)
+
+
+    ![下载邮件附件指令参数面板](images/downloademailattachmentcommand-03.png)
 
     | 参数 | 说明 |
     | --- | --- |
@@ -26,22 +29,22 @@ title: "下载邮件附件"
 
 ## 使用示例
 
-![下载邮件附件使用示例 - 流程搭建](images/downloademailattachmentcommand-02.png)
+
+![下载邮件附件使用示例](images/downloademailattachmentcommand-02.png)
 
 **该流程执行逻辑：**
 
-登录企业邮箱 ---> 获取第一封邮件 ---> 把获取到的邮箱列表依次进行循环，每个循环项即是每一封即将进行操作的邮件 --->使用【下载邮件附件】将邮件中的附件下载到本地指定的文件夹中
-
-
-RPA运行前
-
-RPA运行后
+1. 使用【登录邮箱】创建邮箱对象，再通过【获取邮件】得到需要处理的邮件列表。
+2. 使用列表循环逐封处理邮件，每个“当前循环项”代表本次要操作的邮件对象。
+3. 在循环中执行【下载邮件附件】，选择当前邮件并指定本地保存文件夹。
+4. 流程运行后，邮件附件被下载到目标文件夹；可对照示例中的运行前、运行后截图确认新增文件。
 
 ### 效果展示
 
-![下载邮件附件使用示例 - 效果展示](images/downloademailattachmentcommand-03.png)
 
-![下载邮件附件使用示例 - 效果展示](images/downloademailattachmentcommand-04.png)
+![下载邮件附件效果展示](images/downloademailattachmentcommand-04.png)
+
+![下载邮件附件效果展示](images/downloademailattachmentcommand-01.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

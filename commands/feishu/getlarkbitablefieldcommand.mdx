@@ -8,8 +8,11 @@ title: "获取字段"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
+
+
     ![获取字段指令参数面板](images/getlarkbitablefieldcommand-01.png)
 
     | 参数 | 说明 |
@@ -26,22 +29,23 @@ title: "获取字段"
 
 ## 使用示例
 
-![获取字段使用示例 - 流程搭建](images/getlarkbitablefieldcommand-02.png)
+
+![获取字段使用示例](images/getlarkbitablefieldcommand-04.png)
+
+![获取字段使用示例](images/getlarkbitablefieldcommand-02.png)
+
+![获取字段使用示例](images/getlarkbitablefieldcommand-03.png)
 
 **该流程执行逻辑：**
 
-此流程运行逻辑：
-
-获取飞书访问凭证 ---> 连接到指定的飞书多维表格 ---> 使用【获取字段】用数据表ID定位的方式获取飞书多维表格对象指定数据表中的所有字段名称，并将其保存至字段列表中 ---> 将字段列表打印到控制台
-
+1. 获取飞书访问凭证，并连接到指定的飞书多维表格。
+2. 执行【获取字段】，使用数据表 ID 定位目标数据表并读取其中的字段信息。
+3. 将获取到的全部字段保存到“字段列表”，再打印到控制台，便于确认字段名称并供后续记录读写指令使用。
 
 ### 效果展示
 
-![获取字段使用示例 - 效果展示](images/getlarkbitablefieldcommand-03.png)
 
-![获取字段使用示例 - 效果展示](images/getlarkbitablefieldcommand-04.png)
-
-![获取字段使用示例 - 效果展示](images/getlarkbitablefieldcommand-05.png)
+![获取字段效果展示](images/getlarkbitablefieldcommand-05.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

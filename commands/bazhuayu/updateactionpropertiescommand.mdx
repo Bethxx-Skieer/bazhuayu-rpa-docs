@@ -26,15 +26,18 @@ title: "修改采集任务步骤配置"
 
 ## 使用示例
 
+
+![修改采集任务步骤配置使用示例](images/updateactionpropertiescommand-05.png)
+
 ![修改采集任务步骤配置使用示例 - 流程搭建](images/updateactionpropertiescommand-02.png)
 
 **该流程执行逻辑：**
 
-使用【八爪鱼账号授权】指令获在RPA中获取到八爪鱼的账号授权
+1. 使用【八爪鱼账号授权】获取账号授权，并选择需要调整的采集任务及目标步骤。
+2. 执行【修改采集任务步骤配置】，定位“输入文本”步骤，将该步骤的文本内容修改为“鲁迅”。
+3. 修改完成后，目标任务后续运行时会使用新的步骤参数；可重新启动任务验证配置是否生效。
 
-执行【修改采集任务步骤配置】指令获取到指定任务，对输入文本步骤进行内容修改，将文本修改为鲁迅。
-
-注意：所使用的八爪鱼采集器账号，必须是团队版或企业版的，否则无法调用当前指令。账号版本升级，请点击：https://www.bazhuayu.com/plan
+注意：该指令需要团队版或企业版账号。账号版本说明请参见：https://www.bazhuayu.com/plan
 
 ### 效果展示
 
@@ -42,7 +45,6 @@ title: "修改采集任务步骤配置"
 
 ![修改采集任务步骤配置使用示例 - 效果展示](images/updateactionpropertiescommand-04.png)
 
-![修改采集任务步骤配置使用示例 - 效果展示](images/updateactionpropertiescommand-05.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

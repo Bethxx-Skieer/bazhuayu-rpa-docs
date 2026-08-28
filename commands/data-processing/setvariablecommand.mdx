@@ -8,9 +8,14 @@ title: "设置变量（1.x版本）"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
+
+
     ![设置变量（1.x版本）指令参数面板](images/setvariablecommand-01.png)
+
+    ![设置变量（1.x版本）指令参数面板](images/setvariablecommand-07.png)
 
     | 参数 | 说明 |
     | --- | --- |
@@ -19,55 +24,39 @@ title: "设置变量（1.x版本）"
     | **生成的变量名称** | 可以新建一个名字作为变量的的名字，也可以选择已有的变量，给它赋值 |
   </Tab>
   <Tab title="高级">
-    ![设置变量（1.x版本）指令高级参数面板](images/setvariablecommand-02.png)
   </Tab>
 </Tabs>
 
 ## 使用示例
 
-![设置变量（1.x版本）使用示例 - 流程搭建](images/setvariablecommand-03.png)
+
+![设置变量（1.x版本）使用示例](images/setvariablecommand-03.png)
+
+![设置变量（1.x版本）使用示例](images/setvariablecommand-02.png)
+
+![设置变量（1.x版本）使用示例](images/setvariablecommand-08.png)
 
 **该流程执行逻辑：**
 
-注意：输入+号，要选择下方的运算符，这样才能实现数值的加减乘除运算。
+本例演示【设置变量（1.x版本）】指令的配置与执行：
 
-【设置变量】新建一个【数值】类型的变量，名字为“ 序号 ”，值为1。
+1. 使用【新建变量】创建数值变量“序号”，初始值设为 `1`。
+2. 执行【设置变量】，选择“序号”，将值设置为“序号 + 1”。输入加号后需选择运算符，才能执行数值运算。
+3. 使用【打印日志】输出“序号”，结果为 `2`；把步骤 2 放入循环后，可在每次循环中让序号递增。
 
-【设置变量】设置一个【数值】类型的变量，名字还是“ 序号 ”，使用上一步 "序号"的值，并且再“+1”。从而实现对 "序号" 这个变量的自增。
-
-如需实现每循环一次，数值就加1，请参考下方示例：https://rpa.bazhuayu.com/shareableLink/659fb8a45d1eb11125dd25a9
-
-描述：修改已有变量的值，常与【新建变量】指令连用
-
-变量
-
-请选择一个现有的变量
-
-值
-
-可以根据变量类型自动转换值的数据类型，如数字和文本，布尔值和文本，任意值与其他类型（转换失败则提示：类型不匹配，变量“xxx”已被声明为“文本值”类型）
-
-使用【新建变量】新建文本类型的变量“文本变量”，并设置初始值为“测试”
-
-使用【打印日志】将“文本变量”的初始值输出至控制台
-
-使用【设置变量】将已有的变量“文本变量”的值设置为“测试1”
-
-使用【打印日志】将“文本变量”修改后的值输出至控制台
+完整循环示例：[打开应用示例](https://rpa.bazhuayu.com/shareableLink/659fb8a45d1eb11125dd25a9)
 
 ### 效果展示
 
-![设置变量（1.x版本）使用示例 - 效果展示](images/setvariablecommand-04.png)
 
-![设置变量（1.x版本）使用示例 - 效果展示](images/setvariablecommand-05.png)
+![设置变量（1.x版本）效果展示](images/setvariablecommand-04.png)
 
-![设置变量（1.x版本）使用示例 - 效果展示](images/setvariablecommand-06.png)
+![设置变量（1.x版本）效果展示](images/setvariablecommand-05.png)
 
-![设置变量（1.x版本）使用示例 - 效果展示](images/setvariablecommand-07.png)
+![设置变量（1.x版本）效果展示](images/setvariablecommand-06.png)
 
-![设置变量（1.x版本）使用示例 - 效果展示](images/setvariablecommand-08.png)
 
-![设置变量（1.x版本）使用示例 - 效果展示](images/setvariablecommand-09.png)
+![设置变量（1.x版本）效果展示](images/setvariablecommand-09.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

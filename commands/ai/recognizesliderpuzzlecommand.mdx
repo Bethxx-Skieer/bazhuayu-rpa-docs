@@ -8,9 +8,12 @@ title: "滑动拼图验证码"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
-    ![滑动拼图验证码指令参数面板](images/recognizesliderpuzzlecommand-01.png)
+
+
+    ![滑动拼图验证码指令参数面板](images/recognizesliderpuzzlecommand-02.png)
 
     | 参数 | 说明 |
     | --- | --- |
@@ -24,9 +27,9 @@ title: "滑动拼图验证码"
     | **自动完成验证** | 点击自动完成验证即可自动执行拖拽动作，否则仅返回滑块终点坐标 |
   </Tab>
   <Tab title="高级">
-    ![滑动拼图验证码指令高级参数面板](images/recognizesliderpuzzlecommand-02.png)
-    ![滑动拼图验证码指令高级参数面板](images/recognizesliderpuzzlecommand-03.png)
-    ![滑动拼图验证码指令高级参数面板](images/recognizesliderpuzzlecommand-04.png)
+
+
+    ![滑动拼图验证码高级参数面板](images/recognizesliderpuzzlecommand-07.png)
 
 | 参数 | 说明 |
 | --- | --- |
@@ -37,19 +40,27 @@ title: "滑动拼图验证码"
 
 ## 使用示例
 
-![滑动拼图验证码使用示例 - 流程搭建](images/recognizesliderpuzzlecommand-05.png)
+
+![滑动拼图验证码使用示例](images/recognizesliderpuzzlecommand-05.png)
 
 **该流程执行逻辑：**
 
-https://rpa.bazhuayu.com/shareableLink/665998ff4beb340409db492a
+1. 打开包含滑动拼图验证码的页面，并捕获拼图背景、缺口图和滑块按钮等所需元素。
+2. 执行【滑动拼图验证码】，识别拼图缺口位置并计算滑块移动距离。
+3. 勾选自动完成时，指令会按识别结果拖动滑块完成验证；示例流程可通过共享链接复现：`https://rpa.bazhuayu.com/shareableLink/665998ff4beb340409db492a`。
 
 ### 效果展示
 
-![滑动拼图验证码使用示例 - 效果展示](images/recognizesliderpuzzlecommand-06.png)
 
-![滑动拼图验证码使用示例 - 效果展示](images/recognizesliderpuzzlecommand-07.png)
+![滑动拼图验证码效果展示](images/recognizesliderpuzzlecommand-01.png)
 
-![滑动拼图验证码使用示例 - 效果展示](images/recognizesliderpuzzlecommand-08.png)
+![滑动拼图验证码效果展示](images/recognizesliderpuzzlecommand-03.png)
+
+![滑动拼图验证码效果展示](images/recognizesliderpuzzlecommand-04.png)
+
+![滑动拼图验证码效果展示](images/recognizesliderpuzzlecommand-08.png)
+
+![滑动拼图验证码效果展示](images/recognizesliderpuzzlecommand-06.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

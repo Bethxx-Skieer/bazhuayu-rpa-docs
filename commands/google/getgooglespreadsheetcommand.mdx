@@ -8,20 +8,41 @@ title: "获取谷歌表格"
 
 ## 参数说明
 
+
 <Tabs>
   <Tab title="常规">
-    ![获取谷歌表格指令参数面板](images/getgooglespreadsheetcommand-01.png)
+
+
+    ![获取谷歌表格指令参数面板](images/getgooglespreadsheetcommand-03.png)
 
     | 参数 | 说明 |
     | --- | --- |
-    | **使用用例** |  |
+    | **谷歌访问凭证** | 选择由【获取谷歌访问凭证】生成的凭证对象。 |
+    | **谷歌表格URL** | 填写目标 Google Sheets 表格的网页地址。 |
+    | **Sheet名称** | 填写要操作的工作表名称。 |
+    | **保存表格对象至** | 设置用于保存谷歌表格对象的变量，供后续读写指令使用。 |
   </Tab>
   <Tab title="高级">
-    ![获取谷歌表格指令高级参数面板](images/getgooglespreadsheetcommand-02.png)
-    ![获取谷歌表格指令高级参数面板](images/getgooglespreadsheetcommand-03.png)
-    ![获取谷歌表格指令高级参数面板](images/getgooglespreadsheetcommand-04.png)
   </Tab>
 </Tabs>
+
+## 使用示例
+
+
+![获取谷歌表格使用示例](images/getgooglespreadsheetcommand-01.png)
+
+
+**该流程执行逻辑：**
+
+1. 选择已经获取的谷歌访问凭证，并填写目标表格地址及 Sheet 名称。
+2. 执行【获取谷歌表格】，将表格对象保存至指定变量供后续指令使用。
+
+### 效果展示
+
+
+![获取谷歌表格效果展示](images/getgooglespreadsheetcommand-02.png)
+
+![获取谷歌表格效果展示](images/getgooglespreadsheetcommand-04.png)
 
 <Info>
   使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

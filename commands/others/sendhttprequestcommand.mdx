@@ -32,21 +32,19 @@ title: "Http请求"
 
 ## 使用示例
 
+
+![Http请求使用示例](images/sendhttprequestcommand-03.png)
+
 ![Http请求使用示例 - 流程搭建](images/sendhttprequestcommand-02.png)
 
 **该流程执行逻辑：**
 
-此案例中以简单的GET请求为例
-
-此流程运行逻辑
-
-使用【Http请求】指令，请求的方法是「GET」，案例中「URL」是https://finance.sina.com.cn/zt_d/subject-1755824143/；将请求的响应结果保持至「http请求结果」中；
-
-使用「http请求结果.StatusCode」打印出来响应结果的状态码；使用「http请求结果.Content」打印出来响应结果的内容；
+1. 在【Http请求】中选择 `GET` 方法，填写示例 URL，并把响应保存到变量“http请求结果”。
+2. 执行请求后，使用【打印日志】输出 `http请求结果.StatusCode`，确认服务器返回的状态码。
+3. 再输出 `http请求结果.Content` 查看响应正文；正式流程中可根据状态码判断是否继续解析内容或进入错误处理。
 
 ### 效果展示
 
-![Http请求使用示例 - 效果展示](images/sendhttprequestcommand-03.png)
 
 ![Http请求使用示例 - 效果展示](images/sendhttprequestcommand-04.png)
 
