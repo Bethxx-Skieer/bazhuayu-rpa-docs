@@ -5,8 +5,6 @@ description: "变量相当于内存中的一个数据存储空间，可以理解
 
 ## 1. 什么是变量
 
-**变量相当于内存中的一个数据存储空间，可以理解成是一种存储多种类型数据的容器，用于数据存储和数据传递。**
-
 和所有程序设计语言一样，八爪鱼 RPA 也有自己的变量，支持类型有文本值、数值、数据表格、列表、日期等，不同类型的变量创建和使用方法略有不同。
 
 我们可以把变量看作是一个房子的门牌号，通过门牌号我们可以找到房子，而通过变量名也可以访问到指定的变量。不同类型的变量，就像房子一样，有工厂、写字楼、超市、学校、住宅等不同作用。
@@ -17,10 +15,46 @@ description: "变量相当于内存中的一个数据存储空间，可以理解
 
 自定义变量是我们手动创建的，在应用运行前设置好某个特定的值。
 
-|  | 1.x 版本 | 2.x 版本 |
-| --- | --- | --- |
-| 自定义变量 | ![变量 示意图 1](images/variable-01.png) | 自定义变量又区分输入变量和普通变量。 |
-| 新增自定义变量 | --->点击+ 号 --->设置变量名称 --->选择变量类型 --->给变量赋默认值（仅在测试模式下生效）  ![变量 示意图 2](images/variable-02.png) | --->点击+ 号 --->设置变量名称 --->选择数据类型 --->给变量赋默认值（2.3及以下仅在测试模式下生效；2.4版本会自动带入到正式环境中）  ![变量 示意图 3](images/variable-03.png) |
+<table style={{width:'100%', borderCollapse:'collapse'}}>
+  <thead>
+    <tr>
+      <th style={{width:'15%', border:'1px solid #e5e7eb', padding:'12px'}}></th>
+      <th style={{width:'42.5%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>1.x 版本</th>
+      <th style={{width:'42.5%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>2.x 版本</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle', textAlign:'center'}}><strong>自定义变量</strong></td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        <img src="images/variable-01.png" alt="1.x 自定义变量面板" style={{maxWidth:'100%'}} />
+      </td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        自定义变量又区分输入变量和普通变量。<br /><br />
+        <img src="images/variable-19.png" alt="2.x 自定义变量面板" style={{maxWidth:'100%'}} />
+      </td>
+    </tr>
+    <tr>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle', textAlign:'center'}}><strong>新增自定义变量</strong></td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        ---&gt;点击+ 号<br />
+        ---&gt;设置变量名称<br />
+        ---&gt;选择变量类型<br />
+        ---&gt;给变量赋默认值（仅在测试模式下生效）<br /><br />
+        <img src="images/variable-02.png" alt="1.x 新增自定义变量" style={{maxWidth:'100%'}} />
+      </td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        ---&gt;点击+ 号<br />
+        ---&gt;设置变量名称<br />
+        ---&gt;选择数据类型<br />
+        ---&gt;给变量赋默认值<br />
+        （2.3及以下仅在测试模式下生效；<br />
+        2.4版本会自动带入到正式环境中）<br /><br />
+        <img src="images/variable-03.png" alt="2.x 新增自定义变量" style={{maxWidth:'100%'}} />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### （1）设置为应用启动参数/输入参数
 
