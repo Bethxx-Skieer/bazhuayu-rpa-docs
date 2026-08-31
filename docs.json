@@ -22,7 +22,8 @@
             "group": "八爪鱼 RPA 概述",
             "pages": [
               "getting-started/introduction",
-              "getting-started/install"
+              "getting-started/install",
+              "getting-started/octoparse-vs-rpa"
             ]
           }
         ]
