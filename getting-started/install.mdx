@@ -31,13 +31,17 @@ description: "完成八爪鱼RPA 客户端的下载、安装与首次启动，�
 
 <Steps>
   <Step title="下载安装包">
-    访问八爪鱼 RPA 下载中心（[https://rpa.bazhuayu.com/download），下载八爪鱼](https://rpa.bazhuayu.com/download），下载八爪鱼) RPA 安装文件（.exe 格式），获取最新版本程序。
+    访问[八爪鱼 RPA 下载中心](https://rpa.bazhuayu.com/download)，下载八爪鱼 RPA 安装文件（.exe 格式），获取最新版本程序。
+
+    ![八爪鱼RPA下载中心](images/rpa-download-center-01.png)
   </Step>
   <Step title="运行安装程序">
     双击 .exe 文件开始安装。安装程序会自动检测并安装缺失的依赖组件（.NET Framework 4.8、Edge WebView2）。
   </Step>
   <Step title="完成安装">
     安装完成后，在开始菜单或桌面上找到 八爪鱼 RPA 快捷方式。
+
+    ![八爪鱼RPA桌面快捷方式](images/install-shortcut-01.png)
   </Step>
   <Step title="登录启动">
     启动八爪鱼 RPA，使用您的账号登录。首次启动后即可进入主界面，开始搭建您的第一个自动化流程。
@@ -50,6 +54,8 @@ description: "完成八爪鱼RPA 客户端的下载、安装与首次启动，�
 
 <AccordionGroup>
   <Accordion title="0x80070490 - 找不到元素">
+    ![错误0x80070490](images/install-error-0x80070490.png)
+
     原因：.NET Framework 4.8 未安装或安装不完整。
 
     解决办法：手动下载 .NET Framework 4.8 离线安装包。
@@ -58,6 +64,16 @@ description: "完成八爪鱼RPA 客户端的下载、安装与首次启动，�
 
     1. 确保系统是 Win7 SP1。如果不是，请先安装 Win7 SP1（x64）补丁
     2. 双击安装 Microsoft 根证书
+
+    ![安装Microsoft根证书-打开证书](images/cert-install-01.png)
+
+    ![安装Microsoft根证书-导入向导](images/cert-install-02.png)
+
+    ![安装Microsoft根证书-选择存储位置](images/cert-install-03.png)
+
+    ![安装Microsoft根证书-选择受信任根证书机构](images/cert-install-04.png)
+
+    ![安装Microsoft根证书-完成导入](images/cert-install-05.png)
     3. 安装 KB2813430 补丁（解决时间戳签名或证书无法验证问题）
     4. 重启电脑后安装 .NET Framework 4.8
 
@@ -65,6 +81,8 @@ description: "完成八爪鱼RPA 客户端的下载、安装与首次启动，�
   </Accordion>
 
   <Accordion title="0x80070643 - 安装时发生严重错误">
+    ![错误0x80070643](images/install-error-0x80070643.png)
+
     可能原因：杀毒软件阻止安装，或 Edge WebView2 组件在线安装失败。
 
     解决办法：检查后台运行的杀毒软件，关闭后重试。如 WebView2 安装失败，请手动下载安装包。
@@ -74,6 +92,8 @@ description: "完成八爪鱼RPA 客户端的下载、安装与首次启动，�
 
   <Accordion title="提示：您已安装更新版本的客户端">
     打开控制面板 → 程序和功能，检查当前已安装的八爪鱼 RPA 版本：
+
+    ![控制面板中查看八爪鱼RPA版本](images/installed-version-01.png)
 
     如果想安装更低版本，请先卸载当前版本，再重新安装。如果想安装当前版本，忽略该提示即可。
   </Accordion>
@@ -85,12 +105,16 @@ description: "完成八爪鱼RPA 客户端的下载、安装与首次启动，�
   前期不需要安装机器人。个人用户使用 RPA 客户端即可满足日常开发与执行需求。
 </Note>
 
+![八爪鱼RPA客户端与机器人桌面图标](images/rpa-robot-shortcut-01.png)
+
 八爪鱼 RPA 客户端集成了设计器、执行器和控制器（三器合一）。RPA 机器人是独立的纯执行器，仅在以下场景考虑安装：
 
 - 需要在多台设备上同时运行多个自动化流程
 - 企业版用户需要扩展运行器数量、实现分布式执行
 
 机器人属于付费功能，详情请参见 [八爪鱼 RPA 定价](https://rpa.bazhuayu.com/plan)。如需安装，访问[八爪鱼 RPA 下载中心](https://rpa.bazhuayu.com/plan)，选择"机器人"下载对应安装包。安装后登录有机器人使用权限的账号，即可在客户端的机器人模块中管理和调度运行。
+
+![客户端机器人管理界面](images/robot-management-01.png)
 
 ## 下一步
 
