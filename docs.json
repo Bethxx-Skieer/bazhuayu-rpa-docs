@@ -41,14 +41,9 @@
               "getting-started/feVjUX",
               "getting-started/4GiS1V",
               "getting-started/5n3u2N",
-              {
-                "group": "指令的基本概念",
-                "pages": [
-                  "getting-started/condition-command",
-                  "getting-started/loop-usage",
-                  "getting-started/wait-command"
-                ]
-              },
+              "getting-started/condition-command",
+              "getting-started/loop-usage",
+              "getting-started/wait-command",
               {
                 "group": "入门应用示例",
                 "pages": [
