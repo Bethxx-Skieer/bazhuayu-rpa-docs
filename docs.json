@@ -61,12 +61,11 @@
         ]
       },
       {
-        "tab": "使用指南",
+        "tab": "专题文档",
         "groups": [
           {
-            "group": "使用指南",
+            "group": "专题文档",
             "pages": [
-              "guides/index",
               {
                 "group": "变量",
                 "pages": [
@@ -127,7 +126,6 @@
           {
             "group": "功能说明",
             "pages": [
-              "features/index",
               {
                 "group": "客户端管理界面",
                 "pages": [
