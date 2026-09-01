@@ -87,7 +87,6 @@
                   {
                     "group": "XPath",
                     "pages": [
-                      "guides/elements/xpath/install-xpath-tool",
                       "guides/elements/xpath/xpath-with-bazhuayu-rpa",
                       "guides/elements/xpath/xpath-by-tag-attribute",
                       "guides/elements/xpath/xpath-functions",
