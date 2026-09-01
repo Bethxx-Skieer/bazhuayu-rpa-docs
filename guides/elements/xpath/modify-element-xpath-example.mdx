@@ -1,15 +1,14 @@
 ---
 title: "修改元素XPath实例"
-description: "描述：本文介绍修改XPath的实例"
 ---
 
-> <strong>描述：本文介绍修改XPath的实例</strong>
+> 本文介绍修改XPath的实例
 
 网页自动化中，我们通过鼠标捕获相似元素组，创建【循环相似元素（web）】去定位多个列表的数据。
 
 一般情况下，通过以上方法创建的循环列表不会出错，能够精准定位到全部数据。但有时候也会遇到一些问题：比如列表中有的部分不是我们想要的，需要进行丢弃。
 
-<strong>这时候，可以手动修改XPath去定位列表丢弃不需要的部分。</strong>
+**这时候**，可以手动修改 XPath 去定位列表，丢弃不需要的部分。
 
 以下通过实例进行说明。
 
@@ -19,9 +18,7 @@ description: "描述：本文介绍修改XPath的实例"
 
 ![](images/modify-element-xpath-example-01.png)
 
----
 
-###
 
 ## 一、用XPath过滤多余的项
 
@@ -31,24 +28,18 @@ description: "描述：本文介绍修改XPath的实例"
 
 ![](images/modify-element-xpath-example-02.png)
 
----
 
-###
 
 ### Step2：修改获得的列表组元素组的xpath
 
 在元素库中，双击微博列表元素，查看该元素的xpath，任意浏览器F12，Ctrl+F，都可以调试XPath，发现不会定位到全部的热门文章
 ![](images/modify-element-xpath-example-03.png)
 
----
 
-###
 
 ![](images/modify-element-xpath-example-04.png)
 
----
 
-###
 
 ### Step3：修改列表元素的XPath
 
@@ -59,14 +50,12 @@ description: "描述：本文介绍修改XPath的实例"
 ![](images/modify-element-xpath-example-05.png)
 ![](images/modify-element-xpath-example-06.png)
 
----
 
 ### Step4：循环获取每个博文的正文文本
 
 使用【获取相关元素】指令获得列表的正文，关联方式选择匹配第一个子孙元素，并输入正文文本的相对xpath: //p[@class="txt"][1]
 ![](images/modify-element-xpath-example-07.png)
 
----
 
 ### 使用示例
 
@@ -74,11 +63,10 @@ description: "描述：本文介绍修改XPath的实例"
 
 ![](images/modify-element-xpath-example-08.png)
 
----
 
 ### 使用小Tips
 
-<strong>总结：当发现循环列表定位过多，需要过滤多余的项，就需要在元素编辑器里修改该元素的定位Xpath。</strong>
+**总结：**当发现循环列表定位过多，需要过滤多余的项，就需要在元素编辑器里修改该元素的定位Xpath。
 
 <Info>
   使用过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

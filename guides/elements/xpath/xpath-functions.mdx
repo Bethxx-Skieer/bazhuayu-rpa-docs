@@ -1,9 +1,8 @@
 ---
 title: "XPath函数"
-description: "描述：本章介绍常见Xpath函数的使用"
 ---
 
-> <strong>描述：本章介绍常见Xpath函数的使用</strong>
+> 本章介绍常见Xpath函数的使用
 
 ## 为什么要学？
 
@@ -18,6 +17,7 @@ description: "描述：本章介绍常见Xpath函数的使用"
 
 ---
 
+<br/>
 ## 开始学习
 
 本教程中使用的网址均为：[https://book.douban.com/tag/%E5%B0%8F%E8%AF%B4](https://book.douban.com/tag/%E5%B0%8F%E8%AF%B4)
@@ -35,11 +35,11 @@ description: "描述：本章介绍常见Xpath函数的使用"
 
 如果需要定位到案例网页中的【后页&gt;】按钮。
 
-用 <strong>text()='xxx' 定位，则XPath为：</strong><strong>//a[text()='后页&gt;'] ，引号中的文本一定要为</strong><strong>'后页&gt;'，如果换成</strong><strong>'后页' （少了一个&gt;），则定位不到【后页&gt;】按钮。</strong>
+用 **text()='xxx'** 定位，则XPath为：**//a[text()='后页&gt;']**，引号中的文本一定要为 **'后页&gt;'**，如果换成 **'后页'**（少了一个&gt;），则定位不到【后页&gt;】按钮。
 
 ![](images/xpath-functions-01.png)
 
-用 <strong>contains(text(),'xxx') 定位，则XPath为：</strong><strong>//a[contains(text(),'后页&gt;')] ；</strong><strong>//a[contains(text(),'后页')] ；</strong><strong>//a[contains(text(),'页')] ；</strong><strong>//a[contains(text(),'后')] 均可（包含文本中相连的一段字符即可，不用全部复制）。</strong>
+用 **contains(text(),'xxx')** 定位，则XPath为：**//a[contains(text(),'后页&gt;')]；//a[contains(text(),'后页')]；//a[contains(text(),'页')]；//a[contains(text(),'后')] 均可**（包含文本中相连的一段字符即可，不用全部复制）。
 
 ![](images/xpath-functions-02.png)
 
@@ -54,11 +54,11 @@ description: "描述：本章介绍常见Xpath函数的使用"
 
 如果需要定位到此网页中的所有图书列表。
 
-直接用属性定位，则XPath为：<strong>//li[@class='subject-item'] ，引号中的属性值一定要为</strong><strong>'subject-item'，跟HTML文档中的属性值完全一致。</strong>
+直接用属性定位，则XPath为：**//li[@class='subject-item']**，引号中的属性值一定要为 **'subject-item'**，跟HTML文档中的属性值完全一致。
 
 ![](images/xpath-functions-03.png)
 
-如果用 <strong>contains(@class,'xxx') 定位 ，则XPath为：</strong><strong>//li[contains(@class,'subject-item')]；</strong><strong>//li[contains(@class,'subject')] 均可（包含属性中相连的一段即可，不用全部复制）。</strong>
+如果用 **contains(@class,'xxx')** 定位，则XPath为：**//li[contains(@class,'subject-item')]；//li[contains(@class,'subject')] 均可**（包含属性中相连的一段即可，不用全部复制）。
 
 ![](images/xpath-functions-04.png)
 
@@ -71,7 +71,7 @@ description: "描述：本章介绍常见Xpath函数的使用"
 
 #### 使用示例
 
-常用于控制循环列表的项。如图，<strong>//ul[@class='subject-list']/li[position()&gt;1 and position()&lt;10]，定位的是第2-9个li标签。</strong>
+常用于控制循环列表的项。如图，**//ul[@class='subject-list']/li[position()&gt;1 and position()&lt;10]**，定位的是第2-9个li标签。
 
 ![](images/xpath-functions-05.png)
 
@@ -85,7 +85,7 @@ description: "描述：本章介绍常见Xpath函数的使用"
 
 #### 使用示例
 
-如图，<strong>//ul[@class='subject-list']/li[last()]，定位的是最后1个li标签。</strong>
+如图，**//ul[@class='subject-list']/li[last()]**，定位的是最后1个li标签。
 
 ![](images/xpath-functions-06.png)
 
@@ -112,7 +112,7 @@ description: "描述：本章介绍常见Xpath函数的使用"
 
 #### 使用示例
 
-如图，<strong>//span[@class="thisclass"]/following-sibling::a ，定位到span节点之后的所有同级a节点</strong>
+如图，**//span[@class="thisclass"]/following-sibling::a**，定位到span节点之后的所有同级a节点
 
 ![](images/xpath-functions-07.png)
 
@@ -120,11 +120,11 @@ description: "描述：本章介绍常见Xpath函数的使用"
 
 #### 常用方法
 
-- preceding-sibling::标签名<strong></strong>
+- preceding-sibling::标签名
 
 #### 使用示例
 
-如图，<strong>//a[@target='_blank']/preceding-sibling::strong ，定位到a节点之前的所有同级strong节点</strong>
+如图，**//a[@target='_blank']/preceding-sibling::strong**，定位到a节点之前的所有同级strong节点
 
 ![](images/xpath-functions-08.png)
 
