@@ -84,7 +84,17 @@
                   "guides/elements/reselect-element",
                   "guides/elements/similar-related-element",
                   "guides/elements/flauinspect",
-                  "guides/elements/xpath"
+                  {
+                    "group": "XPath",
+                    "pages": [
+                      "guides/elements/xpath/install-xpath-tool",
+                      "guides/elements/xpath/xpath-with-bazhuayu-rpa",
+                      "guides/elements/xpath/xpath-by-tag-attribute",
+                      "guides/elements/xpath/xpath-functions",
+                      "guides/elements/xpath/modify-element-xpath-example",
+                      "guides/elements/xpath/iframe-handling"
+                    ]
+                  }
                 ]
               },
               {
