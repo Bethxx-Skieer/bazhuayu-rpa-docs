@@ -23,7 +23,8 @@
             "pages": [
               "getting-started/introduction",
               "getting-started/install",
-              "getting-started/octoparse-vs-rpa"
+              "getting-started/octoparse-vs-rpa",
+              "guides/value-added"
             ]
           }
         ]
@@ -114,12 +115,6 @@
                 "group": "自定义指令",
                 "pages": [
                   "guides/custom-instructions"
-                ]
-              },
-              {
-                "group": "增值服务",
-                "pages": [
-                  "guides/value-added"
                 ]
               }
             ]
