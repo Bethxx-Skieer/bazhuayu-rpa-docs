@@ -1,6 +1,6 @@
 ---
 title: "自定义指令"
-description: "介绍八爪鱼 RPA 自定义指令与指令库的概念、新建与开发流程、指令库管理与分组、自定义指令的副本/隐藏/发版，以及指令库加载、版本兼容与调用其他指令的规则。"
+description: "介绍八爪鱼 RPA 自定义指令与指令库的价值、创建流程、管理分组、显示/隐藏/发版/调用机制，以及版本兼容与加载规则。"
 ---
 
 ## 一、什么是自定义指令
@@ -49,14 +49,34 @@ description: "介绍八爪鱼 RPA 自定义指令与指令库的概念、新建�
 
 - 指令的输入参数
 
-| ![自定义指令 示意图 3](assets/custom-instructions-03.png) | ![自定义指令 示意图 4](assets/custom-instructions-04.png) |
-| --- | --- |
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-03.png" alt="自定义指令 示意图 3" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-04.png" alt="自定义指令 示意图 4" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 - 选择此类型，后续用户使用到此指令时，会提醒他输入相关数据
 - 如果需要设置输入提示、占位符等，可点击指令后方的“编辑”按钮
 
-| ![自定义指令 示意图 5](assets/custom-instructions-05.png) | ![自定义指令 示意图 6](assets/custom-instructions-06.png) |
-| --- | --- |
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-05.png" alt="自定义指令 示意图 5" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-06.png" alt="自定义指令 示意图 6" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 - 输出变量
 
@@ -97,8 +117,18 @@ description: "介绍八爪鱼 RPA 自定义指令与指令库的概念、新建�
 
 - 切换“变量”--->点击“新增自定义变量”按钮--->输入变量名、数据类型、默认值和变量类别
 
-| ![自定义指令 示意图 11](assets/custom-instructions-11.png) | ![自定义指令 示意图 12](assets/custom-instructions-12.png) |
-| --- | --- |
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-11.png" alt="自定义指令 示意图 11" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-12.png" alt="自定义指令 示意图 12" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 - 输入变量创建完成示例图
 
@@ -116,8 +146,18 @@ description: "介绍八爪鱼 RPA 自定义指令与指令库的概念、新建�
 
 当指令库中多个指令的实现逻辑之间有流程复用时，建议继续使用”调用隐藏指令“的方式；当单个指令的实现逻辑中有部分流程复用时，可以使用子流程
 
-| ![自定义指令 示意图 15](assets/custom-instructions-15.png) | ![自定义指令 示意图 16](assets/custom-instructions-16.png) |
-| --- | --- |
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-15.png" alt="自定义指令 示意图 15" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-16.png" alt="自定义指令 示意图 16" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 - 指令界面编辑、预览
 
@@ -125,15 +165,35 @@ description: "介绍八爪鱼 RPA 自定义指令与指令库的概念、新建�
 
 可以设置自定义指令展示的图标、名称、描述等信息，如下图
 
-| ![自定义指令 示意图 17](assets/custom-instructions-17.png) | ![自定义指令 示意图 18](assets/custom-instructions-18.png) |
-| --- | --- |
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-17.png" alt="自定义指令 示意图 17" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-18.png" alt="自定义指令 示意图 18" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 - 自定义指令变量信息编辑
 
 可以设置指令的输入输出参数的展示样式、显示名称、参数描述、控件类型、校验等；也可以调整参数的显示顺序，常规、高级设置；可以编辑指令在画布中显示的内容，可以调用变量
 
-| ![自定义指令 示意图 19](assets/custom-instructions-19.png) | ![自定义指令 示意图 20](assets/custom-instructions-20.png) |
-| --- | --- |
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-19.png" alt="自定义指令 示意图 19" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-20.png" alt="自定义指令 示意图 20" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 #### 2.3 自定义指令创建副本
 
@@ -151,15 +211,35 @@ description: "介绍八爪鱼 RPA 自定义指令与指令库的概念、新建�
 
 指令库开发完成后，可以进行预览，预览的效果就是未来其用户使用时的效果
 
-| ![自定义指令 示意图 23](assets/custom-instructions-23.png) | ![自定义指令 示意图 24](assets/custom-instructions-24.png) |
-| --- | --- |
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-23.png" alt="自定义指令 示意图 23" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-24.png" alt="自定义指令 示意图 24" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 #### 2.6 指令库发版
 
 指令库开发完成或编辑完成后，点击“发版”，发版后就可以在其他应用/指令库引用
 
-| ![自定义指令 示意图 25](assets/custom-instructions-25.png) | ![自定义指令 示意图 26](assets/custom-instructions-26.png) |
-| --- | --- |
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-25.png" alt="自定义指令 示意图 25" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-26.png" alt="自定义指令 示意图 26" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 #### 2.7 拓展指令
 
@@ -187,8 +267,18 @@ description: "介绍八爪鱼 RPA 自定义指令与指令库的概念、新建�
 
 - 新建分组
 
-| ![自定义指令 示意图 30](assets/custom-instructions-30.png) | ![自定义指令 示意图 31](assets/custom-instructions-31.png) |
-| --- | --- |
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-30.png" alt="自定义指令 示意图 30" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="assets/custom-instructions-31.png" alt="自定义指令 示意图 31" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 - 将指令库移动到分组
 
