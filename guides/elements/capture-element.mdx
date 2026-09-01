@@ -9,8 +9,9 @@ description: "对网页或者软件上的元素进行捕获，与元素操作相
 
 对网页或者软件上的元素进行捕获，与元素操作相关的指令均有该功能（如点击网页元素、获取网页元素信息），元素库内也包含该功能
 
-| ![捕获元素 示意图 1](images/capture-element-01.png) | ![捕获元素 示意图 2](images/capture-element-02.png) |
-| --- | --- |
+![捕获元素 示意图 1](images/capture-element-01.png)
+
+![捕获元素 示意图 2](images/capture-element-02.png)
 
 ### 2. 正在捕获元素
 
@@ -22,29 +23,61 @@ description: "对网页或者软件上的元素进行捕获，与元素操作相
 
 （2）捕获相似元素：简单说，就是可以同时捕获XPath结构相似的一组元素。捕获时，按住Shift键，依次点击第一个元素、第二个元素，完成获取
 
-**注：**相似元素通常在循环情况下使用，即需要循环获取相似XPath元素的时候
+<strong>注：</strong>相似元素通常在循环情况下使用，即需要循环获取相似XPath元素的时候
 
 ### 3.结构定位和智能定位
 
-|  | **结构定位** | **智能定位** |
-| --- | --- | --- |
-| 版本号 | 所有版本 | 2.2.1061-beta及以上 |
-| 样式 | ![捕获元素 示意图 4](images/capture-element-04.png) | ![捕获元素 示意图 5](images/capture-element-05.png) |
-| 说明 | 自动生成的Xpath不够稳定，经常需要手动调整 通常会生成绝对路径的XPath表达式，这种表达式对页面结构的依赖性很强，一旦页面的层级结构发生变化，整个表达式就会失效 目前保留该定位方式，依然可以使用、修改、校验或是自定义Xpath | 优化了算法，可以生成比较稳定的Xpath 会优先选固定的属性来定位，如id和class等，能有效提升Xpath的普适性 |
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>结构定位</th>
+      <th>智能定位</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="middle">版本号</td>
+      <td valign="middle">所有版本</td>
+      <td valign="middle">2.2.1061-beta及以上</td>
+    </tr>
+    <tr>
+      <td valign="middle">说明</td>
+      <td valign="middle">自动生成的Xpath不够稳定，经常需要手动调整。通常会生成绝对路径的XPath表达式，这种表达式对页面结构的依赖性很强，一旦页面的层级结构发生变化，整个表达式就会失效。目前保留该定位方式，依然可以使用、修改、校验或是自定义Xpath。</td>
+      <td valign="middle">优化了算法，可以生成比较稳定的Xpath。会优先选固定的属性来定位，如id和class等，能有效提升Xpath的普适性。</td>
+    </tr>
+  </tbody>
+</table>
+
+**结构定位样式：**
+
+![捕获元素 示意图 4](images/capture-element-04.png)
+
+**智能定位样式：**
+
+![捕获元素 示意图 5](images/capture-element-05.png)
 
 （1）两种定位方式可以自由开关，调整顺序。两种定位方式都打开时，流程运行时，会从上到下先用第一个定位策略查找，找不到再用第二个查找。（两种方式至少需要打开一种，否则会出现错误提示）
 
-| ![捕获元素 示意图 6](images/capture-element-06.png) | ![捕获元素 示意图 7](images/capture-element-07.png) |
-| --- | --- |
+**策略开关与顺序调整：**
+
+![捕获元素 示意图 6](images/capture-element-06.png)
+
+![捕获元素 示意图 7](images/capture-element-07.png)
 
 （2）点击右上角的校验元素，会同时校验打开的定位策略的有效性；点击每个策略的后方校验按钮，则只校验当前的定位策略
 
-| ![捕获元素 示意图 8](images/capture-element-08.png) | ![捕获元素 示意图 9](images/capture-element-09.png) |
-| --- | --- |
+**校验元素：**
+
+![捕获元素 示意图 8](images/capture-element-08.png)
+
+![捕获元素 示意图 9](images/capture-element-09.gif)
+
+<br/>
 
 ## 二、使用示例
 
-![捕获元素 示意图 10](images/capture-element-10.png)
+![捕获元素 示意图 10](images/capture-element-10.gif)
 
 **此流程指令逻辑：**
 
@@ -54,13 +87,15 @@ description: "对网页或者软件上的元素进行捕获，与元素操作相
 
 ![捕获元素 示意图 11](images/capture-element-11.png)
 
+<br/>
+
 ## 三、如何查看当前客户端版本信息
 
 点击头像---设置---关于八爪鱼RPA
 
 ![捕获元素 示意图 12](images/capture-element-12.png)
 
-**注：**如需获取最新版本，请打开“显示更新通知”和“获取抢先体验版”。若您的版本号是1.x，请前往[官网下载中心](https://rpa.bazhuayu.com/download)下载2.x版本
+<strong>注：</strong>如需获取最新版本，请打开“显示更新通知”和“获取抢先体验版”。若您的版本号是1.x，请前往[官网下载中心](https://rpa.bazhuayu.com/download)下载2.x版本
 
 
 <Info>
