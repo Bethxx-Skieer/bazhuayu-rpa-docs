@@ -69,7 +69,6 @@
               {
                 "group": "变量",
                 "pages": [
-                  "guides/variables",
                   "guides/variables/variable",
                   "guides/variables/variable-type",
                   "guides/variables/custom-variable-1x",
@@ -79,7 +78,6 @@
               {
                 "group": "元素",
                 "pages": [
-                  "guides/elements",
                   "guides/elements/element",
                   "guides/elements/capture-element",
                   "guides/elements/edit-element",
@@ -92,7 +90,6 @@
               {
                 "group": "图像",
                 "pages": [
-                  "guides/images",
                   "guides/images/image-element",
                   "guides/images/capture-image"
                 ]
@@ -100,7 +97,6 @@
               {
                 "group": "Python基础",
                 "pages": [
-                  "guides/python",
                   "guides/python/environment-setup",
                   "guides/python/library-installer"
                 ]
