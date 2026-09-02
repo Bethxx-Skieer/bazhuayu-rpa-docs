@@ -116,6 +116,12 @@
                 "pages": [
                   "guides/custom-instructions"
                 ]
+              },
+              {
+                "group": "AI 写流程",
+                "pages": [
+                  "guides/ai-write-flow"
+                ]
               }
             ]
           }
@@ -143,7 +149,14 @@
                       "features/app-management/run-results"
                     ]
                   },
-                  "features/app-management/open-ai",
+                  {
+                    "group": "开放能力（AI）",
+                    "pages": [
+                      "features/app-management/open-ai",
+                      "features/app-management/mcp-tools",
+                      "features/app-management/api-key"
+                    ]
+                  },
                   "features/app-management/recycle-bin"
                 ]
               },
