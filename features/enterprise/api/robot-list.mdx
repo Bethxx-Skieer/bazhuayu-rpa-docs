@@ -1,0 +1,84 @@
+---
+title: "机器人列表"
+description: "机器人列表（八爪鱼RPA 开放 API 接口）"
+---
+
+## **请求**
+
+| **Url** | [https://api-rpa.bazhuayu.com/api/v1/bots/management/bots?search=](https://api-rpa.bazhuayu.com/api/v1/bots/management/bots?search=)\{search\}&start=\{start\}&take=\{take\} |
+| --- | --- |
+| **请求方式** | **GET** |
+
+**请求 URL 示例:  **
+
+GET https://api-rpa.bazhuayu.com/api/v1/bots/management/bots?search=%E6%9C%BA%E5%99%A8%E4%BA%BA&start=0&take=20
+
+### **1. 请求头**
+
+| **字段** | **值** |
+| --- | --- |
+| Content-Type | application/json |
+| Authorization | "Bearer" + " " + 授权接口返回的 accessToken |
+| EnterpriseId | 调用启动接口返回的 enterpriseId |
+
+**请求头示例：**
+
+| 名称 | 值 |
+| --- | --- |
+| EnterpriseId | 65d413751fdff0e15cad6627 |
+| Authorization | `Bearer `eyJhbGciOiJSUzI1NiIsImtpZCI6ImdXS3hWc0F4SHhaMDlDcWh6NkNJb3ciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE3MTUxNjI4MjQsImV4cCI6MTcxNTI0OTIyNCwiaXNzIjoiaHR0cHM6Ly9wcmUtaWRlbnRpdHkuYmF6aHVheXUuY29tIiwiYXVkIjpbIkNsaWVudEFwaSIsIkRhdGFBcGkiLCJBZHZhbmNlZEFwaSIsIkNsb3VkQWdlbnQiLCJDbHVzdGVyU2VydmljZSJdLCJjbGllbnRfaWQiOiJPY3RvcHVzIiwic3ViIjoiOTliYjYwYTEtNWI1Mi00MzAwLTlmZmQtNjgxNTMzYzZmMzQ4IiwiYXV0aF90aW1lIjoxNzE1MTYyODI0LCJpZHAiOiJsb2NhbCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiOTliYjYwYTEtNWI1Mi00MzAwLTlmZmQtNjgxNTMzYzZmMzQ4IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6InNraWVlcndlbiIsInByZWZlcnJlZF91c2VybmFtZSI6InNraWVlcndlbiIsInVuaXF1ZV9uYW1lIjoic2tpZWVyd2VuIiwicmVnaXN0ZXJfZGF0ZSI6IjIwMTYtMTEtMDNUMDY6Mzk6MjArMDg6MDAiLCJsYXN0X2xvZ2luX2RhdGUiOiIyMDI0LTA1LTA3VDE3OjIwOjI1KzA4OjAwIiwibGFzdF9wYXNzd29yZF9jaGFuZ2VkX2RhdGUiOiIyMDIyLTEwLTI2VDEyOjI5OjQ2KzA4OjAwIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoid2VuZGlAc2tpZWVyLmNvbSIsImVtYWlsIjoid2VuZGlAc2tpZWVyLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOlsiT3BzIiwiQnVzaW5lc3NDZW50ZXIiXSwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImVtYWlsIiwiQ2xpZW50QXBpIiwiRGF0YUFwaSIsIkFkdmFuY2VkQXBpIiwiQ2xvdWRBZ2VudCIsIkNsdXN0ZXJTZXJ2aWNlIl19.hkFNws955sUm3jvAp2ijf6YVz9z10eGuvwez0aT4wi9b5il7zfD5DU2xDcp44CKhN9Wc-9Cy7-RSjDtkmF4EM8CLNs4VPda9EC1BV8md94WaHZIbyJzTyiOXQXEhVtpS8Y_9cQZyhh5WGanD8G2GOWv4cntKMkC4OLmGSXPO95RRkC3DNUXcTwspNVnHt72C7EmQW0kipuPQ83sRXvStuIvvdzb9kNNn5T-6s3ROcvofi1BYeE_19hF0UBs1IA3IJq8oyjUw4MvffzV6ihLVklmbWjWl3VjFoq9p2G5X2dWvqzhJ0am9QazX3e9MNmOBhYlEx0n-1PM90c5xfs-0zA |
+
+### 2. 请求参数
+
+| **参数名称** | **类型** | **必须** | **描述** |
+| --- | --- | --- | --- |
+| search | string | 否 | 搜索关键词，可按机器人名称、机器名、描述搜索（注意需要 URL encording） |
+| start | int | 否 | 起始位置，从 0 开始，默认 0 |
+| take | int | 否 | 获取记录数量，默认 20 |
+
+### 3. 返回结果
+
+【Http Code 200】查询成功
+
+| **参数名称** | **类型** | **必须** | **描述** |
+| --- | --- | --- | --- |
+| items | **参数名称** **类型** **必须** **描述** id string 是 机器人 Id name string 是 机器人名称 intro string   机器人描述 machineName string 是 机器人机器名 machineIp string 是 机器人机器 IP version string 是 机器人客户端版本 isConnected bool 是 机器人是否连接上服务 isEnabled bool 是 机器人是否可用 executionStatus string 是 机器人状态： Empty - 空 Waiting - 待执行 Scheduled - 任务已分配 Delivered - 机器人已接收任务 Executing - 执行中 Stopping - 停止中 Stopped - 已停止 Finished - 已完成 Failed - 执行失败 Cancelled - 已取消 lastConnectingTime string 是 最后一次连接服务时间 flowId string   正在运行的应用 Id flowProcessNo string   正在运行的应用运行批次 | 是 | 机器人列表 |
+| **参数名称** | **类型** | **必须** | **描述** |
+| id | string | 是 | 机器人 Id |
+| name | string | 是 | 机器人名称 |
+| intro | string |  | 机器人描述 |
+| machineName | string | 是 | 机器人机器名 |
+| machineIp | string | 是 | 机器人机器 IP |
+| version | string | 是 | 机器人客户端版本 |
+| isConnected | bool | 是 | 机器人是否连接上服务 |
+| isEnabled | bool | 是 | 机器人是否可用 |
+| executionStatus | string | 是 | 机器人状态： Empty - 空 Waiting - 待执行 Scheduled - 任务已分配 Delivered - 机器人已接收任务 Executing - 执行中 Stopping - 停止中 Stopped - 已停止 Finished - 已完成 Failed - 执行失败 Cancelled - 已取消 |
+| lastConnectingTime | string | 是 | 最后一次连接服务时间 |
+| flowId | string |  | 正在运行的应用 Id |
+| flowProcessNo | string |  | 正在运行的应用运行批次 |
+| total | string | 是 | 总数 |
+
+返回结果示例：
+
+```
+{
+    "items": [{
+        "id": "99bb60a1-5b52-4300-9ffd-681533c6f348_TRZMNZQ1G8YZ0D5NC9A1HF3QD99Z4DMAZ3X8GXG5PZFVE27YMWP0",
+        "name": "Bot-DESKTOP-NJDIBNV",
+        "intro": null,
+        "machineName": "DESKTOP-NJDIBNV",
+        "machineIp": "172.22.0.1",
+        "version": "0.2.22.1118",
+        "isConnected": false,
+        "isEnabled": true,
+        "executionStatus": "Empty",
+        "lastConnectingTime": "2024-11-20T02:44:01.007+00:00",
+        "lastDisconnectingTime": "2024-11-20T02:48:30.189+00:00",
+        "isBusy": false,
+        "flowId": null,
+        "flowProcessNo": null
+    }],
+    "total": 1
+}
+```
+

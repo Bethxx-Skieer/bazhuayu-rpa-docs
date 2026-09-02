@@ -1,44 +1,49 @@
 ---
 title: "API 接口"
-description: "通过开放 API 集成八爪鱼RPA。"
+description: "八爪鱼RPA 企业版开放 API，支持通过接口远程管理应用与机器人。"
 ---
 
 ## 功能概述
 
-八爪鱼RPA 提供开放 API 接口，支持企业将 RPA 能力集成到自身业务系统、内部平台或第三方应用中。通过 API Key 鉴权，可以实现应用列表查询、任务启动、结果获取等操作，无需人工登录客户端。
+八爪鱼RPA 企业版提供开放 API 接口，支持企业将 RPA 能力集成到自身业务系统、内部平台或第三方应用中。通过令牌（Token）鉴权，可以远程启动应用、查询运行状态、管理机器人资源，无需人工登录客户端即可完成自动化调度。
 
-## 入口
+所有接口统一以 `https://api-rpa.bazhuayu.com/api/v1` 为基址，请求头需携带 `Authorization: Bearer <token>`；企业版还可选携带 `EnterpriseId` 请求头以指定企业上下文（缺省为个人版）。
 
-在八爪鱼RPA 客户端左侧导航栏点击 **开放能力（AI）** → **API Key**，生成并管理调用凭证。
+## 本类包含
 
-## 主要能力
-
-| 能力 | 说明 |
-| --- | --- |
-| 应用管理 | 查询、创建、更新企业空间中的应用 |
-| 任务调度 | 远程启动应用、获取任务状态与结果 |
-| 机器人管理 | 查询机器人资源与状态 |
-| 数据交互 | 在调用时传递输入参数，获取输出结果 |
-
-## 鉴权方式
-
-调用 API 时需在请求头中携带 API Key：
-
-| Header 名称 | 示例值 |
-| --- | --- |
-| X-API-Key | `oct_wsqGD3xxxx` |
-| Authorization | `Bearer oct_wsqGD3xxxx` |
+<CardGroup cols={2}>
+  <Card title="授权" href="/features/enterprise/api/authorization">
+    通过账号密码获取访问令牌（Token），用于后续所有接口的鉴权。
+  </Card>
+  <Card title="启动应用" href="/features/enterprise/api/start-app">
+    通过 WebHook 方式远程启动指定应用。
+  </Card>
+  <Card title="查询应用状态" href="/features/enterprise/api/query-app-status">
+    查询应用运行记录与当前执行状态。
+  </Card>
+  <Card title="停止应用" href="/features/enterprise/api/stop-app">
+    停止正在运行的应用任务。
+  </Card>
+  <Card title="机器人列表" href="/features/enterprise/api/robot-list">
+    获取企业空间下的机器人资源列表。
+  </Card>
+  <Card title="获取机器人信息" href="/features/enterprise/api/get-robot-info">
+    根据机器人 ID 获取单个机器人的详细信息。
+  </Card>
+  <Card title="机器人调度-启动单个应用" href="/features/enterprise/api/robot-scheduling-start-single">
+    通过调度接口启动单个应用并指定执行机器人。
+  </Card>
+  <Card title="机器人调度-批量启动应用" href="/features/enterprise/api/robot-scheduling-batch">
+    批量启动多个应用，支持事务语义（全部成功或全部失败）。
+  </Card>
+</CardGroup>
 
 ## 使用流程
 
-1. 在「开放能力（AI）」中创建 API Key 并妥善保存。
-2. 阅读开放 API 接口文档，了解各接口地址与参数。
-3. 在业务系统中调用接口，传递 API Key 与必要参数。
-4. 根据返回结果处理应用启动、状态查询等逻辑。
-
-<Info>
-  API Key 等同于账号身份，请妥善保管，不要写入公开代码仓库。如怀疑泄露，请立即吊销并重新创建。
-</Info>
+1. 调用「授权」接口，使用账号密码换取访问令牌（Token）。
+2. 在请求头中携带 `Authorization: Bearer <token>`。
+3. 按需调用「启动应用」「机器人调度」等接口，远程执行自动化任务。
+4. 通过「查询应用状态」「机器人列表」等接口获取执行结果与资源信息。
 
 <Info>
   使用过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

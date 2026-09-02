@@ -152,7 +152,6 @@
                   {
                     "group": "开放能力（AI）",
                     "pages": [
-                      "features/app-management/open-ai",
                       "features/app-management/mcp-tools",
                       "features/app-management/api-key"
                     ]
@@ -187,7 +186,20 @@
                   "features/enterprise/collaboration-space",
                   "features/enterprise/member-management",
                   "features/enterprise/bot",
-                  "features/enterprise/api",
+                  {
+                    "group": "API 接口",
+                    "pages": [
+                      "features/enterprise/api",
+                      "features/enterprise/api/authorization",
+                      "features/enterprise/api/start-app",
+                      "features/enterprise/api/query-app-status",
+                      "features/enterprise/api/stop-app",
+                      "features/enterprise/api/robot-list",
+                      "features/enterprise/api/get-robot-info",
+                      "features/enterprise/api/robot-scheduling-start-single",
+                      "features/enterprise/api/robot-scheduling-batch"
+                    ]
+                  },
                   "features/enterprise/webhook-trigger"
                 ]
               }

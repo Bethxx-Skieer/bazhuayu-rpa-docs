@@ -1,0 +1,137 @@
+---
+title: "机器人调度-批量启动应用"
+description: "机器人调度-批量启动应用（八爪鱼RPA 开放 API 接口）"
+---
+
+认证方式：`Authorization: Bearer `
+
+企业上下文：请求头 `EnterpriseId: `（可选，缺省为个人版）
+
+请求体大小限制：单次 10 MB
+
+## **请求**
+
+| **Url** | https://api-rpa.bazhuayu.com/api/v1/bots/scheduling/start/batch |
+| --- | --- |
+| **请求方式** | **POST** |
+
+### **1. 请求头**
+
+| **字段** | **值** |
+| --- | --- |
+| Content-Type | application/json |
+| Authorization | `Bearer <token>` |
+| EnterpriseId | 对应企业id，个人版则无需指定 |
+
+**事务语义：**
+
+全部成功或全部失败（任一失败则整体失败并回滚，不产生任何启动）, 不会存在同次批量启动的应用部分成功和部分失败的情况
+
+**请求头示例**
+
+```
+POST /api/v1/bots/scheduling/start/batch HTTP/1.1
+```
+
+| 名称 | 值 |
+| --- | --- |
+| Content-Type | application/json |
+| Authorization | `Bearer <token>` |
+| EnterpriseId | 64f1e6a2... |
+
+### 
+
+### 2. 请求参数
+
+**请求体参数（顶层）：**
+
+| **参数名称** | **类型** | **必须** | **描述** |
+| --- | --- | --- | --- |
+| configs | array | 是 | 启动配置数组，长度 1~100 |
+
+** configs[i]字段：**
+
+| **参数名称** | **类型** | **必须** | **描述** |
+| --- | --- | --- | --- |
+| flowId | string | 是 | 应用 Id |
+| flowContentRetrievalMode | string | 否 | 应用内容获取方式，取值： `ByNewestContent`默认值，表示获取应用最新内容 `ByDefaultPublication`表示获取应用最新版本 `BySpecifiedPublication`表示获取应用指定版本 |
+| specifiedPublicationVersion | string | 否 | 指定应用版本号；当模式为 `BySpecifiedPublication` 时提供 |
+| specifiedBot | string | 否 | 指定机器人 Id；不填则为任意机器人 |
+| params | object | 否 | 应用运行参数键值对，如 `\{ "key": value \}` |
+
+### 
+
+### 3. 请求示例
+
+请求体：
+
+```
+{
+  "flowId": "flow_123",
+  "flowContentRetrievalMode": "BySpecifiedPublication",
+  "specifiedPublicationVersion": "1",
+  "specifiedBot": "bot_id_001",
+  "params": {
+    "date": "2025-10-01",
+    "retry": 2
+  }
+}
+```
+
+### 4. 返回结果
+
+成功响应体：
+
+| **名称** | **类型** | **是否必须** | **描述** |
+| --- | --- | --- | --- |
+| isSuccess | boolean | 是 | 是否全部成功 |
+| results | array | 否 | 全部成功时返回；每项结构见下表 |
+| errors | array | 否 | 任一失败时返回；每项结构见下表 |
+
+results[i]：
+
+| **名称** | **类型** | **是否必须** | **描述** |
+| --- | --- | --- | --- |
+| flowId | string | 是 | 应用 Id |
+| flowProcessNo | string | 是 | 启动应用生成的批次号 |
+
+errors[i]：
+
+| **名称** | **类型** | **是否必须** | **描述** |
+| --- | --- | --- | --- |
+| flowId | string | 是 | 应用 Id |
+| reason | string | 是 | 业务失败原因（错误码） |
+
+返回示例：
+
+```
+{
+  "isSuccess": true,
+  "results": [
+    { "flowId": "flow_123", "flowProcessNo": "638973212187164151" },
+    { "flowId": "flow_456", "flowProcessNo": "638973212187164152" }
+  ],
+  "errors": null
+}
+```
+
+失败响应体：
+
+| **名称** | **类型** | **是否必须** | **描述** |
+| --- | --- | --- | --- |
+| code | string | 是 | 错误码 |
+| description | string | 是 | 错误描述 |
+| requestId | string | 否 | 请求追踪 ID |
+
+返回示例：
+
+```
+{
+  "isSuccess": false,
+  "results": null,
+  "errors": [
+    { "flowId": "flow_456", "reason": "FailedToGetFlow" }
+  ]
+}
+```
+

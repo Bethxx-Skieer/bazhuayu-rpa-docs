@@ -1,0 +1,54 @@
+---
+title: "启动应用"
+description: "启动应用（八爪鱼RPA 开放 API 接口）"
+---
+
+## **请求**
+
+参考 [WebHook触发任务](https://rpa.bazhuayu.com/helpcenter/docs/SKmVua)
+
+| **Url** | 从 Webhook 触发器获取 |
+| --- | --- |
+| **请求方式** | **POST** |
+
+### **1. 请求头**
+
+| **字段** | **值** |
+| --- | --- |
+| Content-Type | application/json |
+
+### 2. 请求参数
+
+| **参数名称** | **类型** | **必须** | **描述** |
+| --- | --- | --- | --- |
+| sign | string | 是 | 时间戳与创建 Webhook 触发器时生成的签名密钥进行算法加密，将 timestamp + "\n" + 密钥 当做签名字符串；先使用 HmacSHA256 算法计算签名，再进行 Base64 编码。 ![](images/start-app-01.png) |
+| params | object | 否 | \{ "应用参数1": "任务的自定义参数", // 例如账号 "应用参数2": "任务的自定义参数" // 例如密码 \} |
+| specifiedBot | string | 是 | 机器人 Id。从 RPA 企业账号管理平台中获取。 |
+| timestamp | string | 是 | 当前时间的时间戳（秒）。 |
+
+### 3. 返回结果
+
+【Http Code 200】启动成功：
+
+| **参数名称** | **类型** | **必须** | **描述** |
+| --- | --- | --- | --- |
+| enterpriseId | string | 是 | 企业账号 Id |
+| flowId | string | 是 | 应用 Id |
+| processNo | string | 是 | 运行批次 |
+
+返回示例：
+
+```
+{
+    "enterpriseId": "65d413751fdff0e15cad6627",
+    "flowId": "660b796f5db3eedaa9587bbd",
+    "processNo": "638508224789866966"
+}
+```
+
+| **参数名称** | **类型** | **必须** | **描述** |
+| --- | --- | --- | --- |
+| ode | string | 是 | 错误码 |
+| description | string |  | 错误描述 |
+| requestId | string | 是 | 请求 ID |
+
