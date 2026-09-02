@@ -5,11 +5,40 @@ description: "AI 写流程 是八爪鱼 RPA 编辑界面侧边栏的智能开发
 
 > **描述：**不知道如何搭建流程？一句话让AI生成流程
 
-| 版本 | 适用客户端版本 | 图示 | 说明 |
-| --- | --- | --- | --- |
-| v1.0 | 八爪鱼RPA客户端v2.0至v2.1 | <a href="assets/ai-write-flow-01.gif"><img src="assets/ai-write-flow-01.gif" alt="AI写流程" width="220" /></a> | 流程中涉及元素，只会生成元素名称，需要手动捕获相关元素 |
-| v2.0 | 八爪鱼RPA客户端v2.2至v2.4 | <a href="assets/ai-write-flow-02.gif"><img src="assets/ai-write-flow-02.gif" alt="AI写流程" width="220" /></a> | 只需用简单的中文描述您的业务需求，AI即可智能生成可执行的RPA流程。但只能根据固定步骤执行，无法根据页面实际情况智能调整步骤。 |
-| v3.0 | 八爪鱼RPA客户端v2.5及以上 | 见下文 | 在2.0的基础上新增智能探索和用户交互，真正实现走一步看一步，流程准确性大幅提升。 |
+<table style={{width:'100%', borderCollapse:'collapse'}}>
+  <thead>
+    <tr>
+      <th style={{width:'15%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>版本</th>
+      <th style={{width:'30%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>适用客户端版本</th>
+      <th style={{width:'30%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>图示</th>
+      <th style={{width:'25%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>v1.0</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>八爪鱼RPA客户端v2.0至v2.1</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        <img src="assets/ai-write-flow-01.gif" alt="AI写流程 v1.0" style={{maxWidth:'220px'}} />
+      </td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>流程中涉及元素，只会生成元素名称，需要手动捕获相关元素</td>
+    </tr>
+    <tr>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>v2.0</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>八爪鱼RPA客户端v2.2至v2.4</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        <img src="assets/ai-write-flow-02.gif" alt="AI写流程 v2.0" style={{maxWidth:'220px'}} />
+      </td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>只需用简单的中文描述您的业务需求，AI即可智能生成可执行的RPA流程。但只能根据固定步骤执行，无法根据页面实际情况智能调整步骤。</td>
+    </tr>
+    <tr>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>v3.0</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>八爪鱼RPA客户端v2.5及以上</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>见下文</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>在2.0的基础上新增智能探索和用户交互，真正实现走一步看一步，流程准确性大幅提升。</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## 一、认识AI写流程
@@ -30,11 +59,50 @@ AI 写流程 是八爪鱼 RPA 编辑界面侧边栏的智能开发助手，用�
 
 与其他流程搭建方式的对比：
 
-| 搭建方式 | 图示 | 操作方式 | 技术门槛 | 适用场景 | 开发效率 |
-| --- | --- | --- | --- | --- | --- |
-| AI写流程 | <a href="assets/ai-write-flow-04.png"><img src="assets/ai-write-flow-04.png" alt="一、认识AI写流程" width="220" /></a> | 自然语言对话描述 | 无门槛，零代码 | 快速原型、标准化业务、复杂逻辑生成 | ⭐⭐⭐⭐⭐ <br/>极快 |
-| 可视化拖拽 | <a href="assets/ai-write-flow-05.png"><img src="assets/ai-write-flow-05.png" alt="一、认识AI写流程" width="220" /></a> | 图形化组件拖拽连线 | 低门槛，需理解RPA逻辑 | 简单流程、可视化调整 | ⭐⭐⭐<br/>中等 |
-| 代码编写 | <a href="assets/ai-write-flow-06.png"><img src="assets/ai-write-flow-06.png" alt="一、认识AI写流程" width="220" /></a> | 编写Python/JavaScript脚本 | 高门槛，需编程能力 | 高度定制化、特殊场景 |  |
+<table style={{width:'100%', borderCollapse:'collapse'}}>
+  <thead>
+    <tr>
+      <th style={{width:'15%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>搭建方式</th>
+      <th style={{width:'25%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>图示</th>
+      <th style={{width:'20%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>操作方式</th>
+      <th style={{width:'15%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>技术门槛</th>
+      <th style={{width:'15%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>适用场景</th>
+      <th style={{width:'10%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>开发效率</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>AI写流程</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        <img src="assets/ai-write-flow-04.png" alt="AI写流程" style={{maxWidth:'220px'}} />
+      </td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>自然语言对话描述</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>无门槛，零代码</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>快速原型、标准化业务、复杂逻辑生成</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>⭐⭐⭐⭐⭐ <br/>极快</td>
+    </tr>
+    <tr>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>可视化拖拽</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        <img src="assets/ai-write-flow-05.png" alt="可视化拖拽" style={{maxWidth:'220px'}} />
+      </td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>图形化组件拖拽连线</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>低门槛，需理解RPA逻辑</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>简单流程、可视化调整</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>⭐⭐⭐<br/>中等</td>
+    </tr>
+    <tr>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>代码编写</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        <img src="assets/ai-write-flow-06.png" alt="代码编写" style={{maxWidth:'220px'}} />
+      </td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>编写Python/JavaScript脚本</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>高门槛，需编程能力</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>高度定制化、特殊场景</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}></td>
+    </tr>
+  </tbody>
+</table>
 
 
 ## 二、界面介绍
@@ -48,10 +116,31 @@ AI 写流程 是八爪鱼 RPA 编辑界面侧边栏的智能开发助手，用�
 
 共有两种方式可使用AI写流程功能
 
-| 方式 | 图示 | 注意事项 |
-| --- | --- | --- |
-| 首页创建 | <a href="assets/ai-write-flow-08.png"><img src="assets/ai-write-flow-08.png" alt="1. 创建AI写流程" width="220" /></a> | - |
-| 流程编辑区新建 | <a href="assets/ai-write-flow-09.png"><img src="assets/ai-write-flow-09.png" alt="1. 创建AI写流程" width="220" /></a> | AI写流程既可以生成主流程，也可生成子流程 |
+<table style={{width:'100%', borderCollapse:'collapse'}}>
+  <thead>
+    <tr>
+      <th style={{width:'20%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>方式</th>
+      <th style={{width:'40%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>图示</th>
+      <th style={{width:'40%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>注意事项</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>首页创建</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        <img src="assets/ai-write-flow-08.png" alt="首页创建" style={{maxWidth:'220px'}} />
+      </td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>-</td>
+    </tr>
+    <tr>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>流程编辑区新建</td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        <img src="assets/ai-write-flow-09.png" alt="流程编辑区新建" style={{maxWidth:'220px'}} />
+      </td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>AI写流程既可以生成主流程，也可生成子流程</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2. AI生成流程
 
@@ -77,9 +166,24 @@ AI引擎根据业务需求智能思考，包括遇到异常情况跟用户直接
 
 流程生成完毕后，可点击顶部导航栏的“运行”按钮进行调试，确认实际结果是否符合预期
 
-| 点击“运行”按钮 | 运行过程 |
-| --- | --- |
-| <a href="assets/ai-write-flow-12.png"><img src="assets/ai-write-flow-12.png" alt="3.1 调试" width="220" /></a> | <a href="assets/ai-write-flow-13.jpg"><img src="assets/ai-write-flow-13.jpg" alt="3.1 调试" width="220" /></a> |
+<table style={{width:'100%', borderCollapse:'collapse'}}>
+  <thead>
+    <tr>
+      <th style={{width:'50%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>点击“运行”按钮</th>
+      <th style={{width:'50%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>运行过程</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        <img src="assets/ai-write-flow-12.png" alt="点击运行按钮" style={{maxWidth:'220px'}} />
+      </td>
+      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
+        <img src="assets/ai-write-flow-13.jpg" alt="运行过程" style={{maxWidth:'220px'}} />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 注：①指令内部参数在调试的过程中可自行修改，如搜索关键词等
 
@@ -134,21 +238,13 @@ AI引擎根据业务需求智能思考，包括遇到异常情况跟用户直接
 
 ## 四、常见Q&A
 
-Q1：AI写流程专属余额在哪里查看？专属余额消耗完之后应该怎么进行充值？
+Q1：“AI写流程”生成的流程，我点击“应用”后，还能否让AI进行二次调试？
 
-A1：点击AI写流程功能区域旁边的更多标志，即可看到AI专属余额。专属余额消耗完毕后，会消耗通用余额，可直接充值通用余额。
+A1：不能，点击“应用”后代表本次调试结束，对于AI来说，下一次的需求已经是全新的需求了。
 
-| AI专属余额 | 通用余额 |
-| --- | --- |
-| <a href="assets/ai-write-flow-22.png"><img src="assets/ai-write-flow-22.png" alt="四、常见Q&A" width="220" /></a> | <a href="assets/ai-write-flow-23.png"><img src="assets/ai-write-flow-23.png" alt="四、常见Q&A" width="220" /></a> |
+Q2：“AI写流程”是不是只支持八爪鱼浏览器？
 
-Q2：“AI写流程”生成的流程，我点击“应用”后，还能否让AI进行二次调试？
-
-A2：不能，点击“应用”后代表本次调试结束，对于AI来说，下一次的需求已经是全新的需求了。
-
-Q3：“AI写流程”是不是只支持八爪鱼浏览器？
-
-A3：不是，也支持Chrome等浏览器。如果要指定浏览器，需要在提示词中强调用xxx浏览器打开xxx网页，否则AI会默认选用八爪鱼浏览器。
+A2：不是，也支持Chrome等浏览器。如果要指定浏览器，需要在提示词中强调用xxx浏览器打开xxx网页，否则AI会默认选用八爪鱼浏览器。
 
 <Info>
   使用过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。

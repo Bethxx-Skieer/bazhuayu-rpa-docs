@@ -732,10 +732,10 @@
         ]
       },
       {
-        "tab": "教程案例",
+        "tab": "学院",
         "groups": [
           {
-            "group": "教程案例",
+            "group": "学院",
             "pages": [
               "tutorials/index",
               {
