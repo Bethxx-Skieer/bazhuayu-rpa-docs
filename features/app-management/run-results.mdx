@@ -11,6 +11,8 @@ description: "查看与导出应用的运行日志，辅助故障排查。"
 
 在八爪鱼RPA 客户端左侧导航栏点击 **运行计划** → **运行日志** 即可进入。
 
+![运行日志 - 入口](images/run-results-entrance.png)
+
 ## 日志类型
 
 | 类型 | 说明 |
@@ -20,16 +22,65 @@ description: "查看与导出应用的运行日志，辅助故障排查。"
 | 调试运行日志 | 编辑界面调试时实时输出每条指令的执行结果，关闭编辑界面后自动清除 |
 | 客户端日志 | 客户端运行本身的日志，用于技术人员排查客户端异常 |
 
+![运行日志 - 本地/机器人日志切换](images/run-results-log-types-tabs.png)
+
+![运行日志 - 调试运行日志](images/run-results-debug-log.png)
+
+![运行日志 - 客户端日志](images/run-results-client-log.png)
+
 ## 本地运行日志可进行的操作
 
 - **查看日志**：查看所选应用某次运行的完整日志。
+
+  ![运行日志 - 查看日志](images/run-results-view-log.png)
+
 - **查找**：在完整日志上下文中高亮显示命中内容，不改变原始日志结构。
+
+  ![运行日志 - 查找](images/run-results-find.png)
+
 - **导出日志**：将日志导出到本地指定路径，便于存档或发给技术支持。
+
+  ![运行日志 - 导出日志](images/run-results-export.png)
+
 - **删除**：删除选中的执行记录。
+
+  ![运行日志 - 删除](images/run-results-delete.png)
 
 ## 筛选方式
 
 本地运行日志支持按运行结果与触发方式筛选，帮助用户快速找到成功、失败或特定触发方式的任务。
+
+![运行日志 - 按触发方式筛选](images/run-results-filter-trigger.png)
+
+![运行日志 - 按运行结果筛选](images/run-results-filter-result.png)
+
+## 机器人日志
+
+机器人运行日志当前仅显示机器人的运行记录，无法查看运行日志详情，只可删除记录。
+
+![运行日志 - 机器人日志](images/run-results-robot-log.png)
+
+> 注：八爪鱼RPA 客户端未记录机器人运行日志详情内容，如果需要查看详情日志，请前往「八爪鱼RPA 机器人」所在设备上查看。常用帮助文档：[RPA 客户端](https://rpa.bazhuayu.com/helpcenter/docs/OuUQb2) 和 [RPA 机器人](https://rpa.bazhuayu.com/helpcenter/docs/TwEcUb)。
+
+## 调试运行日志
+
+编辑界面的调试运行日志用于查看每条指令的运行结果，是流程排查问题的重要窗口，辅助流程编写的重要工具。实时记录调试运行过程中每条指令的执行情况。在编辑界面关闭后日志会自动清除。
+
+![运行日志 - 调试运行日志](images/run-results-debug-log.png)
+
+## 客户端日志
+
+客户端日志主要用于给技术人员排查客户端情况，如您遇到客户端异常可发送这个日志给八爪鱼RPA 官方工作人员。
+
+日志默认位于 `C:\Users\<用户名>\AppData\Local\OctopusRPA\Log` 路径下。
+
+![运行日志 - 客户端日志路径](images/run-results-client-log-01.png)
+
+![运行日志 - 客户端日志文件夹](images/run-results-client-log-02.png)
+
+![运行日志 - 客户端日志文件](images/run-results-client-log-03.png)
+
+> 如果在上述路径没有找到 Log 文件夹，请再访问 `C:\Users\<用户名>\AppData\Roaming\OctopusRPA`。
 
 ## 编辑界面中的底部菜单栏
 
@@ -48,7 +99,7 @@ description: "查看与导出应用的运行日志，辅助故障排查。"
 4. 如需存档，点击「导出日志」保存到本地。
 
 <Info>
-  机器人运行日志详情需在「八爪鱼RPA机器人」所在设备上查看；客户端日志默认位于 `C:\Users\<用户名>\AppData\Local\OctopusRPA\Log` 路径下。
+  机器人运行日志详情需在「八爪鱼RPA 机器人」所在设备上查看；客户端日志默认位于 `C:\Users\<用户名>\AppData\Local\OctopusRPA\Log` 路径下。
 </Info>
 
 <Info>

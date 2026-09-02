@@ -164,6 +164,8 @@
                 "pages": [
                   "features/app-development",
                   "features/app-development/top-menu",
+                  "features/app-development/instruction-bar",
+                  "features/app-development/flow-bar",
                   "features/app-development/bottom-menu",
                   "features/app-development/right-menu"
                 ]
