@@ -121,7 +121,14 @@ def main() -> None:
         usage = section(text, HEADINGS[2], HEADINGS[3])
         effect = section(text, HEADINGS[3], None)
 
+        # 兼容历史的“描述：”标签写法和当前直接使用正文段落的写法。
+        # 指令说明的关键要求是存在可读的非空描述，而不是固定的 Markdown 标签。
         description = re.search(r"(?m)^\*\*描述：\*\*\s*(.+?)\s*$", instruction)
+        if not description:
+            description = re.search(
+                r"(?m)^(?!\s*(?:#|<|!|\||```))\s*\S.*\S\s*$",
+                instruction,
+            )
         if not description:
             issue(document, page_title, "missing_description", "指令说明", "缺少非空指令描述。")
         if IMAGE_RE.search(instruction):
