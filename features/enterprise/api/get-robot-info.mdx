@@ -3,19 +3,21 @@ title: "获取机器人信息"
 description: "获取机器人信息（八爪鱼RPA 开放 API 接口）"
 ---
 
-## **请求**
+## 请求
 
-| **Url** | [https://api-rpa.bazhuayu.com/api/v1/bots/management/bots/](https://api-rpa.bazhuayu.com/api/v1/bots/management/bots/)\{botId\} |
+| Url | https://api-rpa.bazhuayu.com/api/v1/bots/management/bots/{botId} |
 | --- | --- |
-| **请求方式** | **GET** |
+| 请求方式 | GET |
 
 **请求 URL 示例：**
 
+```
 GET https://api-rpa.bazhuayu.com/api/v1/bots/management/bots/99bb60a1-5b52-4300-9ffd-681533c6f348_TRZMNZQ1G8YZ0D5NC9A1HF3QD99Z4DMAZ3X8GXG5PZFVE27YMWP0
+```
 
-### **1. 请求头**
+### 1. 请求头
 
-| **字段** | **值** |
+| 字段 | 值 |
 | --- | --- |
 | Content-Type | application/json |
 | Authorization | "Bearer" + " " + 授权接口返回的 accessToken |
@@ -26,11 +28,11 @@ GET https://api-rpa.bazhuayu.com/api/v1/bots/management/bots/99bb60a1-5b52-4300-
 | 名称 | 值 |
 | --- | --- |
 | EnterpriseId | 65d413751fdff0e15cad6627 |
-| Authorization | `Bearer `eyJhbGciOiJSUzI1NiIsImtpZCI6ImdXS3hWc0F4SHhaMDlDcWh6NkNJb3ciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE3MTUxNjI4MjQsImV4cCI6MTcxNTI0OTIyNCwiaXNzIjoiaHR0cHM6Ly9wcmUtaWRlbnRpdHkuYmF6aHVheXUuY29tIiwiYXVkIjpbIkNsaWVudEFwaSIsIkRhdGFBcGkiLCJBZHZhbmNlZEFwaSIsIkNsb3VkQWdlbnQiLCJDbHVzdGVyU2VydmljZSJdLCJjbGllbnRfaWQiOiJPY3RvcHVzIiwic3ViIjoiOTliYjYwYTEtNWI1Mi00MzAwLTlmZmQtNjgxNTMzYzZmMzQ4IiwiYXV0aF90aW1lIjoxNzE1MTYyODI0LCJpZHAiOiJsb2NhbCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiOTliYjYwYTEtNWI1Mi00MzAwLTlmZmQtNjgxNTMzYzZmMzQ4IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6InNraWVlcndlbiIsInByZWZlcnJlZF91c2VybmFtZSI6InNraWVlcndlbiIsInVuaXF1ZV9uYW1lIjoic2tpZWVyd2VuIiwicmVnaXN0ZXJfZGF0ZSI6IjIwMTYtMTEtMDNUMDY6Mzk6MjArMDg6MDAiLCJsYXN0X2xvZ2luX2RhdGUiOiIyMDI0LTA1LTA3VDE3OjIwOjI1KzA4OjAwIiwibGFzdF9wYXNzd29yZF9jaGFuZ2VkX2RhdGUiOiIyMDIyLTEwLTI2VDEyOjI5OjQ2KzA4OjAwIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoid2VuZGlAc2tpZWVyLmNvbSIsImVtYWlsIjoid2VuZGlAc2tpZWVyLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOlsiT3BzIiwiQnVzaW5lc3NDZW50ZXIiXSwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImVtYWlsIiwiQ2xpZW50QXBpIiwiRGF0YUFwaSIsIkFkdmFuY2VkQXBpIiwiQ2xvdWRBZ2VudCIsIkNsdXN0ZXJTZXJ2aWNlIl19.hkFNws955sUm3jvAp2ijf6YVz9z10eGuvwez0aT4wi9b5il7zfD5DU2xDcp44CKhN9Wc-9Cy7-RSjDtkmF4EM8CLNs4VPda9EC1BV8md94WaHZIbyJzTyiOXQXEhVtpS8Y_9cQZyhh5WGanD8G2GOWv4cntKMkC4OLmGSXPO95RRkC3DNUXcTwspNVnHt72C7EmQW0kipuPQ83sRXvStuIvvdzb9kNNn5T-6s3ROcvofi1BYeE_19hF0UBs1IA3IJq8oyjUw4MvffzV6ihLVklmbWjWl3VjFoq9p2G5X2dWvqzhJ0am9QazX3e9MNmOBhYlEx0n-1PM90c5xfs-0zA |
+| Authorization | `Bearer `eyJhbGciOiJSUzI1NiIsImtpZCI6ImdXS3hWc0F4SHhaMDlDcWh6NkNJb3ciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE3MTUxNjI4MjQsImV4cCI6MTcxNTI0OTIyNCwiaXNzIjoiaHR0cHM6Ly9wcmUtaWRlbnRpdHkuYmF6aHVheXUuY29tIiwiYXVkIjpbIkNsaWVudEFwaSIsIkRhdGFBcGkiLCJBZHZhbmNlZEFwaSIsIkNsb3VkQWdlbnQiLCJDbHVzdGVyU2VydmljZSJdLCJjbGllbnRfaWQiOiJPY3RvcHVzIiwic3ViIjoiOTliYjYwYTEtNWI1Mi00MzAwLTlmZmQtNjgxNTMzYzZmMzQ4IiwiYXV0aF90aW1lIjoxNzE1MTYyODI0LCJpZHAiOiJsb2NhbCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiOTliYjYwYTEtNWI1Mi00MzAwLTlmZmQtNjgxNTMzYzZmMzQ4IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6InNraWVlcndlbiIsInByZWZlcnJlZF91c2VybmFtZSI6InNraWVlcndlbiIsInVuaXF1ZV9uYW1lIjoic2tpZWVycmVuIiwicmVnaXN0ZXJfZGF0ZSI6IjIwMTYtMTEtMDNUMDY6Mzk6MjArMDg6MDAiLCJsYXN0X2xvZ2luX2RhdGUiOiIyMDI0LTA1LTA3VDE3OjIwOjI1KzA4OjAwIiwibGFzdF9wYXNzd29yZF9jaGFuZ2VkX2RhdGUiOiIyMDIyLTEwLTI2VDEyOjI5OjQ2KzA4OjAwIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoid2VuZGlAc2tpZWVyLmNvbSIsImVtYWlsIjoid2VuZGlAc2tpZWVyLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOlsiT3BzIiwiQnVzaW5lc3NDZW50ZXIiXSwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImVtYWlsIiwiQ2xpZW50QXBpIiwiRGF0YUFwaSIsIkFkdmFuY2VkQXBpIiwiQ2xvdWRBZ2VudCIsIkNsdXN0ZXJTZXJ2aWNlIl19.hkFNws955sUm3jvAp2ijf6YVz9z10eGuvwez0aT4wi9b5il7zfD5DU2xDcp44CKhN9Wc-9Cy7-RSjDtkmF4EM8CLNs4VPda9EC1BV8md94WaHZIbyJzTyiOXQXEhVtpS8Y_9cQZyhh5WGanD8G2GOWv4cntKMkC4OLmGSXPO95RRkC3DNUXcTwspNVnHt72C7EmQW0kipuPQ83sRXvStuIvvdzb9kNNn5T-6s3ROcvofi1BYeE_19hF0UBs1IA3IJq8oyjUw4MvffzV6ihLVklmbWjWl3VjFoq9p2G5X2dWvqzhJ0am9QazX3e9MNmOBhYlEx0n-1PM90c5xfs-0zA |
 
 ### 2. 请求参数
 
-| **参数名称** | **类型** | **必须** | **描述** |
+| 参数名称 | 类型 | 必须 | 描述 |
 | --- | --- | --- | --- |
 | botId | string | 是 | 机器人 Id |
 
@@ -38,7 +40,7 @@ GET https://api-rpa.bazhuayu.com/api/v1/bots/management/bots/99bb60a1-5b52-4300-
 
 【Http Code 200】成功。
 
-| **参数名称** | **类型** | **必须** | **描述** |
+| 参数名称 | 类型 | 必须 | 描述 |
 | --- | --- | --- | --- |
 | id | string | 是 | 机器人 Id |
 | name | string | 是 | 机器人名称 |
@@ -74,7 +76,7 @@ GET https://api-rpa.bazhuayu.com/api/v1/bots/management/bots/99bb60a1-5b52-4300-
 
 ### 4. 机器人实体定义
 
-| **参数名称** | **类型** | **必须** | **描述** |
+| 参数名称 | 类型 | 必须 | 描述 |
 | --- | --- | --- | --- |
 | id | string | 是 | 机器人 Id |
 | name | string | 是 | 机器人名称 |
@@ -88,4 +90,3 @@ GET https://api-rpa.bazhuayu.com/api/v1/bots/management/bots/99bb60a1-5b52-4300-
 | lastConnectingTime | string | 是 | 最后一次连接服务时间 |
 | flowId | string |  | 正在运行的应用 Id |
 | flowProcessNo | string |  | 正在运行的应用运行批次 |
-

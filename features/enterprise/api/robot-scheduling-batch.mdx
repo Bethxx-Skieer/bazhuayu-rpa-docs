@@ -9,15 +9,15 @@ description: "机器人调度-批量启动应用（八爪鱼RPA 开放 API 接�
 
 请求体大小限制：单次 10 MB
 
-## **请求**
+## 请求
 
-| **Url** | https://api-rpa.bazhuayu.com/api/v1/bots/scheduling/start/batch |
+| Url | https://api-rpa.bazhuayu.com/api/v1/bots/scheduling/start/batch |
 | --- | --- |
-| **请求方式** | **POST** |
+| 请求方式 | POST |
 
-### **1. 请求头**
+### 1. 请求头
 
-| **字段** | **值** |
+| 字段 | 值 |
 | --- | --- |
 | Content-Type | application/json |
 | Authorization | `Bearer <token>` |
@@ -39,27 +39,23 @@ POST /api/v1/bots/scheduling/start/batch HTTP/1.1
 | Authorization | `Bearer <token>` |
 | EnterpriseId | 64f1e6a2... |
 
-### 
-
 ### 2. 请求参数
 
 **请求体参数（顶层）：**
 
-| **参数名称** | **类型** | **必须** | **描述** |
+| 参数名称 | 类型 | 必须 | 描述 |
 | --- | --- | --- | --- |
 | configs | array | 是 | 启动配置数组，长度 1~100 |
 
-** configs[i]字段：**
+#### configs[i]字段
 
-| **参数名称** | **类型** | **必须** | **描述** |
+| 参数名称 | 类型 | 必须 | 描述 |
 | --- | --- | --- | --- |
 | flowId | string | 是 | 应用 Id |
 | flowContentRetrievalMode | string | 否 | 应用内容获取方式，取值： `ByNewestContent`默认值，表示获取应用最新内容 `ByDefaultPublication`表示获取应用最新版本 `BySpecifiedPublication`表示获取应用指定版本 |
 | specifiedPublicationVersion | string | 否 | 指定应用版本号；当模式为 `BySpecifiedPublication` 时提供 |
 | specifiedBot | string | 否 | 指定机器人 Id；不填则为任意机器人 |
-| params | object | 否 | 应用运行参数键值对，如 `\{ "key": value \}` |
-
-### 
+| params | object | 否 | 应用运行参数键值对，如 `{ "key": value }` |
 
 ### 3. 请求示例
 
@@ -82,7 +78,7 @@ POST /api/v1/bots/scheduling/start/batch HTTP/1.1
 
 成功响应体：
 
-| **名称** | **类型** | **是否必须** | **描述** |
+| 名称 | 类型 | 是否必须 | 描述 |
 | --- | --- | --- | --- |
 | isSuccess | boolean | 是 | 是否全部成功 |
 | results | array | 否 | 全部成功时返回；每项结构见下表 |
@@ -90,14 +86,14 @@ POST /api/v1/bots/scheduling/start/batch HTTP/1.1
 
 results[i]：
 
-| **名称** | **类型** | **是否必须** | **描述** |
+| 名称 | 类型 | 是否必须 | 描述 |
 | --- | --- | --- | --- |
 | flowId | string | 是 | 应用 Id |
 | flowProcessNo | string | 是 | 启动应用生成的批次号 |
 
 errors[i]：
 
-| **名称** | **类型** | **是否必须** | **描述** |
+| 名称 | 类型 | 是否必须 | 描述 |
 | --- | --- | --- | --- |
 | flowId | string | 是 | 应用 Id |
 | reason | string | 是 | 业务失败原因（错误码） |
@@ -117,7 +113,7 @@ errors[i]：
 
 失败响应体：
 
-| **名称** | **类型** | **是否必须** | **描述** |
+| 名称 | 类型 | 是否必须 | 描述 |
 | --- | --- | --- | --- |
 | code | string | 是 | 错误码 |
 | description | string | 是 | 错误描述 |
@@ -134,4 +130,3 @@ errors[i]：
   ]
 }
 ```
-
