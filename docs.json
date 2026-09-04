@@ -857,7 +857,11 @@
                   "commands/custom-commands/DtZSARDl",
                   "commands/custom-commands/3xcMJEn2",
                   "commands/custom-commands/a4TH5A1N",
-                  "commands/custom-commands/JbQaSa4r"
+                  "commands/custom-commands/JbQaSa4r",
+                  "commands/custom-commands/efPZbxVS",
+                  "commands/custom-commands/yPKPxkVc",
+                  "commands/custom-commands/zVqFJbuW",
+                  "commands/custom-commands/kLiPTYOw"
                 ]
               }
             ]
@@ -1263,6 +1267,10 @@
       "destination": "/commands/custom-commands/e2VDOh3F"
     },
     {
+      "source": "/commands/efPZbxVS",
+      "destination": "/commands/custom-commands/efPZbxVS"
+    },
+    {
       "source": "/commands/EkSERr7c",
       "destination": "/commands/custom-commands/EkSERr7c"
     },
@@ -1393,6 +1401,10 @@
     {
       "source": "/commands/kjgGHIxB",
       "destination": "/commands/custom-commands/kjgGHIxB"
+    },
+    {
+      "source": "/commands/kLiPTYOw",
+      "destination": "/commands/custom-commands/kLiPTYOw"
     },
     {
       "source": "/commands/KV38p4AB",
@@ -1623,6 +1635,10 @@
       "destination": "/commands/custom-commands/ydwM0rdV"
     },
     {
+      "source": "/commands/yPKPxkVc",
+      "destination": "/commands/custom-commands/yPKPxkVc"
+    },
+    {
       "source": "/commands/z22Iz6ig",
       "destination": "/commands/custom-commands/z22Iz6ig"
     },
@@ -1637,6 +1653,10 @@
     {
       "source": "/commands/ZVjD40K2",
       "destination": "/commands/custom-commands/ZVjD40K2"
+    },
+    {
+      "source": "/commands/zVqFJbuW",
+      "destination": "/commands/custom-commands/zVqFJbuW"
     },
     {
       "source": "/commands/appendprefixorsuffixcommand",
