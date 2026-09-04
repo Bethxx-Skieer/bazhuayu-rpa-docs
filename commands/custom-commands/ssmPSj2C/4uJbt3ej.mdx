@@ -1,0 +1,22 @@
+---
+title: "素材-下载素材"
+---
+
+## 1. 功能说明
+
+从飞书云文档中下载指定素材（例如电子表格 / 多维表格中的图片、文件等），并保存到本地目录。该指令底层基于飞书开放平台【下载云文档素材】API（https://open.feishu.cn/document/server-docs/docs/drive-v1/media/download[https://open.feishu.cn/document/server-docs/docs/drive-v1/media/download](https://open.feishu.cn/document/server-docs/docs/drive-v1/media/download)）实现。
+
+## 2. 配置项说明
+
+配置项必填默认值说明<strong>飞书访问凭证</strong>是-选择已配置的飞书访问凭证（tenant_access_token 或 user_access_token），用于飞书 API 身份验证，需确保应用拥有「下载云文档素材」权限。<strong>FileToken</strong>是-待下载素材的唯一标识，可通过【飞书表格 - 读取飞书表格内容】【飞书多维表格 - 查询记录】等指令获取（对应飞书 API 中的 file_token 参数）。<strong>文件保存目录</strong>是-本地存储下载文件的目录路径，可点击「选择文件夹」按钮直接选取（需确保目录有写入权限）。<strong>如果文件存在则</strong>是-本地目标目录已存在同名文件时的处理方式，可选值通常为「覆盖」「重命名」「跳过」。<strong>生成的变量 - 文件路径</strong>是-存储下载完成后本地文件的完整路径（如 C:\downloads\image.png），可作为后续指令的输入参数。<strong>返回结果</strong>是-存储指令执行的完整结果（字典类型），包含下载状态、错误信息等。
+## 3.  示例场景
+
+需下载飞书电子表格中的图片素材：<strong>飞书访问凭证</strong>：选择已配置的凭证；<strong>FileToken</strong>：填写通过【飞书表格 - 读取飞书表格内容】获取的 file_token（如 boxcnrHpsg1QDqXAAAyachabcef）；<strong>文件保存目录</strong>：选择 C:\飞书素材下载；<strong>如果文件存在则</strong>：选择「覆盖」；<strong>生成的变量 - 文件路径</strong>：设置为 downloaded_file_path；<strong>返回结果</strong>：设置为 download_result。执行后，downloaded_file_path 会存储本地文件路径，download_result 会返回下载是否成功的字典结果。
+## 4.  注意事项
+
+常见错误错误类型可能原因解决方案<strong>授权失败</strong>飞书访问凭证过期 / 无效、应用无下载权限1. 更新飞书访问凭证；2. 确保应用已添加「下载云文档素材」相关权限。<strong>FileToken 无效</strong>FileToken 不存在、已过期或与当前访问凭证不匹配1. 核对 FileToken 是否正确（可通过读取表格 / 查询记录指令重新获取）；2. 确认素材未被删除。<strong>目录无写入权限</strong>文件保存目录未开放写入权限1. 选择有写入权限的目录；2. 以管理员身份运行 RPA 程序。
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

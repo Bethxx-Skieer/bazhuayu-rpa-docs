@@ -1,0 +1,41 @@
+---
+title: "知识库-构建文件元数据信息（本地文本文件）"
+---
+
+## 1、功能说明
+
+该指令用于生成本地文本文件的DocumentBase元数据信息，这些信息是后续调用 “创建知识库文件” 指令时document_bases参数的必需入参，自动封装符合 API 要求的格式。
+
+相关扣子 API 文档见：https://www.coze.cn/open/docs/developer_guides/create_knowledge_files#documentbase[https://www.coze.cn/open/docs/developer_guides/create_knowledge_files#documentbase](https://www.coze.cn/open/docs/developer_guides/create_knowledge_files#documentbase)
+
+## 2、配置参数
+
+参数名必填说明文件路径是本地文本文件的完整路径，支持 pdf、txt、doc、docx 格式。返回结果是生成的DocumentBase格式元数据字典，将返回结果加入列表后传入 “创建知识库文件” 指令的文件元数据信息列表（对应API中的document_bases）参数。
+
+<strong>返回结果示例</strong>\{
+"name": "产品手册.pdf",
+"source_info": \{
+"file_base64": "5rWL6K+V5LiA5LiL5ZOm5pyN5Yqh5YmN5Lqh5Yqg5pyN5Lqs5Lq6",
+"file_type": "pdf",
+"document_source": 0
+\}
+\}
+
+3、示例场景在 “文件路径” 输入框中填入本地文件的完整路径，例如：C:/docs/用户协议.txt。运行指令，生成符合DocumentBase格式的元数据字典（自动完成文件 Base64 编码转换）。将生成的元数据加入列表，作为 “创建知识库文件” 指令的document_bases参数值，例如： [
+\{
+"name": "用户协议.txt",
+"source_info": \{
+"file_base64": "5paw5Lq65Yqo5Ye75pmu5Lq65Yqg5pyN5Lqs",
+"file_type": "txt",
+"document_source": 0
+\}
+\}
+]
+
+4. 配合其他必填参数，即可完成本地文本文件向知识库的上传。
+
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

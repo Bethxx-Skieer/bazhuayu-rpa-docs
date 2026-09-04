@@ -1,0 +1,33 @@
+---
+title: "文件-上传文件"
+---
+
+## 1、功能说明
+
+调用此指令可将本地文件上传至扣子平台，上传成功后会返回对应的文件 ID，用于后续操作（如知识库文件上传等）。若上传失败，文件 ID 将为空。
+
+API 接口详细说明见：https://www.coze.cn/open/docs/developer_guides/upload_files[https://www.coze.cn/open/docs/developer_guides/upload_files](https://www.coze.cn/open/docs/developer_guides/upload_files)
+## 2、配置参数参数名必填说明Token是用于身份验证的令牌，确保请求的合法性。文件是待上传的本地文件，可通过 “选择文件” 按钮选择路径。返回结果是接口返回的完整响应内容，为字典格式，包含上传状态等信息。文件 ID是上传成功时返回的文件唯一标识；失败时为空。
+
+<strong>返回结果示例</strong>
+#### 成功响应\{
+"code": 0,
+"msg": "success",
+"data": \{
+"file_id": "uf_872dxxxxxxxxx",
+"file_name": "示例文档.pdf",
+"size": 3145728
+\}
+\}
+
+此时文件ID会被赋值为uf_872dxxxxxxxxx。
+
+<strong>失败响应</strong>
+
+上传失败，指令会抛出错误。
+3、示例场景在 “Token” 输入框中填入有效的身份令牌。点击 “选择文件” 按钮，选择本地待上传的文件（如示例文档.pdf）。运行指令，若上传成功，文件ID会自动获取到返回的唯一标识；若失败，可通过指令抛出的错误信息查看原因。
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

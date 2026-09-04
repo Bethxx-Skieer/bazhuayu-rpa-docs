@@ -1,0 +1,19 @@
+---
+title: "单条更新插入(upsert)"
+---
+
+示例：
+
+（参数中字段名至少有一个具有唯一属性，才会执行更新操作，如没有只会执行插入操作）INSERT INTO `user_order` (`id`,`status`,`2025_flag`) VALUES (1001,'pending',true)
+ON DUPLICATE KEY UPDATE `id`=1001,`status`='pending',`2025_flag`=true;
+
+INSERT INTO  表名 (参数解析) VALUES (参数解析)
+ON DUPLICATE KEY UPDATE   参数解析;
+
+配合数据库连接使用，使用截图：
+![image](images/QqMBMtUt-01.png)
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

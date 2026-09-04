@@ -1,0 +1,33 @@
+---
+title: "评价管理_时间选择"
+---
+
+## 指令描述
+
+本指令实现在拼多多商家后台的【商品管理-评价管理】页面进行时间选择功能。
+![image](images/rUOOt7iP-01.png)
+
+![image](images/rUOOt7iP-02.png)
+
+拼多多商家后台的【商品管理】中的【评价管理】分页。
+![image](images/rUOOt7iP-03.png)
+
+## 参数配置
+### 指令输入
+
+<strong>网页对象: </strong>网页对象，使用【打开网页】或者【获取已打开的网页对象】指令获取拼多多商家后台的【商品管理-评价管理】（ https://mms.pinduoduo.com/goods/evaluation/index?msfrom=mms_sidenav ）的网页对象。
+
+<strong>时间选择：</strong>单选项，可选【近30天】、【近90天】、【近180天】和【自定义】。备注：【时间选择】参数选择【自定义】时，才需要进一步具体设置【开始时间】和【结束时间】参数。
+
+<strong>开始时间: </strong>字符串，格式如：2025-06-06
+
+<strong>结束时间: </strong>字符串，格式如<strong>开始时间。</strong>备注：要求1：【开始时间】不能晚于【结束时间】；要求2：时间格式必须符合 YYYY-MM-DD，且日期合法（比如 2025-02-31 就是非法的）。
+### 指令输出
+
+<strong>执行状态：</strong>指令执行结果，用于指示和判断指令执行结果，返回值如下。
+![image](images/rUOOt7iP-04.png)
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

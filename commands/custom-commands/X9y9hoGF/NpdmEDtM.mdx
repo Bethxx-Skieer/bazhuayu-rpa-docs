@@ -1,0 +1,47 @@
+---
+title: "知识库-查看知识库文件上传进度"
+---
+
+## 1、功能说明
+
+调用此指令，可获取扣子知识库文件的上传与处理进度。文件 ID 可从 “创建知识库文件” 类指令的返回结果中获取。当 API 调用失败时，指令会直接抛出错误。
+
+API 接口详细介绍见：https://www.coze.cn/open/docs/developer_guides/get_dataset_progress[https://www.coze.cn/open/docs/developer_guides/get_dataset_progress](https://www.coze.cn/open/docs/developer_guides/get_dataset_progress)
+## 2、配置参数参数名必填说明Token是用于身份验证的令牌，确保请求的合法性。知识库 ID是目标知识库的唯一标识，由【知识库 - 创建知识库】指令生成。文件 ID 列表是待查询进度的文件 ID 集合，可从 “创建知识库文件” 指令的返回结果中获取。返回结果是接口返回的完整响应内容，为字典格式，包含每个文件的进度与状态。
+
+<strong>返回结果示例</strong>
+
+<strong>成功响应</strong>\{
+"code": 0,
+"msg": "success",
+"data": [
+\{
+"file_id": "file_657dxxxxxxxxx_01",
+"status": "completed",
+"progress": 100,
+"processed_chunks": 24,
+"total_chunks": 24
+\},
+\{
+"file_id": "file_657dxxxxxxxxx_02",
+"status": "processing",
+"progress": 65,
+"processed_chunks": 13,
+"total_chunks": 20
+\}
+]
+\}
+
+<strong>失败响应</strong>
+
+API调用失败，指令会抛出错误。
+
+
+
+3、示例场景从 “创建知识库文件 - 本地文本文件” 指令的返回结果中，提取file_ids列表。填入文件ID列表参数，例如：["file_657dxxxxxxxxx_01", "file_657dxxxxxxxxx_02"]运行指令，即可获取这两个文件的实时上传与处理进度。
+
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

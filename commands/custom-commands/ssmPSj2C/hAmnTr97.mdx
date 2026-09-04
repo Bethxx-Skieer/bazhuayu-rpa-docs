@@ -1,0 +1,38 @@
+---
+title: "任务-创建导入任务"
+---
+
+## 1. 功能说明
+
+创建将本地文件（如 Word、TXT、Markdown、Excel 等格式）导入为飞书在线云文档的异步任务，并返回任务 ID。需配合【查询导入任务结果】指令获取最终导入结果，底层基于飞书开放平台【创建导入任务】API（https://open.feishu.cn/document/server-docs/docs/drive-v1/import_task/create[https://open.feishu.cn/document/server-docs/docs/drive-v1/import_task/create](https://open.feishu.cn/document/server-docs/docs/drive-v1/import_task/create)）实现。
+
+## 2. 配置参数
+
+配置项必填默认值说明<strong>飞书访问凭证</strong>是-选择已配置的飞书访问凭证，需确保对应应用已开通云文档相关权限（参考：https://open.feishu.cn/document/faq/trouble-shooting/how-to-add-permissions-to-app[https://open.feishu.cn/document/faq/trouble-shooting/how-to-add-permissions-to-app](https://open.feishu.cn/document/faq/trouble-shooting/how-to-add-permissions-to-app)）。<strong>文件 Token</strong>是-待导入文件的飞书file_token，需先通过【素材 - 上传素材】指令将本地文件上传至飞书并获取该 Token。<strong>文件扩展名</strong>是-待导入文件的格式后缀（如docx、txt、md、xlsx），需与实际文件格式一致。<strong>目标云文档格式</strong>是-导入后生成的飞书云文档类型，对应飞书 API 的type参数，可选值参考飞书 API 文档（如docx对应新版文档、sheet对应电子表格）。<strong>导入后的云文档名称</strong>是-导入后在飞书云文档中显示的文件名（如项目需求文档）。<strong>导入的文件夹 Token</strong>是-飞书云空间中用于存放导入后文档的文件夹token，需提前获取目标文件夹的唯一标识。<strong>生成的变量 - 任务 ID</strong>是-存储导入任务的唯一标识（ticket），用于后续【查询导入任务结果】指令的入参。<strong>返回结果</strong>是-存储任务创建请求的结果（字典类型），包含任务创建状态、错误信息等，格式参考下方 “返回结果示例”。
+
+
+<strong>返回结果示例</strong><strong>创建成功</strong>：\{
+"success": true,
+"data": \{
+"ticket": "task_1234567890abcdef"
+\},
+"task_id": "task_1234567890abcdef"
+\}<strong>创建失败</strong>：\{
+"success": false,
+"code": 1061005,
+"msg": "权限不足",
+"log_id": "log_abc123",
+"raw_response": "\{\"code\":1061005,\"msg\":\"权限不足\",\"log_id\":\"log_abc123\"\}"
+\}
+## 3. 示例场景
+
+将本地 Excel 文件导入为飞书电子表格：<strong>飞书访问凭证</strong>：选择已配置的tenant_access_token；<strong>文件 Token</strong>：填写通过【素材 - 上传素材】获取的file_token（如boxcnrHpsg1QDqXAAAyachabcef）；<strong>文件扩展名</strong>：填写xlsx；<strong>目标云文档格式</strong>：选择sheet；<strong>导入后的云文档名称</strong>：填写2026年销售数据；<strong>导入的文件夹 Token</strong>：填写目标文件夹的token（如fldcn1234567890abcdef）；<strong>生成的变量 - 任务 ID</strong>：设置为import_task_id；<strong>返回结果</strong>：设置为create_task_result。执行后，import_task_id将存储任务 ID，后续需通过【查询导入任务结果】指令获取最终导入状态。
+
+## 4. 注意事项
+
+常见错误错误类型可能原因解决方案<strong>权限不足（API 错误码 1061005）</strong>飞书应用未开通云文档相关权限参考飞书权限配置文档，为应用添加 “云文档编辑”“导入文件” 等权限。<strong>文件 Token 无效</strong>文件 Token 不存在、已过期，或未通过飞书上传获取重新执行【素材 - 上传素材】指令获取有效的文件 Token。<strong>文件扩展名不匹配</strong>填写的扩展名与实际文件格式不一致核对文件实际格式，修正 “文件扩展名” 配置项（如 Excel 文件填写xlsx而非docx）。<strong>文件夹 Token 无效</strong>目标文件夹 Token 不存在、已被删除重新获取目标飞书文件夹的有效 Token，确保文件夹未被移除。
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

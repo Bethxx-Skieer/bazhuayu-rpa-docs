@@ -1,0 +1,29 @@
+---
+title: "获取文件的打开链接"
+---
+
+## <strong>一、指令概述</strong>
+
+该指令用于调用钉钉开放平台接口，<strong>获取钉盘内任意文件的在线打开链接</strong>，支持文档、表格、图片、PDF 等全格式文件，链接可直接在浏览器打开、用于钉钉消息推送、表单附件、报表嵌入，是钉盘文件分享与预览的核心指令。
+
+可查看官方文档： https://open.dingtalk.com/document/development/obtains-the-object-preview-or-editing-information[https://open.dingtalk.com/document/development/obtains-the-object-preview-or-editing-information](https://open.dingtalk.com/document/development/obtains-the-object-preview-or-editing-information)
+## <strong>二、核心参数配置</strong>参数名称说明输入格式 / 规则凭证钉钉开放平台接口调用凭证（access_token）必填；通过「获取开发平台凭证」指令获取用户 Id操作人钉钉用户 ID必填；通过「查询用户 Id」指令获取space_id钉盘空间 ID必填；通过「获取空间列表」指令获取文件 Id钉盘内目标文件唯一 ID必填；由「上传文件到钉钉文件存储」指令执行后返回生成变量【文件链接】输出结果变量必填；返回可直接访问的文件在线查看 URL
+## <strong>三、典型操作示例</strong>
+
+· 凭证：ding_access_token_xxxx
+
+· 用户 Id：m4PgPMMZNiijuStvkgQD2VAiEiE
+
+· space_id：28821344555
+
+· 文件 Id：220623333333
+
+· 输出变量：file_view_url
+
+· 执行效果：返回文件在线打开链接，直接浏览器访问即可查看完整文件内容。
+## <strong>四、注意事项</strong>
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

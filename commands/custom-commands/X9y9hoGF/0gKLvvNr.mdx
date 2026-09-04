@@ -1,0 +1,46 @@
+---
+title: "知识库-创建知识库"
+---
+
+## 1、功能说明
+
+调用此指令，可以创建一个文本知识库或图片知识库。新知识库默认为空，需要通过<strong>创建知识库文件</strong>指令上传文本或图片。
+
+相关扣子 API 接口详细介绍见：https://www.coze.cn/open/docs/developer_guides/create_dataset[https://www.coze.cn/open/docs/developer_guides/create_dataset](https://www.coze.cn/open/docs/developer_guides/create_dataset)
+## 2、配置项
+
+<strong>输入参数</strong>参数名必填说明知识库名称是要创建的知识库的名称，用于标识该知识库。Token是用于验证身份的令牌，确保请求的合法性。知识库空间 ID是该知识库所属的空间唯一标识，用于在多空间场景下区分数据归属。知识库类型是选择要创建的知识库类型，可选值为 “文本知识库” 或 “图片知识库”。
+
+<strong>输出参数</strong>参数名类型说明返回结果变量接口返回的完整响应内容，包含创建操作的状态、错误信息等。知识库 ID变量<strong>仅当 API 调用成功时返回</strong>，新创建的知识库的唯一标识，后续对知识库的操作（如上传文件、查询等）需依赖此 ID。
+
+<strong>返回结果示例</strong>
+### 成功响应\{
+"code": 0,
+"msg": "success",
+"data": \{
+"dataset_id": "ds_657dxxxxxxxxx",
+"name": "产品说明书知识库",
+"type": "TEXT",
+"space_id": "sp_657dxxxxxxxxx",
+"create_time": "2025-12-01T10:30:00Z"
+\}
+\}
+
+此时，知识库ID 会被赋值为 ds_657dxxxxxxxxx。
+
+<strong>失败响应</strong>
+
+API调用失败的时候指令会调用错误。
+
+## 3、示例流程
+
+在 “知识库名称” 输入框中填写 “产品说明书知识库”。粘贴有效的访问 Token 到 “Token” 输入框。输入目标空间的 “知识库空间 ID”。在 “知识库类型” 下拉菜单中选择 “文本知识库”。运行指令后，通过 “知识库 ID” 变量获取新创建的知识库唯一标识，供后续上传文件使用。
+
+## 4、注意事项
+
+如果创建失败，可能的原因及处理方式：<strong>Token 无效或过期</strong>：请检查 Token 是否正确，或重新获取有效的 Token。<strong>知识库空间 ID 错误</strong>：确认输入的空间 ID 与实际拥有的空间 ID 一致。<strong>知识库类型选择错误</strong>：需在下拉选项中选择合法的类型（文本 / 图片）。<strong>接口调用频率超限</strong>：请降低调用频率，或联系平台方调整配额。
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

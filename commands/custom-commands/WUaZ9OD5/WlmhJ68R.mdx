@@ -1,0 +1,54 @@
+---
+title: "获取工作表属性信息"
+---
+
+获取工作表属性信息，包括标题、索引位置、是否被隐藏等
+
+返回结果字典结构见飞书官方文档： https://open.feishu.cn/document/server-docs/docs/sheets-v3/spreadsheet-sheet/get[https://open.feishu.cn/document/server-docs/docs/sheets-v3/spreadsheet-sheet/get](https://open.feishu.cn/document/server-docs/docs/sheets-v3/spreadsheet-sheet/get)
+
+该指令只返回飞书官方接口中的json中data.sheet下的字典内容，例如：
+
+\{
+
+"sheet_id": "sxj5ws",
+
+"title": "sheet1",
+
+"index": 0,
+
+"hidden": false,
+
+"grid_properties": \{
+
+"frozen_row_count": 0,
+
+"frozen_column_count": 0,
+
+"row_count": 200,
+
+"column_count": 20
+
+\},
+
+"resource_type": "sheet",
+
+"merges": [
+
+\{
+
+"start_row_index": 0,
+
+"end_row_index": 0,
+
+"start_column_index": 0,
+
+"end_column_index": 0
+
+\}
+
+]
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

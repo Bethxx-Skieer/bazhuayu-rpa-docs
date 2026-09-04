@@ -1,0 +1,25 @@
+---
+title: "字典查首个键值"
+---
+
+### 功能描述：
+
+该指令用于处理包含字典的复杂数据结构，按指定键名<strong>从上到下、从外到内</strong>递归遍历整个数据结构，返回第一个匹配该键名的键值。
+
+### 示例：\{
+"order_id": "ORD20251218001",
+"user_info": \{
+"contact": \{
+"phone": "13812345678",
+"address": [\{"type": "shipping", "city": "深圳市"\}]
+\}
+\},
+"products": [\{"product_id": "PROD001", "attributes": \{"color": "黑色"\}\}]
+\}
+
+输入【color】返回【黑色】、【city】返回【深圳市】
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

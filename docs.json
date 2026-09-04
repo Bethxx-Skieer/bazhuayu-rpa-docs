@@ -116,194 +116,1556 @@
                 "pages": [
                   "commands/custom-commands",
                   {
+                    "group": "企业微信-发消息",
+                    "pages": [
+                      "commands/custom-commands/0aiMC2AD",
+                      "commands/custom-commands/0aiMC2AD/1W87phny"
+                    ]
+                  },
+                  {
+                    "group": "拼多多数据获取-多多视频",
+                    "pages": [
+                      "commands/custom-commands/0P0AJees",
+                      "commands/custom-commands/0P0AJees/zqZK3fgQ"
+                    ]
+                  },
+                  {
+                    "group": "拼多多时间选择",
+                    "pages": [
+                      "commands/custom-commands/1KkfZwRO",
+                      "commands/custom-commands/1KkfZwRO/lVD0tyGx",
+                      "commands/custom-commands/1KkfZwRO/rUOOt7iP",
+                      "commands/custom-commands/1KkfZwRO/zZSKr5u2"
+                    ]
+                  },
+                  {
+                    "group": "财务发票扩展操作",
+                    "pages": [
+                      "commands/custom-commands/1Mx3hPN3",
+                      "commands/custom-commands/1Mx3hPN3/g5bx1GmP"
+                    ]
+                  },
+                  {
+                    "group": "阿里妈妈多平台数据获取-商家中心",
+                    "pages": [
+                      "commands/custom-commands/1p4v2d7C",
+                      "commands/custom-commands/1p4v2d7C/04LzI7xN",
+                      "commands/custom-commands/1p4v2d7C/2KtaBMcR",
+                      "commands/custom-commands/1p4v2d7C/8DP5Hvyd",
+                      "commands/custom-commands/1p4v2d7C/and150U6",
+                      "commands/custom-commands/1p4v2d7C/fAxfrUKs",
+                      "commands/custom-commands/1p4v2d7C/JQkC6V6K",
+                      "commands/custom-commands/1p4v2d7C/K5Rz2TnO",
+                      "commands/custom-commands/1p4v2d7C/N5u64seU",
+                      "commands/custom-commands/1p4v2d7C/P9zFTTuu",
+                      "commands/custom-commands/1p4v2d7C/QcPPgaw1",
+                      "commands/custom-commands/1p4v2d7C/ruxuQkTG",
+                      "commands/custom-commands/1p4v2d7C/vlfZzYE7"
+                    ]
+                  },
+                  {
+                    "group": "京东商智数据获取-品牌版-交易",
+                    "pages": [
+                      "commands/custom-commands/1u00DG7N",
+                      "commands/custom-commands/1u00DG7N/0BhJ8isV",
+                      "commands/custom-commands/1u00DG7N/rdFR5wPu"
+                    ]
+                  },
+                  {
+                    "group": "消息推送",
+                    "pages": [
+                      "commands/custom-commands/2OceBTsN",
+                      "commands/custom-commands/2OceBTsN/I9d0aMUC",
+                      "commands/custom-commands/2OceBTsN/rEb2eMwu"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-实时",
+                    "pages": [
+                      "commands/custom-commands/33yICBTY",
+                      "commands/custom-commands/33yICBTY/gWWcjB1O"
+                    ]
+                  },
+                  {
+                    "group": "阿里妈妈多平台数据获取-品销宝",
+                    "pages": [
+                      "commands/custom-commands/3fuFVrzV",
+                      "commands/custom-commands/3fuFVrzV/0UP4gEBC",
+                      "commands/custom-commands/3fuFVrzV/3CStp4Tn",
+                      "commands/custom-commands/3fuFVrzV/9RUuIwWP",
+                      "commands/custom-commands/3fuFVrzV/FbCxvMoG",
+                      "commands/custom-commands/3fuFVrzV/makxBXXa"
+                    ]
+                  },
+                  {
+                    "group": "Sqlite3扩展操作",
+                    "pages": [
+                      "commands/custom-commands/3ieiMG37",
+                      "commands/custom-commands/3ieiMG37/96M28weZ",
+                      "commands/custom-commands/3ieiMG37/AXu7FWaz",
+                      "commands/custom-commands/3ieiMG37/KMllhfDa",
+                      "commands/custom-commands/3ieiMG37/SOJzbdBf",
+                      "commands/custom-commands/3ieiMG37/XExBPkwv"
+                    ]
+                  },
+                  {
+                    "group": "获取进程or杀进程",
+                    "pages": [
+                      "commands/custom-commands/3Mfzm9Dm",
+                      "commands/custom-commands/3Mfzm9Dm/B4xy3XGl"
+                    ]
+                  },
+                  {
+                    "group": "2gpt-image-2详情图片生成",
+                    "pages": [
+                      "commands/custom-commands/3xcMJEn2",
+                      "commands/custom-commands/3xcMJEn2/mzURBQl5",
+                      "commands/custom-commands/3xcMJEn2/y6xaPMTZ"
+                    ]
+                  },
+                  {
+                    "group": "PDF扩展操作",
+                    "pages": [
+                      "commands/custom-commands/3Yl16hhX",
+                      "commands/custom-commands/3Yl16hhX/7HImsXSn",
+                      "commands/custom-commands/3Yl16hhX/aK9NFwga",
+                      "commands/custom-commands/3Yl16hhX/DP0B1di2",
+                      "commands/custom-commands/3Yl16hhX/oK8RZkJk",
+                      "commands/custom-commands/3Yl16hhX/SfNI5YCh"
+                    ]
+                  },
+                  {
+                    "group": "登录扩展操作",
+                    "pages": [
+                      "commands/custom-commands/4idwqdY1",
+                      "commands/custom-commands/4idwqdY1/lXZmp9Cz"
+                    ]
+                  },
+                  {
+                    "group": "数据表格扩展",
+                    "pages": [
+                      "commands/custom-commands/53yEcCdf",
+                      "commands/custom-commands/53yEcCdf/D5brtCyg",
+                      "commands/custom-commands/53yEcCdf/hEu2eeUO",
+                      "commands/custom-commands/53yEcCdf/jUBZNbEB"
+                    ]
+                  },
+                  {
+                    "group": "淘宝",
+                    "pages": [
+                      "commands/custom-commands/5BrGFFx8",
+                      "commands/custom-commands/5BrGFFx8/1PchMg7E"
+                    ]
+                  },
+                  {
+                    "group": "亚马逊-广告",
+                    "pages": [
+                      "commands/custom-commands/6958FmJ9",
+                      "commands/custom-commands/6958FmJ9/DnggJFFQ",
+                      "commands/custom-commands/6958FmJ9/kbN68SBM",
+                      "commands/custom-commands/6958FmJ9/mapn0rKW",
+                      "commands/custom-commands/6958FmJ9/O7HLsyQV"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-内容",
+                    "pages": [
+                      "commands/custom-commands/6al1zLV3",
+                      "commands/custom-commands/6al1zLV3/7XETvlUQ",
+                      "commands/custom-commands/6al1zLV3/CKZkncoA",
+                      "commands/custom-commands/6al1zLV3/dPENNv3G",
+                      "commands/custom-commands/6al1zLV3/GZ5Hwo8C",
+                      "commands/custom-commands/6al1zLV3/H87G01gc",
+                      "commands/custom-commands/6al1zLV3/JvYkK7kh",
+                      "commands/custom-commands/6al1zLV3/u7A2lI8z",
+                      "commands/custom-commands/6al1zLV3/Y5AWN268"
+                    ]
+                  },
+                  {
+                    "group": "钉钉AI多维表",
+                    "pages": [
+                      "commands/custom-commands/6gIhBk4t",
+                      "commands/custom-commands/6gIhBk4t/2AfEnfCx",
+                      "commands/custom-commands/6gIhBk4t/3f3OA0o8",
+                      "commands/custom-commands/6gIhBk4t/5ceHTd6e",
+                      "commands/custom-commands/6gIhBk4t/84bIjR5o",
+                      "commands/custom-commands/6gIhBk4t/BCokmIQ8",
+                      "commands/custom-commands/6gIhBk4t/BEhfXBhB",
+                      "commands/custom-commands/6gIhBk4t/bgEpzZpi",
+                      "commands/custom-commands/6gIhBk4t/CqLnH6OV",
+                      "commands/custom-commands/6gIhBk4t/guVHpsdb",
+                      "commands/custom-commands/6gIhBk4t/h7Y8aYmb",
+                      "commands/custom-commands/6gIhBk4t/H8L4VXlA",
+                      "commands/custom-commands/6gIhBk4t/HYtglObF",
+                      "commands/custom-commands/6gIhBk4t/RYJegiGS",
+                      "commands/custom-commands/6gIhBk4t/StcKIASE",
+                      "commands/custom-commands/6gIhBk4t/v9TNY7eE",
+                      "commands/custom-commands/6gIhBk4t/wEQ8pG6c",
+                      "commands/custom-commands/6gIhBk4t/Ykscn6mu",
+                      "commands/custom-commands/6gIhBk4t/Z3kwb5Zd"
+                    ]
+                  },
+                  {
+                    "group": "拼多多",
+                    "pages": [
+                      "commands/custom-commands/78ZRQqZn",
+                      "commands/custom-commands/78ZRQqZn/kcz1eN97"
+                    ]
+                  },
+                  {
+                    "group": "千牛-客户端",
+                    "pages": [
+                      "commands/custom-commands/7azccbR1",
+                      "commands/custom-commands/7azccbR1/gBq7k2HD",
+                      "commands/custom-commands/7azccbR1/IhjKDzhH",
+                      "commands/custom-commands/7azccbR1/m3LvqFQG",
+                      "commands/custom-commands/7azccbR1/M4BVlWpx",
+                      "commands/custom-commands/7azccbR1/V7tTRc07",
+                      "commands/custom-commands/7azccbR1/XW3mC7dW"
+                    ]
+                  },
+                  {
+                    "group": "京准通数据获取-京速推",
+                    "pages": [
+                      "commands/custom-commands/8m0H51QT",
+                      "commands/custom-commands/8m0H51QT/fhgvTU9C",
+                      "commands/custom-commands/8m0H51QT/rwkWkyfZ",
+                      "commands/custom-commands/8m0H51QT/VD9lhhH6",
+                      "commands/custom-commands/8m0H51QT/XHkpgjTx"
+                    ]
+                  },
+                  {
+                    "group": "亚马逊-卖家中心",
+                    "pages": [
+                      "commands/custom-commands/9a2FdLks",
+                      "commands/custom-commands/9a2FdLks/Dbz9ZB2J",
+                      "commands/custom-commands/9a2FdLks/fHI0ayOJ",
+                      "commands/custom-commands/9a2FdLks/o0CbH5RM",
+                      "commands/custom-commands/9a2FdLks/Rr3zo6pF"
+                    ]
+                  },
+                  {
+                    "group": "京东商智数据获取-品牌版-商品",
+                    "pages": [
+                      "commands/custom-commands/9UYlV3Zl",
+                      "commands/custom-commands/9UYlV3Zl/8LJOFubZ",
+                      "commands/custom-commands/9UYlV3Zl/lY0yXhRP"
+                    ]
+                  },
+                  {
+                    "group": "3电商文案",
+                    "pages": [
+                      "commands/custom-commands/a4TH5A1N",
+                      "commands/custom-commands/a4TH5A1N/hHDL73hN",
+                      "commands/custom-commands/a4TH5A1N/PzmFgcM9"
+                    ]
+                  },
+                  {
+                    "group": "钉钉扩展指令",
+                    "pages": [
+                      "commands/custom-commands/Aj968baR",
+                      "commands/custom-commands/Aj968baR/08cSSmb0",
+                      "commands/custom-commands/Aj968baR/44GptxKU",
+                      "commands/custom-commands/Aj968baR/agHABx8m",
+                      "commands/custom-commands/Aj968baR/Ao0vuQz5",
+                      "commands/custom-commands/Aj968baR/doFNEAFb",
+                      "commands/custom-commands/Aj968baR/DPeqsPOF",
+                      "commands/custom-commands/Aj968baR/eytyMRGc",
+                      "commands/custom-commands/Aj968baR/NMaRfMcx",
+                      "commands/custom-commands/Aj968baR/OXVhqyp9",
+                      "commands/custom-commands/Aj968baR/pzbpMR1g",
+                      "commands/custom-commands/Aj968baR/QyYfH437",
+                      "commands/custom-commands/Aj968baR/RA7Gc8UG",
+                      "commands/custom-commands/Aj968baR/SgXWTbkM",
+                      "commands/custom-commands/Aj968baR/ZkVRcUJT"
+                    ]
+                  },
+                  {
+                    "group": "Photoshop 扩展",
+                    "pages": [
+                      "commands/custom-commands/AJpKshiX",
+                      "commands/custom-commands/AJpKshiX/1RpokBz8",
+                      "commands/custom-commands/AJpKshiX/2MT9Xo8k",
+                      "commands/custom-commands/AJpKshiX/3ZaOW3cC",
+                      "commands/custom-commands/AJpKshiX/CE3MJKfb",
+                      "commands/custom-commands/AJpKshiX/CiZ9lPTK",
+                      "commands/custom-commands/AJpKshiX/E0LXe2mU",
+                      "commands/custom-commands/AJpKshiX/G7wmugTb",
+                      "commands/custom-commands/AJpKshiX/HbzC0i1s",
+                      "commands/custom-commands/AJpKshiX/jlYL7sT0",
+                      "commands/custom-commands/AJpKshiX/lWw9EZeD",
+                      "commands/custom-commands/AJpKshiX/nF0cFveu",
+                      "commands/custom-commands/AJpKshiX/NmSvtSD9",
+                      "commands/custom-commands/AJpKshiX/nOPIoMxc",
+                      "commands/custom-commands/AJpKshiX/p6np356C",
+                      "commands/custom-commands/AJpKshiX/RCDYGLzy",
+                      "commands/custom-commands/AJpKshiX/S1vKwdrr",
+                      "commands/custom-commands/AJpKshiX/Tkm2ZFpW",
+                      "commands/custom-commands/AJpKshiX/VVLjK3bw",
+                      "commands/custom-commands/AJpKshiX/xmh22llq",
+                      "commands/custom-commands/AJpKshiX/XpveZxB8",
+                      "commands/custom-commands/AJpKshiX/Z1SPbthJ",
+                      "commands/custom-commands/AJpKshiX/Z2YoVHM7",
+                      "commands/custom-commands/AJpKshiX/ZroSsgwc"
+                    ]
+                  },
+                  {
+                    "group": "万相台无界版数据获取（2）",
+                    "pages": [
+                      "commands/custom-commands/aOPex9i0",
+                      "commands/custom-commands/aOPex9i0/0cXScPtu",
+                      "commands/custom-commands/aOPex9i0/7aifdBrC",
+                      "commands/custom-commands/aOPex9i0/8TN90d1V",
+                      "commands/custom-commands/aOPex9i0/8wGfCqc3",
+                      "commands/custom-commands/aOPex9i0/bc2o1SZZ",
+                      "commands/custom-commands/aOPex9i0/Efu90tNZ",
+                      "commands/custom-commands/aOPex9i0/FWSVD9aj",
+                      "commands/custom-commands/aOPex9i0/LcKpHITN",
+                      "commands/custom-commands/aOPex9i0/lwlWdm0D",
+                      "commands/custom-commands/aOPex9i0/uPnR8huL",
+                      "commands/custom-commands/aOPex9i0/XTZqoaT9"
+                    ]
+                  },
+                  {
+                    "group": "拼多多数据获取-推广中心",
+                    "pages": [
+                      "commands/custom-commands/bceHSvPZ",
+                      "commands/custom-commands/bceHSvPZ/7mVbewDW",
+                      "commands/custom-commands/bceHSvPZ/VceyzUFN"
+                    ]
+                  },
+                  {
+                    "group": "Shein 商家后台",
+                    "pages": [
+                      "commands/custom-commands/BRCuvdq6",
+                      "commands/custom-commands/BRCuvdq6/81sd6LUd",
+                      "commands/custom-commands/BRCuvdq6/9JMPk0V0",
+                      "commands/custom-commands/BRCuvdq6/DeFZW3Ws",
+                      "commands/custom-commands/BRCuvdq6/DTtIOI74",
+                      "commands/custom-commands/BRCuvdq6/EbHD1tde",
+                      "commands/custom-commands/BRCuvdq6/gdPDb3fs",
+                      "commands/custom-commands/BRCuvdq6/SJAnCJIS",
+                      "commands/custom-commands/BRCuvdq6/uhiDZ0xg"
+                    ]
+                  },
+                  {
+                    "group": "QQ 操作",
+                    "pages": [
+                      "commands/custom-commands/ccTJLCKF",
+                      "commands/custom-commands/ccTJLCKF/wCUsunWh"
+                    ]
+                  },
+                  {
+                    "group": "紫鸟浏览器-2",
+                    "pages": [
+                      "commands/custom-commands/Ceg9LU3P",
+                      "commands/custom-commands/Ceg9LU3P/CwiBOK70"
+                    ]
+                  },
+                  {
+                    "group": "拼多多数据获取-数据中心",
+                    "pages": [
+                      "commands/custom-commands/CN8Zsocz",
+                      "commands/custom-commands/CN8Zsocz/6e9O2b54",
+                      "commands/custom-commands/CN8Zsocz/6HHyhOzJ",
+                      "commands/custom-commands/CN8Zsocz/F5khO0FK",
+                      "commands/custom-commands/CN8Zsocz/I61bnn2P",
+                      "commands/custom-commands/CN8Zsocz/qN74zbeJ",
+                      "commands/custom-commands/CN8Zsocz/v69W9x2f",
+                      "commands/custom-commands/CN8Zsocz/vGlE5NG7",
+                      "commands/custom-commands/CN8Zsocz/ZLe3Ij84"
+                    ]
+                  },
+                  {
+                    "group": "云码验证码",
+                    "pages": [
+                      "commands/custom-commands/cQFHHWNi",
+                      "commands/custom-commands/cQFHHWNi/ITwX4KHM",
+                      "commands/custom-commands/cQFHHWNi/k5TtecrU",
+                      "commands/custom-commands/cQFHHWNi/KIJZLJd2"
+                    ]
+                  },
+                  {
+                    "group": "拼多多数据获取-多多客服",
+                    "pages": [
+                      "commands/custom-commands/csJFKroT",
+                      "commands/custom-commands/csJFKroT/29ST1FKu",
+                      "commands/custom-commands/csJFKroT/LfZlTKyn",
+                      "commands/custom-commands/csJFKroT/XMGKkuKP",
+                      "commands/custom-commands/csJFKroT/Y1lpiRGm"
+                    ]
+                  },
+                  {
+                    "group": "直播弹幕扩展",
+                    "pages": [
+                      "commands/custom-commands/CXxsV3PC",
+                      "commands/custom-commands/CXxsV3PC/AB6PBbxM",
+                      "commands/custom-commands/CXxsV3PC/coQHxk82",
+                      "commands/custom-commands/CXxsV3PC/OTvDkNrq"
+                    ]
+                  },
+                  {
+                    "group": "TikTok",
+                    "pages": [
+                      "commands/custom-commands/d3IrwX7D",
+                      "commands/custom-commands/d3IrwX7D/7TqgWRIt",
+                      "commands/custom-commands/d3IrwX7D/MgYdajCe",
+                      "commands/custom-commands/d3IrwX7D/rewDSrWT",
+                      "commands/custom-commands/d3IrwX7D/t55RE0Ob",
+                      "commands/custom-commands/d3IrwX7D/vNY9tWme"
+                    ]
+                  },
+                  {
+                    "group": "紫鸟控制台操作",
+                    "pages": [
+                      "commands/custom-commands/dCC9IWCX",
+                      "commands/custom-commands/dCC9IWCX/C0qPpQJx",
+                      "commands/custom-commands/dCC9IWCX/lFIVwkH2",
+                      "commands/custom-commands/dCC9IWCX/pfNLBoiA",
+                      "commands/custom-commands/dCC9IWCX/Uaz5iSzH",
+                      "commands/custom-commands/dCC9IWCX/v32k8xQq"
+                    ]
+                  },
+                  {
+                    "group": "日期选择",
+                    "pages": [
+                      "commands/custom-commands/ddzvAqho",
+                      "commands/custom-commands/ddzvAqho/1JRyu5Y4",
+                      "commands/custom-commands/ddzvAqho/9k5jg89V",
+                      "commands/custom-commands/ddzvAqho/fLAVpjyC",
+                      "commands/custom-commands/ddzvAqho/GFzct1Y6",
+                      "commands/custom-commands/ddzvAqho/ko9SFSMw",
+                      "commands/custom-commands/ddzvAqho/L5UTr2Xg",
+                      "commands/custom-commands/ddzvAqho/opmdN0Lt"
+                    ]
+                  },
+                  {
+                    "group": "京东商智数据获取-商家版-流量",
+                    "pages": [
+                      "commands/custom-commands/dMoD38Uc",
+                      "commands/custom-commands/dMoD38Uc/6jBGVqap",
+                      "commands/custom-commands/dMoD38Uc/A9p8zjF2",
+                      "commands/custom-commands/dMoD38Uc/B7R6pg5Q",
+                      "commands/custom-commands/dMoD38Uc/csNTMdAv",
+                      "commands/custom-commands/dMoD38Uc/fyU4Z1nm",
+                      "commands/custom-commands/dMoD38Uc/LWaPtkr9",
+                      "commands/custom-commands/dMoD38Uc/NrrDAcsh",
+                      "commands/custom-commands/dMoD38Uc/q7W3NjW7",
+                      "commands/custom-commands/dMoD38Uc/RQFqFWKA",
+                      "commands/custom-commands/dMoD38Uc/V4Lj38wR"
+                    ]
+                  },
+                  {
+                    "group": "飞书多维表格-扩展",
+                    "pages": [
+                      "commands/custom-commands/DtZSARDl",
+                      "commands/custom-commands/DtZSARDl/5tWC4MKm",
+                      "commands/custom-commands/DtZSARDl/aDAhBBjg",
+                      "commands/custom-commands/DtZSARDl/CslF41yY",
+                      "commands/custom-commands/DtZSARDl/DEZJr1Wl"
+                    ]
+                  },
+                  {
+                    "group": "文叔叔-文件传输",
+                    "pages": [
+                      "commands/custom-commands/e2VDOh3F",
+                      "commands/custom-commands/e2VDOh3F/UuJ4SMfC",
+                      "commands/custom-commands/e2VDOh3F/woOAdOgm"
+                    ]
+                  },
+                  {
+                    "group": "京东商智",
+                    "pages": [
+                      "commands/custom-commands/efPZbxVS",
+                      "commands/custom-commands/efPZbxVS/1guWbbHU",
+                      "commands/custom-commands/efPZbxVS/bmSnEQeZ"
+                    ]
+                  },
+                  {
+                    "group": "windows扩展",
+                    "pages": [
+                      "commands/custom-commands/EkSERr7c",
+                      "commands/custom-commands/EkSERr7c/9d9KlPU9"
+                    ]
+                  },
+                  {
+                    "group": "千牛（Web）",
+                    "pages": [
+                      "commands/custom-commands/enIp28fZ",
+                      "commands/custom-commands/enIp28fZ/Vu31YWNk"
+                    ]
+                  },
+                  {
+                    "group": "阿里妈妈时间选择",
+                    "pages": [
+                      "commands/custom-commands/erppqQCG",
+                      "commands/custom-commands/erppqQCG/fq7EBGSN",
+                      "commands/custom-commands/erppqQCG/mVLSDfmw",
+                      "commands/custom-commands/erppqQCG/ORRVn41v",
+                      "commands/custom-commands/erppqQCG/pSK7384u",
+                      "commands/custom-commands/erppqQCG/PXGP7pOs",
+                      "commands/custom-commands/erppqQCG/Q2EBXe6I",
+                      "commands/custom-commands/erppqQCG/Rfxh5HZg",
+                      "commands/custom-commands/erppqQCG/TBsbri32"
+                    ]
+                  },
+                  {
+                    "group": "京东商智数据获取-商家版-竞争",
+                    "pages": [
+                      "commands/custom-commands/EyBKMzyg",
+                      "commands/custom-commands/EyBKMzyg/7LRJDCq8",
+                      "commands/custom-commands/EyBKMzyg/aVBY54rM",
+                      "commands/custom-commands/EyBKMzyg/cnzQRAJF",
+                      "commands/custom-commands/EyBKMzyg/ctG4aLlH",
+                      "commands/custom-commands/EyBKMzyg/jLwEXBmg",
+                      "commands/custom-commands/EyBKMzyg/JnCkLqK3"
+                    ]
+                  },
+                  {
+                    "group": "京东商智数据获取-品牌版",
+                    "pages": [
+                      "commands/custom-commands/f91o8fca",
+                      "commands/custom-commands/f91o8fca/pn80tWwo"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-市场（1）",
+                    "pages": [
+                      "commands/custom-commands/FBcnoIEg",
+                      "commands/custom-commands/FBcnoIEg/9I0mnV1Q",
+                      "commands/custom-commands/FBcnoIEg/eDtcmi7x",
+                      "commands/custom-commands/FBcnoIEg/f7BZEGpG",
+                      "commands/custom-commands/FBcnoIEg/ftdhSym4",
+                      "commands/custom-commands/FBcnoIEg/ks72zIyu",
+                      "commands/custom-commands/FBcnoIEg/l3u6Hnbz",
+                      "commands/custom-commands/FBcnoIEg/ULbHyKp0",
+                      "commands/custom-commands/FBcnoIEg/WysPeVtU",
+                      "commands/custom-commands/FBcnoIEg/zFZpQ8VE"
+                    ]
+                  },
+                  {
+                    "group": "飞书消息",
+                    "pages": [
+                      "commands/custom-commands/fCsyT6ZR",
+                      "commands/custom-commands/fCsyT6ZR/3uMt0aD5",
+                      "commands/custom-commands/fCsyT6ZR/93pTknMz",
+                      "commands/custom-commands/fCsyT6ZR/a2SyFnYx",
+                      "commands/custom-commands/fCsyT6ZR/fykHH8BF",
+                      "commands/custom-commands/fCsyT6ZR/G9NysHiz",
+                      "commands/custom-commands/fCsyT6ZR/KrpR0fKW",
+                      "commands/custom-commands/fCsyT6ZR/Xrnilx4V"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-市场（2）",
+                    "pages": [
+                      "commands/custom-commands/FixuP4np",
+                      "commands/custom-commands/FixuP4np/0Eg2Zkq6",
+                      "commands/custom-commands/FixuP4np/eivtiwTN",
+                      "commands/custom-commands/FixuP4np/jR6h63Ng",
+                      "commands/custom-commands/FixuP4np/RiJ2Afos"
+                    ]
+                  },
+                  {
+                    "group": "京准通数据获取-京挑客",
+                    "pages": [
+                      "commands/custom-commands/fJksXtYm",
+                      "commands/custom-commands/fJksXtYm/gs2Noio7",
+                      "commands/custom-commands/fJksXtYm/hVEfZ8kV",
+                      "commands/custom-commands/fJksXtYm/KioshNdq"
+                    ]
+                  },
+                  {
+                    "group": "万相台无界版数据获取（1）",
+                    "pages": [
+                      "commands/custom-commands/fOsRqewt",
+                      "commands/custom-commands/fOsRqewt/1cPR7QBj",
+                      "commands/custom-commands/fOsRqewt/aDcHWCdu",
+                      "commands/custom-commands/fOsRqewt/EbhDJwTg",
+                      "commands/custom-commands/fOsRqewt/EWesQHCq",
+                      "commands/custom-commands/fOsRqewt/ImqilaUQ",
+                      "commands/custom-commands/fOsRqewt/RhdJJ5eI",
+                      "commands/custom-commands/fOsRqewt/vWnBNwQw"
+                    ]
+                  },
+                  {
+                    "group": "京东商智数据获取-商家版-商品",
+                    "pages": [
+                      "commands/custom-commands/GBfovRGB",
+                      "commands/custom-commands/GBfovRGB/8gLOIOFF",
+                      "commands/custom-commands/GBfovRGB/CCn7wzdI",
+                      "commands/custom-commands/GBfovRGB/OCKTaR2N",
+                      "commands/custom-commands/GBfovRGB/smr6A3ts",
+                      "commands/custom-commands/GBfovRGB/Ub7xF3BT"
+                    ]
+                  },
+                  {
                     "group": "领星",
                     "pages": [
                       "commands/custom-commands/geamt8fB",
+                      "commands/custom-commands/geamt8fB/5Tr8RgL5",
+                      "commands/custom-commands/geamt8fB/6StCJnIc",
+                      "commands/custom-commands/geamt8fB/FJ3ygad2",
+                      "commands/custom-commands/geamt8fB/h0zP5MpJ",
+                      "commands/custom-commands/geamt8fB/NKTlgymZ",
                       "commands/custom-commands/geamt8fB/sUuGTZYW",
                       "commands/custom-commands/geamt8fB/yeojvyAh",
-                      "commands/custom-commands/geamt8fB/FJ3ygad2",
-                      "commands/custom-commands/geamt8fB/5Tr8RgL5",
-                      "commands/custom-commands/geamt8fB/YV2A7U2n",
-                      "commands/custom-commands/geamt8fB/h0zP5MpJ",
-                      "commands/custom-commands/geamt8fB/6StCJnIc",
                       "commands/custom-commands/geamt8fB/yiYXhd91",
-                      "commands/custom-commands/geamt8fB/NKTlgymZ"
+                      "commands/custom-commands/geamt8fB/YV2A7U2n"
+                    ]
+                  },
+                  {
+                    "group": "京准通数据获取-全站营销",
+                    "pages": [
+                      "commands/custom-commands/GryXohUi",
+                      "commands/custom-commands/GryXohUi/dUmQLyPV"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-商品",
+                    "pages": [
+                      "commands/custom-commands/h09s9ExE",
+                      "commands/custom-commands/h09s9ExE/2ePh0Ig3",
+                      "commands/custom-commands/h09s9ExE/3Rue5lbd",
+                      "commands/custom-commands/h09s9ExE/8ndnzKIr",
+                      "commands/custom-commands/h09s9ExE/8rI02QfZ",
+                      "commands/custom-commands/h09s9ExE/bA6MZNhU",
+                      "commands/custom-commands/h09s9ExE/BWvzZE22",
+                      "commands/custom-commands/h09s9ExE/CSw1QZkA",
+                      "commands/custom-commands/h09s9ExE/dEUPjZPd",
+                      "commands/custom-commands/h09s9ExE/Du0ZcsBA",
+                      "commands/custom-commands/h09s9ExE/gi4DN8Ue",
+                      "commands/custom-commands/h09s9ExE/HRtDwekm",
+                      "commands/custom-commands/h09s9ExE/iWo9o82S",
+                      "commands/custom-commands/h09s9ExE/jhS4XVE9",
+                      "commands/custom-commands/h09s9ExE/pmuqufiF",
+                      "commands/custom-commands/h09s9ExE/rvxT3VU0",
+                      "commands/custom-commands/h09s9ExE/tfRu8mGA",
+                      "commands/custom-commands/h09s9ExE/U9RNDgnp",
+                      "commands/custom-commands/h09s9ExE/XWi5g2cQ",
+                      "commands/custom-commands/h09s9ExE/ZihYB2cA"
+                    ]
+                  },
+                  {
+                    "group": "京东商智数据获取-品牌版-流量",
+                    "pages": [
+                      "commands/custom-commands/Hvnysjje",
+                      "commands/custom-commands/Hvnysjje/2EcUuJAp",
+                      "commands/custom-commands/Hvnysjje/aDVgATmg",
+                      "commands/custom-commands/Hvnysjje/svRPq7E4",
+                      "commands/custom-commands/Hvnysjje/tSyTPkEH",
+                      "commands/custom-commands/Hvnysjje/Y42UPbkc",
+                      "commands/custom-commands/Hvnysjje/y7BfWSO9"
+                    ]
+                  },
+                  {
+                    "group": "腾讯文档在线表格",
+                    "pages": [
+                      "commands/custom-commands/hxOU6Ggj",
+                      "commands/custom-commands/hxOU6Ggj/O7elTFxg",
+                      "commands/custom-commands/hxOU6Ggj/QSd7WyZm",
+                      "commands/custom-commands/hxOU6Ggj/rrd8TlVr",
+                      "commands/custom-commands/hxOU6Ggj/SZPue3b0",
+                      "commands/custom-commands/hxOU6Ggj/wOFh6XZr"
+                    ]
+                  },
+                  {
+                    "group": "拼多多数据获取-多多直播",
+                    "pages": [
+                      "commands/custom-commands/i1M7Xuxo",
+                      "commands/custom-commands/i1M7Xuxo/AtBnslRv",
+                      "commands/custom-commands/i1M7Xuxo/b6aJSOGE",
+                      "commands/custom-commands/i1M7Xuxo/C3GLmGao",
+                      "commands/custom-commands/i1M7Xuxo/sxToPzeM"
+                    ]
+                  },
+                  {
+                    "group": "验证码",
+                    "pages": [
+                      "commands/custom-commands/i2Vbj6Mp",
+                      "commands/custom-commands/i2Vbj6Mp/apJQGIkv",
+                      "commands/custom-commands/i2Vbj6Mp/c5APdJQQ",
+                      "commands/custom-commands/i2Vbj6Mp/DSGnuXkS",
+                      "commands/custom-commands/i2Vbj6Mp/h4OBJkuE",
+                      "commands/custom-commands/i2Vbj6Mp/j32ccu62",
+                      "commands/custom-commands/i2Vbj6Mp/Nn2AnHRR",
+                      "commands/custom-commands/i2Vbj6Mp/NobU0D9M",
+                      "commands/custom-commands/i2Vbj6Mp/P6gOsshO",
+                      "commands/custom-commands/i2Vbj6Mp/PWjIdJO8",
+                      "commands/custom-commands/i2Vbj6Mp/rz54MD5e",
+                      "commands/custom-commands/i2Vbj6Mp/VCc63Gco",
+                      "commands/custom-commands/i2Vbj6Mp/xxtmLPQq"
+                    ]
+                  },
+                  {
+                    "group": "支付宝",
+                    "pages": [
+                      "commands/custom-commands/i3bYn9Bi",
+                      "commands/custom-commands/i3bYn9Bi/k3g8DnNI",
+                      "commands/custom-commands/i3bYn9Bi/VBs7hS9J"
+                    ]
+                  },
+                  {
+                    "group": "亚马逊卖家后台",
+                    "pages": [
+                      "commands/custom-commands/i7qgA3P8",
+                      "commands/custom-commands/i7qgA3P8/1q08Q8lS",
+                      "commands/custom-commands/i7qgA3P8/5gz1gj36",
+                      "commands/custom-commands/i7qgA3P8/8UOdumXj",
+                      "commands/custom-commands/i7qgA3P8/DcdNhRlI",
+                      "commands/custom-commands/i7qgA3P8/gMjTt0BJ",
+                      "commands/custom-commands/i7qgA3P8/gW8GSggd",
+                      "commands/custom-commands/i7qgA3P8/hOk1hc26",
+                      "commands/custom-commands/i7qgA3P8/HV5v03Jj",
+                      "commands/custom-commands/i7qgA3P8/ibFBrqjO",
+                      "commands/custom-commands/i7qgA3P8/iDod34ZO",
+                      "commands/custom-commands/i7qgA3P8/ijBKTQ72",
+                      "commands/custom-commands/i7qgA3P8/JiRyVOFY",
+                      "commands/custom-commands/i7qgA3P8/Kua7gRaY",
+                      "commands/custom-commands/i7qgA3P8/LgzkwOxy",
+                      "commands/custom-commands/i7qgA3P8/MW4FY8rk",
+                      "commands/custom-commands/i7qgA3P8/oAgU67Z2",
+                      "commands/custom-commands/i7qgA3P8/QQWrZQ6w",
+                      "commands/custom-commands/i7qgA3P8/sL1QaqLj",
+                      "commands/custom-commands/i7qgA3P8/TJJZrCLK",
+                      "commands/custom-commands/i7qgA3P8/uBobGDPb",
+                      "commands/custom-commands/i7qgA3P8/WOLYCTd7",
+                      "commands/custom-commands/i7qgA3P8/YE0z8Ssx",
+                      "commands/custom-commands/i7qgA3P8/YwHZC5iD"
+                    ]
+                  },
+                  {
+                    "group": "企业微信-服务端",
+                    "pages": [
+                      "commands/custom-commands/IPzFl8Q0",
+                      "commands/custom-commands/IPzFl8Q0/0xGRvE2m",
+                      "commands/custom-commands/IPzFl8Q0/3Nr9iiMP",
+                      "commands/custom-commands/IPzFl8Q0/5GSbTKRZ",
+                      "commands/custom-commands/IPzFl8Q0/7XMry8Dx",
+                      "commands/custom-commands/IPzFl8Q0/a3gVeadD",
+                      "commands/custom-commands/IPzFl8Q0/AM1s3T07",
+                      "commands/custom-commands/IPzFl8Q0/cCMfP2OI",
+                      "commands/custom-commands/IPzFl8Q0/e7LJv4a5",
+                      "commands/custom-commands/IPzFl8Q0/EJuL9FMx",
+                      "commands/custom-commands/IPzFl8Q0/F7h8wA2Z",
+                      "commands/custom-commands/IPzFl8Q0/I6HkSM1R",
+                      "commands/custom-commands/IPzFl8Q0/IMePrQLC",
+                      "commands/custom-commands/IPzFl8Q0/JLJaV9Ja",
+                      "commands/custom-commands/IPzFl8Q0/jluwEFEU",
+                      "commands/custom-commands/IPzFl8Q0/jUCJmUXi",
+                      "commands/custom-commands/IPzFl8Q0/kta5bckk",
+                      "commands/custom-commands/IPzFl8Q0/kyEzyNoc",
+                      "commands/custom-commands/IPzFl8Q0/Nh9diM0S",
+                      "commands/custom-commands/IPzFl8Q0/NKFLZZqz",
+                      "commands/custom-commands/IPzFl8Q0/OlFJbIdF",
+                      "commands/custom-commands/IPzFl8Q0/pwAwFvwf",
+                      "commands/custom-commands/IPzFl8Q0/r9NLqc5N",
+                      "commands/custom-commands/IPzFl8Q0/S077knPf",
+                      "commands/custom-commands/IPzFl8Q0/sr8TRZ13",
+                      "commands/custom-commands/IPzFl8Q0/ThnO5K3W",
+                      "commands/custom-commands/IPzFl8Q0/U0TajuFD",
+                      "commands/custom-commands/IPzFl8Q0/wf6RaymZ",
+                      "commands/custom-commands/IPzFl8Q0/x3FsF9lQ",
+                      "commands/custom-commands/IPzFl8Q0/YCSmkjAf",
+                      "commands/custom-commands/IPzFl8Q0/ytbpHisR",
+                      "commands/custom-commands/IPzFl8Q0/z7nCypcj",
+                      "commands/custom-commands/IPzFl8Q0/zTbfodbl"
+                    ]
+                  },
+                  {
+                    "group": "物流信息",
+                    "pages": [
+                      "commands/custom-commands/iv0QatqN",
+                      "commands/custom-commands/iv0QatqN/LzrvqaOY",
+                      "commands/custom-commands/iv0QatqN/Na16OxEj",
+                      "commands/custom-commands/iv0QatqN/oARdgLHb",
+                      "commands/custom-commands/iv0QatqN/v8foCFud"
+                    ]
+                  },
+                  {
+                    "group": "京东商智",
+                    "pages": [
+                      "commands/custom-commands/izPi8DRQ",
+                      "commands/custom-commands/izPi8DRQ/6VU5sAFA",
+                      "commands/custom-commands/izPi8DRQ/rqZ4cqXx"
+                    ]
+                  },
+                  {
+                    "group": "Excel扩展操作",
+                    "pages": [
+                      "commands/custom-commands/j3MiFQmW",
+                      "commands/custom-commands/j3MiFQmW/M4UgaP5Z",
+                      "commands/custom-commands/j3MiFQmW/obozxFuw"
+                    ]
+                  },
+                  {
+                    "group": "企业微信智能表格",
+                    "pages": [
+                      "commands/custom-commands/JB70O3jQ",
+                      "commands/custom-commands/JB70O3jQ/100KPBq1",
+                      "commands/custom-commands/JB70O3jQ/15fnqEDw",
+                      "commands/custom-commands/JB70O3jQ/3Ta87nKQ",
+                      "commands/custom-commands/JB70O3jQ/6H5BUhDN",
+                      "commands/custom-commands/JB70O3jQ/Akf2jkgL",
+                      "commands/custom-commands/JB70O3jQ/br4531QF",
+                      "commands/custom-commands/JB70O3jQ/f5lotGvE",
+                      "commands/custom-commands/JB70O3jQ/HA3D3xK5",
+                      "commands/custom-commands/JB70O3jQ/hiPizt6s",
+                      "commands/custom-commands/JB70O3jQ/JvyTKnXv",
+                      "commands/custom-commands/JB70O3jQ/MoAChBIR",
+                      "commands/custom-commands/JB70O3jQ/nz1YsDcK",
+                      "commands/custom-commands/JB70O3jQ/obYtqEpP",
+                      "commands/custom-commands/JB70O3jQ/P1MuJvSd",
+                      "commands/custom-commands/JB70O3jQ/p6Cu7Z5X",
+                      "commands/custom-commands/JB70O3jQ/q87PEzn8",
+                      "commands/custom-commands/JB70O3jQ/Rcfo0sRB",
+                      "commands/custom-commands/JB70O3jQ/UJmNdwb2",
+                      "commands/custom-commands/JB70O3jQ/vj8UqVqJ",
+                      "commands/custom-commands/JB70O3jQ/Z3FQFyol"
+                    ]
+                  },
+                  {
+                    "group": "1电商产品图片理解",
+                    "pages": [
+                      "commands/custom-commands/JbQaSa4r",
+                      "commands/custom-commands/JbQaSa4r/J8hkcs44"
+                    ]
+                  },
+                  {
+                    "group": "京东商智数据获取-品牌版-实时",
+                    "pages": [
+                      "commands/custom-commands/JIoEqoH7",
+                      "commands/custom-commands/JIoEqoH7/2XUPWUKk",
+                      "commands/custom-commands/JIoEqoH7/SevJDc9L",
+                      "commands/custom-commands/JIoEqoH7/SuOh0JIk"
+                    ]
+                  },
+                  {
+                    "group": "拼多多数据获取-对账中心",
+                    "pages": [
+                      "commands/custom-commands/JOWLco7H",
+                      "commands/custom-commands/JOWLco7H/O2YHh6Fp"
+                    ]
+                  },
+                  {
+                    "group": "WPS在线表格",
+                    "pages": [
+                      "commands/custom-commands/jquCesST",
+                      "commands/custom-commands/jquCesST/6yC5005U",
+                      "commands/custom-commands/jquCesST/N5CSrUJ0",
+                      "commands/custom-commands/jquCesST/tCDELwt5"
+                    ]
+                  },
+                  {
+                    "group": "网页扩展指令",
+                    "pages": [
+                      "commands/custom-commands/JsvYpNwh",
+                      "commands/custom-commands/JsvYpNwh/DJBctElD",
+                      "commands/custom-commands/JsvYpNwh/mKopOIej"
+                    ]
+                  },
+                  {
+                    "group": "速卖通商家后台",
+                    "pages": [
+                      "commands/custom-commands/jTcxLSvQ",
+                      "commands/custom-commands/jTcxLSvQ/aT80ji5C",
+                      "commands/custom-commands/jTcxLSvQ/cGnYOl9K",
+                      "commands/custom-commands/jTcxLSvQ/cnejDMgz",
+                      "commands/custom-commands/jTcxLSvQ/hWx8TSRR",
+                      "commands/custom-commands/jTcxLSvQ/NAsJRQ5z",
+                      "commands/custom-commands/jTcxLSvQ/sYYTJjYp",
+                      "commands/custom-commands/jTcxLSvQ/uDmwAW3B",
+                      "commands/custom-commands/jTcxLSvQ/Z2NZ4XEJ"
+                    ]
+                  },
+                  {
+                    "group": "电商图片文案处理",
+                    "pages": [
+                      "commands/custom-commands/JTm1cTKK",
+                      "commands/custom-commands/JTm1cTKK/3IG8M4D6",
+                      "commands/custom-commands/JTm1cTKK/aJucB532",
+                      "commands/custom-commands/JTm1cTKK/DfPwAMxN",
+                      "commands/custom-commands/JTm1cTKK/DQGsplG4",
+                      "commands/custom-commands/JTm1cTKK/fpsWRF8z",
+                      "commands/custom-commands/JTm1cTKK/FwTw1e7X",
+                      "commands/custom-commands/JTm1cTKK/gdv5V5IG",
+                      "commands/custom-commands/JTm1cTKK/HesSe0i2",
+                      "commands/custom-commands/JTm1cTKK/HuoyIt1x",
+                      "commands/custom-commands/JTm1cTKK/NQx36oFn"
+                    ]
+                  },
+                  {
+                    "group": "翻译扩展操作",
+                    "pages": [
+                      "commands/custom-commands/kjgGHIxB",
+                      "commands/custom-commands/kjgGHIxB/2JXZJFNy",
+                      "commands/custom-commands/kjgGHIxB/4WjXvDJy",
+                      "commands/custom-commands/kjgGHIxB/y0A4OfYL"
+                    ]
+                  },
+                  {
+                    "group": "阿里妈妈",
+                    "pages": [
+                      "commands/custom-commands/kLiPTYOw",
+                      "commands/custom-commands/kLiPTYOw/GArDUGr8",
+                      "commands/custom-commands/kLiPTYOw/u4jfXT4b"
+                    ]
+                  },
+                  {
+                    "group": "汇率查询与转换",
+                    "pages": [
+                      "commands/custom-commands/KV38p4AB",
+                      "commands/custom-commands/KV38p4AB/cTuaMK6A",
+                      "commands/custom-commands/KV38p4AB/YWwUTeIO"
+                    ]
+                  },
+                  {
+                    "group": "京东商智数据获取-商家版-服务",
+                    "pages": [
+                      "commands/custom-commands/kzKoiPrG",
+                      "commands/custom-commands/kzKoiPrG/3puQ9vjh",
+                      "commands/custom-commands/kzKoiPrG/8Sp0DsRK",
+                      "commands/custom-commands/kzKoiPrG/bY2SLgGW",
+                      "commands/custom-commands/kzKoiPrG/JkQppmhB",
+                      "commands/custom-commands/kzKoiPrG/mNblmjhV",
+                      "commands/custom-commands/kzKoiPrG/RwlRauzP",
+                      "commands/custom-commands/kzKoiPrG/WyqdaXEy",
+                      "commands/custom-commands/kzKoiPrG/XcXbXcWd"
+                    ]
+                  },
+                  {
+                    "group": "录屏",
+                    "pages": [
+                      "commands/custom-commands/l07xRYCO",
+                      "commands/custom-commands/l07xRYCO/6Snc3B2I",
+                      "commands/custom-commands/l07xRYCO/ezaB1qNX",
+                      "commands/custom-commands/l07xRYCO/TvkkkZ4D"
+                    ]
+                  },
+                  {
+                    "group": "紫鸟浏览器V6",
+                    "pages": [
+                      "commands/custom-commands/ldDUGARB",
+                      "commands/custom-commands/ldDUGARB/mzwcyYNd",
+                      "commands/custom-commands/ldDUGARB/ooPZLEvI"
+                    ]
+                  },
+                  {
+                    "group": "钉钉机器人操作",
+                    "pages": [
+                      "commands/custom-commands/lEaGzf0g",
+                      "commands/custom-commands/lEaGzf0g/9lEgMtca",
+                      "commands/custom-commands/lEaGzf0g/HR7WctQy",
+                      "commands/custom-commands/lEaGzf0g/iJyRKuij"
+                    ]
+                  },
+                  {
+                    "group": "等待任意元素",
+                    "pages": [
+                      "commands/custom-commands/LJ266EjC",
+                      "commands/custom-commands/LJ266EjC/2N9LwEJi",
+                      "commands/custom-commands/LJ266EjC/Avy8ntqM",
+                      "commands/custom-commands/LJ266EjC/BCwTWyLb",
+                      "commands/custom-commands/LJ266EjC/jPKw89aW"
+                    ]
+                  },
+                  {
+                    "group": "快手",
+                    "pages": [
+                      "commands/custom-commands/LkbkmUwS",
+                      "commands/custom-commands/LkbkmUwS/5zDn5HpM"
+                    ]
+                  },
+                  {
+                    "group": "Cookie",
+                    "pages": [
+                      "commands/custom-commands/Lns7pWTD",
+                      "commands/custom-commands/Lns7pWTD/EkAkXXER",
+                      "commands/custom-commands/Lns7pWTD/g58Juw8j"
+                    ]
+                  },
+                  {
+                    "group": "json数据提取",
+                    "pages": [
+                      "commands/custom-commands/mgm31c66",
+                      "commands/custom-commands/mgm31c66/guNPr5Cv"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-首页",
+                    "pages": [
+                      "commands/custom-commands/msJPZK69",
+                      "commands/custom-commands/msJPZK69/bxHz5Yeb"
+                    ]
+                  },
+                  {
+                    "group": "MySQL扩展操作",
+                    "pages": [
+                      "commands/custom-commands/MtBiYKy9",
+                      "commands/custom-commands/MtBiYKy9/Df5ooYBS",
+                      "commands/custom-commands/MtBiYKy9/oeGsXk3k",
+                      "commands/custom-commands/MtBiYKy9/QqMBMtUt",
+                      "commands/custom-commands/MtBiYKy9/RSo5Gzdx",
+                      "commands/custom-commands/MtBiYKy9/ys0a1CUu"
+                    ]
+                  },
+                  {
+                    "group": "谷歌浏览器扩展",
+                    "pages": [
+                      "commands/custom-commands/MUp389Nn",
+                      "commands/custom-commands/MUp389Nn/yimEViZQ"
+                    ]
+                  },
+                  {
+                    "group": "视频扩展操作",
+                    "pages": [
+                      "commands/custom-commands/MvRDK6jj",
+                      "commands/custom-commands/MvRDK6jj/1Qn6uhiN",
+                      "commands/custom-commands/MvRDK6jj/7htDiHm7",
+                      "commands/custom-commands/MvRDK6jj/Scwk7AHn",
+                      "commands/custom-commands/MvRDK6jj/WZYiDxf4",
+                      "commands/custom-commands/MvRDK6jj/xxiQxI2T"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-流量（2）",
+                    "pages": [
+                      "commands/custom-commands/NHBfnqWs",
+                      "commands/custom-commands/NHBfnqWs/9Gtv1vVt",
+                      "commands/custom-commands/NHBfnqWs/BdE5AAhC",
+                      "commands/custom-commands/NHBfnqWs/kA2kmYdQ",
+                      "commands/custom-commands/NHBfnqWs/mv0lGzMa",
+                      "commands/custom-commands/NHBfnqWs/OaZaHKKk",
+                      "commands/custom-commands/NHBfnqWs/pkuKo52f",
+                      "commands/custom-commands/NHBfnqWs/XJHwRmtQ"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-直播",
+                    "pages": [
+                      "commands/custom-commands/nK3iyynl",
+                      "commands/custom-commands/nK3iyynl/3zLcma7V",
+                      "commands/custom-commands/nK3iyynl/C4oN8es2",
+                      "commands/custom-commands/nK3iyynl/cV1RdMZ9",
+                      "commands/custom-commands/nK3iyynl/EzNvL5oV",
+                      "commands/custom-commands/nK3iyynl/Jrguh5pU",
+                      "commands/custom-commands/nK3iyynl/vCC9E2BA",
+                      "commands/custom-commands/nK3iyynl/Xs5SWHxd"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-服务（2）",
+                    "pages": [
+                      "commands/custom-commands/ocRRBq0s",
+                      "commands/custom-commands/ocRRBq0s/2HdPZfL2",
+                      "commands/custom-commands/ocRRBq0s/9nBlIJrl",
+                      "commands/custom-commands/ocRRBq0s/Acj92BIg",
+                      "commands/custom-commands/ocRRBq0s/GmBulsLm",
+                      "commands/custom-commands/ocRRBq0s/GNuoZPOq",
+                      "commands/custom-commands/ocRRBq0s/GWtcsNzd",
+                      "commands/custom-commands/ocRRBq0s/iHqjVjhc",
+                      "commands/custom-commands/ocRRBq0s/J0Gze1aI",
+                      "commands/custom-commands/ocRRBq0s/Nbd85JCu",
+                      "commands/custom-commands/ocRRBq0s/OVXmXhuT",
+                      "commands/custom-commands/ocRRBq0s/pQ4UPs9J",
+                      "commands/custom-commands/ocRRBq0s/RKOVd1Y6"
+                    ]
+                  },
+                  {
+                    "group": "京准通数据获取-数据中心",
+                    "pages": [
+                      "commands/custom-commands/oDlW5N0V",
+                      "commands/custom-commands/oDlW5N0V/B1I7ZjTA"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-交易（2）",
+                    "pages": [
+                      "commands/custom-commands/OisA7UK5",
+                      "commands/custom-commands/OisA7UK5/1EtZ28OX",
+                      "commands/custom-commands/OisA7UK5/5INQQtFQ",
+                      "commands/custom-commands/OisA7UK5/ABZsiNuA",
+                      "commands/custom-commands/OisA7UK5/IUVdTJvG",
+                      "commands/custom-commands/OisA7UK5/oCb8jBjR",
+                      "commands/custom-commands/OisA7UK5/pcLlMaXj"
+                    ]
+                  },
+                  {
+                    "group": "阿里妈妈多平台数据获取",
+                    "pages": [
+                      "commands/custom-commands/omvbGGz8",
+                      "commands/custom-commands/omvbGGz8/5LEdXMo0",
+                      "commands/custom-commands/omvbGGz8/y0iWa3dP",
+                      "commands/custom-commands/omvbGGz8/YIJTzg3h"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-交易（1）",
+                    "pages": [
+                      "commands/custom-commands/osLCw7h6",
+                      "commands/custom-commands/osLCw7h6/1429jY5p",
+                      "commands/custom-commands/osLCw7h6/GtwHRXkc",
+                      "commands/custom-commands/osLCw7h6/kbiO7oB7",
+                      "commands/custom-commands/osLCw7h6/QO4aFowP",
+                      "commands/custom-commands/osLCw7h6/RFtFhzUy"
+                    ]
+                  },
+                  {
+                    "group": "京东商智数据获取-商家版-营销",
+                    "pages": [
+                      "commands/custom-commands/p798DRLy",
+                      "commands/custom-commands/p798DRLy/FeaZYrGC",
+                      "commands/custom-commands/p798DRLy/H7LQO1XL",
+                      "commands/custom-commands/p798DRLy/KOyQGxaZ",
+                      "commands/custom-commands/p798DRLy/lSWlgIS9",
+                      "commands/custom-commands/p798DRLy/rNoRYifn",
+                      "commands/custom-commands/p798DRLy/u8zcFMK1"
+                    ]
+                  },
+                  {
+                    "group": "Excel表扩展操作（Office版）",
+                    "pages": [
+                      "commands/custom-commands/PCzJT28C",
+                      "commands/custom-commands/PCzJT28C/EMRugMK5",
+                      "commands/custom-commands/PCzJT28C/KtHoqPhl",
+                      "commands/custom-commands/PCzJT28C/Mvwstzyj",
+                      "commands/custom-commands/PCzJT28C/U1yPuptN",
+                      "commands/custom-commands/PCzJT28C/ZxAn04Cp"
+                    ]
+                  },
+                  {
+                    "group": "AI无限生成图片",
+                    "pages": [
+                      "commands/custom-commands/Ph62jMtp",
+                      "commands/custom-commands/Ph62jMtp/2wqOXhgI",
+                      "commands/custom-commands/Ph62jMtp/rXCw9dnu"
+                    ]
+                  },
+                  {
+                    "group": "拼多多数据获取-发货管理",
+                    "pages": [
+                      "commands/custom-commands/PlI7Bpwr",
+                      "commands/custom-commands/PlI7Bpwr/YDe3GmPR"
+                    ]
+                  },
+                  {
+                    "group": "京东商智数据获取-商家版-行业",
+                    "pages": [
+                      "commands/custom-commands/qDplxJQw",
+                      "commands/custom-commands/qDplxJQw/6sG43GBF",
+                      "commands/custom-commands/qDplxJQw/AdxwzxzW",
+                      "commands/custom-commands/qDplxJQw/H51V37RK",
+                      "commands/custom-commands/qDplxJQw/L2R9PGyR",
+                      "commands/custom-commands/qDplxJQw/lODGUxHx",
+                      "commands/custom-commands/qDplxJQw/njFAJc6u",
+                      "commands/custom-commands/qDplxJQw/uAd3RKZ3",
+                      "commands/custom-commands/qDplxJQw/vo8FPEXv",
+                      "commands/custom-commands/qDplxJQw/VTuU7tkS",
+                      "commands/custom-commands/qDplxJQw/YQFkTrCY"
+                    ]
+                  },
+                  {
+                    "group": "京东-咚咚工作站（web）",
+                    "pages": [
+                      "commands/custom-commands/qG1ZtY0b",
+                      "commands/custom-commands/qG1ZtY0b/CJcOxT9C",
+                      "commands/custom-commands/qG1ZtY0b/HR3hAeAM"
+                    ]
+                  },
+                  {
+                    "group": "京准通数据获取-站外广告",
+                    "pages": [
+                      "commands/custom-commands/qhxMo72w",
+                      "commands/custom-commands/qhxMo72w/XPUQB6oZ"
+                    ]
+                  },
+                  {
+                    "group": "Temu 商家后台扩展",
+                    "pages": [
+                      "commands/custom-commands/QRUYUdHt",
+                      "commands/custom-commands/QRUYUdHt/7VOkr73E",
+                      "commands/custom-commands/QRUYUdHt/7XLdwJwW",
+                      "commands/custom-commands/QRUYUdHt/BR1rFm07",
+                      "commands/custom-commands/QRUYUdHt/C6FX8BwN",
+                      "commands/custom-commands/QRUYUdHt/CkiRFbaC",
+                      "commands/custom-commands/QRUYUdHt/cmBarUKV",
+                      "commands/custom-commands/QRUYUdHt/g1u0UHtu",
+                      "commands/custom-commands/QRUYUdHt/hovamyVu",
+                      "commands/custom-commands/QRUYUdHt/P6LZ0nxB",
+                      "commands/custom-commands/QRUYUdHt/RzIGsw9i",
+                      "commands/custom-commands/QRUYUdHt/ST1UMuy3",
+                      "commands/custom-commands/QRUYUdHt/Sv9Ua88o",
+                      "commands/custom-commands/QRUYUdHt/TuCAu9zE",
+                      "commands/custom-commands/QRUYUdHt/VihDYt51",
+                      "commands/custom-commands/QRUYUdHt/vRo1yqy0"
+                    ]
+                  },
+                  {
+                    "group": "Track123 扩展",
+                    "pages": [
+                      "commands/custom-commands/qY0qNESl",
+                      "commands/custom-commands/qY0qNESl/2Z9tzUVg",
+                      "commands/custom-commands/qY0qNESl/qyanBmsb"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-品类",
+                    "pages": [
+                      "commands/custom-commands/R0ZmlHbO",
+                      "commands/custom-commands/R0ZmlHbO/ariu81CV",
+                      "commands/custom-commands/R0ZmlHbO/GI72OklB",
+                      "commands/custom-commands/R0ZmlHbO/iImfcZjR"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-服务（1）",
+                    "pages": [
+                      "commands/custom-commands/RGdmDqgR",
+                      "commands/custom-commands/RGdmDqgR/7PYwTMle",
+                      "commands/custom-commands/RGdmDqgR/7zUlSD8A",
+                      "commands/custom-commands/RGdmDqgR/a0zxJR4c",
+                      "commands/custom-commands/RGdmDqgR/dSgK4vKI",
+                      "commands/custom-commands/RGdmDqgR/fICGYoEt",
+                      "commands/custom-commands/RGdmDqgR/mQosIl6C",
+                      "commands/custom-commands/RGdmDqgR/orT2LKYr",
+                      "commands/custom-commands/RGdmDqgR/QsznMb5I",
+                      "commands/custom-commands/RGdmDqgR/SWTj3KnS",
+                      "commands/custom-commands/RGdmDqgR/UdaaiH9T",
+                      "commands/custom-commands/RGdmDqgR/w0hAwAnz",
+                      "commands/custom-commands/RGdmDqgR/wjJ7k6gu"
+                    ]
+                  },
+                  {
+                    "group": "字典扩展操作",
+                    "pages": [
+                      "commands/custom-commands/RVYmIry3",
+                      "commands/custom-commands/RVYmIry3/f3JRmioz",
+                      "commands/custom-commands/RVYmIry3/RQUL1NQp"
+                    ]
+                  },
+                  {
+                    "group": "微店-商家后台",
+                    "pages": [
+                      "commands/custom-commands/s7MXdQqb",
+                      "commands/custom-commands/s7MXdQqb/q4VYeB8a"
+                    ]
+                  },
+                  {
+                    "group": "飞书云空间",
+                    "pages": [
+                      "commands/custom-commands/ssmPSj2C",
+                      "commands/custom-commands/ssmPSj2C/060m4REl",
+                      "commands/custom-commands/ssmPSj2C/3fOhmbgn",
+                      "commands/custom-commands/ssmPSj2C/3hFbqT43",
+                      "commands/custom-commands/ssmPSj2C/4uJbt3ej",
+                      "commands/custom-commands/ssmPSj2C/5Gso6Xqf",
+                      "commands/custom-commands/ssmPSj2C/7XnlnSzl",
+                      "commands/custom-commands/ssmPSj2C/fIpvcfQW",
+                      "commands/custom-commands/ssmPSj2C/hAmnTr97",
+                      "commands/custom-commands/ssmPSj2C/IdyRzlnH",
+                      "commands/custom-commands/ssmPSj2C/lJPSzlY4",
+                      "commands/custom-commands/ssmPSj2C/m6T8CJFY",
+                      "commands/custom-commands/ssmPSj2C/NubyHhET",
+                      "commands/custom-commands/ssmPSj2C/ssc8rjls",
+                      "commands/custom-commands/ssmPSj2C/VLYJVxno",
+                      "commands/custom-commands/ssmPSj2C/Wud7zFgr"
+                    ]
+                  },
+                  {
+                    "group": "列表扩展操作",
+                    "pages": [
+                      "commands/custom-commands/STxtrDNr",
+                      "commands/custom-commands/STxtrDNr/2U6pgGxd",
+                      "commands/custom-commands/STxtrDNr/fi6uq3cv",
+                      "commands/custom-commands/STxtrDNr/mGw8sfnb",
+                      "commands/custom-commands/STxtrDNr/oK5IaKD2",
+                      "commands/custom-commands/STxtrDNr/p4yHhTV8",
+                      "commands/custom-commands/STxtrDNr/q6U0BKgJ",
+                      "commands/custom-commands/STxtrDNr/qdHp6QKx",
+                      "commands/custom-commands/STxtrDNr/rUr1ZKpA",
+                      "commands/custom-commands/STxtrDNr/RXlz2U3X",
+                      "commands/custom-commands/STxtrDNr/UcUMEXrc",
+                      "commands/custom-commands/STxtrDNr/uZUBOb7l",
+                      "commands/custom-commands/STxtrDNr/VH9TidQe",
+                      "commands/custom-commands/STxtrDNr/Vo0iF0y5",
+                      "commands/custom-commands/STxtrDNr/xGth6qNS",
+                      "commands/custom-commands/STxtrDNr/z7ciGTZP"
+                    ]
+                  },
+                  {
+                    "group": "京准通数据获取-京东快车",
+                    "pages": [
+                      "commands/custom-commands/sYFxBzMP",
+                      "commands/custom-commands/sYFxBzMP/AH8TQbdM",
+                      "commands/custom-commands/sYFxBzMP/gBbNppMF",
+                      "commands/custom-commands/sYFxBzMP/LjZ8ukXi"
+                    ]
+                  },
+                  {
+                    "group": "京东",
+                    "pages": [
+                      "commands/custom-commands/tthCbB78",
+                      "commands/custom-commands/tthCbB78/ef59Awp4",
+                      "commands/custom-commands/tthCbB78/La5mc2fO"
+                    ]
+                  },
+                  {
+                    "group": "万象台无界版数据获取-账户",
+                    "pages": [
+                      "commands/custom-commands/u5ulG59q",
+                      "commands/custom-commands/u5ulG59q/GKQJ3GsW",
+                      "commands/custom-commands/u5ulG59q/sFhcUlKF",
+                      "commands/custom-commands/u5ulG59q/wfajIIRT"
+                    ]
+                  },
+                  {
+                    "group": "飞书多维表格",
+                    "pages": [
+                      "commands/custom-commands/UhnaM6xD",
+                      "commands/custom-commands/UhnaM6xD/3VZLD65w",
+                      "commands/custom-commands/UhnaM6xD/AnwgsQRZ",
+                      "commands/custom-commands/UhnaM6xD/HMzFXudx",
+                      "commands/custom-commands/UhnaM6xD/pFSAEile",
+                      "commands/custom-commands/UhnaM6xD/pYaBHuLj"
+                    ]
+                  },
+                  {
+                    "group": "京准通数据获取-购物触点",
+                    "pages": [
+                      "commands/custom-commands/uNIus2vU",
+                      "commands/custom-commands/uNIus2vU/9rUssEMs",
+                      "commands/custom-commands/uNIus2vU/eaCASJaa"
+                    ]
+                  },
+                  {
+                    "group": "数学函数操作",
+                    "pages": [
+                      "commands/custom-commands/uos2FTti",
+                      "commands/custom-commands/uos2FTti/iheHD7Nn",
+                      "commands/custom-commands/uos2FTti/XAeGcREa"
+                    ]
+                  },
+                  {
+                    "group": "阿里妈妈",
+                    "pages": [
+                      "commands/custom-commands/V1gHrmUY",
+                      "commands/custom-commands/V1gHrmUY/mshuBQZV",
+                      "commands/custom-commands/V1gHrmUY/Zo2VEHK1"
+                    ]
+                  },
+                  {
+                    "group": "旺店通",
+                    "pages": [
+                      "commands/custom-commands/V1onGstT",
+                      "commands/custom-commands/V1onGstT/gtVLfscV"
+                    ]
+                  },
+                  {
+                    "group": "豆包",
+                    "pages": [
+                      "commands/custom-commands/vbovV1TE",
+                      "commands/custom-commands/vbovV1TE/K9F1i6FA"
+                    ]
+                  },
+                  {
+                    "group": "文本扩展功能",
+                    "pages": [
+                      "commands/custom-commands/VELzT4An",
+                      "commands/custom-commands/VELzT4An/AjvZokXA",
+                      "commands/custom-commands/VELzT4An/BHqPzkTh",
+                      "commands/custom-commands/VELzT4An/CD52M1wx",
+                      "commands/custom-commands/VELzT4An/CiZKcvfd",
+                      "commands/custom-commands/VELzT4An/czmtQ5j7",
+                      "commands/custom-commands/VELzT4An/eV4J6WTt",
+                      "commands/custom-commands/VELzT4An/guq3alve",
+                      "commands/custom-commands/VELzT4An/ICVL92fn",
+                      "commands/custom-commands/VELzT4An/jd0qcx3R",
+                      "commands/custom-commands/VELzT4An/jGojoafY",
+                      "commands/custom-commands/VELzT4An/L1FshEdf",
+                      "commands/custom-commands/VELzT4An/m4vPsd7Q",
+                      "commands/custom-commands/VELzT4An/na11nDTc",
+                      "commands/custom-commands/VELzT4An/nGT92mt2",
+                      "commands/custom-commands/VELzT4An/NgyUtymO",
+                      "commands/custom-commands/VELzT4An/Ul8b0Hv3",
+                      "commands/custom-commands/VELzT4An/veQxNHOF",
+                      "commands/custom-commands/VELzT4An/vgIETDdz",
+                      "commands/custom-commands/VELzT4An/Vzw3XCG3",
+                      "commands/custom-commands/VELzT4An/WpLIoOlW",
+                      "commands/custom-commands/VELzT4An/xsIyAFAX"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-客户",
+                    "pages": [
+                      "commands/custom-commands/Vrp2k185",
+                      "commands/custom-commands/Vrp2k185/067ZVz8Z",
+                      "commands/custom-commands/Vrp2k185/D2syVAF0",
+                      "commands/custom-commands/Vrp2k185/KLq4WB4b",
+                      "commands/custom-commands/Vrp2k185/xaQovyX5"
+                    ]
+                  },
+                  {
+                    "group": "网页变化监听",
+                    "pages": [
+                      "commands/custom-commands/WPcIjSAQ",
+                      "commands/custom-commands/WPcIjSAQ/HAxLJp9t",
+                      "commands/custom-commands/WPcIjSAQ/nLr7znmf",
+                      "commands/custom-commands/WPcIjSAQ/qKQFi5HI"
+                    ]
+                  },
+                  {
+                    "group": "飞书电子表格",
+                    "pages": [
+                      "commands/custom-commands/WUaZ9OD5",
+                      "commands/custom-commands/WUaZ9OD5/c4JN5AEQ",
+                      "commands/custom-commands/WUaZ9OD5/ccKfRUjp",
+                      "commands/custom-commands/WUaZ9OD5/Eih0Jht2",
+                      "commands/custom-commands/WUaZ9OD5/eTAzjVbn",
+                      "commands/custom-commands/WUaZ9OD5/FTE76OYG",
+                      "commands/custom-commands/WUaZ9OD5/g9z70jjy",
+                      "commands/custom-commands/WUaZ9OD5/ItnhDVnw",
+                      "commands/custom-commands/WUaZ9OD5/iV8caEJu",
+                      "commands/custom-commands/WUaZ9OD5/IVDsV4cN",
+                      "commands/custom-commands/WUaZ9OD5/jNsAHHby",
+                      "commands/custom-commands/WUaZ9OD5/KqvDYa6T",
+                      "commands/custom-commands/WUaZ9OD5/Lx4Jr5sK",
+                      "commands/custom-commands/WUaZ9OD5/mO4XG72q",
+                      "commands/custom-commands/WUaZ9OD5/pSbyqMJa",
+                      "commands/custom-commands/WUaZ9OD5/T4zFjJpF",
+                      "commands/custom-commands/WUaZ9OD5/vtiZ03Fc",
+                      "commands/custom-commands/WUaZ9OD5/WlmhJ68R",
+                      "commands/custom-commands/WUaZ9OD5/xL9VIbiL",
+                      "commands/custom-commands/WUaZ9OD5/YAUYPC4s",
+                      "commands/custom-commands/WUaZ9OD5/YJfyPTki"
+                    ]
+                  },
+                  {
+                    "group": "京准通数据获取-京东展位",
+                    "pages": [
+                      "commands/custom-commands/wZRI9WUn",
+                      "commands/custom-commands/wZRI9WUn/KFcuQocy",
+                      "commands/custom-commands/wZRI9WUn/LBJtmVYF",
+                      "commands/custom-commands/wZRI9WUn/tjk6Xq68",
+                      "commands/custom-commands/wZRI9WUn/Tt5suvyG"
+                    ]
+                  },
+                  {
+                    "group": "扣子CozeAPI",
+                    "pages": [
+                      "commands/custom-commands/X9y9hoGF",
+                      "commands/custom-commands/X9y9hoGF/0gKLvvNr",
+                      "commands/custom-commands/X9y9hoGF/BJuddkk6",
+                      "commands/custom-commands/X9y9hoGF/Fl8Ishew",
+                      "commands/custom-commands/X9y9hoGF/iMwO0GRS",
+                      "commands/custom-commands/X9y9hoGF/iUcfiNpp",
+                      "commands/custom-commands/X9y9hoGF/M4LBIscA",
+                      "commands/custom-commands/X9y9hoGF/MgOq6pM2",
+                      "commands/custom-commands/X9y9hoGF/NpdmEDtM",
+                      "commands/custom-commands/X9y9hoGF/uUMqtHyL"
+                    ]
+                  },
+                  {
+                    "group": "企业微信",
+                    "pages": [
+                      "commands/custom-commands/xF5HuUG3",
+                      "commands/custom-commands/xF5HuUG3/5bD7738V",
+                      "commands/custom-commands/xF5HuUG3/luOWbdwV",
+                      "commands/custom-commands/xF5HuUG3/lXQbq9Ib",
+                      "commands/custom-commands/xF5HuUG3/M6H60aPw",
+                      "commands/custom-commands/xF5HuUG3/PHqeTURb"
                     ]
                   },
                   {
                     "group": "文件扩展功能",
                     "pages": [
                       "commands/custom-commands/Xtu3Dyv8",
-                      "commands/custom-commands/Xtu3Dyv8/dS9s1k7L",
-                      "commands/custom-commands/Xtu3Dyv8/SyDBZtiy",
-                      "commands/custom-commands/Xtu3Dyv8/LRiREUC7",
                       "commands/custom-commands/Xtu3Dyv8/3vHKg19q",
-                      "commands/custom-commands/Xtu3Dyv8/fIQM9zrb",
-                      "commands/custom-commands/Xtu3Dyv8/mhdQizCh",
-                      "commands/custom-commands/Xtu3Dyv8/FF0PTfO7",
-                      "commands/custom-commands/Xtu3Dyv8/dQ6CZDoa",
-                      "commands/custom-commands/Xtu3Dyv8/pQJENsVH",
-                      "commands/custom-commands/Xtu3Dyv8/gQLOSX7t",
-                      "commands/custom-commands/Xtu3Dyv8/yUs9c85o",
-                      "commands/custom-commands/Xtu3Dyv8/jsau5tUm",
-                      "commands/custom-commands/Xtu3Dyv8/dYzjht8o",
-                      "commands/custom-commands/Xtu3Dyv8/XVy5UmYY",
                       "commands/custom-commands/Xtu3Dyv8/BFjwZcjL",
-                      "commands/custom-commands/Xtu3Dyv8/gsRuSHxk"
+                      "commands/custom-commands/Xtu3Dyv8/dQ6CZDoa",
+                      "commands/custom-commands/Xtu3Dyv8/dS9s1k7L",
+                      "commands/custom-commands/Xtu3Dyv8/dYzjht8o",
+                      "commands/custom-commands/Xtu3Dyv8/FF0PTfO7",
+                      "commands/custom-commands/Xtu3Dyv8/fIQM9zrb",
+                      "commands/custom-commands/Xtu3Dyv8/gQLOSX7t",
+                      "commands/custom-commands/Xtu3Dyv8/gsRuSHxk",
+                      "commands/custom-commands/Xtu3Dyv8/jsau5tUm",
+                      "commands/custom-commands/Xtu3Dyv8/LRiREUC7",
+                      "commands/custom-commands/Xtu3Dyv8/mhdQizCh",
+                      "commands/custom-commands/Xtu3Dyv8/pQJENsVH",
+                      "commands/custom-commands/Xtu3Dyv8/SyDBZtiy",
+                      "commands/custom-commands/Xtu3Dyv8/XVy5UmYY",
+                      "commands/custom-commands/Xtu3Dyv8/yUs9c85o"
                     ]
                   },
-                  "commands/custom-commands/VELzT4An",
                   {
-                    "group": "验证码",
+                    "group": "图片扩展操作",
                     "pages": [
-                      "commands/custom-commands/i2Vbj6Mp",
-                      "commands/custom-commands/i2Vbj6Mp/h4OBJkuE",
-                      "commands/custom-commands/i2Vbj6Mp/PWjIdJO8",
-                      "commands/custom-commands/i2Vbj6Mp/VCc63Gco",
-                      "commands/custom-commands/i2Vbj6Mp/rz54MD5e",
-                      "commands/custom-commands/i2Vbj6Mp/Nn2AnHRR",
-                      "commands/custom-commands/i2Vbj6Mp/P6gOsshO",
-                      "commands/custom-commands/i2Vbj6Mp/j32ccu62",
-                      "commands/custom-commands/i2Vbj6Mp/c5APdJQQ",
-                      "commands/custom-commands/i2Vbj6Mp/apJQGIkv",
-                      "commands/custom-commands/i2Vbj6Mp/DSGnuXkS",
-                      "commands/custom-commands/i2Vbj6Mp/xxtmLPQq",
-                      "commands/custom-commands/i2Vbj6Mp/NobU0D9M"
+                      "commands/custom-commands/xvTWXEqU",
+                      "commands/custom-commands/xvTWXEqU/5xeuMU1E"
                     ]
                   },
-                  "commands/custom-commands/jquCesST",
-                  "commands/custom-commands/uos2FTti",
-                  "commands/custom-commands/WUaZ9OD5",
-                  "commands/custom-commands/l07xRYCO",
-                  "commands/custom-commands/MUp389Nn",
-                  "commands/custom-commands/mgm31c66",
-                  "commands/custom-commands/Lns7pWTD",
-                  "commands/custom-commands/omvbGGz8",
-                  "commands/custom-commands/erppqQCG",
-                  "commands/custom-commands/4idwqdY1",
-                  "commands/custom-commands/zrc4euWH",
-                  "commands/custom-commands/ddzvAqho",
-                  "commands/custom-commands/ydwM0rdV",
-                  "commands/custom-commands/i3bYn9Bi",
-                  "commands/custom-commands/dCC9IWCX",
-                  "commands/custom-commands/V1onGstT",
-                  "commands/custom-commands/0aiMC2AD",
-                  "commands/custom-commands/Aj968baR",
-                  "commands/custom-commands/s7MXdQqb",
-                  "commands/custom-commands/Ceg9LU3P",
-                  "commands/custom-commands/X9y9hoGF",
-                  "commands/custom-commands/qG1ZtY0b",
-                  "commands/custom-commands/78ZRQqZn",
-                  "commands/custom-commands/enIp28fZ",
-                  "commands/custom-commands/kjgGHIxB",
-                  "commands/custom-commands/KV38p4AB",
-                  "commands/custom-commands/3Mfzm9Dm",
-                  "commands/custom-commands/6gIhBk4t",
-                  "commands/custom-commands/7azccbR1",
-                  "commands/custom-commands/PCzJT28C",
-                  "commands/custom-commands/IPzFl8Q0",
-                  "commands/custom-commands/vbovV1TE",
-                  "commands/custom-commands/e2VDOh3F",
-                  "commands/custom-commands/lEaGzf0g",
-                  "commands/custom-commands/qY0qNESl",
-                  "commands/custom-commands/1Mx3hPN3",
-                  "commands/custom-commands/LJ266EjC",
-                  "commands/custom-commands/LkbkmUwS",
-                  "commands/custom-commands/33yICBTY",
-                  "commands/custom-commands/msJPZK69",
-                  "commands/custom-commands/fOsRqewt",
-                  "commands/custom-commands/xF5HuUG3",
-                  "commands/custom-commands/6al1zLV3",
-                  "commands/custom-commands/UhnaM6xD",
-                  "commands/custom-commands/izPi8DRQ",
-                  "commands/custom-commands/GryXohUi",
-                  "commands/custom-commands/oDlW5N0V",
-                  "commands/custom-commands/3fuFVrzV",
-                  "commands/custom-commands/NHBfnqWs",
-                  "commands/custom-commands/fCsyT6ZR",
-                  "commands/custom-commands/kzKoiPrG",
-                  "commands/custom-commands/qDplxJQw",
-                  "commands/custom-commands/EyBKMzyg",
-                  "commands/custom-commands/dMoD38Uc",
-                  "commands/custom-commands/GBfovRGB",
-                  "commands/custom-commands/p798DRLy",
-                  "commands/custom-commands/f91o8fca",
-                  "commands/custom-commands/qhxMo72w",
-                  "commands/custom-commands/sYFxBzMP",
-                  "commands/custom-commands/uNIus2vU",
-                  "commands/custom-commands/1u00DG7N",
-                  "commands/custom-commands/AJpKshiX",
-                  "commands/custom-commands/fJksXtYm",
-                  "commands/custom-commands/wZRI9WUn",
-                  "commands/custom-commands/8m0H51QT",
-                  "commands/custom-commands/ssmPSj2C",
-                  "commands/custom-commands/5BrGFFx8",
-                  "commands/custom-commands/tthCbB78",
-                  "commands/custom-commands/1KkfZwRO",
-                  "commands/custom-commands/53yEcCdf",
-                  "commands/custom-commands/2OceBTsN",
-                  "commands/custom-commands/V1gHrmUY",
-                  "commands/custom-commands/MtBiYKy9",
-                  "commands/custom-commands/jTcxLSvQ",
-                  "commands/custom-commands/WPcIjSAQ",
-                  "commands/custom-commands/i7qgA3P8",
-                  "commands/custom-commands/R0ZmlHbO",
-                  "commands/custom-commands/1p4v2d7C",
-                  "commands/custom-commands/3Yl16hhX",
-                  "commands/custom-commands/3ieiMG37",
-                  "commands/custom-commands/RGdmDqgR",
-                  "commands/custom-commands/JB70O3jQ",
-                  "commands/custom-commands/ccTJLCKF",
-                  "commands/custom-commands/0P0AJees",
-                  "commands/custom-commands/csJFKroT",
-                  "commands/custom-commands/MvRDK6jj",
-                  "commands/custom-commands/iv0QatqN",
-                  "commands/custom-commands/9a2FdLks",
-                  "commands/custom-commands/6958FmJ9",
-                  "commands/custom-commands/JIoEqoH7",
-                  "commands/custom-commands/9UYlV3Zl",
-                  "commands/custom-commands/Hvnysjje",
-                  "commands/custom-commands/CN8Zsocz",
-                  "commands/custom-commands/EkSERr7c",
-                  "commands/custom-commands/RVYmIry3",
-                  "commands/custom-commands/cQFHHWNi",
-                  "commands/custom-commands/bceHSvPZ",
-                  "commands/custom-commands/j3MiFQmW",
-                  "commands/custom-commands/i1M7Xuxo",
-                  "commands/custom-commands/PlI7Bpwr",
-                  "commands/custom-commands/JOWLco7H",
-                  "commands/custom-commands/osLCw7h6",
-                  "commands/custom-commands/CXxsV3PC",
-                  "commands/custom-commands/JsvYpNwh",
-                  "commands/custom-commands/ZVjD40K2",
-                  "commands/custom-commands/STxtrDNr",
-                  "commands/custom-commands/ldDUGARB",
-                  "commands/custom-commands/efPZbxVS",
-                  "commands/custom-commands/d3IrwX7D",
-                  "commands/custom-commands/QRUYUdHt",
-                  "commands/custom-commands/hxOU6Ggj",
-                  "commands/custom-commands/BRCuvdq6",
-                  "commands/custom-commands/xvTWXEqU",
-                  "commands/custom-commands/Vrp2k185",
-                  "commands/custom-commands/h09s9ExE",
-                  "commands/custom-commands/nK3iyynl",
-                  "commands/custom-commands/aOPex9i0",
-                  "commands/custom-commands/FBcnoIEg",
-                  "commands/custom-commands/FixuP4np",
-                  "commands/custom-commands/u5ulG59q",
-                  "commands/custom-commands/ocRRBq0s",
-                  "commands/custom-commands/z22Iz6ig",
-                  "commands/custom-commands/OisA7UK5",
-                  "commands/custom-commands/yCFia8v3",
-                  "commands/custom-commands/Ph62jMtp",
-                  "commands/custom-commands/yPKPxkVc",
-                  "commands/custom-commands/zVqFJbuW",
-                  "commands/custom-commands/JTm1cTKK",
-                  "commands/custom-commands/DtZSARDl",
-                  "commands/custom-commands/3xcMJEn2",
-                  "commands/custom-commands/a4TH5A1N",
-                  "commands/custom-commands/JbQaSa4r",
-                  "commands/custom-commands/kLiPTYOw"
+                  {
+                    "group": "生意参谋数据获取-流量（1）",
+                    "pages": [
+                      "commands/custom-commands/yCFia8v3",
+                      "commands/custom-commands/yCFia8v3/kOhAdRlJ",
+                      "commands/custom-commands/yCFia8v3/Mp6QHofi"
+                    ]
+                  },
+                  {
+                    "group": "万相台无界版时间选择",
+                    "pages": [
+                      "commands/custom-commands/ydwM0rdV",
+                      "commands/custom-commands/ydwM0rdV/epesDibb",
+                      "commands/custom-commands/ydwM0rdV/Q8DdpTeb"
+                    ]
+                  },
+                  {
+                    "group": "领星",
+                    "pages": [
+                      "commands/custom-commands/yPKPxkVc",
+                      "commands/custom-commands/yPKPxkVc/6QZPUNVv",
+                      "commands/custom-commands/yPKPxkVc/EBByUq5R",
+                      "commands/custom-commands/yPKPxkVc/g3E0u5e1",
+                      "commands/custom-commands/yPKPxkVc/hGZ7ZEIz",
+                      "commands/custom-commands/yPKPxkVc/pHn3aZJZ",
+                      "commands/custom-commands/yPKPxkVc/sbjvS1pW",
+                      "commands/custom-commands/yPKPxkVc/uGFozSPq",
+                      "commands/custom-commands/yPKPxkVc/zoU0LhKi",
+                      "commands/custom-commands/yPKPxkVc/Zr28zybn"
+                    ]
+                  },
+                  {
+                    "group": "生意参谋数据获取-营销",
+                    "pages": [
+                      "commands/custom-commands/z22Iz6ig",
+                      "commands/custom-commands/z22Iz6ig/SDZ7db4v"
+                    ]
+                  },
+                  {
+                    "group": "淘系时间选择",
+                    "pages": [
+                      "commands/custom-commands/zrc4euWH",
+                      "commands/custom-commands/zrc4euWH/phcLDxqH",
+                      "commands/custom-commands/zrc4euWH/rGPnKwRN"
+                    ]
+                  },
+                  {
+                    "group": "文件夹扩展功能",
+                    "pages": [
+                      "commands/custom-commands/ZVjD40K2",
+                      "commands/custom-commands/ZVjD40K2/qHFVhVSp"
+                    ]
+                  },
+                  {
+                    "group": "钉钉机器人操作",
+                    "pages": [
+                      "commands/custom-commands/zVqFJbuW",
+                      "commands/custom-commands/zVqFJbuW/qktWkzTQ",
+                      "commands/custom-commands/zVqFJbuW/vzmjgsbh",
+                      "commands/custom-commands/zVqFJbuW/zNevOgUo"
+                    ]
+                  }
                 ]
               },
               {

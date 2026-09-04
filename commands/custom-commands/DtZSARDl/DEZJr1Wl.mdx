@@ -1,0 +1,20 @@
+---
+title: "通过授权码获取授权对象"
+---
+
+## 一、指令概述
+
+该指令用于通过飞书授权码和多维表链接，获取飞书多维表的授权对象与视图 ID，实现对飞书多维表的读写、新增、修改等操作，适用于飞书多维表数据同步、自动化流程对接等场景，可替代人工手动获取授权、解析链接的操作。
+## 二、核心参数参数名称说明输入格式 / 规则飞书授权码用于获取多维表操作权限的授权码字符串，需为系统内有效授权码飞书多维表链接目标飞书多维表的访问链接字符串，格式：https://xxx.feishu.cn/base/xxx飞书视图 ID多维表中目标视图的唯一标识（输出）字符串，即链接中view=后面的部分，仅当选择具体视图时输出已授权的多维表生成的已授权多维表对象（输出）多维表授权对象，用于下游指令调用
+#### 飞书授权码获取的步骤可参考以下链：
+
+https://skieer.feishu.cn/wiki/BqbIwDIXriFQHvklqaqcLeIZnXX[https://skieer.feishu.cn/wiki/BqbIwDIXriFQHvklqaqcLeIZnXX](https://skieer.feishu.cn/wiki/BqbIwDIXriFQHvklqaqcLeIZnXX)
+三、输出说明<strong>飞书视图 ID</strong>：<strong>已授权的多维表</strong>：可供后续连接多维表格指令调用
+## 四、典型示例
+示例：获取指定视图的多维表授权对象飞书授权码："auth_123456"飞书多维表链接："https://skieer.feishu.cn/base/BqblwDIXriFQHvklqaqcLeIZnXX?view=viabcdefgh123456"
+
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

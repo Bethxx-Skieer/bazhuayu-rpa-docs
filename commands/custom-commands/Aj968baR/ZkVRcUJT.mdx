@@ -1,0 +1,24 @@
+---
+title: "获取用户详情信息"
+---
+
+## <strong>一、指令概述</strong>
+
+该指令用于调用钉钉开放平台接口，<strong>通过用户 UserId 查询获取用户 UnionId 与姓名</strong>。UnionId 是钉钉钉盘相关接口（获取空间列表、文件列表、创建文件夹）的核心唯一标识，是钉钉钉盘自动化流程的关键前置指令。
+## <strong>二、核心参数配置</strong>参数名称说明输入格式 / 规则凭证钉钉开放平台接口调用凭证（access_token）必填；通过「获取开发平台凭证」指令获取User Id钉钉用户 ID必填；通过「查询用户 Id」指令，使用姓名关键词查询得到输出变量 - 姓名输出用户真实姓名字符串类型输出变量 - Union Id输出用户唯一 UnionId字符串类型，用于钉盘空间查询等后续接口
+## <strong>三、典型操作示例</strong>
+
+· 凭证：ding_access_token_xxxx
+
+· User Id：m4PgPMMZNiijuStvkgQD2VAiEiE
+
+· 输出：
+
+姓名：张三
+
+Union Id：xxxxxxx
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

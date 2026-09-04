@@ -1,0 +1,21 @@
+---
+title: "获取飞书表格有效列数"
+---
+
+一、指令基础信息读取指定表格 Sheet 页面，自动识别当前工作表<strong>有数据的最大有效列数量</strong>，返回数字列数；用于循环读取单元格、批量读写表格、动态判断表格结构，自动化适配列数不固定的飞书多维表格 / 在线表格场景。
+## <strong>二、输入参数配置清单</strong>参数名称控件类型参数说明获取方式是否必填飞书访问凭证输入框飞书开放接口鉴权 Token（tenant_access_token/user_access_token）通过【获取飞书开放平台凭证】指令生成✅ 必填飞书表格 URL输入框飞书在线电子表格完整链接，用于解析提取表格spreadsheet_token直接复制浏览器表格地址填入✅ 必填Sheet_id输入框工作表唯一标识（单个表格内不同 sheet 页区分 ID）通过【获取 sheet 页的 id】指令，根据 sheet 名称查询得到✅ 必填
+## <strong>三、输出参数</strong>
+
+输出变量名称：<strong>有效列数</strong> 数据类型：数字（整数 Number） 示例返回：12 代表该 sheet 存在有效数据一共 12 列
+## <strong>四、配置填写示例</strong>
+
+· 飞书访问凭证：t-g12345xxxxxx
+
+· 飞书表格 URL：https://xxx.feishu.cn/sheets/abcdefgHIJKLMN
+
+· Sheet_id：shtxxxxxx输出结果：8（代表当前 sheet 有效列为 8 列）
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

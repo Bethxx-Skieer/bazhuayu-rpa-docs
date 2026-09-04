@@ -1,0 +1,37 @@
+---
+title: "知识库-创建知识库文件-本地文本文件"
+---
+
+## 1、功能说明
+
+调用此指令，可向指定的扣子文本知识库上传本地文件，支持 pdf、txt、doc、docx 格式，每次最多上传 10 个文件。上传时可通过配置分段规则，对文本进行自动分割与清洗处理。
+
+API 接口详细介绍见：https://www.coze.cn/open/docs/developer_guides/create_knowledge_files[https://www.coze.cn/open/docs/developer_guides/create_knowledge_files](https://www.coze.cn/open/docs/developer_guides/create_knowledge_files)
+
+## 2、配置参数
+
+参数名必填说明Token是用于身份验证的令牌，确保请求的合法性。知识库 ID是目标文本知识库的唯一标识，由【知识库 - 创建知识库】指令成功后生成。文件列表是待上传的本地文件完整路径集合，每个列表项为一个文件路径，支持 pdf、txt、doc、docx 格式，每次最多上传 10 个文件。分段规则是对应接口中的chunk_strategy参数，传入ChunkStrategy类型的字典，需通过【知识库 - 构建分段规则】指令生成，用于文本的分割与清洗。返回结果是接口返回的完整响应内容，为字典格式，包含上传状态、文件处理结果等信息。
+
+<strong>返回结果样例</strong>
+
+<strong>成功响应</strong>\{
+"code": 0,
+"msg": "success",
+"data": \{
+"file_ids": ["file_657dxxxxxxxxx_01", "file_657dxxxxxxxxx_02"],
+"dataset_id": "ds_657dxxxxxxxxx",
+"processed_count": 2,
+"failed_count": 0
+\}
+\}
+
+<strong>失败响应</strong>
+
+失败时指令会抛出错误。
+3、示例场景通过【知识库 - 创建知识库】指令获取目标文本知识库的知识库ID。通过【知识库 - 构建分段规则】指令生成分段规则字典（如自定义分段标识符为\n，最大分段长度为800）。配置文件列表，填入本地文件路径，例如：运行指令，文件将按分段规则处理后上传至指定文本知识库。
+
+
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>
