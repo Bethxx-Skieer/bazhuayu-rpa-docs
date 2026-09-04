@@ -760,5 +760,1327 @@
         ]
       }
     ]
-  }
+  },
+  "redirects": [
+    {
+      "source": "/commands/extractentitycommand",
+      "destination": "/commands/ai/extractentitycommand"
+    },
+    {
+      "source": "/commands/extractkeywordscommand",
+      "destination": "/commands/ai/extractkeywordscommand"
+    },
+    {
+      "source": "/commands/generatecommentcommand",
+      "destination": "/commands/ai/generatecommentcommand"
+    },
+    {
+      "source": "/commands/getemotionaltendencycommand",
+      "destination": "/commands/ai/getemotionaltendencycommand"
+    },
+    {
+      "source": "/commands/interactivechatcommand",
+      "destination": "/commands/ai/interactivechatcommand"
+    },
+    {
+      "source": "/commands/makeasummarycommand",
+      "destination": "/commands/ai/makeasummarycommand"
+    },
+    {
+      "source": "/commands/parsingunstructureddatacommand",
+      "destination": "/commands/ai/parsingunstructureddatacommand"
+    },
+    {
+      "source": "/commands/recognizecaptchabyprovidercommand",
+      "destination": "/commands/ai/recognizecaptchabyprovidercommand"
+    },
+    {
+      "source": "/commands/recognizecardcommand",
+      "destination": "/commands/ai/recognizecardcommand"
+    },
+    {
+      "source": "/commands/recognizecharactercommand",
+      "destination": "/commands/ai/recognizecharactercommand"
+    },
+    {
+      "source": "/commands/recognizegeneraltextcommand",
+      "destination": "/commands/ai/recognizegeneraltextcommand"
+    },
+    {
+      "source": "/commands/recognizeinvoicecommand",
+      "destination": "/commands/ai/recognizeinvoicecommand"
+    },
+    {
+      "source": "/commands/recognizerecaptchav2command",
+      "destination": "/commands/ai/recognizerecaptchav2command"
+    },
+    {
+      "source": "/commands/recognizerotationcommand",
+      "destination": "/commands/ai/recognizerotationcommand"
+    },
+    {
+      "source": "/commands/recognizeslidercommand",
+      "destination": "/commands/ai/recognizeslidercommand"
+    },
+    {
+      "source": "/commands/recognizesliderpuzzlecommand",
+      "destination": "/commands/ai/recognizesliderpuzzlecommand"
+    },
+    {
+      "source": "/commands/recognizetablecommand",
+      "destination": "/commands/ai/recognizetablecommand"
+    },
+    {
+      "source": "/commands/recognizetextclickcommand",
+      "destination": "/commands/ai/recognizetextclickcommand"
+    },
+    {
+      "source": "/commands/recognizetrajectorycommand",
+      "destination": "/commands/ai/recognizetrajectorycommand"
+    },
+    {
+      "source": "/commands/translatecommand",
+      "destination": "/commands/ai/translatecommand"
+    },
+    {
+      "source": "/commands/7TUoxB",
+      "destination": "/commands/bazhuayu/7TUoxB"
+    },
+    {
+      "source": "/commands/getaccesstokencommand",
+      "destination": "/commands/bazhuayu/getaccesstokencommand"
+    },
+    {
+      "source": "/commands/gettaskdatacommand",
+      "destination": "/commands/bazhuayu/gettaskdatacommand"
+    },
+    {
+      "source": "/commands/gettaskdatacountcommand",
+      "destination": "/commands/bazhuayu/gettaskdatacountcommand"
+    },
+    {
+      "source": "/commands/gettaskdataoffsetcommand",
+      "destination": "/commands/bazhuayu/gettaskdataoffsetcommand"
+    },
+    {
+      "source": "/commands/gettaskstatuscommand",
+      "destination": "/commands/bazhuayu/gettaskstatuscommand"
+    },
+    {
+      "source": "/commands/starttaskcommand",
+      "destination": "/commands/bazhuayu/starttaskcommand"
+    },
+    {
+      "source": "/commands/stoptaskcommand",
+      "destination": "/commands/bazhuayu/stoptaskcommand"
+    },
+    {
+      "source": "/commands/updateactionpropertiescommand",
+      "destination": "/commands/bazhuayu/updateactionpropertiescommand"
+    },
+    {
+      "source": "/commands/elsecommand",
+      "destination": "/commands/condition/elsecommand"
+    },
+    {
+      "source": "/commands/elseifcommand",
+      "destination": "/commands/condition/elseifcommand"
+    },
+    {
+      "source": "/commands/elseifelementvisibilitymatchcommand",
+      "destination": "/commands/condition/elseifelementvisibilitymatchcommand"
+    },
+    {
+      "source": "/commands/elseifmulticonditioncommand",
+      "destination": "/commands/condition/elseifmulticonditioncommand"
+    },
+    {
+      "source": "/commands/elseifpagecontainscommand",
+      "destination": "/commands/condition/elseifpagecontainscommand"
+    },
+    {
+      "source": "/commands/elseifwindowcontainscommand",
+      "destination": "/commands/condition/elseifwindowcontainscommand"
+    },
+    {
+      "source": "/commands/endifcommand",
+      "destination": "/commands/condition/endifcommand"
+    },
+    {
+      "source": "/commands/ifcommand",
+      "destination": "/commands/condition/ifcommand"
+    },
+    {
+      "source": "/commands/ifelementvisibilitymatchcommand",
+      "destination": "/commands/condition/ifelementvisibilitymatchcommand"
+    },
+    {
+      "source": "/commands/iffileexistscommand",
+      "destination": "/commands/condition/iffileexistscommand"
+    },
+    {
+      "source": "/commands/iffolderexistscommand",
+      "destination": "/commands/condition/iffolderexistscommand"
+    },
+    {
+      "source": "/commands/ifimageexistscommand",
+      "destination": "/commands/condition/ifimageexistscommand"
+    },
+    {
+      "source": "/commands/ifmulticonditioncommand",
+      "destination": "/commands/condition/ifmulticonditioncommand"
+    },
+    {
+      "source": "/commands/ifpagecontainscommand",
+      "destination": "/commands/condition/ifpagecontainscommand"
+    },
+    {
+      "source": "/commands/ifwindowcontainscommand",
+      "destination": "/commands/condition/ifwindowcontainscommand"
+    },
+    {
+      "source": "/commands/ifwindowexistscommand",
+      "destination": "/commands/condition/ifwindowexistscommand"
+    },
+    {
+      "source": "/commands/appendprefixorsuffixcommand",
+      "destination": "/commands/data-processing/appendprefixorsuffixcommand"
+    },
+    {
+      "source": "/commands/changedatetimecommand",
+      "destination": "/commands/data-processing/changedatetimecommand"
+    },
+    {
+      "source": "/commands/changetextcasecommand",
+      "destination": "/commands/data-processing/changetextcasecommand"
+    },
+    {
+      "source": "/commands/clearlistcommand",
+      "destination": "/commands/data-processing/clearlistcommand"
+    },
+    {
+      "source": "/commands/concatlistcommand",
+      "destination": "/commands/data-processing/concatlistcommand"
+    },
+    {
+      "source": "/commands/convertdatetimetextcommand",
+      "destination": "/commands/data-processing/convertdatetimetextcommand"
+    },
+    {
+      "source": "/commands/createdictionarycommand",
+      "destination": "/commands/data-processing/createdictionarycommand"
+    },
+    {
+      "source": "/commands/createlistcommand",
+      "destination": "/commands/data-processing/createlistcommand"
+    },
+    {
+      "source": "/commands/createvariablecommand",
+      "destination": "/commands/data-processing/createvariablecommand"
+    },
+    {
+      "source": "/commands/datetimeconverttotimestampcommand",
+      "destination": "/commands/data-processing/datetimeconverttotimestampcommand"
+    },
+    {
+      "source": "/commands/distinctlistcommand",
+      "destination": "/commands/data-processing/distinctlistcommand"
+    },
+    {
+      "source": "/commands/getdictionarykeyscommand",
+      "destination": "/commands/data-processing/getdictionarykeyscommand"
+    },
+    {
+      "source": "/commands/getdictionaryvaluecommand",
+      "destination": "/commands/data-processing/getdictionaryvaluecommand"
+    },
+    {
+      "source": "/commands/getdictionaryvaluescommand",
+      "destination": "/commands/data-processing/getdictionaryvaluescommand"
+    },
+    {
+      "source": "/commands/getlistitemcommand",
+      "destination": "/commands/data-processing/getlistitemcommand"
+    },
+    {
+      "source": "/commands/getsubtextcommand",
+      "destination": "/commands/data-processing/getsubtextcommand"
+    },
+    {
+      "source": "/commands/gettimespancommand",
+      "destination": "/commands/data-processing/gettimespancommand"
+    },
+    {
+      "source": "/commands/insertitemtolistcommand",
+      "destination": "/commands/data-processing/insertitemtolistcommand"
+    },
+    {
+      "source": "/commands/intersectlistcommand",
+      "destination": "/commands/data-processing/intersectlistcommand"
+    },
+    {
+      "source": "/commands/jEc4Yc",
+      "destination": "/commands/data-processing/jEc4Yc"
+    },
+    {
+      "source": "/commands/jointextcommand",
+      "destination": "/commands/data-processing/jointextcommand"
+    },
+    {
+      "source": "/commands/numbertotextcommand",
+      "destination": "/commands/data-processing/numbertotextcommand"
+    },
+    {
+      "source": "/commands/objecttojsoncommand",
+      "destination": "/commands/data-processing/objecttojsoncommand"
+    },
+    {
+      "source": "/commands/parsejsoncommand",
+      "destination": "/commands/data-processing/parsejsoncommand"
+    },
+    {
+      "source": "/commands/randomnumbercommand",
+      "destination": "/commands/data-processing/randomnumbercommand"
+    },
+    {
+      "source": "/commands/regexmatchcommand",
+      "destination": "/commands/data-processing/regexmatchcommand"
+    },
+    {
+      "source": "/commands/removedictionarykeyvaluecommand",
+      "destination": "/commands/data-processing/removedictionarykeyvaluecommand"
+    },
+    {
+      "source": "/commands/removelistitemcommand",
+      "destination": "/commands/data-processing/removelistitemcommand"
+    },
+    {
+      "source": "/commands/replacetextcommand",
+      "destination": "/commands/data-processing/replacetextcommand"
+    },
+    {
+      "source": "/commands/reverselistcommand",
+      "destination": "/commands/data-processing/reverselistcommand"
+    },
+    {
+      "source": "/commands/setdictionarykeyvaluecommand",
+      "destination": "/commands/data-processing/setdictionarykeyvaluecommand"
+    },
+    {
+      "source": "/commands/setvariablecommand",
+      "destination": "/commands/data-processing/setvariablecommand"
+    },
+    {
+      "source": "/commands/setvariablev2command",
+      "destination": "/commands/data-processing/setvariablev2command"
+    },
+    {
+      "source": "/commands/sortlistcommand",
+      "destination": "/commands/data-processing/sortlistcommand"
+    },
+    {
+      "source": "/commands/splittextcommand",
+      "destination": "/commands/data-processing/splittextcommand"
+    },
+    {
+      "source": "/commands/texttonumbercommand",
+      "destination": "/commands/data-processing/texttonumbercommand"
+    },
+    {
+      "source": "/commands/timestampconverttodatetimecommand",
+      "destination": "/commands/data-processing/timestampconverttodatetimecommand"
+    },
+    {
+      "source": "/commands/trimtextcommand",
+      "destination": "/commands/data-processing/trimtextcommand"
+    },
+    {
+      "source": "/commands/updatelistitemcommand",
+      "destination": "/commands/data-processing/updatelistitemcommand"
+    },
+    {
+      "source": "/commands/urldecodecommand",
+      "destination": "/commands/data-processing/urldecodecommand"
+    },
+    {
+      "source": "/commands/urlencodecommand",
+      "destination": "/commands/data-processing/urlencodecommand"
+    },
+    {
+      "source": "/commands/batchinserttodatabasecommand",
+      "destination": "/commands/database/batchinserttodatabasecommand"
+    },
+    {
+      "source": "/commands/closedatabasecommand",
+      "destination": "/commands/database/closedatabasecommand"
+    },
+    {
+      "source": "/commands/connecttodatabasecommand",
+      "destination": "/commands/database/connecttodatabasecommand"
+    },
+    {
+      "source": "/commands/executesqlcommand",
+      "destination": "/commands/database/executesqlcommand"
+    },
+    {
+      "source": "/commands/querydatabasecommand",
+      "destination": "/commands/database/querydatabasecommand"
+    },
+    {
+      "source": "/commands/adddatasheetcolumncommand",
+      "destination": "/commands/datatable/adddatasheetcolumncommand"
+    },
+    {
+      "source": "/commands/deletedatasheetrowcommand",
+      "destination": "/commands/datatable/deletedatasheetrowcommand"
+    },
+    {
+      "source": "/commands/exportdatasheettofilecommand",
+      "destination": "/commands/datatable/exportdatasheettofilecommand"
+    },
+    {
+      "source": "/commands/exportmultidatasheettofilecommand",
+      "destination": "/commands/datatable/exportmultidatasheettofilecommand"
+    },
+    {
+      "source": "/commands/importcsvtodatasheetcommand",
+      "destination": "/commands/datatable/importcsvtodatasheetcommand"
+    },
+    {
+      "source": "/commands/importexceltodatasheetcommand",
+      "destination": "/commands/datatable/importexceltodatasheetcommand"
+    },
+    {
+      "source": "/commands/loopdatasheetcommand_1",
+      "destination": "/commands/datatable/loopdatasheetcommand_1"
+    },
+    {
+      "source": "/commands/readdatasheetcommand",
+      "destination": "/commands/datatable/readdatasheetcommand"
+    },
+    {
+      "source": "/commands/writetocellcommand",
+      "destination": "/commands/datatable/writetocellcommand"
+    },
+    {
+      "source": "/commands/writetorowcommand",
+      "destination": "/commands/datatable/writetorowcommand"
+    },
+    {
+      "source": "/commands/activewindowcommand",
+      "destination": "/commands/desktop-automation/activewindowcommand"
+    },
+    {
+      "source": "/commands/captureelementcommand",
+      "destination": "/commands/desktop-automation/captureelementcommand"
+    },
+    {
+      "source": "/commands/closewindowcommand",
+      "destination": "/commands/desktop-automation/closewindowcommand"
+    },
+    {
+      "source": "/commands/getcomboboxitemscommand",
+      "destination": "/commands/desktop-automation/getcomboboxitemscommand"
+    },
+    {
+      "source": "/commands/getwindowcommand",
+      "destination": "/commands/desktop-automation/getwindowcommand"
+    },
+    {
+      "source": "/commands/getwindowpropertycontentcommand",
+      "destination": "/commands/desktop-automation/getwindowpropertycontentcommand"
+    },
+    {
+      "source": "/commands/kj13ob",
+      "destination": "/commands/desktop-automation/kj13ob"
+    },
+    {
+      "source": "/commands/movewindowcommand",
+      "destination": "/commands/desktop-automation/movewindowcommand"
+    },
+    {
+      "source": "/commands/resizewindowcommand",
+      "destination": "/commands/desktop-automation/resizewindowcommand"
+    },
+    {
+      "source": "/commands/setcomboboxcommand",
+      "destination": "/commands/desktop-automation/setcomboboxcommand"
+    },
+    {
+      "source": "/commands/setwindowstatecommand",
+      "destination": "/commands/desktop-automation/setwindowstatecommand"
+    },
+    {
+      "source": "/commands/setwindowvisibilitycommand",
+      "destination": "/commands/desktop-automation/setwindowvisibilitycommand"
+    },
+    {
+      "source": "/commands/waitwindowcontentcommand",
+      "destination": "/commands/desktop-automation/waitwindowcontentcommand"
+    },
+    {
+      "source": "/commands/win_clickelementcommand",
+      "destination": "/commands/desktop-automation/win_clickelementcommand"
+    },
+    {
+      "source": "/commands/win_dragelementcommand",
+      "destination": "/commands/desktop-automation/win_dragelementcommand"
+    },
+    {
+      "source": "/commands/win_entertextcommand",
+      "destination": "/commands/desktop-automation/win_entertextcommand"
+    },
+    {
+      "source": "/commands/win_getelementcontentcommand",
+      "destination": "/commands/desktop-automation/win_getelementcontentcommand"
+    },
+    {
+      "source": "/commands/win_getrelativeelementcommand",
+      "destination": "/commands/desktop-automation/win_getrelativeelementcommand"
+    },
+    {
+      "source": "/commands/win_hoverelementcommand",
+      "destination": "/commands/desktop-automation/win_hoverelementcommand"
+    },
+    {
+      "source": "/commands/win_loopsimilarelementscommand_1",
+      "destination": "/commands/desktop-automation/win_loopsimilarelementscommand_1"
+    },
+    {
+      "source": "/commands/win_setcheckboxcommand",
+      "destination": "/commands/desktop-automation/win_setcheckboxcommand"
+    },
+    {
+      "source": "/commands/appenddatatodingtalkrowcommand",
+      "destination": "/commands/dingtalk/appenddatatodingtalkrowcommand"
+    },
+    {
+      "source": "/commands/connecttodingtalkspreadsheetcommand",
+      "destination": "/commands/dingtalk/connecttodingtalkspreadsheetcommand"
+    },
+    {
+      "source": "/commands/DAVH44",
+      "destination": "/commands/dingtalk/DAVH44"
+    },
+    {
+      "source": "/commands/deletedingtalkroworcolumncommand",
+      "destination": "/commands/dingtalk/deletedingtalkroworcolumncommand"
+    },
+    {
+      "source": "/commands/getalldingtalksheetnamescommand",
+      "destination": "/commands/dingtalk/getalldingtalksheetnamescommand"
+    },
+    {
+      "source": "/commands/getdingtalkfirstavailableroworcolumncommand",
+      "destination": "/commands/dingtalk/getdingtalkfirstavailableroworcolumncommand"
+    },
+    {
+      "source": "/commands/getdingtalksheetcolumncountcommand",
+      "destination": "/commands/dingtalk/getdingtalksheetcolumncountcommand"
+    },
+    {
+      "source": "/commands/getdingtalksheetrowcountcommand",
+      "destination": "/commands/dingtalk/getdingtalksheetrowcountcommand"
+    },
+    {
+      "source": "/commands/gM80NN",
+      "destination": "/commands/dingtalk/gM80NN"
+    },
+    {
+      "source": "/commands/insertdingtalkroworcolumncommand",
+      "destination": "/commands/dingtalk/insertdingtalkroworcolumncommand"
+    },
+    {
+      "source": "/commands/oP9Yz4",
+      "destination": "/commands/dingtalk/oP9Yz4"
+    },
+    {
+      "source": "/commands/readdingtalksheetcommand",
+      "destination": "/commands/dingtalk/readdingtalksheetcommand"
+    },
+    {
+      "source": "/commands/writetodingtalksheetcommand",
+      "destination": "/commands/dingtalk/writetodingtalksheetcommand"
+    },
+    {
+      "source": "/commands/addflagtoemailcommand",
+      "destination": "/commands/email/addflagtoemailcommand"
+    },
+    {
+      "source": "/commands/deleteemailcommand",
+      "destination": "/commands/email/deleteemailcommand"
+    },
+    {
+      "source": "/commands/downloademailattachmentcommand",
+      "destination": "/commands/email/downloademailattachmentcommand"
+    },
+    {
+      "source": "/commands/dtd5Rb",
+      "destination": "/commands/email/dtd5Rb"
+    },
+    {
+      "source": "/commands/getemailcontentcommand",
+      "destination": "/commands/email/getemailcontentcommand"
+    },
+    {
+      "source": "/commands/getemailscommand",
+      "destination": "/commands/email/getemailscommand"
+    },
+    {
+      "source": "/commands/logintomailboxcommand",
+      "destination": "/commands/email/logintomailboxcommand"
+    },
+    {
+      "source": "/commands/moveemailcommand",
+      "destination": "/commands/email/moveemailcommand"
+    },
+    {
+      "source": "/commands/replyemailcommand",
+      "destination": "/commands/email/replyemailcommand"
+    },
+    {
+      "source": "/commands/RlCVx4",
+      "destination": "/commands/email/RlCVx4"
+    },
+    {
+      "source": "/commands/sendemailcommand",
+      "destination": "/commands/email/sendemailcommand"
+    },
+    {
+      "source": "/commands/activateexcelsheetcommand",
+      "destination": "/commands/excel/activateexcelsheetcommand"
+    },
+    {
+      "source": "/commands/addexcelsheetcommand",
+      "destination": "/commands/excel/addexcelsheetcommand"
+    },
+    {
+      "source": "/commands/addimagetoexcelcommand",
+      "destination": "/commands/excel/addimagetoexcelcommand"
+    },
+    {
+      "source": "/commands/autofillexcelcommand",
+      "destination": "/commands/excel/autofillexcelcommand"
+    },
+    {
+      "source": "/commands/clearexcelcellformatcommand",
+      "destination": "/commands/excel/clearexcelcellformatcommand"
+    },
+    {
+      "source": "/commands/clearexcelfiltercommand",
+      "destination": "/commands/excel/clearexcelfiltercommand"
+    },
+    {
+      "source": "/commands/closeexcelcommand",
+      "destination": "/commands/excel/closeexcelcommand"
+    },
+    {
+      "source": "/commands/copyexcelcommand",
+      "destination": "/commands/excel/copyexcelcommand"
+    },
+    {
+      "source": "/commands/copyexcelsheetcommand",
+      "destination": "/commands/excel/copyexcelsheetcommand"
+    },
+    {
+      "source": "/commands/deleteexcelcolumncommand",
+      "destination": "/commands/excel/deleteexcelcolumncommand"
+    },
+    {
+      "source": "/commands/deleteexcelduplicaterowcommand",
+      "destination": "/commands/excel/deleteexcelduplicaterowcommand"
+    },
+    {
+      "source": "/commands/deleteexcelimagecommand",
+      "destination": "/commands/excel/deleteexcelimagecommand"
+    },
+    {
+      "source": "/commands/deleteexcelrowcommand",
+      "destination": "/commands/excel/deleteexcelrowcommand"
+    },
+    {
+      "source": "/commands/deleteexcelsheetcommand",
+      "destination": "/commands/excel/deleteexcelsheetcommand"
+    },
+    {
+      "source": "/commands/exportexcelimagecommand",
+      "destination": "/commands/excel/exportexcelimagecommand"
+    },
+    {
+      "source": "/commands/filterexcelcolumncommand",
+      "destination": "/commands/excel/filterexcelcolumncommand"
+    },
+    {
+      "source": "/commands/findexcelcellcommand",
+      "destination": "/commands/excel/findexcelcellcommand"
+    },
+    {
+      "source": "/commands/getexcelcolumncountcommand",
+      "destination": "/commands/excel/getexcelcolumncountcommand"
+    },
+    {
+      "source": "/commands/getexcelformulacommand",
+      "destination": "/commands/excel/getexcelformulacommand"
+    },
+    {
+      "source": "/commands/getexcelregionscreenshotcommand",
+      "destination": "/commands/excel/getexcelregionscreenshotcommand"
+    },
+    {
+      "source": "/commands/getexcelrowcountcommand",
+      "destination": "/commands/excel/getexcelrowcountcommand"
+    },
+    {
+      "source": "/commands/getexcelsheetnamecommand",
+      "destination": "/commands/excel/getexcelsheetnamecommand"
+    },
+    {
+      "source": "/commands/getlastemptycellofcolumncommand",
+      "destination": "/commands/excel/getlastemptycellofcolumncommand"
+    },
+    {
+      "source": "/commands/getopenedexcelcommand",
+      "destination": "/commands/excel/getopenedexcelcommand"
+    },
+    {
+      "source": "/commands/insertexcelcolumncommand",
+      "destination": "/commands/excel/insertexcelcolumncommand"
+    },
+    {
+      "source": "/commands/insertexcelrowcommand",
+      "destination": "/commands/excel/insertexcelrowcommand"
+    },
+    {
+      "source": "/commands/launchexcelcommand",
+      "destination": "/commands/excel/launchexcelcommand"
+    },
+    {
+      "source": "/commands/loopexcelsheetcommand",
+      "destination": "/commands/excel/loopexcelsheetcommand"
+    },
+    {
+      "source": "/commands/mergeorsplitexcelcellcommand",
+      "destination": "/commands/excel/mergeorsplitexcelcellcommand"
+    },
+    {
+      "source": "/commands/pasteexcelcommand",
+      "destination": "/commands/excel/pasteexcelcommand"
+    },
+    {
+      "source": "/commands/readexcelcommand",
+      "destination": "/commands/excel/readexcelcommand"
+    },
+    {
+      "source": "/commands/readfilteredcontentcommand",
+      "destination": "/commands/excel/readfilteredcontentcommand"
+    },
+    {
+      "source": "/commands/renameexcelsheetcommand",
+      "destination": "/commands/excel/renameexcelsheetcommand"
+    },
+    {
+      "source": "/commands/runexcelmacrocommand",
+      "destination": "/commands/excel/runexcelmacrocommand"
+    },
+    {
+      "source": "/commands/saveexcelcommand",
+      "destination": "/commands/excel/saveexcelcommand"
+    },
+    {
+      "source": "/commands/setexcelcellformatcommand",
+      "destination": "/commands/excel/setexcelcellformatcommand"
+    },
+    {
+      "source": "/commands/setexcelcellsizecommand",
+      "destination": "/commands/excel/setexcelcellsizecommand"
+    },
+    {
+      "source": "/commands/writeexcelcellcommand",
+      "destination": "/commands/excel/writeexcelcellcommand"
+    },
+    {
+      "source": "/commands/writeexcelcolumncommand",
+      "destination": "/commands/excel/writeexcelcolumncommand"
+    },
+    {
+      "source": "/commands/writeexcelrangecommand",
+      "destination": "/commands/excel/writeexcelrangecommand"
+    },
+    {
+      "source": "/commands/writeexcelrowcommand",
+      "destination": "/commands/excel/writeexcelrowcommand"
+    },
+    {
+      "source": "/commands/addcolumntolarkspreadsheetcommand",
+      "destination": "/commands/feishu/addcolumntolarkspreadsheetcommand"
+    },
+    {
+      "source": "/commands/addlarkbitabledatatablecommand",
+      "destination": "/commands/feishu/addlarkbitabledatatablecommand"
+    },
+    {
+      "source": "/commands/addlarkbitablefieldcommand",
+      "destination": "/commands/feishu/addlarkbitablefieldcommand"
+    },
+    {
+      "source": "/commands/addlarkbitablerecordcommand",
+      "destination": "/commands/feishu/addlarkbitablerecordcommand"
+    },
+    {
+      "source": "/commands/addlarkbitableviewcommand",
+      "destination": "/commands/feishu/addlarkbitableviewcommand"
+    },
+    {
+      "source": "/commands/addrowtolarkspreadsheetcommand",
+      "destination": "/commands/feishu/addrowtolarkspreadsheetcommand"
+    },
+    {
+      "source": "/commands/batchaddlarkbitablerecordcommand",
+      "destination": "/commands/feishu/batchaddlarkbitablerecordcommand"
+    },
+    {
+      "source": "/commands/connecttolarkbitablecommand",
+      "destination": "/commands/feishu/connecttolarkbitablecommand"
+    },
+    {
+      "source": "/commands/copylarkspreadsheetcommand",
+      "destination": "/commands/feishu/copylarkspreadsheetcommand"
+    },
+    {
+      "source": "/commands/deletecolumnfromlarkspreadsheetcommand",
+      "destination": "/commands/feishu/deletecolumnfromlarkspreadsheetcommand"
+    },
+    {
+      "source": "/commands/deletelarkbitabledatatablecommand",
+      "destination": "/commands/feishu/deletelarkbitabledatatablecommand"
+    },
+    {
+      "source": "/commands/deletelarkbitablefieldcommand",
+      "destination": "/commands/feishu/deletelarkbitablefieldcommand"
+    },
+    {
+      "source": "/commands/deletelarkbitablerecordcommand",
+      "destination": "/commands/feishu/deletelarkbitablerecordcommand"
+    },
+    {
+      "source": "/commands/deletelarkbitableviewcommand",
+      "destination": "/commands/feishu/deletelarkbitableviewcommand"
+    },
+    {
+      "source": "/commands/deleterowfromlarkspreadsheetcommand",
+      "destination": "/commands/feishu/deleterowfromlarkspreadsheetcommand"
+    },
+    {
+      "source": "/commands/findlarkspreadsheetcellcommand",
+      "destination": "/commands/feishu/findlarkspreadsheetcellcommand"
+    },
+    {
+      "source": "/commands/getlarkaccesstokencommand",
+      "destination": "/commands/feishu/getlarkaccesstokencommand"
+    },
+    {
+      "source": "/commands/getlarkbitabledatatablecommand",
+      "destination": "/commands/feishu/getlarkbitabledatatablecommand"
+    },
+    {
+      "source": "/commands/getlarkbitablefieldcommand",
+      "destination": "/commands/feishu/getlarkbitablefieldcommand"
+    },
+    {
+      "source": "/commands/getlarkbitablerecordcommand",
+      "destination": "/commands/feishu/getlarkbitablerecordcommand"
+    },
+    {
+      "source": "/commands/getlarkbitableviewcommand",
+      "destination": "/commands/feishu/getlarkbitableviewcommand"
+    },
+    {
+      "source": "/commands/getlarkspreadsheetcommand",
+      "destination": "/commands/feishu/getlarkspreadsheetcommand"
+    },
+    {
+      "source": "/commands/IgnCWQ",
+      "destination": "/commands/feishu/IgnCWQ"
+    },
+    {
+      "source": "/commands/querylarkbitablerecordcommand",
+      "destination": "/commands/feishu/querylarkbitablerecordcommand"
+    },
+    {
+      "source": "/commands/readlarkspreadsheetcommand",
+      "destination": "/commands/feishu/readlarkspreadsheetcommand"
+    },
+    {
+      "source": "/commands/renamelarkbitabledatatablecommand",
+      "destination": "/commands/feishu/renamelarkbitabledatatablecommand"
+    },
+    {
+      "source": "/commands/updatelarkbitablefieldcommand",
+      "destination": "/commands/feishu/updatelarkbitablefieldcommand"
+    },
+    {
+      "source": "/commands/updatelarkbitablerecordcommand",
+      "destination": "/commands/feishu/updatelarkbitablerecordcommand"
+    },
+    {
+      "source": "/commands/updatelarkbitableviewcommand",
+      "destination": "/commands/feishu/updatelarkbitableviewcommand"
+    },
+    {
+      "source": "/commands/vPhs0M",
+      "destination": "/commands/feishu/vPhs0M"
+    },
+    {
+      "source": "/commands/writecolumntolarkspreadsheetcommand",
+      "destination": "/commands/feishu/writecolumntolarkspreadsheetcommand"
+    },
+    {
+      "source": "/commands/writerowtolarkspreadsheetcommand",
+      "destination": "/commands/feishu/writerowtolarkspreadsheetcommand"
+    },
+    {
+      "source": "/commands/exitflowcommand",
+      "destination": "/commands/flow/exitflowcommand"
+    },
+    {
+      "source": "/commands/exitsubflowcommand",
+      "destination": "/commands/flow/exitsubflowcommand"
+    },
+    {
+      "source": "/commands/invokesubflowcommand",
+      "destination": "/commands/flow/invokesubflowcommand"
+    },
+    {
+      "source": "/commands/addcolumntogooglespreadsheetcommand",
+      "destination": "/commands/google/addcolumntogooglespreadsheetcommand"
+    },
+    {
+      "source": "/commands/addrowtogooglespreadsheetcommand",
+      "destination": "/commands/google/addrowtogooglespreadsheetcommand"
+    },
+    {
+      "source": "/commands/deletecolumnfromgooglespreadsheetcommand",
+      "destination": "/commands/google/deletecolumnfromgooglespreadsheetcommand"
+    },
+    {
+      "source": "/commands/deleterowfromgooglespreadsheetcommand",
+      "destination": "/commands/google/deleterowfromgooglespreadsheetcommand"
+    },
+    {
+      "source": "/commands/findgooglespreadsheetcellcommand",
+      "destination": "/commands/google/findgooglespreadsheetcellcommand"
+    },
+    {
+      "source": "/commands/getgooglecredentialcommand",
+      "destination": "/commands/google/getgooglecredentialcommand"
+    },
+    {
+      "source": "/commands/getgooglespreadsheetcommand",
+      "destination": "/commands/google/getgooglespreadsheetcommand"
+    },
+    {
+      "source": "/commands/readgooglespreadsheetcommand",
+      "destination": "/commands/google/readgooglespreadsheetcommand"
+    },
+    {
+      "source": "/commands/writecolumntogooglespreadsheetcommand",
+      "destination": "/commands/google/writecolumntogooglespreadsheetcommand"
+    },
+    {
+      "source": "/commands/writerowtogooglespreadsheetcommand",
+      "destination": "/commands/google/writerowtogooglespreadsheetcommand"
+    },
+    {
+      "source": "/commands/xnN98S",
+      "destination": "/commands/google/xnN98S"
+    },
+    {
+      "source": "/commands/notifydingtalkgroupcommand",
+      "destination": "/commands/group-notification/notifydingtalkgroupcommand"
+    },
+    {
+      "source": "/commands/notifylarkgroupcommand",
+      "destination": "/commands/group-notification/notifylarkgroupcommand"
+    },
+    {
+      "source": "/commands/notifywechatworkgroupcommand",
+      "destination": "/commands/group-notification/notifywechatworkgroupcommand"
+    },
+    {
+      "source": "/commands/XZBe1j",
+      "destination": "/commands/group-notification/XZBe1j"
+    },
+    {
+      "source": "/commands/breakcommand",
+      "destination": "/commands/loop/breakcommand"
+    },
+    {
+      "source": "/commands/continuecommand",
+      "destination": "/commands/loop/continuecommand"
+    },
+    {
+      "source": "/commands/dictionaryforeachcommand",
+      "destination": "/commands/loop/dictionaryforeachcommand"
+    },
+    {
+      "source": "/commands/endloopcommand",
+      "destination": "/commands/loop/endloopcommand"
+    },
+    {
+      "source": "/commands/foreachcommand",
+      "destination": "/commands/loop/foreachcommand"
+    },
+    {
+      "source": "/commands/infiniteloopcommand",
+      "destination": "/commands/loop/infiniteloopcommand"
+    },
+    {
+      "source": "/commands/loopbycountcommand",
+      "destination": "/commands/loop/loopbycountcommand"
+    },
+    {
+      "source": "/commands/loopdatasheetcommand",
+      "destination": "/commands/loop/loopdatasheetcommand"
+    },
+    {
+      "source": "/commands/web_loopsimilarelementscommand",
+      "destination": "/commands/loop/web_loopsimilarelementscommand"
+    },
+    {
+      "source": "/commands/whilecommand",
+      "destination": "/commands/loop/whilecommand"
+    },
+    {
+      "source": "/commands/win_loopsimilarelementscommand",
+      "destination": "/commands/loop/win_loopsimilarelementscommand"
+    },
+    {
+      "source": "/commands/clickimagecommand",
+      "destination": "/commands/mouse-keyboard/clickimagecommand"
+    },
+    {
+      "source": "/commands/hoverimagecommand",
+      "destination": "/commands/mouse-keyboard/hoverimagecommand"
+    },
+    {
+      "source": "/commands/keyboardinputcommand",
+      "destination": "/commands/mouse-keyboard/keyboardinputcommand"
+    },
+    {
+      "source": "/commands/mouseclickcommand",
+      "destination": "/commands/mouse-keyboard/mouseclickcommand"
+    },
+    {
+      "source": "/commands/mousemovecommand",
+      "destination": "/commands/mouse-keyboard/mousemovecommand"
+    },
+    {
+      "source": "/commands/mousescrollcommand",
+      "destination": "/commands/mouse-keyboard/mousescrollcommand"
+    },
+    {
+      "source": "/commands/checkprocessexistcommand",
+      "destination": "/commands/os/checkprocessexistcommand"
+    },
+    {
+      "source": "/commands/clearclipboarddatacommand",
+      "destination": "/commands/os/clearclipboarddatacommand"
+    },
+    {
+      "source": "/commands/clearfoldercommand",
+      "destination": "/commands/os/clearfoldercommand"
+    },
+    {
+      "source": "/commands/compressfilecommand",
+      "destination": "/commands/os/compressfilecommand"
+    },
+    {
+      "source": "/commands/copyfilecommand",
+      "destination": "/commands/os/copyfilecommand"
+    },
+    {
+      "source": "/commands/copyfoldercommand",
+      "destination": "/commands/os/copyfoldercommand"
+    },
+    {
+      "source": "/commands/createfoldercommand",
+      "destination": "/commands/os/createfoldercommand"
+    },
+    {
+      "source": "/commands/decompressfilecommand",
+      "destination": "/commands/os/decompressfilecommand"
+    },
+    {
+      "source": "/commands/deletefilecommand",
+      "destination": "/commands/os/deletefilecommand"
+    },
+    {
+      "source": "/commands/deletefoldercommand",
+      "destination": "/commands/os/deletefoldercommand"
+    },
+    {
+      "source": "/commands/executedoscommand",
+      "destination": "/commands/os/executedoscommand"
+    },
+    {
+      "source": "/commands/getclipboardtextcommand",
+      "destination": "/commands/os/getclipboardtextcommand"
+    },
+    {
+      "source": "/commands/getcurrentdatetimecommand",
+      "destination": "/commands/os/getcurrentdatetimecommand"
+    },
+    {
+      "source": "/commands/getfilecontentcommand",
+      "destination": "/commands/os/getfilecontentcommand"
+    },
+    {
+      "source": "/commands/getfilepathinfocommand",
+      "destination": "/commands/os/getfilepathinfocommand"
+    },
+    {
+      "source": "/commands/getfilescommand",
+      "destination": "/commands/os/getfilescommand"
+    },
+    {
+      "source": "/commands/killprocesscommand",
+      "destination": "/commands/os/killprocesscommand"
+    },
+    {
+      "source": "/commands/launchapplicationcommand",
+      "destination": "/commands/os/launchapplicationcommand"
+    },
+    {
+      "source": "/commands/movefilecommand",
+      "destination": "/commands/os/movefilecommand"
+    },
+    {
+      "source": "/commands/movefoldercommand",
+      "destination": "/commands/os/movefoldercommand"
+    },
+    {
+      "source": "/commands/renamefilecommand",
+      "destination": "/commands/os/renamefilecommand"
+    },
+    {
+      "source": "/commands/renamefoldercommand",
+      "destination": "/commands/os/renamefoldercommand"
+    },
+    {
+      "source": "/commands/setclipboarddatacommand",
+      "destination": "/commands/os/setclipboarddatacommand"
+    },
+    {
+      "source": "/commands/writefilecontentcommand",
+      "destination": "/commands/os/writefilecontentcommand"
+    },
+    {
+      "source": "/commands/addlogmessagecommand",
+      "destination": "/commands/others/addlogmessagecommand"
+    },
+    {
+      "source": "/commands/catchcommand",
+      "destination": "/commands/others/catchcommand"
+    },
+    {
+      "source": "/commands/commentcommand",
+      "destination": "/commands/others/commentcommand"
+    },
+    {
+      "source": "/commands/endtrycommand",
+      "destination": "/commands/others/endtrycommand"
+    },
+    {
+      "source": "/commands/executepythonmodulecommand",
+      "destination": "/commands/others/executepythonmodulecommand"
+    },
+    {
+      "source": "/commands/raisecommand",
+      "destination": "/commands/others/raisecommand"
+    },
+    {
+      "source": "/commands/sendhttprequestcommand",
+      "destination": "/commands/others/sendhttprequestcommand"
+    },
+    {
+      "source": "/commands/showaccountinputcommand",
+      "destination": "/commands/others/showaccountinputcommand"
+    },
+    {
+      "source": "/commands/showmessageboxcommand",
+      "destination": "/commands/others/showmessageboxcommand"
+    },
+    {
+      "source": "/commands/showmessagetipscommand",
+      "destination": "/commands/others/showmessagetipscommand"
+    },
+    {
+      "source": "/commands/showopenfilecommand",
+      "destination": "/commands/others/showopenfilecommand"
+    },
+    {
+      "source": "/commands/showopenfoldercommand",
+      "destination": "/commands/others/showopenfoldercommand"
+    },
+    {
+      "source": "/commands/showtextinputcommand",
+      "destination": "/commands/others/showtextinputcommand"
+    },
+    {
+      "source": "/commands/trycommand",
+      "destination": "/commands/others/trycommand"
+    },
+    {
+      "source": "/commands/zKl2eg",
+      "destination": "/commands/others/zKl2eg"
+    },
+    {
+      "source": "/commands/waitcommand",
+      "destination": "/commands/wait/waitcommand"
+    },
+    {
+      "source": "/commands/waitimagecommand",
+      "destination": "/commands/wait/waitimagecommand"
+    },
+    {
+      "source": "/commands/waitpagecontentcommand",
+      "destination": "/commands/wait/waitpagecontentcommand"
+    },
+    {
+      "source": "/commands/waitpageloadedcommand",
+      "destination": "/commands/wait/waitpageloadedcommand"
+    },
+    {
+      "source": "/commands/autohandlepopupcommand",
+      "destination": "/commands/web-automation/autohandlepopupcommand"
+    },
+    {
+      "source": "/commands/capturecommand",
+      "destination": "/commands/web-automation/capturecommand"
+    },
+    {
+      "source": "/commands/closepagecommand",
+      "destination": "/commands/web-automation/closepagecommand"
+    },
+    {
+      "source": "/commands/deletecookiecommand",
+      "destination": "/commands/web-automation/deletecookiecommand"
+    },
+    {
+      "source": "/commands/downloadcommand",
+      "destination": "/commands/web-automation/downloadcommand"
+    },
+    {
+      "source": "/commands/executejsfunctioncommand",
+      "destination": "/commands/web-automation/executejsfunctioncommand"
+    },
+    {
+      "source": "/commands/extractdatacommand",
+      "destination": "/commands/web-automation/extractdatacommand"
+    },
+    {
+      "source": "/commands/getcookiescommand",
+      "destination": "/commands/web-automation/getcookiescommand"
+    },
+    {
+      "source": "/commands/getelementattributecommand",
+      "destination": "/commands/web-automation/getelementattributecommand"
+    },
+    {
+      "source": "/commands/getelementobjectcommand",
+      "destination": "/commands/web-automation/getelementobjectcommand"
+    },
+    {
+      "source": "/commands/getmonitorresponsecommand",
+      "destination": "/commands/web-automation/getmonitorresponsecommand"
+    },
+    {
+      "source": "/commands/getopenedpagecommand",
+      "destination": "/commands/web-automation/getopenedpagecommand"
+    },
+    {
+      "source": "/commands/getpageattributecommand",
+      "destination": "/commands/web-automation/getpageattributecommand"
+    },
+    {
+      "source": "/commands/getselectelementoptionscommand",
+      "destination": "/commands/web-automation/getselectelementoptionscommand"
+    },
+    {
+      "source": "/commands/handlepopupcommand",
+      "destination": "/commands/web-automation/handlepopupcommand"
+    },
+    {
+      "source": "/commands/hoverelementcommand",
+      "destination": "/commands/web-automation/hoverelementcommand"
+    },
+    {
+      "source": "/commands/navigatecommand",
+      "destination": "/commands/web-automation/navigatecommand"
+    },
+    {
+      "source": "/commands/openpagecommand",
+      "destination": "/commands/web-automation/openpagecommand"
+    },
+    {
+      "source": "/commands/scrollcommand",
+      "destination": "/commands/web-automation/scrollcommand"
+    },
+    {
+      "source": "/commands/setcookiescommand",
+      "destination": "/commands/web-automation/setcookiescommand"
+    },
+    {
+      "source": "/commands/setelementattributecommand",
+      "destination": "/commands/web-automation/setelementattributecommand"
+    },
+    {
+      "source": "/commands/setselectelementoptioncommand",
+      "destination": "/commands/web-automation/setselectelementoptioncommand"
+    },
+    {
+      "source": "/commands/startmonitornetworkcommand",
+      "destination": "/commands/web-automation/startmonitornetworkcommand"
+    },
+    {
+      "source": "/commands/stopmonitornetworkcommand",
+      "destination": "/commands/web-automation/stopmonitornetworkcommand"
+    },
+    {
+      "source": "/commands/uploadcommand",
+      "destination": "/commands/web-automation/uploadcommand"
+    },
+    {
+      "source": "/commands/waitpagecontentcommand_1",
+      "destination": "/commands/web-automation/waitpagecontentcommand_1"
+    },
+    {
+      "source": "/commands/waitpageloadedcommand_1",
+      "destination": "/commands/web-automation/waitpageloadedcommand_1"
+    },
+    {
+      "source": "/commands/web_clickelementcommand",
+      "destination": "/commands/web-automation/web_clickelementcommand"
+    },
+    {
+      "source": "/commands/web_dragelementcommand",
+      "destination": "/commands/web-automation/web_dragelementcommand"
+    },
+    {
+      "source": "/commands/web_entertextcommand",
+      "destination": "/commands/web-automation/web_entertextcommand"
+    },
+    {
+      "source": "/commands/web_getrelativeelementcommand",
+      "destination": "/commands/web-automation/web_getrelativeelementcommand"
+    },
+    {
+      "source": "/commands/web_getsimilarelementscommand",
+      "destination": "/commands/web-automation/web_getsimilarelementscommand"
+    },
+    {
+      "source": "/commands/web_setcheckboxcommand",
+      "destination": "/commands/web-automation/web_setcheckboxcommand"
+    }
+  ]
 }
