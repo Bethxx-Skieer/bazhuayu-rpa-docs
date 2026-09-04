@@ -1,147 +1,336 @@
 ---
 title: "自定义指令"
+description: "介绍八爪鱼 RPA 自定义指令与指令库的价值、创建流程、管理分组、显示/隐藏/发版/调用机制，以及版本兼容与加载规则。"
 ---
 
-# 自定义指令
+## 一、什么是自定义指令
 
-自定义指令是八爪鱼RPA提供的扩展指令集合，涵盖电商、办公、AI、数据获取等多个场景。
+### 1. 功能价值
 
-## 指令列表
+#### 1.1 拓展RPA能力
 
-- [领星](/commands/custom-commands/geamt8fB)
-- [文件扩展功能](/commands/custom-commands/Xtu3Dyv8)
-- [文本扩展功能](/commands/custom-commands/VELzT4An)
-- [验证码](/commands/custom-commands/i2Vbj6Mp)
-- [WPS在线表格](/commands/custom-commands/jquCesST)
-- [数学函数操作](/commands/custom-commands/uos2FTti)
-- [飞书电子表格](/commands/custom-commands/WUaZ9OD5)
-- [录屏](/commands/custom-commands/l07xRYCO)
-- [谷歌浏览器扩展](/commands/custom-commands/MUp389Nn)
-- [json数据提取](/commands/custom-commands/mgm31c66)
-- [Cookie](/commands/custom-commands/Lns7pWTD)
-- [阿里妈妈多平台数据获取](/commands/custom-commands/omvbGGz8)
-- [阿里妈妈时间选择](/commands/custom-commands/erppqQCG)
-- [登录扩展操作](/commands/custom-commands/4idwqdY1)
-- [淘系时间选择](/commands/custom-commands/zrc4euWH)
-- [日期选择](/commands/custom-commands/ddzvAqho)
-- [万相台无界版时间选择](/commands/custom-commands/ydwM0rdV)
-- [支付宝](/commands/custom-commands/i3bYn9Bi)
-- [紫鸟控制台操作](/commands/custom-commands/dCC9IWCX)
-- [旺店通](/commands/custom-commands/V1onGstT)
-- [企业微信-发消息](/commands/custom-commands/0aiMC2AD)
-- [钉钉扩展指令](/commands/custom-commands/Aj968baR)
-- [微店-商家后台](/commands/custom-commands/s7MXdQqb)
-- [紫鸟浏览器-2](/commands/custom-commands/Ceg9LU3P)
-- [扣子CozeAPI](/commands/custom-commands/X9y9hoGF)
-- [京东-咚咚工作站（web）](/commands/custom-commands/qG1ZtY0b)
-- [拼多多](/commands/custom-commands/78ZRQqZn)
-- [千牛（Web）](/commands/custom-commands/enIp28fZ)
-- [翻译扩展操作](/commands/custom-commands/kjgGHIxB)
-- [汇率查询与转换](/commands/custom-commands/KV38p4AB)
-- [获取进程or杀进程](/commands/custom-commands/3Mfzm9Dm)
-- [钉钉AI多维表](/commands/custom-commands/6gIhBk4t)
-- [千牛-客户端](/commands/custom-commands/7azccbR1)
-- [Excel表扩展操作（Office版）](/commands/custom-commands/PCzJT28C)
-- [企业微信-服务端](/commands/custom-commands/IPzFl8Q0)
-- [豆包](/commands/custom-commands/vbovV1TE)
-- [文叔叔-文件传输](/commands/custom-commands/e2VDOh3F)
-- [钉钉机器人操作](/commands/custom-commands/lEaGzf0g)
-- [Track123 扩展](/commands/custom-commands/qY0qNESl)
-- [财务发票扩展操作](/commands/custom-commands/1Mx3hPN3)
-- [等待任意元素](/commands/custom-commands/LJ266EjC)
-- [快手](/commands/custom-commands/LkbkmUwS)
-- [生意参谋数据获取-实时](/commands/custom-commands/33yICBTY)
-- [生意参谋数据获取-首页](/commands/custom-commands/msJPZK69)
-- [万相台无界版数据获取（1）](/commands/custom-commands/fOsRqewt)
-- [企业微信](/commands/custom-commands/xF5HuUG3)
-- [生意参谋数据获取-内容](/commands/custom-commands/6al1zLV3)
-- [飞书多维表格](/commands/custom-commands/UhnaM6xD)
-- [京东商智](/commands/custom-commands/izPi8DRQ)
-- [京准通数据获取-全站营销](/commands/custom-commands/GryXohUi)
-- [京准通数据获取-数据中心](/commands/custom-commands/oDlW5N0V)
-- [阿里妈妈多平台数据获取-品销宝](/commands/custom-commands/3fuFVrzV)
-- [生意参谋数据获取-流量（2）](/commands/custom-commands/NHBfnqWs)
-- [飞书消息](/commands/custom-commands/fCsyT6ZR)
-- [京东商智数据获取-商家版-服务](/commands/custom-commands/kzKoiPrG)
-- [京东商智数据获取-商家版-行业](/commands/custom-commands/qDplxJQw)
-- [京东商智数据获取-商家版-竞争](/commands/custom-commands/EyBKMzyg)
-- [京东商智数据获取-商家版-流量](/commands/custom-commands/dMoD38Uc)
-- [京东商智数据获取-商家版-商品](/commands/custom-commands/GBfovRGB)
-- [京东商智数据获取-商家版-营销](/commands/custom-commands/p798DRLy)
-- [京东商智数据获取-品牌版](/commands/custom-commands/f91o8fca)
-- [京准通数据获取-站外广告](/commands/custom-commands/qhxMo72w)
-- [京准通数据获取-京东快车](/commands/custom-commands/sYFxBzMP)
-- [京准通数据获取-购物触点](/commands/custom-commands/uNIus2vU)
-- [京东商智数据获取-品牌版-交易](/commands/custom-commands/1u00DG7N)
-- [Photoshop 扩展](/commands/custom-commands/AJpKshiX)
-- [京准通数据获取-京挑客](/commands/custom-commands/fJksXtYm)
-- [京准通数据获取-京东展位](/commands/custom-commands/wZRI9WUn)
-- [京准通数据获取-京速推](/commands/custom-commands/8m0H51QT)
-- [飞书云空间](/commands/custom-commands/ssmPSj2C)
-- [淘宝](/commands/custom-commands/5BrGFFx8)
-- [京东](/commands/custom-commands/tthCbB78)
-- [拼多多时间选择](/commands/custom-commands/1KkfZwRO)
-- [数据表格扩展](/commands/custom-commands/53yEcCdf)
-- [消息推送](/commands/custom-commands/2OceBTsN)
-- [阿里妈妈](/commands/custom-commands/V1gHrmUY)
-- [MySQL扩展操作](/commands/custom-commands/MtBiYKy9)
-- [速卖通商家后台](/commands/custom-commands/jTcxLSvQ)
-- [网页变化监听](/commands/custom-commands/WPcIjSAQ)
-- [亚马逊卖家后台](/commands/custom-commands/i7qgA3P8)
-- [生意参谋数据获取-品类](/commands/custom-commands/R0ZmlHbO)
-- [阿里妈妈多平台数据获取-商家中心](/commands/custom-commands/1p4v2d7C)
-- [PDF扩展操作](/commands/custom-commands/3Yl16hhX)
-- [Sqlite3扩展操作](/commands/custom-commands/3ieiMG37)
-- [生意参谋数据获取-服务（1）](/commands/custom-commands/RGdmDqgR)
-- [企业微信智能表格](/commands/custom-commands/JB70O3jQ)
-- [QQ 操作](/commands/custom-commands/ccTJLCKF)
-- [拼多多数据获取-多多视频](/commands/custom-commands/0P0AJees)
-- [拼多多数据获取-多多客服](/commands/custom-commands/csJFKroT)
-- [视频扩展操作](/commands/custom-commands/MvRDK6jj)
-- [物流信息](/commands/custom-commands/iv0QatqN)
-- [亚马逊-卖家中心](/commands/custom-commands/9a2FdLks)
-- [亚马逊-广告](/commands/custom-commands/6958FmJ9)
-- [京东商智数据获取-品牌版-实时](/commands/custom-commands/JIoEqoH7)
-- [京东商智数据获取-品牌版-商品](/commands/custom-commands/9UYlV3Zl)
-- [京东商智数据获取-品牌版-流量](/commands/custom-commands/Hvnysjje)
-- [拼多多数据获取-数据中心](/commands/custom-commands/CN8Zsocz)
-- [windows扩展](/commands/custom-commands/EkSERr7c)
-- [字典扩展操作](/commands/custom-commands/RVYmIry3)
-- [云码验证码](/commands/custom-commands/cQFHHWNi)
-- [拼多多数据获取-推广中心](/commands/custom-commands/bceHSvPZ)
-- [Excel扩展操作](/commands/custom-commands/j3MiFQmW)
-- [拼多多数据获取-多多直播](/commands/custom-commands/i1M7Xuxo)
-- [拼多多数据获取-发货管理](/commands/custom-commands/PlI7Bpwr)
-- [拼多多数据获取-对账中心](/commands/custom-commands/JOWLco7H)
-- [生意参谋数据获取-交易（1）](/commands/custom-commands/osLCw7h6)
-- [直播弹幕扩展](/commands/custom-commands/CXxsV3PC)
-- [网页扩展指令](/commands/custom-commands/JsvYpNwh)
-- [文件夹扩展功能](/commands/custom-commands/ZVjD40K2)
-- [列表扩展操作](/commands/custom-commands/STxtrDNr)
-- [紫鸟浏览器V6](/commands/custom-commands/ldDUGARB)
-- [京东商智](/commands/custom-commands/efPZbxVS)
-- [TikTok](/commands/custom-commands/d3IrwX7D)
-- [Temu 商家后台扩展](/commands/custom-commands/QRUYUdHt)
-- [腾讯文档在线表格](/commands/custom-commands/hxOU6Ggj)
-- [Shein 商家后台](/commands/custom-commands/BRCuvdq6)
-- [图片扩展操作](/commands/custom-commands/xvTWXEqU)
-- [生意参谋数据获取-客户](/commands/custom-commands/Vrp2k185)
-- [生意参谋数据获取-商品](/commands/custom-commands/h09s9ExE)
-- [生意参谋数据获取-直播](/commands/custom-commands/nK3iyynl)
-- [万相台无界版数据获取（2）](/commands/custom-commands/aOPex9i0)
-- [生意参谋数据获取-市场（1）](/commands/custom-commands/FBcnoIEg)
-- [生意参谋数据获取-市场（2）](/commands/custom-commands/FixuP4np)
-- [万象台无界版数据获取-账户](/commands/custom-commands/u5ulG59q)
-- [生意参谋数据获取-服务（2）](/commands/custom-commands/ocRRBq0s)
-- [生意参谋数据获取-营销](/commands/custom-commands/z22Iz6ig)
-- [生意参谋数据获取-交易（2）](/commands/custom-commands/OisA7UK5)
-- [生意参谋数据获取-流量（1）](/commands/custom-commands/yCFia8v3)
-- [AI无限生成图片](/commands/custom-commands/Ph62jMtp)
-- [领星](/commands/custom-commands/yPKPxkVc)
-- [钉钉机器人操作](/commands/custom-commands/zVqFJbuW)
-- [电商图片文案处理](/commands/custom-commands/JTm1cTKK)
-- [飞书多维表格-扩展](/commands/custom-commands/DtZSARDl)
-- [2gpt-image-2详情图片生成](/commands/custom-commands/3xcMJEn2)
-- [3电商文案](/commands/custom-commands/a4TH5A1N)
-- [1电商产品图片理解](/commands/custom-commands/JbQaSa4r)
-- [阿里妈妈](/commands/custom-commands/kLiPTYOw)
+开发者可以自行封装一些八爪鱼RPA官方未支持的指令，将自己常用的功能模块封装成一个指令，例某网站的数据获取
+
+#### 1.2 降低维护成本
+
+开发者可以封装需要经常复用的流程片段，方便后期维护。假设A、B、C三个应用都需要用到登录淘宝功能，淘宝前端迭代时可能会影响这部分流程，如果不使用自定义指令，就得逐个修改应用，耗时耗力。但如果封装成指令进行引用，改动一处，剩余部分都会自动同步。
+
+### 2. 使用场景
+
+#### 2.1 开发者通用角度
+
+小八是一名有RPA搭建能力的自媒体创作者，之前搭建了很多某社媒平台相关的RPA应用，如笔记采集、图文批量发布、评论采集。每个应用初始步骤都是登录模块，为了提升开发效率，他将某社媒平台登录模块封装成指令库，然后在开发其他应用时就可以直接进行调用。后期登录逻辑有改动的话，他就可以只优化该指令库，其他用到这个指令块的RPA应用会直接更新。
+
+#### 2.2 企业开发者角度
+
+小八是一名企业开发者，他经常会封装一些已有场景的自定义指令库，这些指令库都可以被企业内的成员使用
+
+#### 2.3 共享角度
+
+小八将使用了自定义指令库的应用分享给其他人使用时，指令库可以自动加载，无需使用者额外操作
+
+### 3. 常用定义
+
+#### 3.1 自定义指令
+
+实现某个功能的可执行模块，如登录判断等。如下图所示，红框内均为自定义指令
+
+![自定义指令 示意图 1](images/custom-instructions-01.png)
+
+#### 3.2 指令库
+
+多个功能类似的指令合集，可进行统一发布和版本管理。如下图所示，紫鸟控制台操作和亚马逊卖家后台都是指令库
+
+![自定义指令 示意图 2](images/custom-instructions-02.png)
+
+#### 3.3 输入变量和输出变量
+
+- 输入变量
+
+- 指令的输入参数
+
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-03.png" alt="自定义指令 示意图 3" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-04.png" alt="自定义指令 示意图 4" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+- 选择此类型，后续用户使用到此指令时，会提醒他输入相关数据
+- 如果需要设置输入提示、占位符等，可点击指令后方的“编辑”按钮
+
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-05.png" alt="自定义指令 示意图 5" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-06.png" alt="自定义指令 示意图 6" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+- 输出变量
+
+- 指令的输出参数
+- 这类变量会在指令运行结束后返回给用户
+
+![自定义指令 示意图 7](images/custom-instructions-07.png)
+
+## 二、自定义指令
+
+### 1. 使用全流程（流程图）
+
+![自定义指令 示意图 8](images/custom-instructions-08.png)
+
+### 2. 具体案例
+
+以开发“日期选择”指令库为案例进行说明，该指令库包含多种不同类型的日期选择框，例纯年月日、纯时分秒等。
+
+#### 2.1 新建指令库
+
+切换到“指令库”--->点击“新建指令库”
+
+![自定义指令 示意图 9](images/custom-instructions-09.png)
+
+#### 2.2 开发指令库
+
+以“日历日期选择器一（web）”指令为例，其他指令开发方法相同。日常处理网页自动化，日历日期选择框有多种样式，现在我们选择其中一种做演示。
+
+- 新建自定义指令
+
+点击“新增指令按钮”--->给指令重命名，命名为“日历日期选择器一（web）”
+
+![自定义指令 示意图 10](images/custom-instructions-10.png)
+
+- 定义输入、输出变量
+
+- 选择指定日期：需要输入网页对象、日期时间、元素_年、元素_月、年月日相似元素组
+
+- 切换“变量”--->点击“新增自定义变量”按钮--->输入变量名、数据类型、默认值和变量类别
+
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-11.png" alt="自定义指令 示意图 11" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-12.png" alt="自定义指令 示意图 12" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+- 输入变量创建完成示例图
+
+![自定义指令 示意图 13](images/custom-instructions-13.png)
+
+- 指令搭建
+
+与常规流程开发逻辑一致，即之前怎么搭建主流程、子流程，现在用同样的方式搭建自定义指令即可
+
+![自定义指令 示意图 14](images/custom-instructions-14.png)
+
+- 新建子流程
+
+当单个自定义指令的实现逻辑较为复杂时，可以拆分成多个子流程进行处理，和写应用一样，子流程间变量共用；
+
+当指令库中多个指令的实现逻辑之间有流程复用时，建议继续使用”调用隐藏指令“的方式；当单个指令的实现逻辑中有部分流程复用时，可以使用子流程
+
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-15.png" alt="自定义指令 示意图 15" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-16.png" alt="自定义指令 示意图 16" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+- 指令界面编辑、预览
+
+- 自定义指令信息编辑
+
+可以设置自定义指令展示的图标、名称、描述等信息，如下图
+
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-17.png" alt="自定义指令 示意图 17" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-18.png" alt="自定义指令 示意图 18" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+- 自定义指令变量信息编辑
+
+可以设置指令的输入输出参数的展示样式、显示名称、参数描述、控件类型、校验等；也可以调整参数的显示顺序，常规、高级设置；可以编辑指令在画布中显示的内容，可以调用变量
+
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-19.png" alt="自定义指令 示意图 19" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-20.png" alt="自定义指令 示意图 20" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### 2.3 自定义指令创建副本
+
+用户开发完一个自定义指令后，需要再开发一个类似的指令。鼠标右键选中需要的指令，点击”创建副本“后，会出现同名指令的副本。以这种方式创建的自定义指令，“流程、元素、图片、变量、输入输出参数”设置会与之前的自定义指令完全相同。
+
+![自定义指令 示意图 21](images/custom-instructions-21.png)
+
+#### 2.4 自定义指令显示与隐藏
+
+鼠标hover想要操作的指令上，即可看到显示/隐藏图标，点击即可设置显示与否
+
+![自定义指令 示意图 22](images/custom-instructions-22.png)
+
+#### 2.5 指令库预览
+
+指令库开发完成后，可以进行预览，预览的效果就是未来其用户使用时的效果
+
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-23.png" alt="自定义指令 示意图 23" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-24.png" alt="自定义指令 示意图 24" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### 2.6 指令库发版
+
+指令库开发完成或编辑完成后，点击“发版”，发版后就可以在其他应用/指令库引用
+
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-25.png" alt="自定义指令 示意图 25" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-26.png" alt="自定义指令 示意图 26" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### 2.7 拓展指令
+
+在指令列表中点击“扩展”-->选择个人/企业开发的指令库--->即可看到自己开发的或企业开发的指令库
+
+![自定义指令 示意图 27](images/custom-instructions-27.png)
+
+## 三、指令库管理
+
+![自定义指令 示意图 28](images/custom-instructions-28.png)
+
+### 指令库管理界面
+
+- 新建/编辑指令库
+- 查看指令库详情：可看到指令库中包含哪些指令
+
+![自定义指令 示意图 29](images/custom-instructions-29.png)
+
+- 拷贝为副本
+- 删除：删除指令库后会进入回收站，可以在回收站找回
+
+### 指令库分组
+
+当指令库比较多时，可以对指令库进行分组存放
+
+- 新建分组
+
+<table>
+  <tbody>
+    <tr>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-30.png" alt="自定义指令 示意图 30" />
+      </td>
+      <td style={{ verticalAlign: 'top', textAlign: 'center' }}>
+        <img src="images/custom-instructions-31.png" alt="自定义指令 示意图 31" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+- 将指令库移动到分组
+
+![自定义指令 示意图 32](images/custom-instructions-32.png)
+
+### 直接发版
+
+v2.4以下版本需在指令库内部（即编辑页面）发版，v2.4及以上版本支持直接在指令库列表页发版
+
+![自定义指令 示意图 33](images/custom-instructions-33.png)
+
+### 复制到企业
+
+当从个人版升级到企业版时，可以将个人版开发的指令库一键迁移到企业版
+
+## 四、指令管理
+
+![自定义指令 示意图 34](images/custom-instructions-34.png)
+
+- ①新建自定义指令：和新建子流程交互一致
+- ②指令库预览：可以查看当前指令库包含的指令及每个自定义指令的界面预览
+- ③预览及编辑：可以编辑自定义指令的名称、描述、参数顺序、参数的名称、描述、控件设置等
+- ④指令的显示设置：眼睛处于睁开的状态时，表示发版后其他应用/指令库可以使用该自定义指令；  闭上时，在其他应用或者指令库编辑的时候，看不到该自定义指令
+
+![自定义指令 示意图 35](images/custom-instructions-35.png)
+
+- ⑤变量的新增与引用关系查看，与流程一致
+
+## 五、调用其他指令
+
+![自定义指令 示意图 36](images/custom-instructions-36.png)
+
+- 为提高流程的复用性，当指令库中多个自定义指令中部分流程片段可以复用，就可以将它单独拿出来，设置为隐藏的自定义指令，然后在其他指令中进行调用
+
+## 六、拓展指令
+
+![自定义指令 示意图 37](images/custom-instructions-37.png)
+
+- 在应用和指令库中，都可以使用已封装好的指令库（不能自己调用自己）
+- 自己发版的指令库和官方指令库都可以在此处进行查找和使用
+- 找到目标指令直接拖入流程中即可
+- 我的tab可查看当前应用/指令库用到的所有指令库，当指令库有更新时，会出现更新提醒，可以单个指令库更新、也可以进行批量更新
+
+## 七、指令库加载
+
+- 当应用打开/运行时，会自动安装需要的的指令库
+- 当依赖个人开发的指令库的应用被分享时，接受应用的用户同时会获得指令库的使用权限，即在当前应用中可以使用该指令库，其他应用/指令库将无法获得该指令库
+- 版本兼容规则：
+  - 安装指令库只可安装最新版本，由于存在已安装未更新的用户，因此所有版本需要保留，不提供安装入口
+  - 当已安装的指令库有依赖冲突时，遵循向上更新原则，即当依赖多个指令库的多个版本时，默认使用最新的那个版本
+
+
+<Info>
+  使用过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>
