@@ -720,10 +720,36 @@
                 "group": "自定义指令",
                 "pages": [
                   "commands/custom-commands",
-                  "commands/custom-commands/geamt8fB",
-                  "commands/custom-commands/Xtu3Dyv8",
+                  {
+                    "group": "领星",
+                    "pages": [
+                      "commands/custom-commands/geamt8fB",
+                      "commands/custom-commands/geamt8fB/sUuGTZYW",
+                      "commands/custom-commands/geamt8fB/yeojvyAh",
+                      "commands/custom-commands/geamt8fB/FJ3ygad2",
+                      "commands/custom-commands/geamt8fB/5Tr8RgL5",
+                      "commands/custom-commands/geamt8fB/YV2A7U2n",
+                      "commands/custom-commands/geamt8fB/h0zP5MpJ",
+                      "commands/custom-commands/geamt8fB/6StCJnIc",
+                      "commands/custom-commands/geamt8fB/yiYXhd91",
+                      "commands/custom-commands/geamt8fB/NKTlgymZ"
+                    ]
+                  },
+                  {
+                    "group": "Xtu3Dyv8",
+                    "pages": [
+                      "commands/custom-commands/Xtu3Dyv8",
+                      "commands/custom-commands/Xtu3Dyv8/dS9s1k7L"
+                    ]
+                  },
                   "commands/custom-commands/VELzT4An",
-                  "commands/custom-commands/i2Vbj6Mp",
+                  {
+                    "group": "i2Vbj6Mp",
+                    "pages": [
+                      "commands/custom-commands/i2Vbj6Mp",
+                      "commands/custom-commands/i2Vbj6Mp/h4OBJkuE"
+                    ]
+                  },
                   "commands/custom-commands/jquCesST",
                   "commands/custom-commands/uos2FTti",
                   "commands/custom-commands/WUaZ9OD5",
