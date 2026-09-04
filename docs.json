@@ -2283,7 +2283,10 @@
           {
             "group": "常见问题",
             "pages": [
-              "faq/index"
+              "faq/index",
+              "faq/invoice",
+              "faq/contract",
+              "faq/trial"
             ]
           }
         ]
