@@ -217,61 +217,6 @@
             "pages": [
               "commands/index",
               {
-                "group": "自定义指令",
-                "pages": [
-                  "commands/custom-commands",
-                  "commands/custom-commands/geamt8fB",
-                  "commands/custom-commands/Xtu3Dyv8",
-                  "commands/custom-commands/VELzT4An",
-                  "commands/custom-commands/i2Vbj6Mp",
-                  "commands/custom-commands/jquCesST",
-                  "commands/custom-commands/uos2FTti",
-                  "commands/custom-commands/WUaZ9OD5",
-                  "commands/custom-commands/l07xRYCO",
-                  "commands/custom-commands/MUp389Nn",
-                  "commands/custom-commands/mgm31c66",
-                  "commands/custom-commands/Lns7pWTD",
-                  "commands/custom-commands/omvbGGz8",
-                  "commands/custom-commands/erppqQCG",
-                  "commands/custom-commands/4idwqdY1",
-                  "commands/custom-commands/zrc4euWH",
-                  "commands/custom-commands/ddzvAqho",
-                  "commands/custom-commands/ydwM0rdV",
-                  "commands/custom-commands/i3bYn9Bi",
-                  "commands/custom-commands/dCC9IWCX",
-                  "commands/custom-commands/V1onGstT",
-                  "commands/custom-commands/0aiMC2AD",
-                  "commands/custom-commands/Aj968baR",
-                  "commands/custom-commands/s7MXdQqb",
-                  "commands/custom-commands/Ceg9LU3P",
-                  "commands/custom-commands/X9y9hoGF",
-                  "commands/custom-commands/enIp28fZ",
-                  "commands/custom-commands/kjgGHIxB",
-                  "commands/custom-commands/KV38p4AB",
-                  "commands/custom-commands/3Mfzm9Dm",
-                  "commands/custom-commands/6gIhBk4t",
-                  "commands/custom-commands/7azccbR1",
-                  "commands/custom-commands/3UkAyWdw",
-                  "commands/custom-commands/PCzJT28C",
-                  "commands/custom-commands/IPzFl8Q0",
-                  "commands/custom-commands/vbovV1TE",
-                  "commands/custom-commands/e2VDOh3F",
-                  "commands/custom-commands/lEaGzf0g",
-                  "commands/custom-commands/qY0qNESl",
-                  "commands/custom-commands/1Mx3hPN3",
-                  "commands/custom-commands/LJ266EjC",
-                  "commands/custom-commands/LkbkmUwS",
-                  "commands/custom-commands/33yICBTY",
-                  "commands/custom-commands/msJPZK69",
-                  "commands/custom-commands/fOsRqewt",
-                  "commands/custom-commands/xF5HuUG3",
-                  "commands/custom-commands/6al1zLV3",
-                  "commands/custom-commands/UhnaM6xD",
-                  "commands/custom-commands/izPi8DRQ",
-                  "commands/custom-commands/GryXohUi"
-                ]
-              },
-              {
                 "group": "条件判断",
                 "pages": [
                   "commands/condition",
@@ -770,6 +715,150 @@
                   "commands/others/commentcommand",
                   "commands/others/zKl2eg"
                 ]
+              },
+              {
+                "group": "自定义指令",
+                "pages": [
+                  "commands/custom-commands",
+                  "commands/custom-commands/geamt8fB",
+                  "commands/custom-commands/Xtu3Dyv8",
+                  "commands/custom-commands/VELzT4An",
+                  "commands/custom-commands/i2Vbj6Mp",
+                  "commands/custom-commands/jquCesST",
+                  "commands/custom-commands/uos2FTti",
+                  "commands/custom-commands/WUaZ9OD5",
+                  "commands/custom-commands/l07xRYCO",
+                  "commands/custom-commands/MUp389Nn",
+                  "commands/custom-commands/mgm31c66",
+                  "commands/custom-commands/Lns7pWTD",
+                  "commands/custom-commands/omvbGGz8",
+                  "commands/custom-commands/erppqQCG",
+                  "commands/custom-commands/4idwqdY1",
+                  "commands/custom-commands/zrc4euWH",
+                  "commands/custom-commands/ddzvAqho",
+                  "commands/custom-commands/ydwM0rdV",
+                  "commands/custom-commands/i3bYn9Bi",
+                  "commands/custom-commands/dCC9IWCX",
+                  "commands/custom-commands/V1onGstT",
+                  "commands/custom-commands/0aiMC2AD",
+                  "commands/custom-commands/Aj968baR",
+                  "commands/custom-commands/s7MXdQqb",
+                  "commands/custom-commands/Ceg9LU3P",
+                  "commands/custom-commands/X9y9hoGF",
+                  "commands/custom-commands/enIp28fZ",
+                  "commands/custom-commands/kjgGHIxB",
+                  "commands/custom-commands/KV38p4AB",
+                  "commands/custom-commands/3Mfzm9Dm",
+                  "commands/custom-commands/6gIhBk4t",
+                  "commands/custom-commands/7azccbR1",
+                  "commands/custom-commands/3UkAyWdw",
+                  "commands/custom-commands/PCzJT28C",
+                  "commands/custom-commands/IPzFl8Q0",
+                  "commands/custom-commands/vbovV1TE",
+                  "commands/custom-commands/e2VDOh3F",
+                  "commands/custom-commands/lEaGzf0g",
+                  "commands/custom-commands/qY0qNESl",
+                  "commands/custom-commands/1Mx3hPN3",
+                  "commands/custom-commands/LJ266EjC",
+                  "commands/custom-commands/LkbkmUwS",
+                  "commands/custom-commands/33yICBTY",
+                  "commands/custom-commands/msJPZK69",
+                  "commands/custom-commands/fOsRqewt",
+                  "commands/custom-commands/xF5HuUG3",
+                  "commands/custom-commands/6al1zLV3",
+                  "commands/custom-commands/UhnaM6xD",
+                  "commands/custom-commands/izPi8DRQ",
+                  "commands/custom-commands/GryXohUi",
+                  "commands/custom-commands/qG1ZtY0b",
+                  "commands/custom-commands/78ZRQqZn",
+                  "commands/custom-commands/oDlW5N0V",
+                  "commands/custom-commands/3fuFVrzV",
+                  "commands/custom-commands/xvQDnY8i",
+                  "commands/custom-commands/NHBfnqWs",
+                  "commands/custom-commands/fCsyT6ZR",
+                  "commands/custom-commands/kzKoiPrG",
+                  "commands/custom-commands/qDplxJQw",
+                  "commands/custom-commands/EyBKMzyg",
+                  "commands/custom-commands/dMoD38Uc",
+                  "commands/custom-commands/GBfovRGB",
+                  "commands/custom-commands/p798DRLy",
+                  "commands/custom-commands/f91o8fca",
+                  "commands/custom-commands/qhxMo72w",
+                  "commands/custom-commands/sYFxBzMP",
+                  "commands/custom-commands/uNIus2vU",
+                  "commands/custom-commands/1u00DG7N",
+                  "commands/custom-commands/AJpKshiX",
+                  "commands/custom-commands/fJksXtYm",
+                  "commands/custom-commands/wZRI9WUn",
+                  "commands/custom-commands/8m0H51QT",
+                  "commands/custom-commands/ssmPSj2C",
+                  "commands/custom-commands/5BrGFFx8",
+                  "commands/custom-commands/KYyCjmmr",
+                  "commands/custom-commands/zBGOBChD",
+                  "commands/custom-commands/dgJnkd3n",
+                  "commands/custom-commands/tthCbB78",
+                  "commands/custom-commands/1KkfZwRO",
+                  "commands/custom-commands/53yEcCdf",
+                  "commands/custom-commands/2OceBTsN",
+                  "commands/custom-commands/V1gHrmUY",
+                  "commands/custom-commands/MtBiYKy9",
+                  "commands/custom-commands/jTcxLSvQ",
+                  "commands/custom-commands/WPcIjSAQ",
+                  "commands/custom-commands/i7qgA3P8",
+                  "commands/custom-commands/R0ZmlHbO",
+                  "commands/custom-commands/1p4v2d7C",
+                  "commands/custom-commands/3Yl16hhX",
+                  "commands/custom-commands/3ieiMG37",
+                  "commands/custom-commands/RGdmDqgR",
+                  "commands/custom-commands/JB70O3jQ",
+                  "commands/custom-commands/ccTJLCKF",
+                  "commands/custom-commands/0P0AJees",
+                  "commands/custom-commands/csJFKroT",
+                  "commands/custom-commands/MvRDK6jj",
+                  "commands/custom-commands/iv0QatqN",
+                  "commands/custom-commands/9a2FdLks",
+                  "commands/custom-commands/6958FmJ9",
+                  "commands/custom-commands/JIoEqoH7",
+                  "commands/custom-commands/9UYlV3Zl",
+                  "commands/custom-commands/Hvnysjje",
+                  "commands/custom-commands/CN8Zsocz",
+                  "commands/custom-commands/EkSERr7c",
+                  "commands/custom-commands/RVYmIry3",
+                  "commands/custom-commands/cQFHHWNi",
+                  "commands/custom-commands/bceHSvPZ",
+                  "commands/custom-commands/j3MiFQmW",
+                  "commands/custom-commands/i1M7Xuxo",
+                  "commands/custom-commands/PlI7Bpwr",
+                  "commands/custom-commands/JOWLco7H",
+                  "commands/custom-commands/osLCw7h6",
+                  "commands/custom-commands/CXxsV3PC",
+                  "commands/custom-commands/JsvYpNwh",
+                  "commands/custom-commands/ZVjD40K2",
+                  "commands/custom-commands/STxtrDNr",
+                  "commands/custom-commands/ldDUGARB",
+                  "commands/custom-commands/d3IrwX7D",
+                  "commands/custom-commands/QRUYUdHt",
+                  "commands/custom-commands/hxOU6Ggj",
+                  "commands/custom-commands/BRCuvdq6",
+                  "commands/custom-commands/xvTWXEqU",
+                  "commands/custom-commands/Vrp2k185",
+                  "commands/custom-commands/h09s9ExE",
+                  "commands/custom-commands/nK3iyynl",
+                  "commands/custom-commands/aOPex9i0",
+                  "commands/custom-commands/FBcnoIEg",
+                  "commands/custom-commands/FixuP4np",
+                  "commands/custom-commands/u5ulG59q",
+                  "commands/custom-commands/ocRRBq0s",
+                  "commands/custom-commands/z22Iz6ig",
+                  "commands/custom-commands/OisA7UK5",
+                  "commands/custom-commands/yCFia8v3",
+                  "commands/custom-commands/Ph62jMtp",
+                  "commands/custom-commands/JTm1cTKK",
+                  "commands/custom-commands/DtZSARDl",
+                  "commands/custom-commands/3xcMJEn2",
+                  "commands/custom-commands/a4TH5A1N",
+                  "commands/custom-commands/JbQaSa4r"
+                ]
               }
             ]
           }
@@ -1002,12 +1091,40 @@
       "destination": "/commands/custom-commands/0aiMC2AD"
     },
     {
+      "source": "/commands/0P0AJees",
+      "destination": "/commands/custom-commands/0P0AJees"
+    },
+    {
+      "source": "/commands/1KkfZwRO",
+      "destination": "/commands/custom-commands/1KkfZwRO"
+    },
+    {
       "source": "/commands/1Mx3hPN3",
       "destination": "/commands/custom-commands/1Mx3hPN3"
     },
     {
+      "source": "/commands/1p4v2d7C",
+      "destination": "/commands/custom-commands/1p4v2d7C"
+    },
+    {
+      "source": "/commands/1u00DG7N",
+      "destination": "/commands/custom-commands/1u00DG7N"
+    },
+    {
+      "source": "/commands/2OceBTsN",
+      "destination": "/commands/custom-commands/2OceBTsN"
+    },
+    {
       "source": "/commands/33yICBTY",
       "destination": "/commands/custom-commands/33yICBTY"
+    },
+    {
+      "source": "/commands/3fuFVrzV",
+      "destination": "/commands/custom-commands/3fuFVrzV"
+    },
+    {
+      "source": "/commands/3ieiMG37",
+      "destination": "/commands/custom-commands/3ieiMG37"
     },
     {
       "source": "/commands/3Mfzm9Dm",
@@ -1018,8 +1135,28 @@
       "destination": "/commands/custom-commands/3UkAyWdw"
     },
     {
+      "source": "/commands/3xcMJEn2",
+      "destination": "/commands/custom-commands/3xcMJEn2"
+    },
+    {
+      "source": "/commands/3Yl16hhX",
+      "destination": "/commands/custom-commands/3Yl16hhX"
+    },
+    {
       "source": "/commands/4idwqdY1",
       "destination": "/commands/custom-commands/4idwqdY1"
+    },
+    {
+      "source": "/commands/53yEcCdf",
+      "destination": "/commands/custom-commands/53yEcCdf"
+    },
+    {
+      "source": "/commands/5BrGFFx8",
+      "destination": "/commands/custom-commands/5BrGFFx8"
+    },
+    {
+      "source": "/commands/6958FmJ9",
+      "destination": "/commands/custom-commands/6958FmJ9"
     },
     {
       "source": "/commands/6al1zLV3",
@@ -1030,16 +1167,76 @@
       "destination": "/commands/custom-commands/6gIhBk4t"
     },
     {
+      "source": "/commands/78ZRQqZn",
+      "destination": "/commands/custom-commands/78ZRQqZn"
+    },
+    {
       "source": "/commands/7azccbR1",
       "destination": "/commands/custom-commands/7azccbR1"
+    },
+    {
+      "source": "/commands/8m0H51QT",
+      "destination": "/commands/custom-commands/8m0H51QT"
+    },
+    {
+      "source": "/commands/9a2FdLks",
+      "destination": "/commands/custom-commands/9a2FdLks"
+    },
+    {
+      "source": "/commands/9UYlV3Zl",
+      "destination": "/commands/custom-commands/9UYlV3Zl"
+    },
+    {
+      "source": "/commands/a4TH5A1N",
+      "destination": "/commands/custom-commands/a4TH5A1N"
     },
     {
       "source": "/commands/Aj968baR",
       "destination": "/commands/custom-commands/Aj968baR"
     },
     {
+      "source": "/commands/AJpKshiX",
+      "destination": "/commands/custom-commands/AJpKshiX"
+    },
+    {
+      "source": "/commands/aOPex9i0",
+      "destination": "/commands/custom-commands/aOPex9i0"
+    },
+    {
+      "source": "/commands/bceHSvPZ",
+      "destination": "/commands/custom-commands/bceHSvPZ"
+    },
+    {
+      "source": "/commands/BRCuvdq6",
+      "destination": "/commands/custom-commands/BRCuvdq6"
+    },
+    {
+      "source": "/commands/ccTJLCKF",
+      "destination": "/commands/custom-commands/ccTJLCKF"
+    },
+    {
       "source": "/commands/Ceg9LU3P",
       "destination": "/commands/custom-commands/Ceg9LU3P"
+    },
+    {
+      "source": "/commands/CN8Zsocz",
+      "destination": "/commands/custom-commands/CN8Zsocz"
+    },
+    {
+      "source": "/commands/cQFHHWNi",
+      "destination": "/commands/custom-commands/cQFHHWNi"
+    },
+    {
+      "source": "/commands/csJFKroT",
+      "destination": "/commands/custom-commands/csJFKroT"
+    },
+    {
+      "source": "/commands/CXxsV3PC",
+      "destination": "/commands/custom-commands/CXxsV3PC"
+    },
+    {
+      "source": "/commands/d3IrwX7D",
+      "destination": "/commands/custom-commands/d3IrwX7D"
     },
     {
       "source": "/commands/dCC9IWCX",
@@ -1050,8 +1247,24 @@
       "destination": "/commands/custom-commands/ddzvAqho"
     },
     {
+      "source": "/commands/dgJnkd3n",
+      "destination": "/commands/custom-commands/dgJnkd3n"
+    },
+    {
+      "source": "/commands/dMoD38Uc",
+      "destination": "/commands/custom-commands/dMoD38Uc"
+    },
+    {
+      "source": "/commands/DtZSARDl",
+      "destination": "/commands/custom-commands/DtZSARDl"
+    },
+    {
       "source": "/commands/e2VDOh3F",
       "destination": "/commands/custom-commands/e2VDOh3F"
+    },
+    {
+      "source": "/commands/EkSERr7c",
+      "destination": "/commands/custom-commands/EkSERr7c"
     },
     {
       "source": "/commands/enIp28fZ",
@@ -1062,8 +1275,36 @@
       "destination": "/commands/custom-commands/erppqQCG"
     },
     {
+      "source": "/commands/EyBKMzyg",
+      "destination": "/commands/custom-commands/EyBKMzyg"
+    },
+    {
+      "source": "/commands/f91o8fca",
+      "destination": "/commands/custom-commands/f91o8fca"
+    },
+    {
+      "source": "/commands/FBcnoIEg",
+      "destination": "/commands/custom-commands/FBcnoIEg"
+    },
+    {
+      "source": "/commands/fCsyT6ZR",
+      "destination": "/commands/custom-commands/fCsyT6ZR"
+    },
+    {
+      "source": "/commands/FixuP4np",
+      "destination": "/commands/custom-commands/FixuP4np"
+    },
+    {
+      "source": "/commands/fJksXtYm",
+      "destination": "/commands/custom-commands/fJksXtYm"
+    },
+    {
       "source": "/commands/fOsRqewt",
       "destination": "/commands/custom-commands/fOsRqewt"
+    },
+    {
+      "source": "/commands/GBfovRGB",
+      "destination": "/commands/custom-commands/GBfovRGB"
     },
     {
       "source": "/commands/geamt8fB",
@@ -1074,6 +1315,22 @@
       "destination": "/commands/custom-commands/GryXohUi"
     },
     {
+      "source": "/commands/h09s9ExE",
+      "destination": "/commands/custom-commands/h09s9ExE"
+    },
+    {
+      "source": "/commands/Hvnysjje",
+      "destination": "/commands/custom-commands/Hvnysjje"
+    },
+    {
+      "source": "/commands/hxOU6Ggj",
+      "destination": "/commands/custom-commands/hxOU6Ggj"
+    },
+    {
+      "source": "/commands/i1M7Xuxo",
+      "destination": "/commands/custom-commands/i1M7Xuxo"
+    },
+    {
       "source": "/commands/i2Vbj6Mp",
       "destination": "/commands/custom-commands/i2Vbj6Mp"
     },
@@ -1082,16 +1339,56 @@
       "destination": "/commands/custom-commands/i3bYn9Bi"
     },
     {
+      "source": "/commands/i7qgA3P8",
+      "destination": "/commands/custom-commands/i7qgA3P8"
+    },
+    {
       "source": "/commands/IPzFl8Q0",
       "destination": "/commands/custom-commands/IPzFl8Q0"
+    },
+    {
+      "source": "/commands/iv0QatqN",
+      "destination": "/commands/custom-commands/iv0QatqN"
     },
     {
       "source": "/commands/izPi8DRQ",
       "destination": "/commands/custom-commands/izPi8DRQ"
     },
     {
+      "source": "/commands/j3MiFQmW",
+      "destination": "/commands/custom-commands/j3MiFQmW"
+    },
+    {
+      "source": "/commands/JB70O3jQ",
+      "destination": "/commands/custom-commands/JB70O3jQ"
+    },
+    {
+      "source": "/commands/JbQaSa4r",
+      "destination": "/commands/custom-commands/JbQaSa4r"
+    },
+    {
+      "source": "/commands/JIoEqoH7",
+      "destination": "/commands/custom-commands/JIoEqoH7"
+    },
+    {
+      "source": "/commands/JOWLco7H",
+      "destination": "/commands/custom-commands/JOWLco7H"
+    },
+    {
       "source": "/commands/jquCesST",
       "destination": "/commands/custom-commands/jquCesST"
+    },
+    {
+      "source": "/commands/JsvYpNwh",
+      "destination": "/commands/custom-commands/JsvYpNwh"
+    },
+    {
+      "source": "/commands/jTcxLSvQ",
+      "destination": "/commands/custom-commands/jTcxLSvQ"
+    },
+    {
+      "source": "/commands/JTm1cTKK",
+      "destination": "/commands/custom-commands/JTm1cTKK"
     },
     {
       "source": "/commands/kjgGHIxB",
@@ -1102,8 +1399,20 @@
       "destination": "/commands/custom-commands/KV38p4AB"
     },
     {
+      "source": "/commands/KYyCjmmr",
+      "destination": "/commands/custom-commands/KYyCjmmr"
+    },
+    {
+      "source": "/commands/kzKoiPrG",
+      "destination": "/commands/custom-commands/kzKoiPrG"
+    },
+    {
       "source": "/commands/l07xRYCO",
       "destination": "/commands/custom-commands/l07xRYCO"
+    },
+    {
+      "source": "/commands/ldDUGARB",
+      "destination": "/commands/custom-commands/ldDUGARB"
     },
     {
       "source": "/commands/lEaGzf0g",
@@ -1130,32 +1439,132 @@
       "destination": "/commands/custom-commands/msJPZK69"
     },
     {
+      "source": "/commands/MtBiYKy9",
+      "destination": "/commands/custom-commands/MtBiYKy9"
+    },
+    {
       "source": "/commands/MUp389Nn",
       "destination": "/commands/custom-commands/MUp389Nn"
+    },
+    {
+      "source": "/commands/MvRDK6jj",
+      "destination": "/commands/custom-commands/MvRDK6jj"
+    },
+    {
+      "source": "/commands/NHBfnqWs",
+      "destination": "/commands/custom-commands/NHBfnqWs"
+    },
+    {
+      "source": "/commands/nK3iyynl",
+      "destination": "/commands/custom-commands/nK3iyynl"
+    },
+    {
+      "source": "/commands/ocRRBq0s",
+      "destination": "/commands/custom-commands/ocRRBq0s"
+    },
+    {
+      "source": "/commands/oDlW5N0V",
+      "destination": "/commands/custom-commands/oDlW5N0V"
+    },
+    {
+      "source": "/commands/OisA7UK5",
+      "destination": "/commands/custom-commands/OisA7UK5"
     },
     {
       "source": "/commands/omvbGGz8",
       "destination": "/commands/custom-commands/omvbGGz8"
     },
     {
+      "source": "/commands/osLCw7h6",
+      "destination": "/commands/custom-commands/osLCw7h6"
+    },
+    {
+      "source": "/commands/p798DRLy",
+      "destination": "/commands/custom-commands/p798DRLy"
+    },
+    {
       "source": "/commands/PCzJT28C",
       "destination": "/commands/custom-commands/PCzJT28C"
+    },
+    {
+      "source": "/commands/Ph62jMtp",
+      "destination": "/commands/custom-commands/Ph62jMtp"
+    },
+    {
+      "source": "/commands/PlI7Bpwr",
+      "destination": "/commands/custom-commands/PlI7Bpwr"
+    },
+    {
+      "source": "/commands/qDplxJQw",
+      "destination": "/commands/custom-commands/qDplxJQw"
+    },
+    {
+      "source": "/commands/qG1ZtY0b",
+      "destination": "/commands/custom-commands/qG1ZtY0b"
+    },
+    {
+      "source": "/commands/qhxMo72w",
+      "destination": "/commands/custom-commands/qhxMo72w"
+    },
+    {
+      "source": "/commands/QRUYUdHt",
+      "destination": "/commands/custom-commands/QRUYUdHt"
     },
     {
       "source": "/commands/qY0qNESl",
       "destination": "/commands/custom-commands/qY0qNESl"
     },
     {
+      "source": "/commands/R0ZmlHbO",
+      "destination": "/commands/custom-commands/R0ZmlHbO"
+    },
+    {
+      "source": "/commands/RGdmDqgR",
+      "destination": "/commands/custom-commands/RGdmDqgR"
+    },
+    {
+      "source": "/commands/RVYmIry3",
+      "destination": "/commands/custom-commands/RVYmIry3"
+    },
+    {
       "source": "/commands/s7MXdQqb",
       "destination": "/commands/custom-commands/s7MXdQqb"
+    },
+    {
+      "source": "/commands/ssmPSj2C",
+      "destination": "/commands/custom-commands/ssmPSj2C"
+    },
+    {
+      "source": "/commands/STxtrDNr",
+      "destination": "/commands/custom-commands/STxtrDNr"
+    },
+    {
+      "source": "/commands/sYFxBzMP",
+      "destination": "/commands/custom-commands/sYFxBzMP"
+    },
+    {
+      "source": "/commands/tthCbB78",
+      "destination": "/commands/custom-commands/tthCbB78"
+    },
+    {
+      "source": "/commands/u5ulG59q",
+      "destination": "/commands/custom-commands/u5ulG59q"
     },
     {
       "source": "/commands/UhnaM6xD",
       "destination": "/commands/custom-commands/UhnaM6xD"
     },
     {
+      "source": "/commands/uNIus2vU",
+      "destination": "/commands/custom-commands/uNIus2vU"
+    },
+    {
       "source": "/commands/uos2FTti",
       "destination": "/commands/custom-commands/uos2FTti"
+    },
+    {
+      "source": "/commands/V1gHrmUY",
+      "destination": "/commands/custom-commands/V1gHrmUY"
     },
     {
       "source": "/commands/V1onGstT",
@@ -1170,8 +1579,20 @@
       "destination": "/commands/custom-commands/VELzT4An"
     },
     {
+      "source": "/commands/Vrp2k185",
+      "destination": "/commands/custom-commands/Vrp2k185"
+    },
+    {
+      "source": "/commands/WPcIjSAQ",
+      "destination": "/commands/custom-commands/WPcIjSAQ"
+    },
+    {
       "source": "/commands/WUaZ9OD5",
       "destination": "/commands/custom-commands/WUaZ9OD5"
+    },
+    {
+      "source": "/commands/wZRI9WUn",
+      "destination": "/commands/custom-commands/wZRI9WUn"
     },
     {
       "source": "/commands/X9y9hoGF",
@@ -1186,12 +1607,36 @@
       "destination": "/commands/custom-commands/Xtu3Dyv8"
     },
     {
+      "source": "/commands/xvQDnY8i",
+      "destination": "/commands/custom-commands/xvQDnY8i"
+    },
+    {
+      "source": "/commands/xvTWXEqU",
+      "destination": "/commands/custom-commands/xvTWXEqU"
+    },
+    {
+      "source": "/commands/yCFia8v3",
+      "destination": "/commands/custom-commands/yCFia8v3"
+    },
+    {
       "source": "/commands/ydwM0rdV",
       "destination": "/commands/custom-commands/ydwM0rdV"
     },
     {
+      "source": "/commands/z22Iz6ig",
+      "destination": "/commands/custom-commands/z22Iz6ig"
+    },
+    {
+      "source": "/commands/zBGOBChD",
+      "destination": "/commands/custom-commands/zBGOBChD"
+    },
+    {
       "source": "/commands/zrc4euWH",
       "destination": "/commands/custom-commands/zrc4euWH"
+    },
+    {
+      "source": "/commands/ZVjD40K2",
+      "destination": "/commands/custom-commands/ZVjD40K2"
     },
     {
       "source": "/commands/appendprefixorsuffixcommand",
