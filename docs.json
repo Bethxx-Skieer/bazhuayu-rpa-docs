@@ -10,7 +10,8 @@
   },
   "logo": {
     "light": "logo.png",
-    "dark": "logo.png"
+    "dark": "logo.png",
+    "href": "https://rpa.bazhuayu.com/helpcenter"
   },
   "favicon": "favicon.png",
   "navigation": {
