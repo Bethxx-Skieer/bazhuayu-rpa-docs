@@ -2344,10 +2344,6 @@
       "destination": "/features/personal-center/settings"
     },
     {
-      "source": "/docs/4yxCHu",
-      "destination": "/features/personal-center/settings"
-    },
-    {
       "source": "/commands/extractentitycommand",
       "destination": "/commands/ai/extractentitycommand"
     },
