@@ -2340,6 +2340,10 @@
   },
   "redirects": [
     {
+      "source": "/commands/4yxCHu",
+      "destination": "/features/personal-center/settings"
+    },
+    {
       "source": "/docs/4yxCHu",
       "destination": "/features/personal-center/settings"
     },
