@@ -177,6 +177,22 @@
                   "features/personal-center",
                   "features/personal-center/settings",
                   "features/personal-center/tools",
+                  {
+                    "group": "自动化插件",
+                    "pages": [
+                      "features/personal-center/auto-plugin/q2Ivzn",
+                      "features/personal-center/auto-plugin/Os69TK",
+                      "features/personal-center/auto-plugin/zOC8rB",
+                      "features/personal-center/auto-plugin/8l9W7G52",
+                      "features/personal-center/auto-plugin/uTSGTC",
+                      "features/personal-center/auto-plugin/BoTKS53P",
+                      "features/personal-center/auto-plugin/ANs4nwbf",
+                      "features/personal-center/auto-plugin/o9reyKNm",
+                      "features/personal-center/auto-plugin/Qo8fYFlO",
+                      "features/personal-center/auto-plugin/bm0HMyD8",
+                      "features/personal-center/auto-plugin/HbD76JsA"
+                    ]
+                  },
                   "features/personal-center/developer-center"
                 ]
               },
