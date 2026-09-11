@@ -2324,7 +2324,7 @@
   },
   "redirects": [
     {
-      "source": "/commands/zzztest444",
+      "source": "/docs/4yxCHu",
       "destination": "/features/personal-center/settings"
     },
     {
@@ -7126,10 +7126,6 @@
     {
       "source": "/guides/custom-instructions",
       "destination": "/commands/custom-commands"
-    },
-    {
-      "source": "/docs/4yxCHu",
-      "destination": "/features/personal-center/settings"
     }
   ]
 }
