@@ -2324,6 +2324,10 @@
   },
   "redirects": [
     {
+      "source": "/commands/zzztest444",
+      "destination": "/features/personal-center/settings"
+    },
+    {
       "source": "/commands/extractentitycommand",
       "destination": "/commands/ai/extractentitycommand"
     },
