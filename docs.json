@@ -2340,6 +2340,34 @@
   },
   "redirects": [
     {
+      "source": "/commands/NcWRaj2c",
+      "destination": "/guides/ai-write-flow"
+    },
+    {
+      "source": "/commands/6l8rD8",
+      "destination": "https://rpa.bazhuayu.com/community/question/246"
+    },
+    {
+      "source": "/commands/utsgtc",
+      "destination": "/features/personal-center/auto-plugin/uTSGTC"
+    },
+    {
+      "source": "/commands/uTSGTC",
+      "destination": "/features/personal-center/auto-plugin/uTSGTC"
+    },
+    {
+      "source": "/commands/l295wI",
+      "destination": "/features/personal-center/auto-plugin/q2Ivzn"
+    },
+    {
+      "source": "/commands/knFacM",
+      "destination": "/features/personal-center/auto-plugin/Os69TK"
+    },
+    {
+      "source": "/commands/zOC8rB",
+      "destination": "/features/personal-center/auto-plugin/zOC8rB"
+    },
+    {
       "source": "/commands/4yxCHu",
       "destination": "/features/personal-center/settings"
     },
