@@ -56,9 +56,49 @@ description: "账号与偏好设置。"
 
 ### 异常提醒
 
-触发任务异常时可向指定通知渠道发送信息提醒，通知渠道包含邮件、飞书群通知、企业微信群、钉钉群。
+**描述：**当触发任务勾选了“任务异常提醒”，执行失败后将会按您配置的通知渠道发送异常信息提醒。触发任务，需在触发器中设置。通知渠道支持邮件、飞书群通知、企业微信群、钉钉群通知。
 
-![设置 - 异常提醒](images/Gc48az-settings-alert.png)
+![设置 - 异常提醒总览](images/settings-alert-overview.png)
+
+#### 邮件
+
+添加接收异常信息的邮件地址，如需多个邮箱点击 + 号，添加多个输入框，每个输入框填写一个邮箱。
+
+如果未收到邮件，注意检查下是否被邮箱拦截或在垃圾箱中。
+
+![设置 - 异常提醒 - 邮件配置](images/settings-alert-email.png)
+
+异常提醒的消息样式：
+
+![设置 - 异常提醒 - 邮件消息样式](images/settings-alert-email-style.png)
+
+#### 飞书群通知
+
+填写飞书群的 Webhook 地址，飞书机器人的网络地址。飞书机器人设置可查看教程：[微信、飞书、钉钉群通知模块的使用](https://rpa.bazhuayu.com/helpcenter/docs/XZBe1j) 此处用的信息和【飞书群通知】指令中使用到的是一模一样的。
+
+在飞书机器人安全设置中勾选签名校验后会有一个密钥，此处填写该密钥。不勾选签名校验，此处可为空。
+
+![设置 - 异常提醒 - 飞书群配置](images/settings-alert-feishu.png)
+
+异常提醒的消息样式：
+
+![设置 - 异常提醒 - 飞书群消息样式](images/settings-alert-feishu-style.png)
+
+#### 企业微信群
+
+填写企业微信群的 Webhook 地址，企业微信机器人的网络地址。企业微信机器人设置可查看教程：[微信、飞书、钉钉群通知模块的使用](https://rpa.bazhuayu.com/helpcenter/docs/XZBe1j) 此处用的信息和【企业微信群通知】指令中使用到的是一模一样的。
+
+![设置 - 异常提醒 - 企业微信群配置](images/settings-alert-wecom.png)
+
+#### 钉钉群通知
+
+填写钉钉微信群的 Webhook 地址，钉钉机器人的网络地址。钉钉机器人设置可查看教程：[微信、飞书、钉钉群通知模块的使用](https://rpa.bazhuayu.com/helpcenter/docs/XZBe1j) 此处用的信息和【钉钉微信群通知】指令中使用到的是一模一样的。
+
+![设置 - 异常提醒 - 钉钉群配置](images/settings-alert-dingtalk.png)
+
+异常提醒的消息样式：
+
+![设置 - 异常提醒 - 钉钉群消息样式](images/settings-alert-dingtalk-style.png)
 
 ### 日志管理
 
