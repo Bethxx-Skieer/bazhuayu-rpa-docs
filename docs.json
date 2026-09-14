@@ -2340,6 +2340,166 @@
   },
   "redirects": [
     {
+      "source": "/commands/web_autohandlepopupcommand",
+      "destination": "/commands/web-automation/autohandlepopupcommand"
+    },
+    {
+      "source": "/commands/web_capturecommand",
+      "destination": "/commands/web-automation/capturecommand"
+    },
+    {
+      "source": "/commands/web_closepagecommand",
+      "destination": "/commands/web-automation/closepagecommand"
+    },
+    {
+      "source": "/commands/web_deletecookiecommand",
+      "destination": "/commands/web-automation/deletecookiecommand"
+    },
+    {
+      "source": "/commands/web_downloadcommand",
+      "destination": "/commands/web-automation/downloadcommand"
+    },
+    {
+      "source": "/commands/web_executejsfunctioncommand",
+      "destination": "/commands/web-automation/executejsfunctioncommand"
+    },
+    {
+      "source": "/commands/web_extractdatacommand",
+      "destination": "/commands/web-automation/extractdatacommand"
+    },
+    {
+      "source": "/commands/web_getcookiescommand",
+      "destination": "/commands/web-automation/getcookiescommand"
+    },
+    {
+      "source": "/commands/web_getelementattributecommand",
+      "destination": "/commands/web-automation/getelementattributecommand"
+    },
+    {
+      "source": "/commands/web_getelementobjectcommand",
+      "destination": "/commands/web-automation/getelementobjectcommand"
+    },
+    {
+      "source": "/commands/web_getmonitorresponsecommand",
+      "destination": "/commands/web-automation/getmonitorresponsecommand"
+    },
+    {
+      "source": "/commands/web_getopenedpagecommand",
+      "destination": "/commands/web-automation/getopenedpagecommand"
+    },
+    {
+      "source": "/commands/web_getpageattributecommand",
+      "destination": "/commands/web-automation/getpageattributecommand"
+    },
+    {
+      "source": "/commands/web_getselectelementoptionscommand",
+      "destination": "/commands/web-automation/getselectelementoptionscommand"
+    },
+    {
+      "source": "/commands/web_handlepopupcommand",
+      "destination": "/commands/web-automation/handlepopupcommand"
+    },
+    {
+      "source": "/commands/web_hoverelementcommand",
+      "destination": "/commands/web-automation/hoverelementcommand"
+    },
+    {
+      "source": "/commands/web_navigatecommand",
+      "destination": "/commands/web-automation/navigatecommand"
+    },
+    {
+      "source": "/commands/web_openpagecommand",
+      "destination": "/commands/web-automation/openpagecommand"
+    },
+    {
+      "source": "/commands/web_scrollcommand",
+      "destination": "/commands/web-automation/scrollcommand"
+    },
+    {
+      "source": "/commands/web_setcookiescommand",
+      "destination": "/commands/web-automation/setcookiescommand"
+    },
+    {
+      "source": "/commands/web_setelementattributecommand",
+      "destination": "/commands/web-automation/setelementattributecommand"
+    },
+    {
+      "source": "/commands/web_setselectelementoptioncommand",
+      "destination": "/commands/web-automation/setselectelementoptioncommand"
+    },
+    {
+      "source": "/commands/web_startmonitornetworkcommand",
+      "destination": "/commands/web-automation/startmonitornetworkcommand"
+    },
+    {
+      "source": "/commands/web_stopmonitornetworkcommand",
+      "destination": "/commands/web-automation/stopmonitornetworkcommand"
+    },
+    {
+      "source": "/commands/web_uploadcommand",
+      "destination": "/commands/web-automation/uploadcommand"
+    },
+    {
+      "source": "/commands/web_waitpagecontentcommand_1",
+      "destination": "/commands/web-automation/waitpagecontentcommand_1"
+    },
+    {
+      "source": "/commands/web_waitpageloadedcommand_1",
+      "destination": "/commands/web-automation/waitpageloadedcommand_1"
+    },
+    {
+      "source": "/commands/win_activewindowcommand",
+      "destination": "/commands/desktop-automation/activewindowcommand"
+    },
+    {
+      "source": "/commands/win_captureelementcommand",
+      "destination": "/commands/desktop-automation/captureelementcommand"
+    },
+    {
+      "source": "/commands/win_closewindowcommand",
+      "destination": "/commands/desktop-automation/closewindowcommand"
+    },
+    {
+      "source": "/commands/win_getcomboboxitemscommand",
+      "destination": "/commands/desktop-automation/getcomboboxitemscommand"
+    },
+    {
+      "source": "/commands/win_getwindowcommand",
+      "destination": "/commands/desktop-automation/getwindowcommand"
+    },
+    {
+      "source": "/commands/win_getwindowpropertycontentcommand",
+      "destination": "/commands/desktop-automation/getwindowpropertycontentcommand"
+    },
+    {
+      "source": "/commands/win_kj13ob",
+      "destination": "/commands/desktop-automation/kj13ob"
+    },
+    {
+      "source": "/commands/win_movewindowcommand",
+      "destination": "/commands/desktop-automation/movewindowcommand"
+    },
+    {
+      "source": "/commands/win_resizewindowcommand",
+      "destination": "/commands/desktop-automation/resizewindowcommand"
+    },
+    {
+      "source": "/commands/win_setcomboboxcommand",
+      "destination": "/commands/desktop-automation/setcomboboxcommand"
+    },
+    {
+      "source": "/commands/win_setwindowstatecommand",
+      "destination": "/commands/desktop-automation/setwindowstatecommand"
+    },
+    {
+      "source": "/commands/win_setwindowvisibilitycommand",
+      "destination": "/commands/desktop-automation/setwindowvisibilitycommand"
+    },
+    {
+      "source": "/commands/win_waitwindowcontentcommand",
+      "destination": "/commands/desktop-automation/waitwindowcontentcommand"
+    },
+    {
       "source": "/commands/InvokeSubflowCommand",
       "destination": "/commands/flow/invokesubflowcommand"
     },
