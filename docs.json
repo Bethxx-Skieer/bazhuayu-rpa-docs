@@ -2340,6 +2340,82 @@
   },
   "redirects": [
     {
+      "source": "/commands/4GiS1V",
+      "destination": "/getting-started/4GiS1V"
+    },
+    {
+      "source": "/commands/4xgOp7",
+      "destination": "/getting-started/examples/4xgOp7"
+    },
+    {
+      "source": "/commands/AddDataSheetColumnCommand",
+      "destination": "/commands/datatable/adddatasheetcolumncommand"
+    },
+    {
+      "source": "/commands/BreakCommand",
+      "destination": "/commands/loop/breakcommand"
+    },
+    {
+      "source": "/commands/CompressFileCommand",
+      "destination": "/commands/os/compressfilecommand"
+    },
+    {
+      "source": "/commands/ContinueCommand",
+      "destination": "/commands/loop/continuecommand"
+    },
+    {
+      "source": "/commands/DecompressFileCommand",
+      "destination": "/commands/os/decompressfilecommand"
+    },
+    {
+      "source": "/commands/ForeachCommand",
+      "destination": "/commands/loop/foreachcommand"
+    },
+    {
+      "source": "/commands/Gc48az",
+      "destination": "/getting-started/Gc48az"
+    },
+    {
+      "source": "/commands/InfiniteLoopCommand",
+      "destination": "/commands/loop/infiniteloopcommand"
+    },
+    {
+      "source": "/commands/LoopByCountCommand",
+      "destination": "/commands/loop/loopbycountcommand"
+    },
+    {
+      "source": "/commands/LoopDataSheetCommand",
+      "destination": "/commands/loop/loopdatasheetcommand"
+    },
+    {
+      "source": "/commands/LoopExcelSheetCommand",
+      "destination": "/commands/excel/loopexcelsheetcommand"
+    },
+    {
+      "source": "/commands/RecognizeSliderPuzzleCommand",
+      "destination": "/commands/ai/recognizesliderpuzzlecommand"
+    },
+    {
+      "source": "/commands/RenameFileCommand",
+      "destination": "/commands/os/renamefilecommand"
+    },
+    {
+      "source": "/commands/Web_LoopSimilarElementsCommand",
+      "destination": "/commands/loop/web_loopsimilarelementscommand"
+    },
+    {
+      "source": "/commands/WhileCommand",
+      "destination": "/commands/loop/whilecommand"
+    },
+    {
+      "source": "/commands/Win_LoopSimilarElementsCommand",
+      "destination": "/commands/loop/win_loopsimilarelementscommand"
+    },
+    {
+      "source": "/commands/WriteExcelColumnCommand",
+      "destination": "/commands/excel/writeexcelcolumncommand"
+    },
+    {
       "source": "/commands/web_autohandlepopupcommand",
       "destination": "/commands/web-automation/autohandlepopupcommand"
     },
