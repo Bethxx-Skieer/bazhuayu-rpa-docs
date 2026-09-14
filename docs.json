@@ -2340,6 +2340,10 @@
   },
   "redirects": [
     {
+      "source": "/commands/InvokeSubflowCommand",
+      "destination": "/commands/flow/invokesubflowcommand"
+    },
+    {
       "source": "/commands/NcWRaj2c",
       "destination": "/guides/ai-write-flow"
     },
