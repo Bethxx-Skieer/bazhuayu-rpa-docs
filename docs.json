@@ -2341,6 +2341,10 @@
   },
   "redirects": [
     {
+      "source": "/commands/generateimagecommand",
+      "destination": "/commands/ai/generateimagecommand"
+    },
+    {
       "source": "/commands/deletedingtalksheetcommand",
       "destination": "/commands/dingtalk/oP9Yz4"
     },
