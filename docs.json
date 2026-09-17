@@ -2340,6 +2340,10 @@
   },
   "redirects": [
     {
+      "source": "/commands/addlarkbitablerecordscommand",
+      "destination": "/commands/feishu/batchaddlarkbitablerecordcommand"
+    },
+    {
       "source": "/commands/datetimeconverttotimestampv2command",
       "destination": "/commands/data-processing/datetimeconverttotimestampcommand"
     },
