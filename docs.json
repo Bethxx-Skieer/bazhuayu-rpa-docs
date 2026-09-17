@@ -2340,6 +2340,10 @@
   },
   "redirects": [
     {
+      "source": "/commands/deletedingtalksheetcommand",
+      "destination": "/commands/dingtalk/oP9Yz4"
+    },
+    {
       "source": "/commands/adddingtalksheetcommand",
       "destination": "/commands/dingtalk/DAVH44"
     },
