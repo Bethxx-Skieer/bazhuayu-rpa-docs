@@ -680,6 +680,7 @@
                 "pages": [
                   "commands/ai",
                   "commands/ai/interactivechatcommand",
+                  "commands/ai/generateimagecommand",
                   "commands/ai/generatecommentcommand",
                   "commands/ai/extractkeywordscommand",
                   "commands/ai/extractentitycommand",
