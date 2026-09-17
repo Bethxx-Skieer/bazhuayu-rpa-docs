@@ -2340,6 +2340,10 @@
   },
   "redirects": [
     {
+      "source": "/commands/datetimeconverttotimestampv2command",
+      "destination": "/commands/data-processing/datetimeconverttotimestampcommand"
+    },
+    {
       "source": "/commands/4GiS1V",
       "destination": "/getting-started/4GiS1V"
     },
