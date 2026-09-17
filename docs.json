@@ -2304,7 +2304,8 @@
               "faq/index",
               "faq/invoice",
               "faq/contract",
-              "faq/trial"
+              "faq/trial",
+              "faq/compatibility"
             ]
           }
         ]
@@ -2340,6 +2341,14 @@
     ]
   },
   "redirects": [
+    {
+      "source": "/commands/rpabbjrsm",
+      "destination": "/faq/compatibility"
+    },
+    {
+      "source": "/commands/LV9gSUtE",
+      "destination": "/faq/compatibility"
+    },
     {
       "source": "/commands/generateimagecommand",
       "destination": "/commands/ai/generateimagecommand"
