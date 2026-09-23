@@ -7444,6 +7444,10 @@
     {
       "source": "/guides/custom-instructions",
       "destination": "/commands/custom-commands"
+    },
+    {
+      "source": "/d/1679416868039905282.html",
+      "destination": "/features/enterprise/join-by-invite"
     }
   ]
 }
