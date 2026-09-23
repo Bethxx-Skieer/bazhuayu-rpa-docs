@@ -2342,6 +2342,10 @@
   },
   "redirects": [
     {
+      "source": "/commands/4lhjYK7S",
+      "destination": "/features/enterprise/api"
+    },
+    {
       "source": "/commands/rpabbjrsm",
       "destination": "/faq/compatibility"
     },
