@@ -1,251 +1,279 @@
 ---
-title: "AI写流程"
-description: "AI 写流程 是八爪鱼 RPA 编辑界面侧边栏的智能开发助手，用于通过自然语言对话生成与修改自动化流程。"
+title: "AI写流程4.0"
+description: "八爪鱼 RPA 侧边栏 AI 助手 4.0 版：能搭建、能修改、能修复流程，涵盖需求写法、四类使用场景、报错处理与能力边界。"
 ---
 
-**描述：** 不知道如何搭建流程？一句话让AI生成流程
+## 四、AI写流程 4.0：能搭建、能修改、能修复
 
-<table style={{width:'100%', borderCollapse:'collapse'}}>
-  <thead>
-    <tr>
-      <th style={{width:'15%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>版本</th>
-      <th style={{width:'30%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>适用客户端版本</th>
-      <th style={{width:'30%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>图示</th>
-      <th style={{width:'25%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>说明</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>v1.0</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>八爪鱼RPA客户端v2.0至v2.1</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
-        <img src="assets/ai-write-flow-01.gif" alt="AI写流程 v1.0" style={{maxWidth:'220px'}} />
-      </td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>流程中涉及元素，只会生成元素名称，需要手动捕获相关元素</td>
-    </tr>
-    <tr>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>v2.0</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>八爪鱼RPA客户端v2.2至v2.4</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
-        <img src="assets/ai-write-flow-02.gif" alt="AI写流程 v2.0" style={{maxWidth:'220px'}} />
-      </td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>只需用简单的中文描述您的业务需求，AI即可智能生成可执行的RPA流程。但只能根据固定步骤执行，无法根据页面实际情况智能调整步骤。</td>
-    </tr>
-    <tr>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>v3.0</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>八爪鱼RPA客户端v2.5及以上</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>见下文</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>在2.0的基础上新增智能探索和用户交互，真正实现走一步看一步，流程准确性大幅提升。</td>
-    </tr>
-  </tbody>
-</table>
+### 1. 一句话认识 4.0
 
+通过对话或上传文件向 AI 描述需求，让 AI 协助**搭建流程、修改已有流程**，并结合**运行反馈**持续完善。
 
-## 一、认识AI写流程
+AI 写流程不再只生成第一版流程，而是一个能持续参与流程建设和维护的 RPA 流程 Agent。
 
-![一、认识AI写流程](assets/ai-write-flow-03.png)
+![AI写流程 4.0 侧边栏面板总览](assets/ai-write-flow-4-0-01.png)
 
-AI 写流程 是八爪鱼 RPA 编辑界面侧边栏的智能开发助手，用于通过自然语言对话生成与修改自动化流程。
+{/* 配图说明 01：编辑器整体截图，右侧 AI 写流程面板处于展开状态，用 3 个标注框分别指向——① 对话区（AI 的回复与执行过程）② 输入区（需求输入框、上传文件按钮、发送按钮）③ 流程区（左侧可视化流程）。目的是让读者一眼建立"AI 在右侧说话、流程在左侧生成"的空间认知。建议尺寸 1600×1000，标注文字用品牌色。 */}
 
-它具有以下核心功能：
+### 2. 4.0 带来了哪些变化
 
-| 核心功能 | 功能说明 |
+| 能力 | 4.0 之前 | 4.0 |
+| --- | --- | --- |
+| 需求输入 | 输入一段文字描述 | 可对话，也可上传业务文件（规则、字段、样例、模板） |
+| 流程生成 | 生成第一版流程 | 生成第一版流程，并可按多轮对话逐步完善 |
+| 已有流程 | 只能从零创建 | 可读取已有流程，在其上局部修改 |
+| 报错处理 | 自己看日志，找到出错的指令再改 | 在错误提示中点击「AI修复」，由 AI 结合错误与流程上下文修改 |
+| 修改依据 | 只看你当前说的这一句话 | 结合需求、当前流程、历史修改、检查结果、运行反馈综合判断 |
+| 页面理解 | 依据对页面的推测生成 | 搭建阶段先在真实页面中探索，再生成 |
+
+<Warning>
+4.0 提升的是"改对"的能力，不是"一次就对"。生成的流程仍需你运行验证，AI 修复通过检查也不代表业务结果已经正确。
+</Warning>
+
+### 3. 三个入口：从哪种情况开始用
+
+| 你想做的事 | 从哪里开始 | 第一步做什么 |
+| --- | --- | --- |
+| 从零做一个流程 | 新建流程，打开侧边栏 AI 写流程 | 描述需求，或上传需求文件 |
+| 改一个已经在用的流程 | 打开这个已有流程，再打开侧边栏 AI 写流程 | 直接说明要改哪里、改成什么 |
+| 修一个跑不通的流程 | 先运行流程，等它报错 | 在错误提示中点击「AI修复」 |
+
+![三个入口](assets/ai-write-flow-4-0-02.png)
+
+{/* 配图说明 02：三联拼图，横向排列、宽度均等。左图＝新建流程后侧边栏 AI 写流程展开的空状态；中图＝打开已有流程后侧边栏对话，流程区可见完整流程；右图＝运行报错提示弹窗，用红色描边框住「AI修复」按钮。每张图下方加一行小标题（从零搭建 / 修改已有 / 修复报错）。 */}
+
+### 4. 需求怎么提才准
+
+你不需要懂 RPA 指令，但需要把**业务说清楚**。一条好需求通常包含四件事：
+
+| 要素 | 要说明什么 | 示例 |
+| --- | --- | --- |
+| 操作对象 | 哪个网站或软件，从哪个页面开始 | 使用 Edge 浏览器打开 Amazon |
+| 执行步骤 | 先做什么、再做什么（不用写指令） | 搜索 "label maker"，打开搜索结果 |
+| 最终结果 | 数据存到哪、什么格式、叫什么名字 | 保存到桌面的"亚马逊商品采集.xlsx" |
+| 关键规则 | 筛选条件、去重、字段缺失怎么处理、异常怎么办 | 只取前 10 个非广告商品；链接去重；价格缺失时保持为空 |
+
+可以直接复制的示例：
+
+```text
+使用 Edge 浏览器打开 Amazon，搜索 "label maker"，采集搜索结果第一页前 10 个
+非广告商品的商品名称、显示价格和商品链接，并保存到桌面的"亚马逊商品采集.xlsx"。
+商品链接需要去重，价格缺失时保持为空。
+```
+
+#### 已经有现成资料？直接上传
+
+很多需求本来就写在文件里。与其重新整理成一段提示词，不如把文件上传给 AI，再说明要它做什么。
+
+| 你手上有什么 | 可以这样说 |
 | --- | --- |
-| 对话生成流程 | 用自然语言描述业务需求，AI智能解析并生成完整可执行的RPA流程节点，并根据页面实际情况动态调整（如检测登录状态等） |
-| 对话修改流程 | 通过对话指令对已有流程进行调整、优化或功能扩展 |
-| 智能探索网页 | AI自动识别网页元素结构，智能生成精准的选择器与操作步骤 |
-| 智能修复 | 自动检测流程异常，定位错误节点并提供修复建议或一键修复 |
-| 手动编辑 | 支持在AI生成基础上进行精细化人工调整，兼顾效率与灵活性 |
+| 业务规则文档 | 请参考我上传的业务规则，搭建订单审核流程 |
+| 字段说明、输出模板 | 按照这个文件中的字段和格式输出采集结果 |
+| 新的处理规则 | 根据新的处理规则，修改当前流程中的判断条件 |
 
-与其他流程搭建方式的对比：
+![输入需求与上传文件](assets/ai-write-flow-4-0-03.png)
 
-<table style={{width:'100%', borderCollapse:'collapse'}}>
-  <thead>
-    <tr>
-      <th style={{width:'15%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>搭建方式</th>
-      <th style={{width:'25%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>图示</th>
-      <th style={{width:'20%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>操作方式</th>
-      <th style={{width:'15%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>技术门槛</th>
-      <th style={{width:'15%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>适用场景</th>
-      <th style={{width:'10%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>开发效率</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>AI写流程</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
-        <img src="assets/ai-write-flow-04.png" alt="AI写流程" style={{maxWidth:'220px'}} />
-      </td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>自然语言对话描述</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>无门槛，零代码</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>快速原型、标准化业务、复杂逻辑生成</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>⭐⭐⭐⭐⭐ <br/>极快</td>
-    </tr>
-    <tr>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>可视化拖拽</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
-        <img src="assets/ai-write-flow-05.png" alt="可视化拖拽" style={{maxWidth:'220px'}} />
-      </td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>图形化组件拖拽连线</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>低门槛，需理解RPA逻辑</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>简单流程、可视化调整</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>⭐⭐⭐<br/>中等</td>
-    </tr>
-    <tr>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>代码编写</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
-        <img src="assets/ai-write-flow-06.png" alt="代码编写" style={{maxWidth:'220px'}} />
-      </td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>编写Python/JavaScript脚本</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>高门槛，需编程能力</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>高度定制化、特殊场景</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}></td>
-    </tr>
-  </tbody>
-</table>
+{/* 配图说明 03：输入区特写。输入框内已填好一段较完整的需求文字，输入框左下角可见「+」上传入口，下方显示已上传的文件胶囊标签（文件名可见），右侧是发送按钮。用箭头标出"文字需求"和"文件"两个信息源，强调二者可以同时给。 */}
 
+### 5. 场景一：从零搭建流程
 
-## 二、界面介绍
+1. 打开侧边栏 AI 写流程，在输入区描述需求，或先上传需求文件。
 
-![二、界面介绍](assets/ai-write-flow-07.png)
+   预期结果：输入区出现你输入的文字，上传的文件显示为标签。
 
+2. 点击发送。
 
-## 三、使用教程
+   预期结果：对话区开始出现 AI 的回复，显示它正在理解需求、探索页面。
 
-### 1. 创建AI写流程
+3. 观察 AI 的生成过程。
 
-共有两种方式可使用AI写流程功能
+   AI 会依次完成：理解业务目标与处理规则 → 判断当前信息是否足够 → 探索目标网页和操作路径 → 识别搜索框、列表、按钮等元素 → 规划指令、变量、循环和判断 → 生成可视化流程 → 检查生成内容的结构。
 
-<table style={{width:'100%', borderCollapse:'collapse'}}>
-  <thead>
-    <tr>
-      <th style={{width:'20%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>方式</th>
-      <th style={{width:'40%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>图示</th>
-      <th style={{width:'40%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>注意事项</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>首页创建</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
-        <img src="assets/ai-write-flow-08.png" alt="首页创建" style={{maxWidth:'220px'}} />
-      </td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>-</td>
-    </tr>
-    <tr>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>流程编辑区新建</td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
-        <img src="assets/ai-write-flow-09.png" alt="流程编辑区新建" style={{maxWidth:'220px'}} />
-      </td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>AI写流程既可以生成主流程，也可生成子流程</td>
-    </tr>
-  </tbody>
-</table>
+   ![AI 生成过程](assets/ai-write-flow-4-0-04.png)
 
-### 2. AI生成流程
+   {/* 配图说明 04：对话区中 AI 执行过程的截图，保留 3~4 条进度消息（如"正在打开页面""正在识别元素""正在生成流程"）和步骤勾选状态。若能录制 GIF 更好，用于体现"过程可见"这一体验差异。 */}
 
-#### 2.1 提示词模版
+4. 需要你配合时，按提示操作。
 
-客户端内部内置了两个提示词模版，用户可仿照该提示词模版修改话术，从而适应自己的业务需求。
+   常见两种情况：目标页面需要登录时，AI 会提示你先手动登录；涉及敏感或高影响操作时，AI 会请你确认后再继续。
 
-输入需求后，点击发送，AI写流程即刻开始工作。
+   ![需要用户配合](assets/ai-write-flow-4-0-05.png)
 
-![2.1 提示词模版](assets/ai-write-flow-10.png)
+   {/* 配图说明 05：左右两图并排。左＝登录提示（浏览器停在登录页 + 对话区提示文案）；右＝敏感操作确认（确认按钮高亮）。空账号、密码需打码或使用测试账号。 */}
 
-（后续我们将提供更多开箱即用的提示词模版）
+5. 在流程编辑器中查看生成结果。
 
-#### 2.2 AI思考过程
+   ![生成结果](assets/ai-write-flow-4-0-06.png)
 
-AI引擎根据业务需求智能思考，包括遇到异常情况跟用户直接交互，如出现登录弹窗等会提醒用户先手动登录，登录完成后再继续向下思考，思考完成后会生成流程。
+   {/* 配图说明 06：左侧完整可视化流程图，用编号圈标出关键节点（打开网页 → 输入搜索词 → 循环采集 → 去重 → 写入 Excel），让人看懂"一段话变成了一张流程图"。 */}
 
-![2.2 AI思考过程](assets/ai-write-flow-11.png)
+6. 点击顶部「运行」按钮，用真实数据跑一遍。
 
-### 3. 调试流程
+   ![运行验证](assets/ai-write-flow-4-0-07.png)
 
-#### 3.1 调试
+   {/* 配图说明 07：左＝点击运行的按钮位置特写；右＝运行中的日志面板 + 最终生成的 Excel 文件（同时打开，证明结果真实产出）。 */}
 
-流程生成完毕后，可点击顶部导航栏的“运行”按钮进行调试，确认实际结果是否符合预期
+7. 结果符合预期就可以保存使用；不符合预期，进入下一节继续对话调整。
 
-<table style={{width:'100%', borderCollapse:'collapse'}}>
-  <thead>
-    <tr>
-      <th style={{width:'50%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>点击“运行”按钮</th>
-      <th style={{width:'50%', border:'1px solid #e5e7eb', padding:'12px', textAlign:'center'}}>运行过程</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
-        <img src="assets/ai-write-flow-12.png" alt="点击运行按钮" style={{maxWidth:'220px'}} />
-      </td>
-      <td style={{border:'1px solid #e5e7eb', padding:'12px', verticalAlign:'middle'}}>
-        <img src="assets/ai-write-flow-13.jpg" alt="运行过程" style={{maxWidth:'220px'}} />
-      </td>
-    </tr>
-  </tbody>
-</table>
+### 6. 场景二：用多轮对话完善流程
 
-注：①指令内部参数在调试的过程中可自行修改，如搜索关键词等
+复杂业务很难在第一次就说全。流程生成后，接着提要求就行，不用重新开始。
 
-#### 3.2 查看日志
+| 你想改什么 | 可以这样说 |
+| --- | --- |
+| 调整范围 | 把采集范围从第一页扩大到前三页 |
+| 增加字段 | 增加商品评分和评论数量 |
+| 增加筛选条件 | 只保留价格低于 100 美元的商品 |
+| 改异常处理 | 价格为空时跳过，不要中断流程 |
+| 改输出内容 | 输出文件中增加采集时间 |
+| 改排序 | 保存前按照价格从低到高排序 |
+| 改规则 | 调整数据去重规则 |
+| 改文件 | 修改文件名称和保存位置 |
 
-可切换“全量日志”查看完整日志
+AI 会结合当前会话和已经生成的流程，判断你是在补充需求、调整规则，还是修改输出结果，然后只改相关部分。
 
-![3.2 查看日志](assets/ai-write-flow-14.png)
+<Tip>
+一次说一件事，更容易判断是哪个改动生效了。如果一次提了五条要求、结果仍然不对，很难定位是哪一条没被正确执行。
+</Tip>
 
-注：暂停快捷键是Ctrl+B，停止运行的快捷键是Ctrl+N
+![多轮对话完善流程](assets/ai-write-flow-4-0-08.png)
 
-#### 3.3 报错提示
+{/* 配图说明 08：对话记录截图，包含 2~3 轮"用户提要求 → AI 回复已修改"。右侧或右侧浮层放流程对比小图（改动前后的两个节点差异，用高亮色标出），直观传达"只改了这一处"。 */}
 
-- 生成成功，但指令报错
+### 7. 场景三：修改已有流程
 
-解决办法：点击查看错误信息，根据错误信息手动调试或直接在对话框让AI继续修改
+只要流程已经打开，就可以直接在对话里说改什么，不必重新讲一遍整个流程。
 
-![3.3 报错提示](assets/ai-write-flow-15.png)
+1. 打开要修改的流程。
+2. 打开侧边栏 AI 写流程。
+3. 说明要改什么，例如：增加一个判断条件、调整循环次数、修改数据筛选规则、增加一个输出字段、更换文件保存路径、修改异常处理方式、调整部分指令的执行顺序、在现有流程中增加新的处理步骤。
+4. 等待 AI 读取流程、定位位置并完成修改。
+5. 点击「运行」验证改动效果。
 
-![3.3 报错提示](assets/ai-write-flow-16.png)
+![修改已有流程](assets/ai-write-flow-4-0-09.png)
 
-- 生成成功，但运行不符合预期
+{/* 配图说明 09：左＝一个已有流程的完整视图（看起来"有年头"的真实流程更好，说明不是玩具案例）；右＝对话区提出修改要求后，流程区仅某一段被高亮改动的局部放大。重点是"局部修改"而不是"重画一遍"。 */}
 
-解决办法：直接在对话框中继续描述需求
+AI 读取流程时，看的是结构化内容，不是截图：
 
-![3.3 报错提示](assets/ai-write-flow-17.png)
+| 读取内容 | 用来判断什么 |
+| --- | --- |
+| 主流程与子流程 | 这次改动应该落在哪一层 |
+| 指令及其参数 | 要改的具体是哪个参数 |
+| 循环、判断、异常处理结构 | 改动会不会破坏原有逻辑骨架 |
+| 变量及其作用范围 | 改完之后变量是否还在有效范围内 |
+| 输入与输出关系 | 上下游是否还接得上 |
+| 网页元素与桌面元素 | 元素是否需要同步调整 |
+| 指令之间的上下游关系 | 改这一步会影响后面哪几步 |
 
-注：不要点击“取消”或“应用”，否则视为本次AI写流程结束，下次描述需求会开启全新的对话
+在理解当前流程的基础上，AI 会定位需要调整的位置，并尽量保留不需要修改的原有内容。
 
-### 4. 修改流程
+### 8. 场景四：运行报错，用「AI修复」
 
-双击指令修改指令详情，或添加新指令，对流程进行精准修改
+1. 运行流程，等待报错。
+2. 在错误提示中点击「AI修复」。
 
-![4. 修改流程](assets/ai-write-flow-18.png)
+   ![AI修复入口](assets/ai-write-flow-4-0-10.png)
 
-### 5. 维护流程
+   {/* 配图说明 10：报错弹窗特写，红色描边框住「AI修复」按钮，旁边标注"就是这里"。要让读者一眼找到按钮，不需要解释。 */}
 
-> 即如何使用“AI写流程”功能生成的RPA流程
+3. 如有补充信息，在对话框说明，或上传相关文件（例如最新的页面截图、正确的数据样例）。
+4. 等待 AI 分析并修改流程。
+5. 重新运行流程，核对业务结果。
 
-#### 5.1 调用子流程
+AI 修复时做的事：
 
-如果您是在子流程中用的“AI写流程”，即生成的是完整流程中的具体功能模块。如完整流程是在某后台下载账单，子流程1可以是登录功能模块。利用“AI写流程”生成后，可以在主流程中调用该子流程。
+1. 获取错误信息和报错位置
+2. 读取发生错误的指令
+3. 获取与错误相关的流程上下文
+4. 结合历史修改和运行反馈分析原因
+5. 定位需要调整的指令、参数、变量或元素
+6. 修改相关流程内容
+7. 检查修改后的流程结构
+8. 交回给你重新运行验证
 
-![5.1 调用子流程](assets/ai-write-flow-19.png)
+![AI修复前后对比](assets/ai-write-flow-4-0-11.png)
 
-#### 5.2 点击“应用”后重复运行
+{/* 配图说明 11：上下对比图。上＝修复前，报错节点标红 + 错误提示原文（保留真实报错文案）；下＝修复后，同一节点参数已变更（高亮差异）+ 运行成功日志。这是全文最有说服力的一张图，建议占满内容宽度。 */}
 
-确认应用流程无误后，可点击“应用”，该流程会被保留下来，与自行搭建的应用相同，后续运行的时候不会再次消耗tokens
+<Warning>
+AI 完成修复、或流程检查通过，都不等于业务已经成功。必须重新运行流程，并核对你真正要的结果——数据对不对、文件生成了没有、条数够不够。
+</Warning>
 
-![5.2 点击“应用”后重复运行](assets/ai-write-flow-20.png)
+### 9. AI 是怎么理解你的页面的
 
+网页自动化真正难的不是"打开网页"，而是页面本身充满不确定性：需要登录才能看、点一下才加载、有弹窗或 iframe、列表要滚动才出、不同网站交互方式都不一样。
 
-## 四、常见Q&A
+所以 4.0 在**搭建阶段**会先探索真实页面：
 
-Q1：“AI写流程”生成的流程，我点击“应用”后，还能否让AI进行二次调试？
+- 打开或切换目标页面
+- 输入搜索内容
+- 点击、悬停、滚动
+- 观察页面状态变化
+- 查看页面元素和列表结构
+- 识别完成任务所需的元素
+- 需要时请你完成登录等人工操作
+- 对敏感或高影响操作请求你确认
 
-A1：不能，点击“应用”后代表本次调试结束，对于AI来说，下一次的需求已经是全新的需求了。
+AI 依据**实际观察到的页面**生成流程，而不是只靠你的描述和对页面的猜测。
 
-Q2：“AI写流程”是不是只支持八爪鱼浏览器？
+<Note>
+环境探索主要发生在流程搭建阶段，用来提升流程与真实环境的匹配度。它**不等于**流程在运行期间可以自动适应所有页面变化——页面改版后，仍然需要你告诉 AI 重新调整。
+</Note>
 
-A2：不是，也支持Chrome等浏览器。如果要指定浏览器，需要在提示词中强调用xxx浏览器打开xxx网页，否则AI会默认选用八爪鱼浏览器。
+### 10. 结果不符合预期怎么办
 
-<Info>
-  使用过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
-</Info>
+先在下表找到你的现象，按"怎么做"处理。多数情况不需要重新搭流程。
+
+| 现象 | 可能原因 | 怎么做 |
+| --- | --- | --- |
+| AI 停下来让你先登录 | 目标页面需要登录后才能查看内容 | 在弹出的浏览器里手动登录，完成后回到对话说"已登录，继续" |
+| 提示"未找到元素" | 定位条件不匹配，或页面已经变了 | 点击「AI修复」；或在对话里说明是哪个按钮找不到，并上传当前页面截图 |
+| 提示"找到多个元素" | 定位条件范围过大 | 告诉 AI 真正要操作的是哪一个，例如"第一个搜索结果里的加购按钮" |
+| 生成结果少了一个步骤 | 需求里没有提到这个步骤 | 直接补充："漏了 XX 这一步，加在 YY 之后" |
+| 采集到的数据不对 | 筛选规则描述得不够具体 | 补充可量化的规则：数值范围、字段名、去重依据、缺失值处理方式 |
+| 改完发现别的步骤也被改了 | 修改范围没有说清 | 明确说"只改 XX，其他部分保持不变"，然后重新提一次 |
+| 改了两三次还是不行 | 给 AI 的反馈信息不足 | 把这次的报错原文、页面截图、实际输出结果一起给它，不要只说"还是不行" |
+
+其中"未找到元素"和"找到多个元素"是最常见的一对。它们的区别在于定位条件是**太严**还是**太松**：
+
+- 太严 → 一个都匹配不到
+- 太松 → 匹配到一堆，不知道操作哪个
+
+所以反馈时把"我要操作的具体是哪一个"说清楚，比反复说"还是不对"有效得多。
+
+### 11. 使用前请了解的能力边界
+
+| 边界 | 具体含义 |
+| --- | --- |
+| 上下文只在当前任务内有效 | AI 会在当前任务里利用你之前提的需求、做过的修改和运行结果；新开一个对话，它不会记得上一次的内容 |
+| 不会跨用户学习 | 系统不会因为别人用过就自动变聪明，也不会学习你的个人习惯 |
+| 不保证一次成功 | 复杂需求需要多轮对话 + 多次运行验证才能收敛 |
+| 不替代人工验收 | 涉及真实运行和最终业务结果，仍需要你确认 |
+| 探索不等于运行时自适应 | 页面探索发生在搭建阶段；运行期间页面变化，仍需重新发起修改 |
+
+### 12. 常见问题
+
+**问：AI 生成的流程，和我手动拖出来的流程有区别吗？**
+
+答：没有区别。生成的是八爪鱼 RPA 原生可视化流程，可以继续手动编辑、运行、保存、发布，也可以加入团队协作。
+
+**问：我需要先学会 RPA 指令才能用吗？**
+
+答：不需要。你只需要说清业务目标、步骤、结果和规则。指令选择、变量和循环规划由 AI 完成。
+
+**问：需求没想全，能一边做一边补吗？**
+
+答：可以，而且这是推荐做法。先生成第一版，看到结果后再补规则、改细节，比一次憋出一段完美描述更省时间。
+
+**问：AI 改我的流程，会不会把没问题的部分也改坏？**
+
+答：AI 会结合上下游关系定位目标区域，尽量保留不需要修改的内容。但涉及重要流程，建议改动前先另存一份，改完运行验证后再覆盖原版。
+
+**问：报错修完还是跑不通？**
+
+答：把新的报错信息和运行结果继续发给 AI，让它基于这一轮反馈再调整。多轮反馈通常比一次修复更有效。如果连续几轮都没有改善，按第 10 节的表格自查，或联系技术支持。
+
+**问：AI 修复之后还需要我做什么？**
+
+答：重新运行一遍，并核对最终业务结果。检查通过只代表流程结构没问题，不代表数据是对的。
