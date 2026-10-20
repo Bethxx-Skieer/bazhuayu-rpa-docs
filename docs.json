@@ -121,7 +121,6 @@
               {
                 "group": "AI 写流程",
                 "pages": [
-                  "guides/ai-write-flow-4-0",
                   "guides/ai-write-flow",
                   "guides/ai-write-flow-old"
                 ]
@@ -2343,6 +2342,10 @@
     ]
   },
   "redirects": [
+    {
+      "source": "/guides/ai-write-flow-4-0",
+      "destination": "/guides/ai-write-flow"
+    },
     {
       "source": "/commands/4lhjYK7S",
       "destination": "/features/enterprise/api"
