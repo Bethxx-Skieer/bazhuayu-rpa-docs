@@ -121,6 +121,7 @@
               {
                 "group": "AI 写流程",
                 "pages": [
+                  "guides/ai-write-flow-4-0",
                   "guides/ai-write-flow",
                   "guides/ai-write-flow-old"
                 ]
