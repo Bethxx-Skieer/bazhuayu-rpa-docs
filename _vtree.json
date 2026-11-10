@@ -1,0 +1,927 @@
+[
+  {
+    "slug": "7ZJ3W7Hb",
+    "name": "初级课",
+    "courses": [
+      {
+        "slug": "6CB7PD8k",
+        "name": "初级课01：认识八爪鱼RPA",
+        "lessons": [
+          {
+            "slug": "gIRyRfyG",
+            "name": "01.前言"
+          },
+          {
+            "slug": "OewHvOkQ",
+            "name": "02.为什么要用软件机器人"
+          },
+          {
+            "slug": "7PbB8498",
+            "name": "03.用八爪鱼RPA创造软件机器人"
+          },
+          {
+            "slug": "UgZPzP9P",
+            "name": "04.软件机器人能为你做什么"
+          },
+          {
+            "slug": "LS74QOIY",
+            "name": "05.大家在用八爪鱼RPA做什么"
+          },
+          {
+            "slug": "JaNYCGIZ",
+            "name": "06.所有课程说明"
+          }
+        ]
+      },
+      {
+        "slug": "EdURxN5l",
+        "name": "初级课02：基本概念",
+        "lessons": [
+          {
+            "slug": "b8p8xhIi",
+            "name": "01.软件机器人的构成"
+          },
+          {
+            "slug": "8eLImQlQ",
+            "name": "02.指令的构成"
+          },
+          {
+            "slug": "TaPvForO",
+            "name": "03.网页对象"
+          },
+          {
+            "slug": "Cbvs2ZvH",
+            "name": "04.网页元素"
+          },
+          {
+            "slug": "3Rog3vyK",
+            "name": "05.相似元素"
+          },
+          {
+            "slug": "dSQjxxHk",
+            "name": "06.操作类型"
+          },
+          {
+            "slug": "0L4jG9Hw",
+            "name": "07.变量"
+          },
+          {
+            "slug": "T22cH40s",
+            "name": "08.数据的表达"
+          },
+          {
+            "slug": "ctxbjDYc",
+            "name": "09.课程总结"
+          }
+        ]
+      },
+      {
+        "slug": "IkwAGcsA",
+        "name": "初级课03：我的第一个软件机器人",
+        "lessons": [
+          {
+            "slug": "ieI1Yk6h",
+            "name": "01.我的第一个软件机器人"
+          },
+          {
+            "slug": "6spu7kys",
+            "name": "02.给机器人分段"
+          },
+          {
+            "slug": "nStWOzae",
+            "name": "03.自定义对话框"
+          },
+          {
+            "slug": "Qfq0nMt9",
+            "name": "04.打印日志"
+          },
+          {
+            "slug": "YRI92bQS",
+            "name": "05.定时执行"
+          },
+          {
+            "slug": "ShvFpkGt",
+            "name": "06.分享"
+          },
+          {
+            "slug": "jJOoZbHT",
+            "name": "07.课程总结"
+          }
+        ]
+      },
+      {
+        "slug": "Rd9jKN9M",
+        "name": "初级课04：三大逻辑",
+        "lessons": [
+          {
+            "slug": "pEUwXxW4",
+            "name": "01.前言"
+          },
+          {
+            "slug": "WdwyIJEK",
+            "name": "02.为什么要用判断"
+          },
+          {
+            "slug": "7CbOUqNy",
+            "name": "03.单分支"
+          },
+          {
+            "slug": "hExpWUoV",
+            "name": "04.二分支"
+          },
+          {
+            "slug": "cgTb5T90",
+            "name": "05.多分支"
+          },
+          {
+            "slug": "PvtM3s1V",
+            "name": "06.条件嵌套"
+          },
+          {
+            "slug": "WOkN1r2Z",
+            "name": "07.更多判断类型"
+          },
+          {
+            "slug": "3adLajPA",
+            "name": "08.条件判断总结"
+          },
+          {
+            "slug": "cqLSaxwR",
+            "name": "09.为什么要用循环"
+          },
+          {
+            "slug": "qfZLjCDl",
+            "name": "10.循环的构成"
+          },
+          {
+            "slug": "dp83ggNL",
+            "name": "11.按列表循环"
+          },
+          {
+            "slug": "HQTYaFY0",
+            "name": "12.循环相似元素"
+          },
+          {
+            "slug": "eNMcHjjL",
+            "name": "13.按次数循环"
+          },
+          {
+            "slug": "LHDXkcm0",
+            "name": "14.循环的嵌套"
+          },
+          {
+            "slug": "ApjMbo3x",
+            "name": "15.循环的控制"
+          },
+          {
+            "slug": "5FH1WuTj",
+            "name": "16.循环总结"
+          },
+          {
+            "slug": "9K62jSbF",
+            "name": "17.三大逻辑总结"
+          }
+        ]
+      },
+      {
+        "slug": "7yJpBtUk",
+        "name": "初级课05：网页操作自动化",
+        "lessons": [
+          {
+            "slug": "AFFq5DPD",
+            "name": "01.前言"
+          },
+          {
+            "slug": "wWDXL5uS",
+            "name": "02.基本概念与操作"
+          },
+          {
+            "slug": "ziuApe7i",
+            "name": "03.案例"
+          },
+          {
+            "slug": "hm1I3tdT",
+            "name": "04.网页元素不稳定怎么办"
+          },
+          {
+            "slug": "Gbxt8Wsl",
+            "name": "05.课程总结"
+          }
+        ]
+      },
+      {
+        "slug": "tFc34jW5",
+        "name": "初级课06：Excel操作自动化",
+        "lessons": [
+          {
+            "slug": "fUAHaj3R",
+            "name": "01.前言"
+          },
+          {
+            "slug": "8kHS3zY1",
+            "name": "02.数据表达"
+          },
+          {
+            "slug": "n7wW9wFn",
+            "name": "03.启动Excel"
+          },
+          {
+            "slug": "arP8YP5w",
+            "name": "04.从Excel中读取数据"
+          },
+          {
+            "slug": "EndvUUHS",
+            "name": "05.向Excel中写入数据"
+          },
+          {
+            "slug": "h5hCj6zU",
+            "name": "06.循环 Excel"
+          },
+          {
+            "slug": "i7nGO2rk",
+            "name": "07.实操案例"
+          },
+          {
+            "slug": "I06Tomx9",
+            "name": "08.课程总结"
+          }
+        ]
+      },
+      {
+        "slug": "Efhkmqcg",
+        "name": "初级课07：软件操作自动化",
+        "lessons": [
+          {
+            "slug": "rikNPjki",
+            "name": "01.前言"
+          },
+          {
+            "slug": "JyI2iruw",
+            "name": "02.桌面软件自动化基本概念"
+          },
+          {
+            "slug": "c88IN4Cm",
+            "name": "03.软件窗口对象"
+          },
+          {
+            "slug": "YtTpekgh",
+            "name": "04.软件元素"
+          },
+          {
+            "slug": "w3O2pzBS",
+            "name": "05.操作类型1-窗口操作"
+          },
+          {
+            "slug": "i1cHiJhz",
+            "name": "06.操作类型2-元素操作"
+          },
+          {
+            "slug": "IrTONq5i",
+            "name": "07.操作类型3-数据提取"
+          },
+          {
+            "slug": "G57QNNiO",
+            "name": "08.实操案例"
+          },
+          {
+            "slug": "j1Wnquyf",
+            "name": "09.常见的桌面软件自动化"
+          },
+          {
+            "slug": "xtEzqhGx",
+            "name": "10.课程总结"
+          }
+        ]
+      },
+      {
+        "slug": "Y4CdgOtI",
+        "name": "初级课08：鼠标键盘与图像操作自动化",
+        "lessons": [
+          {
+            "slug": "LDZK4EBd",
+            "name": "01.前言"
+          },
+          {
+            "slug": "xN8AFBIE",
+            "name": "02.鼠标自动化"
+          },
+          {
+            "slug": "lhIwatIP",
+            "name": "03.键盘自动化"
+          },
+          {
+            "slug": "ZLkUypE6",
+            "name": "04.图像操作自动化"
+          },
+          {
+            "slug": "zFT2lUM8",
+            "name": "05.三种自动化方式对比"
+          },
+          {
+            "slug": "iOE82zf3",
+            "name": "06.实操案例"
+          },
+          {
+            "slug": "e390wzCj",
+            "name": "07.课程总结"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "PYkiEtRv",
+    "name": "中级课",
+    "courses": [
+      {
+        "slug": "pceiTDup",
+        "name": "中级课01：逻辑思维",
+        "lessons": [
+          {
+            "slug": "xwWjDTup",
+            "name": "01.中级课程说明"
+          },
+          {
+            "slug": "dbsHm3jl",
+            "name": "02.循环进阶1"
+          },
+          {
+            "slug": "O7p8PpqS",
+            "name": "03.循环进阶2"
+          },
+          {
+            "slug": "5T72rE2h",
+            "name": "04.循环的实操案例"
+          }
+        ]
+      },
+      {
+        "slug": "J31YIvZ9",
+        "name": "中级课02：流程封装",
+        "lessons": [
+          {
+            "slug": "mfw45z9S",
+            "name": "01.需求拆分与输入变量"
+          },
+          {
+            "slug": "MmsFJETb",
+            "name": "02.子流程"
+          }
+        ]
+      },
+      {
+        "slug": "Lw4vJ15X",
+        "name": "中级课03：异常处理",
+        "lessons": [
+          {
+            "slug": "iJWDZAiM",
+            "name": "01.软件机器人开发流程"
+          },
+          {
+            "slug": "puOoTE5n",
+            "name": "02.常见异常流程与处理 1"
+          },
+          {
+            "slug": "Rrtixdkn",
+            "name": "03.常见异常流程与处理 2"
+          }
+        ]
+      },
+      {
+        "slug": "Kw1iggXc",
+        "name": "中级课04：问题排查",
+        "lessons": [
+          {
+            "slug": "rGQKoYoJ",
+            "name": "01.显性错误"
+          },
+          {
+            "slug": "vnyrmchk",
+            "name": "02.隐性错误"
+          },
+          {
+            "slug": "05jbBkRU",
+            "name": "03.寻求帮助"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "Y2uxdIcS",
+    "name": "高级课",
+    "courses": [
+      {
+        "slug": "0zrs2VrJ",
+        "name": "高级课01：Html网页源码初掌握",
+        "lessons": [
+          {
+            "slug": "EayE5jQ1",
+            "name": "01.前言"
+          },
+          {
+            "slug": "em052sj1",
+            "name": "02.环境配置：Vscode与浏览器"
+          },
+          {
+            "slug": "JpbiBbi5",
+            "name": "03.知识1"
+          },
+          {
+            "slug": "D1LA2vJS",
+            "name": "04.知识2"
+          },
+          {
+            "slug": "ZILxoKKp",
+            "name": "05.HTML在八爪鱼RPA中的使用"
+          },
+          {
+            "slug": "LcrfV1wO",
+            "name": "06.小技巧"
+          }
+        ]
+      },
+      {
+        "slug": "tjHAkV3a",
+        "name": "高级课02：Python入门课",
+        "lessons": [
+          {
+            "slug": "ch4sm7ug",
+            "name": "01.前言"
+          },
+          {
+            "slug": "gfuzXXSj",
+            "name": "02.初步认识Python"
+          },
+          {
+            "slug": "r5acPu00",
+            "name": "03.字符串"
+          },
+          {
+            "slug": "HFlJ5JUI",
+            "name": "04.条件判断"
+          },
+          {
+            "slug": "Hb5Zzn1X",
+            "name": "05.列表"
+          },
+          {
+            "slug": "Pjt00yIy",
+            "name": "06.循环"
+          },
+          {
+            "slug": "ynL8Smqk",
+            "name": "07.函数"
+          },
+          {
+            "slug": "3zg9Vavn",
+            "name": "08.字典"
+          },
+          {
+            "slug": "qvQScbnQ",
+            "name": "09.模块"
+          },
+          {
+            "slug": "hmYwtw86",
+            "name": "10.类"
+          },
+          {
+            "slug": "hzddTkY5",
+            "name": "11.异常处理"
+          }
+        ]
+      },
+      {
+        "slug": "XoCh3o0u",
+        "name": "高级课03：企业控制台调度",
+        "lessons": [
+          {
+            "slug": "9VNP1YVJ",
+            "name": "01.客户端与机器人"
+          },
+          {
+            "slug": "l1YdTFzQ",
+            "name": "02.机器人调度与使用"
+          }
+        ]
+      },
+      {
+        "slug": "cdutHXM6",
+        "name": "高级课04：Xpath元素定位",
+        "lessons": [
+          {
+            "slug": "blxc7dJc",
+            "name": "01.什么是Xpath"
+          },
+          {
+            "slug": "DbrMAWea",
+            "name": "02.Xpath语法"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "jfyMsXPN",
+    "name": "高校实操课",
+    "courses": [
+      {
+        "slug": "tGbh2fpV",
+        "name": "实操课01：海量目标岗位信息搜集自动化",
+        "lessons": [
+          {
+            "slug": "raJ9O4rp",
+            "name": "01.需求梳理与功能设计"
+          },
+          {
+            "slug": "Un3xsnd2",
+            "name": "02.开发教学"
+          },
+          {
+            "slug": "Vq5uuQuq",
+            "name": "03.功能测试"
+          },
+          {
+            "slug": "N4oxzJHE",
+            "name": "04.课程总结"
+          }
+        ]
+      },
+      {
+        "slug": "E8j9maCt",
+        "name": "实操课02：海量网站新闻搜集自动化",
+        "lessons": [
+          {
+            "slug": "IOJS6DOn",
+            "name": "01.需求梳理与功能设计"
+          },
+          {
+            "slug": "v31rOs5c",
+            "name": "02.开发教学"
+          },
+          {
+            "slug": "pYVdiHjq",
+            "name": "03.功能测试"
+          },
+          {
+            "slug": "CWVT0hfl",
+            "name": "04.课程总结"
+          }
+        ]
+      },
+      {
+        "slug": "x0DHvPFh",
+        "name": "实操课03：上万条微博新闻搜集自动化，帮助舆情分析",
+        "lessons": [
+          {
+            "slug": "LkIm0y1f",
+            "name": "01.需求梳理与功能设计"
+          },
+          {
+            "slug": "t7L36kdn",
+            "name": "02.开发教学"
+          },
+          {
+            "slug": "r96HIVJy",
+            "name": "03.功能测试"
+          },
+          {
+            "slug": "jdY7HgHx",
+            "name": "04.课程总结"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "K1EVjvqE",
+    "name": "企业实操课",
+    "courses": [
+      {
+        "slug": "itTTgywt",
+        "name": "实操课 01：亚马逊热销榜数据采集",
+        "lessons": [
+          {
+            "slug": "ja89F9w9",
+            "name": "01.需求梳理与功能设计"
+          },
+          {
+            "slug": "MQDXVtvK",
+            "name": "02.参数配置"
+          },
+          {
+            "slug": "OPxrunly",
+            "name": "03.功能模块搭建与初始化参数配置"
+          },
+          {
+            "slug": "zQUyCiZi",
+            "name": "04.遍历类目列表"
+          },
+          {
+            "slug": "kewTGBjH",
+            "name": "05.多站点切换"
+          },
+          {
+            "slug": "Tz9qFJLW",
+            "name": "06.打开热卖畅销榜单，选择指定类目"
+          },
+          {
+            "slug": "KPPhABqS",
+            "name": "07.数据采集和数据结构化处理"
+          },
+          {
+            "slug": "GtRi4PjL",
+            "name": "08.商品图片自动下载"
+          },
+          {
+            "slug": "XkW6axol",
+            "name": "09.后置处理"
+          },
+          {
+            "slug": "vCEBHBMl",
+            "name": "10.测试，异常排查，修复"
+          },
+          {
+            "slug": "MG2MaNrR",
+            "name": "11.课程总结"
+          }
+        ]
+      },
+      {
+        "slug": "7cbdoSnm",
+        "name": "实操课 02：结合紫鸟浏览器实现多店铺自动化请款",
+        "lessons": [
+          {
+            "slug": "WKpPZmJV",
+            "name": "01.需求梳理与功能设计"
+          },
+          {
+            "slug": "0MZN8tyM",
+            "name": "02.参数配置"
+          },
+          {
+            "slug": "Q7k0R0U6",
+            "name": "03.功能模块搭建"
+          },
+          {
+            "slug": "VMRsaQob",
+            "name": "04.参数初始化配置"
+          },
+          {
+            "slug": "fji5Buvw",
+            "name": "05.启动紫鸟浏览器和店铺切换"
+          },
+          {
+            "slug": "MKAIIa2v",
+            "name": "06.切换多站点国家"
+          },
+          {
+            "slug": "FaYCX0BM",
+            "name": "07.跳转申请转账页面"
+          },
+          {
+            "slug": "0Zkh6067",
+            "name": "08.数据截图"
+          },
+          {
+            "slug": "RHIbXfiJ",
+            "name": "09.数据采集和点击请款"
+          },
+          {
+            "slug": "Ox3sOaW2",
+            "name": "10.后置处理"
+          },
+          {
+            "slug": "OpaTy59i",
+            "name": "11.课程总结"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "jMVjFvUj",
+    "name": "企业解决方案",
+    "courses": [
+      {
+        "slug": "4rN1zlCT",
+        "name": "场景案例课01：商品自动上架",
+        "lessons": []
+      },
+      {
+        "slug": "K2QYNTvo",
+        "name": "场景案例课02：亚马逊爆品自动开发",
+        "lessons": []
+      },
+      {
+        "slug": "2i6lcwBO",
+        "name": "场景案例课03：跨境电商全流程自动化怎么做",
+        "lessons": []
+      },
+      {
+        "slug": "BIwlmzV0",
+        "name": "场景案例课05： 国内电商客服自动化",
+        "lessons": []
+      },
+      {
+        "slug": "yJ0qNBpk",
+        "name": "场景案例课06： 跨境仓储物流自动化",
+        "lessons": []
+      }
+    ]
+  },
+  {
+    "slug": "KLryAx6I",
+    "name": "工程师课",
+    "courses": [
+      {
+        "slug": "yA7JK0dX",
+        "name": "工程师课01：基础认知",
+        "lessons": []
+      },
+      {
+        "slug": "1zz2gHxM",
+        "name": "工程师课02：RPA 工具入门",
+        "lessons": []
+      },
+      {
+        "slug": "c1Z8ORUr",
+        "name": "工程师课03：基础语法",
+        "lessons": []
+      },
+      {
+        "slug": "SgZ3XYzF",
+        "name": "工程师课04：RPA基础指令",
+        "lessons": []
+      },
+      {
+        "slug": "wV1oXqD3",
+        "name": "工程师课06：桌面自动化",
+        "lessons": []
+      },
+      {
+        "slug": "YjQIapyy",
+        "name": "工程师课07：信息交互",
+        "lessons": []
+      },
+      {
+        "slug": "NtpfdjR2",
+        "name": "工程师课08：数据持久化基础",
+        "lessons": []
+      },
+      {
+        "slug": "NCdWMYMQ",
+        "name": "工程师课09：HTML结构化语言基础",
+        "lessons": []
+      },
+      {
+        "slug": "Aesl89Ma",
+        "name": "工程师课10：数据持久化进阶",
+        "lessons": []
+      },
+      {
+        "slug": "F57zvdxO",
+        "name": "工程师课11：自定义指令和网页监听",
+        "lessons": []
+      },
+      {
+        "slug": "fOpT4rcD",
+        "name": "工程师课12：XPATH上",
+        "lessons": []
+      },
+      {
+        "slug": "ogXnaLNk",
+        "name": "工程师课13：XPATH 下",
+        "lessons": []
+      }
+    ]
+  },
+  {
+    "slug": "rOYourMc",
+    "name": "技巧课（操作技巧）",
+    "courses": [
+      {
+        "slug": "42FBKddH",
+        "name": "技巧课01：AI写流程",
+        "lessons": [
+          {
+            "slug": "WwpPR91j",
+            "name": "01.能力简介"
+          },
+          {
+            "slug": "UoKPQ5et",
+            "name": "02.功能详解"
+          },
+          {
+            "slug": "pJdc5baW",
+            "name": "03.演示"
+          },
+          {
+            "slug": "Md6giCM3",
+            "name": "04.案例：用AI实现网页办公自动化"
+          },
+          {
+            "slug": "djgPZB2j",
+            "name": "05.案例：用AI实现Excel办公自动化"
+          }
+        ]
+      },
+      {
+        "slug": "Tw6B3guJ",
+        "name": "技巧课02：用RPA指令调用采集器，实现云端数据采集",
+        "lessons": [
+          {
+            "slug": "zEFJXZ3h",
+            "name": "01.功能简介"
+          },
+          {
+            "slug": "NGaKNcrh",
+            "name": "02.指令说明"
+          },
+          {
+            "slug": "Dit69cjQ",
+            "name": "03.指令说明2"
+          },
+          {
+            "slug": "nOYIxSG4",
+            "name": "04.实操案例：RPA 结合采集器实现云端数据采集"
+          }
+        ]
+      },
+      {
+        "slug": "FbzMnTim",
+        "name": "技巧课03：元素找不到怎么办",
+        "lessons": [
+          {
+            "slug": "MbfAEFdp",
+            "name": "01.方法1"
+          },
+          {
+            "slug": "nNPSt9PW",
+            "name": "02.方法2"
+          }
+        ]
+      },
+      {
+        "slug": "QydZsL5j",
+        "name": "技巧课04：如何看懂日志",
+        "lessons": [
+          {
+            "slug": "umSy5Sqp",
+            "name": "01.如何看懂日志1"
+          },
+          {
+            "slug": "mRYegYxq",
+            "name": "02.如何看懂日志2"
+          }
+        ]
+      },
+      {
+        "slug": "nJqNwQjy",
+        "name": "技巧课05：用好指纹浏览器",
+        "lessons": [
+          {
+            "slug": "1dLBK9DT",
+            "name": "01.指纹浏览器介绍"
+          },
+          {
+            "slug": "yIAk9WAs",
+            "name": "02.在八爪鱼RPA上集成指纹浏览器的步骤"
+          },
+          {
+            "slug": "kEupF7wX",
+            "name": "03.实际场景操作"
+          }
+        ]
+      },
+      {
+        "slug": "hVktIWWI",
+        "name": "技巧课06：网站登录",
+        "lessons": [
+          {
+            "slug": "XCzeoUks",
+            "name": "01.网站登录1"
+          },
+          {
+            "slug": "mshy47Lc",
+            "name": "02.网站登录2"
+          },
+          {
+            "slug": "uju0dXfL",
+            "name": "03.网站登录3"
+          }
+        ]
+      },
+      {
+        "slug": "35F4BYZP",
+        "name": "技巧课07：用好应用模板，技术小白也能开启办公自动化",
+        "lessons": [
+          {
+            "slug": "B5IJQ4Er",
+            "name": "01.用好应用模板，技术小白也能开启办公自动化"
+          }
+        ]
+      }
+    ]
+  }
+]

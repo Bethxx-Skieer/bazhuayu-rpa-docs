@@ -1,0 +1,53 @@
+---
+title: "授权"
+description: "授权（八爪鱼RPA 开放 API 接口）"
+---
+
+## **请求**
+
+| **Url** | https://api-rpa.bazhuayu.com/api/v1/identity/authentication/password |
+| --- | --- |
+| **请求方式** | **POST** |
+
+### **1. 请求头**
+
+| **字段** | **值** |
+| --- | --- |
+| Content-Type | application/json |
+
+### 2. 请求参数
+
+| **参数名称** | **类型** | **必须** | **描述** |
+| --- | --- | --- | --- |
+| loginName | string | 是 | 账号用户名 |
+| password | string | 是 | 账号密码 |
+
+### 3. 请求示例
+
+请求体：
+
+```
+{
+    "loginName": "RPA账号",
+    "password": "RPA账号密码"
+}
+```
+
+### 4. 返回结果
+
+| **参数名称** | **类型** | **必须** | **描述** |
+| --- | --- | --- | --- |
+| accessToken | string | 是 | Token |
+| accessTokenExpirationTime | string | 是 | Token 过期时间 |
+
+返回示例：
+
+```
+{
+    "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImdXS3hWc0F4SHhaMDlDcWh6NkNJb3ciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE3MTUyNDc4OTQsImV4cCI6MTcxNTMzNDI5NCwiaXNzIjoiaHR0cHM6Ly9wcmUtaWRlbnRpdHkuYmF6aHVheXUuY29tIiwiYXVkIjpbIkNsaWVudEFwaSIsIkRhdGFBcGkiLCJBZHZhbmNlZEFwaSIsIkNsb3VkQWdlbnQiLCJDbHVzdGVyU2VydmljZSJdLCJjbGllbnRfaWQiOiJPY3RvcHVzIiwic3ViIjoiOTliYjYwYTEtNWI1Mi00MzAwLTlmZmQtNjgxNTMzYzZmMzQ4IiwiYXV0aF90aW1lIjoxNzE1MjQ3ODk0LCJpZHAiOiJsb2NhbCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiOTliYjYwYTEtNWI1Mi00MzAwLTlmZmQtNjgxNTMzYzZmMzQ4IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6InNraWVlcndlbiIsInByZWZlcnJlZF91c2VybmFtZSI6InNraWVlcndlbiIsInVuaXF1ZV9uYW1lIjoic2tpZWVyd2VuIiwicmVnaXN0ZXJfZGF0ZSI6IjIwMTYtMTEtMDNUMDY6Mzk6MjArMDg6MDAiLCJsYXN0X2xvZ2luX2RhdGUiOiIyMDI0LTA1LTA5VDEwOjI1OjU3KzA4OjAwIiwibGFzdF9wYXNzd29yZF9jaGFuZ2VkX2RhdGUiOiIyMDIyLTEwLTI2VDEyOjI5OjQ2KzA4OjAwIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZW1haWxhZGRyZXNzIjoid2VuZGlAc2tpZWVyLmNvbSIsImVtYWlsIjoid2VuZGlAc2tpZWVyLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOlsiT3BzIiwiQnVzaW5lc3NDZW50ZXIiXSwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImVtYWlsIiwiQ2xpZW50QXBpIiwiRGF0YUFwaSIsIkFkdmFuY2VkQXBpIiwiQ2xvdWRBZ2VudCIsIkNsdXN0ZXJTZXJ2aWNlIl19.NQd3dvRRpgakAd653JyBZ9sGPmC1GeTVzqE2Yks2L2hVmHSd6NtVGittVLg2wF5jTKSBq_Yk3vqO_pZR_ng18VC9xwxS6ikZVyCxJ0pFyrXGkfOiQH3coflecFHCvNOEc6iRAcYnvtbP-vW7RzsbsEoZGFnD3HsBX9y8lrf3X2lESJWwRXXopy0Sxq_BsTBqZE-aH-7edMA2nuacuiGbZ4etkLwJHi8jiPC1IG6nQT-nGc5A2IXL11vVVXi4vgYq8yzFOWx4Df1d67mZOkCrFY7FohPiqK95qGKPLVY5SkqbxOk2qyDgMsfEwQUmEB6KNZsgHL10Pqbys2rHTP8MSg",
+    "accessTokenExpirationTime": "2024-05-10T09:44:54+00:00",
+    "refreshToken": "5jUQ8TZqlFz72CmuRgnSzwAOf5UCSxosxDI5GLpmq54",
+    "refreshTokenExpirationTime": "2024-05-16T09:44:54+00:00"
+}
+```
+

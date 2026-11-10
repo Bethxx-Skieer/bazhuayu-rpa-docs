@@ -1,0 +1,82 @@
+---
+title: "验证码识别"
+---
+
+## 指令说明
+
+**描述：** 根据指定平台（云码、斐斐、图鉴）验证码类型和图片参数识别验证码。
+
+## 参数说明
+
+<Tabs>
+  <Tab title="常规">
+    ![验证码识别指令参数面板](images/recognizecaptchabyprovidercommand-01.png)
+
+    | 参数 | 说明 |
+    | --- | --- |
+    | **平台** | 选择验证码识别平台，可选云码、斐斐、图鉴 |
+    | **验证码类型** | 选择当前平台支持的验证码类型（价格以指令内显示为准，下方仅供参考） 云码： 滑块验证码：每次运行将消耗0.02元、 点选验证码：每次运行将消耗0.032元、 轨迹验证码：每次运行将消耗0.08元、 双图旋转验证码：每次运行将消耗0.02元、 斐斐： 文本输入验证码：每次运行将消耗0.028元、 图鉴： 滑块验证码：每次运行将消耗0.02元、 点选验证码：每次运行将消耗0.04元、 文本输入验证码：每次运行将消耗0.096元、 图片旋转验证码：每次运行将消耗0.04元、 轨迹验证码：每次运行将消耗0.06元 |
+  </Tab>
+  <Tab title="高级">
+    本指令暂无高级参数。
+  </Tab>
+</Tabs>
+
+## 验证码样式示例
+
+**各平台支持的验证码类型及样式如下：**
+
+### 1. 滑块验证码
+
+![验证码识别 - 滑块验证码（单图）](images/recognizecaptchabyprovidercommand-02.png)
+
+![验证码识别 - 滑块验证码（双图）](images/recognizecaptchabyprovidercommand-03.png)
+
+### 2. 点选验证码
+
+![验证码识别 - 点选验证码](images/recognizecaptchabyprovidercommand-04.png)
+
+### 3. 文本输入验证码
+
+![验证码识别 - 文本输入验证码](images/recognizecaptchabyprovidercommand-05.png)
+
+![验证码识别 - 文本输入验证码](images/recognizecaptchabyprovidercommand-06.png)
+
+### 4. 图片旋转验证码
+
+![验证码识别 - 图片旋转验证码](images/recognizecaptchabyprovidercommand-07.png)
+
+### 5. 轨迹验证码
+
+![验证码识别 - 轨迹验证码](images/recognizecaptchabyprovidercommand-08.png)
+
+### 6. 双图旋转验证码
+
+![验证码识别 - 双图旋转验证码](images/recognizecaptchabyprovidercommand-09.png)
+
+## 使用示例
+
+
+![验证码识别使用示例](images/recognizecaptchabyprovidercommand-13.png)
+
+![验证码识别使用示例 - 流程搭建](images/recognizecaptchabyprovidercommand-10.png)
+
+**该流程执行逻辑：**
+
+1. 获取谷歌浏览器中已打开的网页对象，并将滑块验证码图片传入【验证码识别】。
+2. 指令返回识别结果；示例先在控制台打印原始结果，再将文本结果转换为 JSON 对象。
+3. 读取 JSON 中的 `result` 字段。本例得到 `120`，表示滑块需要横向拖动 120 个单位。
+4. 将鼠标悬停在滑块按钮上，按住鼠标左键并按识别距离拖动，最后松开左键完成验证。
+
+### 效果展示
+
+![验证码识别使用示例 - 效果展示](images/recognizecaptchabyprovidercommand-11.png)
+
+![验证码识别使用示例 - 效果展示](images/recognizecaptchabyprovidercommand-12.png)
+
+
+![验证码识别使用示例 - 效果展示](images/recognizecaptchabyprovidercommand-14.png)
+
+<Info>
+  使用指令过程中遇到问题？前往 [八爪鱼RPA 开发者社区问答板块](https://rpa.bazhuayu.com/community/questions) 提问，获取官方与社区帮助。
+</Info>

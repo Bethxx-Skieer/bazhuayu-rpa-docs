@@ -1,0 +1,62 @@
+=== ONLINE VERIFY START ===
+[PAGE] win_clickelementcommand: 200, total_mintcdn=64, slug_imgs=56
+    OK  win_clickelementcommand-01.png
+    OK  win_clickelementcommand-02.png
+    OK  win_clickelementcommand-03.png
+    OK  win_clickelementcommand-04.png
+[PAGE] waitwindowcontentcommand: 200, total_mintcdn=92, slug_imgs=84
+    OK  waitwindowcontentcommand-01.png
+    OK  waitwindowcontentcommand-02.png
+    OK  waitwindowcontentcommand-03.png
+    OK  waitwindowcontentcommand-04.png
+    OK  waitwindowcontentcommand-05.png
+    OK  waitwindowcontentcommand-06.png
+[PAGE] closewindowcommand: 200, total_mintcdn=50, slug_imgs=42
+    OK  closewindowcommand-01.png
+    OK  closewindowcommand-02.png
+    OK  closewindowcommand-03.png
+[PAGE] resizewindowcommand: 200, total_mintcdn=64, slug_imgs=56
+    OK  resizewindowcommand-01.png
+    OK  resizewindowcommand-02.png
+    OK  resizewindowcommand-03.png
+    OK  resizewindowcommand-04.png
+[PAGE] movewindowcommand: 200, total_mintcdn=50, slug_imgs=42
+    OK  movewindowcommand-01.png
+    OK  movewindowcommand-02.png
+    OK  movewindowcommand-03.png
+[PAGE] win_entertextcommand: 200, total_mintcdn=64, slug_imgs=56
+    OK  win_entertextcommand-01.png
+    OK  win_entertextcommand-02.png
+    OK  win_entertextcommand-03.png
+    OK  win_entertextcommand-04.png
+[PAGE] setcomboboxcommand: 200, total_mintcdn=92, slug_imgs=84
+    OK  setcomboboxcommand-01.png
+    OK  setcomboboxcommand-02.png
+    OK  setcomboboxcommand-03.png
+    OK  setcomboboxcommand-04.png
+    OK  setcomboboxcommand-05.png
+    OK  setcomboboxcommand-06.png
+[PAGE] win_loopsimilarelementscommand_1: 200, total_mintcdn=78, slug_imgs=70
+    OK  win_loopsimilarelementscommand_1-01.png
+    OK  win_loopsimilarelementscommand_1-02.png
+    OK  win_loopsimilarelementscommand_1-03.png
+    OK  win_loopsimilarelementscommand_1-04.png
+    OK  win_loopsimilarelementscommand_1-05.png
+[PAGE] win_getelementcontentcommand: 200, total_mintcdn=78, slug_imgs=70
+    OK  win_getelementcontentcommand-01.png
+    OK  win_getelementcontentcommand-02.png
+    OK  win_getelementcontentcommand-03.png
+    OK  win_getelementcontentcommand-04.png
+    OK  win_getelementcontentcommand-05.png
+[PAGE] win_getrelativeelementcommand: 200, total_mintcdn=92, slug_imgs=84
+    OK  win_getrelativeelementcommand-01.png
+    OK  win_getrelativeelementcommand-02.png
+    OK  win_getrelativeelementcommand-03.png
+    OK  win_getrelativeelementcommand-04.png
+    OK  win_getrelativeelementcommand-05.png
+    OK  win_getrelativeelementcommand-06.png
+[PAGE] getcomboboxitemscommand: 200, total_mintcdn=50, slug_imgs=42
+    OK  getcomboboxitemscommand-01.png
+    OK  getcomboboxitemscommand-02.png
+    OK  getcomboboxitemscommand-03.png
+=== VERIFY_DONE ALL_OK ===
