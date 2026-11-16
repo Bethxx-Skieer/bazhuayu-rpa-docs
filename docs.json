@@ -7453,6 +7453,10 @@
     {
       "source": "/d/1679416868039905282.html",
       "destination": "/features/enterprise/join-by-invite"
+    },
+    {
+      "source": "/commands/timingtrigger",
+      "destination": "/features/app-management/triggers"
     }
   ]
 }
