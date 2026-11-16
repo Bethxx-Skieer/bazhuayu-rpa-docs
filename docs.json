@@ -7457,6 +7457,14 @@
     {
       "source": "/commands/timingtrigger",
       "destination": "/features/app-management/triggers"
+    },
+    {
+      "source": "/commands/IN3rELUC",
+      "destination": "/features/app-management/mcp-tools"
+    },
+    {
+      "source": "/commands/5n3u2N",
+      "destination": "/getting-started/5n3u2N"
     }
   ]
 }
