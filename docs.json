@@ -2338,6 +2338,373 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "方案中心",
+        "groups": [
+          {
+            "group": "方案中心",
+            "pages": [
+              "solutions/index"
+            ]
+          },
+          {
+            "group": "客户案例",
+            "pages": [
+              "solutions/customer-cases/index",
+              {
+                "group": "电商与零售",
+                "expanded": false,
+                "pages": [
+                  "solutions/customer-cases/industry-ecommerce-retail",
+                  "solutions/customer-cases/three-squirrels-refund",
+                  "solutions/customer-cases/chuntianji-service-data",
+                  "solutions/customer-cases/mizu-dewu-returns",
+                  "solutions/customer-cases/xiaolv-ai-organization",
+                  "solutions/customer-cases/xiaolv-ai-product-launch",
+                  "solutions/customer-cases/meione-after-sales",
+                  "solutions/customer-cases/linxiang-cross-border-fulfillment",
+                  "solutions/customer-cases/amazon-product-sourcing",
+                  "solutions/customer-cases/aliexpress-sales-data",
+                  "solutions/customer-cases/eland-store-reconciliation",
+                  "solutions/customer-cases/fashion-social-compliance",
+                  "solutions/customer-cases/roborock-order-processing"
+                ]
+              },
+              {
+                "group": "软件与专业服务",
+                "expanded": false,
+                "pages": [
+                  "solutions/customer-cases/industry-software-services",
+                  "solutions/customer-cases/meiou-vat-reconciliation",
+                  "solutions/customer-cases/wondershare-market-intelligence",
+                  "solutions/customer-cases/wangdiantong-finance-data"
+                ]
+              },
+              {
+                "group": "消费电子",
+                "expanded": false,
+                "pages": [
+                  "solutions/customer-cases/industry-consumer-electronics",
+                  "solutions/customer-cases/buydeem-finance-tax",
+                  "solutions/customer-cases/dji-data-integration",
+                  "solutions/customer-cases/anker-service-workforce",
+                  "solutions/customer-cases/shokz-price-monitoring",
+                  "solutions/customer-cases/little-swan-reporting"
+                ]
+              },
+              {
+                "group": "制造",
+                "expanded": false,
+                "pages": [
+                  "solutions/customer-cases/industry-manufacturing",
+                  "solutions/customer-cases/manufacturer-crm-erp-banking",
+                  "solutions/customer-cases/lianke-production-orders",
+                  "solutions/customer-cases/manufacturer-ai-resume-screening",
+                  "solutions/customer-cases/manufacturer-sentiment-monitoring",
+                  "solutions/customer-cases/weishimei-replenishment",
+                  "solutions/customer-cases/zongou-multilingual-monitoring",
+                  "solutions/customer-cases/autoparts-asin-monitoring",
+                  "solutions/customer-cases/sangshen-asin-monitoring"
+                ]
+              },
+              {
+                "group": "医药",
+                "expanded": false,
+                "pages": [
+                  "solutions/customer-cases/industry-pharmaceuticals",
+                  "solutions/customer-cases/doyao-pharma-finance"
+                ]
+              },
+              {
+                "group": "物流",
+                "expanded": false,
+                "pages": [
+                  "solutions/customer-cases/industry-logistics",
+                  "solutions/customer-cases/cloud-warehouse-logistics",
+                  "solutions/customer-cases/freight-booking-alerts"
+                ]
+              },
+              {
+                "group": "其他",
+                "expanded": false,
+                "pages": [
+                  "solutions/customer-cases/industry-other",
+                  "solutions/customer-cases/commercial-property-leads",
+                  "solutions/customer-cases/education-competitor-monitoring"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "解决方案",
+            "pages": [
+              "solutions/solutions/index",
+              {
+                "group": "跨境电商",
+                "expanded": false,
+                "pages": [
+                  "solutions/solutions/cross-border/index",
+                  {
+                    "group": "亚马逊",
+                    "expanded": false,
+                    "pages": [
+                      "solutions/solutions/cross-border/amazon/index",
+                      "solutions/solutions/cross-border/amazon/jcssdwzqwohyvsxmp13chlbenre",
+                      "solutions/solutions/cross-border/amazon/gwl1d8hbioqlxaxmcp1c4sp8ncf",
+                      "solutions/solutions/cross-border/amazon/yududnwbsoaczexgv5mcv2tindc",
+                      "solutions/solutions/cross-border/amazon/tcxqd5yxiopeoyxsxswc6i9cn7d",
+                      "solutions/solutions/cross-border/amazon/ubpudgpoio6ubix83ecccwgmn9d",
+                      "solutions/solutions/cross-border/amazon/r6rtdhaihofghwxnxnscvi52nzh",
+                      "solutions/solutions/cross-border/amazon/je1sdkidron1zdxwfmqcs1w9nae",
+                      "solutions/solutions/cross-border/amazon/mvgfdxwddojg0dxc7vdcb8l4n9v",
+                      "solutions/solutions/cross-border/amazon/qcdzdggasoau0zx2gkkcx5oynyf",
+                      "solutions/solutions/cross-border/amazon/cho2dwjazoga8kxdketcojnenxl",
+                      "solutions/solutions/cross-border/amazon/kjnodp0zmomsuexrvm2cumldn6c",
+                      "solutions/solutions/cross-border/amazon/q5fxdr3taoofbgxnqjnc3rnwnci",
+                      "solutions/solutions/cross-border/amazon/fsdpdllpjoojoox63ttcjqq8ndf",
+                      "solutions/solutions/cross-border/amazon/jn34dfzoyombzsxizdtcbm3snff",
+                      "solutions/solutions/cross-border/amazon/euzndodbcovfncxyy4ucp4ivnoe",
+                      "solutions/solutions/cross-border/amazon/yc1edb2wioou8lxpq0cc67cmndh",
+                      "solutions/solutions/cross-border/amazon/ykofduwgwoea85xcweectuixnwf",
+                      "solutions/solutions/cross-border/amazon/rgeydknf1owtmmxfmmrcrfwdnjh",
+                      "solutions/solutions/cross-border/amazon/ujstd1gqaoz5yixsvcccu0jynsb",
+                      "solutions/solutions/cross-border/amazon/r3zeds4iaondu5xngmscxvyynod",
+                      "solutions/solutions/cross-border/amazon/kzc3dyyctox4dpxfhe7cbyeon9e",
+                      "solutions/solutions/cross-border/amazon/ppiqdd3r3obwyrxpxb1ceq1incc",
+                      "solutions/solutions/cross-border/amazon/ebhqdoqv2o8thex7jwjc59wenzh",
+                      "solutions/solutions/cross-border/amazon/loyadbnyvovheyxq8lqc83tonpe",
+                      "solutions/solutions/cross-border/amazon/albjdrlwkosayvx0autcp8mcnaf",
+                      "solutions/solutions/cross-border/amazon/fvdfdknzvogcecxcmtjcrfytnub",
+                      "solutions/solutions/cross-border/amazon/tvnwdolcmonlmcxz0bgcwsxznfd",
+                      "solutions/solutions/cross-border/amazon/gvlydt06joa1foxike2cjquknlf",
+                      "solutions/solutions/cross-border/amazon/dokqdlbigoka7xxdettcnvcynnh",
+                      "solutions/solutions/cross-border/amazon/hfhhdqkbnophqcxj5clchjtnnzc",
+                      "solutions/solutions/cross-border/amazon/fmzcd2bntonqhlxoyr1cdxg3nwb",
+                      "solutions/solutions/cross-border/amazon/eqrgdmxmvoks7fxoldcco8minsg",
+                      "solutions/solutions/cross-border/amazon/yo2qdoodtovahnxrdsictwldnvd",
+                      "solutions/solutions/cross-border/amazon/oyqpdkp4xoavtixu0gzcolbanob",
+                      "solutions/solutions/cross-border/amazon/bhyndc16solqvgx2rffcu2bknde",
+                      "solutions/solutions/cross-border/amazon/ka0zdx0btoukw1xmjp1cbirknnc",
+                      "solutions/solutions/cross-border/amazon/o8iyddfvoocvlbxrm63ctpkznif",
+                      "solutions/solutions/cross-border/amazon/rpy2dywgsohj0gxokn1cmkcwn1c",
+                      "solutions/solutions/cross-border/amazon/evnpd2yyfo80zyxkcltc6qp0nvd",
+                      "solutions/solutions/cross-border/amazon/is6ldqfpzopk0yxus6zcu6vfnab",
+                      "solutions/solutions/cross-border/amazon/inwrd7sbsoqbffxlusbcdwx1nef",
+                      "solutions/solutions/cross-border/amazon/kjq5dwkjmoirhhxwv02cjei9nme",
+                      "solutions/solutions/cross-border/amazon/xhvwdhrvjoupftxywzlcqqffngh"
+                    ]
+                  },
+                  {
+                    "group": "速卖通",
+                    "expanded": false,
+                    "pages": [
+                      "solutions/solutions/cross-border/aliexpress/index",
+                      "solutions/solutions/cross-border/aliexpress/erztd3fm7ojqc9xulyfc93clndg",
+                      "solutions/solutions/cross-border/aliexpress/s931draiqoqsovxhinccgbgwnoc",
+                      "solutions/solutions/cross-border/aliexpress/otphd7yb1oxwdbxwr7fcg0syneb",
+                      "solutions/solutions/cross-border/aliexpress/dpsfdirzjozyrbxe507cqggqnze",
+                      "solutions/solutions/cross-border/aliexpress/uln5d3m8ooruefxkrnocvilsn4f",
+                      "solutions/solutions/cross-border/aliexpress/ql5fdudglo586fxxfhjcnbkonge",
+                      "solutions/solutions/cross-border/aliexpress/xilcd7tcqoxu8txzeshcmivhngf",
+                      "solutions/solutions/cross-border/aliexpress/nvzwddptwozagyxc1xkcjobpnsg",
+                      "solutions/solutions/cross-border/aliexpress/lvgtdtqb7ogfywxs6gvccigwnde",
+                      "solutions/solutions/cross-border/aliexpress/tgc0dpuz2oqfokxrdcwc2iksnsg",
+                      "solutions/solutions/cross-border/aliexpress/ftjmdw97goqy5oxsxihcfv8fndd",
+                      "solutions/solutions/cross-border/aliexpress/nlxyddkfxo22hzxtdemcyeqvnvb",
+                      "solutions/solutions/cross-border/aliexpress/zgt0dek6hojya3x04k8ccjpinug",
+                      "solutions/solutions/cross-border/aliexpress/ukzqdr9pqocmeix9boncyvr8nwb",
+                      "solutions/solutions/cross-border/aliexpress/aszcdqt4sotcxxx1jmvcx1ztnq7"
+                    ]
+                  },
+                  {
+                    "group": "Temu",
+                    "expanded": false,
+                    "pages": [
+                      "solutions/solutions/cross-border/temu/index",
+                      "solutions/solutions/cross-border/temu/zcjode7wxoaicxxzr7xcb9ubntd",
+                      "solutions/solutions/cross-border/temu/dsibdrkceo441ixl5jncpdfnnyd",
+                      "solutions/solutions/cross-border/temu/sdgddkkymon47uxqv20cx6fjnpd",
+                      "solutions/solutions/cross-border/temu/wited5u4hopzouxvymoc46mknsf",
+                      "solutions/solutions/cross-border/temu/zewtdd1ggossj4xdty7cgigjn7j",
+                      "solutions/solutions/cross-border/temu/l9kedknjwocvy3xaharcpaqinpf",
+                      "solutions/solutions/cross-border/temu/h7msdusbro6rjlxtvqmcgozfnog",
+                      "solutions/solutions/cross-border/temu/rszqdejnmoz8o1x4hedcswiunnb",
+                      "solutions/solutions/cross-border/temu/kiuxdpx70o6ljxxhvugca0enn5f",
+                      "solutions/solutions/cross-border/temu/hrendclrpoxgz6xy6fwcyxj6n9d",
+                      "solutions/solutions/cross-border/temu/vyvkd5ksdojancxqvkfcpwuknxc",
+                      "solutions/solutions/cross-border/temu/vgnvdot6coipumx7gw2cgccznyb",
+                      "solutions/solutions/cross-border/temu/tvzndwhihopqmrxkaohckx3pn5g",
+                      "solutions/solutions/cross-border/temu/twgydh2ozoyqqmxoekbcm0z8nch",
+                      "solutions/solutions/cross-border/temu/jlzcdcqcwochwmxhd4ccdgijnsc"
+                    ]
+                  },
+                  {
+                    "group": "虾皮",
+                    "expanded": false,
+                    "pages": [
+                      "solutions/solutions/cross-border/shopee/index",
+                      "solutions/solutions/cross-border/shopee/zom3dnr3kobnkwxfxovcutepnyb",
+                      "solutions/solutions/cross-border/shopee/vbeidueroocc4xxe7tpcilhenis",
+                      "solutions/solutions/cross-border/shopee/cvt2dbjyponh9vxrljfc00l2ndd",
+                      "solutions/solutions/cross-border/shopee/xd2udao7sofd5bxiiapcr6djnmc",
+                      "solutions/solutions/cross-border/shopee/fwjudevn5odc68xixkrcuhcunoh",
+                      "solutions/solutions/cross-border/shopee/vk8gdwat5ons2cxjlwbcireknic",
+                      "solutions/solutions/cross-border/shopee/lbhmdh7xmookqnxzdefcs9gwn9e",
+                      "solutions/solutions/cross-border/shopee/pmmbdqrl0oc5lixmjsqcarefnhb",
+                      "solutions/solutions/cross-border/shopee/wmi8djrgmodihoxfvpoc86qenmh",
+                      "solutions/solutions/cross-border/shopee/o5bgdbmyzotfk4xjax1cjcplnlh",
+                      "solutions/solutions/cross-border/shopee/vq6mdnbtxosxyxx9iweche0qnve",
+                      "solutions/solutions/cross-border/shopee/d3vcdg6s6oryeqxzx5ccbbqqnvf",
+                      "solutions/solutions/cross-border/shopee/wm8mdpqauoe6eoxldqicnjxvndb",
+                      "solutions/solutions/cross-border/shopee/e4wtd9sm1oafklx8gx1cjnsvncg",
+                      "solutions/solutions/cross-border/shopee/uswodqa7sotjabxqhwpcusianrb"
+                    ]
+                  },
+                  {
+                    "group": "Ozon",
+                    "expanded": false,
+                    "pages": [
+                      "solutions/solutions/cross-border/ozon/index",
+                      "solutions/solutions/cross-border/ozon/fuahd8qglodx71x5kugcfyzunef",
+                      "solutions/solutions/cross-border/ozon/jkmkdklpionzxxxitpicbp3rnqh",
+                      "solutions/solutions/cross-border/ozon/ljwxdddmgohezpxebm4chyuenxb",
+                      "solutions/solutions/cross-border/ozon/zzafd38o6o63l3x5oancbrvrnid"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "国内电商",
+                "expanded": false,
+                "pages": [
+                  "solutions/solutions/domestic/index",
+                  {
+                    "group": "京东",
+                    "expanded": false,
+                    "pages": [
+                      "solutions/solutions/domestic/jd/index",
+                      "solutions/solutions/domestic/jd/egqedldcfoiugcxc2l8chahendc",
+                      "solutions/solutions/domestic/jd/osukdh1xcotqk5xydeocwptnnhf",
+                      "solutions/solutions/domestic/jd/aihldswmhoigw5xkhifcsdzanrb"
+                    ]
+                  },
+                  {
+                    "group": "淘天",
+                    "expanded": false,
+                    "pages": [
+                      "solutions/solutions/domestic/taotian/index",
+                      "solutions/solutions/domestic/taotian/fwrvdz5tsobnkrxvvjgcaznrnah",
+                      "solutions/solutions/domestic/taotian/ipd5dfdxbos7vsxlakucx27xn3s",
+                      "solutions/solutions/domestic/taotian/hqu2d34tzosfsxxorrtcwv68nxf",
+                      "solutions/solutions/domestic/taotian/izvndbyiaoomjlxxipucthzlnuh",
+                      "solutions/solutions/domestic/taotian/xr0tdruibootvwxajf7ckkwjnjd",
+                      "solutions/solutions/domestic/taotian/xb8ddnez9oxbbkxxf1wcpqoynlg",
+                      "solutions/solutions/domestic/taotian/pnn5dqrrzoz4agxj6jwcs9aqnxb",
+                      "solutions/solutions/domestic/taotian/krk2di0syoutuqxlmxmcax2lnme",
+                      "solutions/solutions/domestic/taotian/iepudkatzoopkfxlnflcr0u4nf3",
+                      "solutions/solutions/domestic/taotian/lwm4donekoyeg2xqlakczm0yn2f",
+                      "solutions/solutions/domestic/taotian/rvhhdskvzojkzfx6bxgcyeqmnkd",
+                      "solutions/solutions/domestic/taotian/fjkrd2rn3oxblnx5sancp4qhn4e",
+                      "solutions/solutions/domestic/taotian/zbgidugocogzsux9k9zcrmkrnzc",
+                      "solutions/solutions/domestic/taotian/lejrddt25ouwknxjn6lcqopynkh",
+                      "solutions/solutions/domestic/taotian/vna9dym7molfoaxeg5bcvimwnsb",
+                      "solutions/solutions/domestic/taotian/hzqxdxyopokebjxfasjc3b7mnbe"
+                    ]
+                  },
+                  {
+                    "group": "拼多多",
+                    "expanded": false,
+                    "pages": [
+                      "solutions/solutions/domestic/pinduoduo/index",
+                      "solutions/solutions/domestic/pinduoduo/j6srd4mgbox0ipxgamxclfkonig",
+                      "solutions/solutions/domestic/pinduoduo/h5a8db3ypoj8qvxy5pccirfunyd",
+                      "solutions/solutions/domestic/pinduoduo/aejjdx1l3oibpexrhbkcpjgendh"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "行业通用",
+                "expanded": false,
+                "pages": [
+                  "solutions/solutions/general/index",
+                  "solutions/solutions/general/qcnldw7cfo67ikxj11achmtmnue",
+                  "solutions/solutions/general/flgqdkdyootonrx4q0lc4y0dnxg",
+                  "solutions/solutions/general/cf4fd08vponzfuxskuhcjep8nkh",
+                  "solutions/solutions/general/me6jdz6qwo3vbzxinxxcgc7qnwd",
+                  "solutions/solutions/general/pzspdetzqoil6dxpncwcweiqnpg",
+                  "solutions/solutions/general/hdswdukspo7fyxxqvcjcu719nrd",
+                  "solutions/solutions/general/gjgtdsddeo5lioxjxe5ce3mwnqe",
+                  "solutions/solutions/general/jp9bdolhpomjotxnlsmcfujlnnd",
+                  "solutions/solutions/general/qmjvduutvohmyixs229cmr43nke",
+                  "solutions/solutions/general/kshfd4lm5ou0ezxytrgc423bnjb"
+                ]
+              },
+              {
+                "group": "其他行业",
+                "expanded": false,
+                "pages": [
+                  "solutions/solutions/other/index",
+                  "solutions/solutions/other/ybold8ftmoynovxbvmrc8bvsnwg",
+                  "solutions/solutions/other/h08tdqnzqosejtx1r3pckjnfnsc",
+                  "solutions/solutions/other/h1gsdaob3ocvnrxb9u7cpfjonxd",
+                  "solutions/solutions/other/cqwid6lkwofkdmxstmvc1otsnhb",
+                  "solutions/solutions/other/mwgvdvjecooygvxybifcdeoan8r"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "场景视频",
+            "pages": [
+              "solutions/scene-videos/index",
+              {
+                "group": "国内电商",
+                "expanded": false,
+                "pages": [
+                  "solutions/scene-videos/domestic/index",
+                  "solutions/scene-videos/domestic/taobao-tmall",
+                  "solutions/scene-videos/domestic/jd",
+                  "solutions/scene-videos/domestic/business-advisor",
+                  "solutions/scene-videos/domestic/general",
+                  "solutions/scene-videos/domestic/jushuitan",
+                  "solutions/scene-videos/domestic/wangdiantong"
+                ]
+              },
+              {
+                "group": "跨境电商",
+                "expanded": false,
+                "pages": [
+                  "solutions/scene-videos/cross-border/index",
+                  "solutions/scene-videos/cross-border/amazon",
+                  "solutions/scene-videos/cross-border/temu",
+                  "solutions/scene-videos/cross-border/walmart",
+                  "solutions/scene-videos/cross-border/general",
+                  "solutions/scene-videos/cross-border/dhgate",
+                  "solutions/scene-videos/cross-border/lingxing-erp",
+                  "solutions/scene-videos/cross-border/ebay"
+                ]
+              },
+              {
+                "group": "通用",
+                "expanded": false,
+                "pages": [
+                  "solutions/scene-videos/general/index",
+                  "solutions/scene-videos/general/hr",
+                  "solutions/scene-videos/general/finance",
+                  "solutions/scene-videos/general/wechat-private",
+                  "solutions/scene-videos/general/overseas-social",
+                  "solutions/scene-videos/general/domestic-social",
+                  "solutions/scene-videos/general/crm",
+                  "solutions/scene-videos/general/files-and-tables"
+                ]
+              },
+              "solutions/scene-videos/healthcare/index",
+              "solutions/scene-videos/real-estate/index"
+            ]
+          }
+        ]
       }
     ]
   },
