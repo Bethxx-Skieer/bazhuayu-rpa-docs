@@ -9,8 +9,8 @@
     "dark": "#0958D9"
   },
   "logo": {
-    "light": "logo.png",
-    "dark": "logo.png",
+    "light": "logo-solutions.svg",
+    "dark": "logo-solutions.svg",
     "href": "https://rpa.bazhuayu.com/helpcenter"
   },
   "favicon": "favicon.png",
