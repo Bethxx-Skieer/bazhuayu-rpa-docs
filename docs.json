@@ -3,6 +3,9 @@
   "theme": "mint",
   "name": "八爪鱼RPA",
   "description": "八爪鱼RPA，让自动化触手可及",
+  "seo": {
+    "indexing": "all"
+  },
   "colors": {
     "primary": "#1677FF",
     "light": "#409EFF",
