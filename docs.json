@@ -750,6 +750,13 @@
                     ]
                   },
                   {
+                    "group": "4电商图片白底图",
+                    "pages": [
+                      "commands/custom-commands/0MvAZyHa",
+                      "commands/custom-commands/0MvAZyHa/aHeFJzY8"
+                    ]
+                  },
+                  {
                     "group": "拼多多数据获取-多多视频",
                     "pages": [
                       "commands/custom-commands/0P0AJees",
@@ -2088,6 +2095,17 @@
                     ]
                   },
                   {
+                    "group": "5pod 图片库专属指令",
+                    "pages": [
+                      "commands/custom-commands/V2QKebzQ",
+                      "commands/custom-commands/V2QKebzQ/EoT6UPXi",
+                      "commands/custom-commands/V2QKebzQ/iK9iPJWG",
+                      "commands/custom-commands/V2QKebzQ/ToShAMTV",
+                      "commands/custom-commands/V2QKebzQ/rVexyoam",
+                      "commands/custom-commands/V2QKebzQ/rISTIoU8"
+                    ]
+                  },
+                  {
                     "group": "豆包",
                     "pages": [
                       "commands/custom-commands/vbovV1TE",
@@ -2129,6 +2147,13 @@
                       "commands/custom-commands/Vrp2k185/D2syVAF0",
                       "commands/custom-commands/Vrp2k185/KLq4WB4b",
                       "commands/custom-commands/Vrp2k185/xaQovyX5"
+                    ]
+                  },
+                  {
+                    "group": "AI 生成图片",
+                    "pages": [
+                      "commands/custom-commands/VX7EMmYK",
+                      "commands/custom-commands/VX7EMmYK/Yc661Vue"
                     ]
                   },
                   {
@@ -7844,6 +7869,46 @@
     {
       "source": "/commands/5n3u2N",
       "destination": "/getting-started/5n3u2N"
+    },
+    {
+      "source": "/commands/V2QKebzQ",
+      "destination": "/commands/custom-commands/V2QKebzQ"
+    },
+    {
+      "source": "/commands/EoT6UPXi",
+      "destination": "/commands/custom-commands/V2QKebzQ/EoT6UPXi"
+    },
+    {
+      "source": "/commands/iK9iPJWG",
+      "destination": "/commands/custom-commands/V2QKebzQ/iK9iPJWG"
+    },
+    {
+      "source": "/commands/ToShAMTV",
+      "destination": "/commands/custom-commands/V2QKebzQ/ToShAMTV"
+    },
+    {
+      "source": "/commands/rVexyoam",
+      "destination": "/commands/custom-commands/V2QKebzQ/rVexyoam"
+    },
+    {
+      "source": "/commands/rISTIoU8",
+      "destination": "/commands/custom-commands/V2QKebzQ/rISTIoU8"
+    },
+    {
+      "source": "/commands/0MvAZyHa",
+      "destination": "/commands/custom-commands/0MvAZyHa"
+    },
+    {
+      "source": "/commands/aHeFJzY8",
+      "destination": "/commands/custom-commands/0MvAZyHa/aHeFJzY8"
+    },
+    {
+      "source": "/commands/VX7EMmYK",
+      "destination": "/commands/custom-commands/VX7EMmYK"
+    },
+    {
+      "source": "/commands/Yc661Vue",
+      "destination": "/commands/custom-commands/VX7EMmYK/Yc661Vue"
     }
   ]
 }
