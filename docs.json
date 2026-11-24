@@ -2747,7 +2747,8 @@
               {
                 "group": "企业 Agent 自动化",
                 "pages": [
-                  "solutions/enterprise-agent-automation/cross-platform-product-collection-comparison"
+                  "solutions/enterprise-agent-automation/cross-platform-product-collection-comparison",
+                  "solutions/enterprise-agent-automation/rpa-getting-started-paths"
                 ]
               }
             ]
